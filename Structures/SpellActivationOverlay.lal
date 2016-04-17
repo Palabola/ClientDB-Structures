@@ -1,0 +1,11 @@
+type SpellActivationOverlay
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    int32  -> Unknown2;
+    float  -> Unknown3;
+    int32  -> Unknown4_, 4;
+    int8   -> Unknown5;
+    int8   -> Unknown6;
+    int32  -> Unknown7;
+}

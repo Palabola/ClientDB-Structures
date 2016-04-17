@@ -1,0 +1,27 @@
+type GarrBuilding
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    string -> Unknown5;
+    int32  -> Unknown6;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    uint8  -> Unknown16;
+    uint8  -> Unknown17;
+    uint8  -> Unknown18;
+    uint8  -> Unknown19;
+    uint8  -> Unknown20;
+    int32  -> Unknown21;
+    uint32 -> Unknown22;
+    uint32 -> Unknown23;
+}

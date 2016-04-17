@@ -1,0 +1,4 @@
+type SpamMessages
+{
+    string -> Unknown0;
+}

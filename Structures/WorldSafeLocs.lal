@@ -1,0 +1,9 @@
+type WorldSafeLocs
+{
+    float  -> X;
+    float  -> Y;
+    float  -> Z;
+    float  -> Unknown;
+    string -> Name;
+    uint32 -> Map;
+}

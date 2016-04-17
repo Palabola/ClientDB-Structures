@@ -1,0 +1,11 @@
+type WorldStateZoneSounds
+{
+    uint32 -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+    uint16 -> Unknown4;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint8  -> Unknown7;
+}

@@ -1,0 +1,4 @@
+type ItemBagFamily
+{
+    string -> Unknown0;
+}

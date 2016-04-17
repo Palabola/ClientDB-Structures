@@ -1,0 +1,17 @@
+type Weather
+{
+    float  -> Unknown0_, 2;
+    float  -> Unknown1;
+    float  -> Unknown2_, 3;
+    string -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    uint16 -> Unknown9;
+    uint8  -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    int32  -> Unknown13;
+}

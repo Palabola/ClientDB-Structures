@@ -1,0 +1,19 @@
+type WorldStateUI
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    string -> Unknown5;
+    int16  -> Unknown6;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10_, 3;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    uint8  -> Unknown14;
+    int32  -> Id;
+}

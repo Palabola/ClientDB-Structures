@@ -1,0 +1,7 @@
+type PathNode
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    uint16 -> Unknown2;
+    int16  -> Unknown3;
+}

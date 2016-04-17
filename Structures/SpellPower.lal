@@ -1,0 +1,17 @@
+type SpellPower
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    int32  -> Unknown4;
+    float  -> Unknown5;
+    uint8  -> Unknown6;
+    int8   -> Unknown7;
+    int32  -> Id;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
+    int32  -> Unknown11;
+    int32  -> Unknown12;
+    uint32 -> Unknown13;
+}

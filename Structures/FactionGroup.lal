@@ -1,0 +1,6 @@
+type FactionGroup
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    uint8  -> Unknown2;
+}

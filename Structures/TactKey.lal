@@ -1,0 +1,4 @@
+type TactKey
+{
+    uint8  -> Unknown0;
+}

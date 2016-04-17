@@ -1,0 +1,12 @@
+type CameraShakes
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
+    uint8  -> Unknown7;
+    int32  -> Unknown8;
+}

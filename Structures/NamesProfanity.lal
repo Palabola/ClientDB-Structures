@@ -1,0 +1,5 @@
+type NamesProfanity
+{
+    string -> Unknown0;
+    int8   -> Unknown1;
+}

@@ -1,0 +1,9 @@
+type ItemModifiedAppearance
+{
+    int32  -> Unknown0;
+    uint16 -> Unknown1;
+    uint8  -> Unknown2;
+    uint8  -> Unknown3;
+    int8   -> Unknown4;
+    int32  -> Id;
+}

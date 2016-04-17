@@ -1,0 +1,10 @@
+type Spell
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Id;
+    uint32 -> Unknown6;
+}

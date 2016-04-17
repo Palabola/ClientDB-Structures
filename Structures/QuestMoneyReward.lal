@@ -1,0 +1,4 @@
+type QuestMoneyReward
+{
+    uint32 -> Unknown0;
+}

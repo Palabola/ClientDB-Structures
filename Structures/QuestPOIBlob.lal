@@ -1,0 +1,6 @@
+type QuestPOIBlob
+{
+    int16  -> Unknown0;
+    uint16 -> Unknown1;
+    uint8  -> Unknown2;
+}

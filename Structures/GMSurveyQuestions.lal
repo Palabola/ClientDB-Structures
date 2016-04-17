@@ -1,0 +1,4 @@
+type GMSurveyQuestions
+{
+    string -> Unknown0;
+}

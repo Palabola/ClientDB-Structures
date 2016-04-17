@@ -1,0 +1,15 @@
+type Creature
+{
+    int32  -> Unknown0_, 3;
+    int32  -> Unknown1;
+    int32  -> Unknown2_, 4;
+    float  -> Unknown3_, 4;
+    string -> Unknown4;
+    string -> Unknown5;
+    string -> Unknown6;
+    string -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
+    uint8  -> Unknown10;
+    uint8  -> Unknown11;
+}

@@ -1,0 +1,12 @@
+type WeaponTrail
+{
+    int32  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    int32  -> Unknown4_, 3;
+    float  -> Unknown5_, 3;
+    float  -> Unknown6_, 3;
+    float  -> Unknown7_, 3;
+    float  -> Unknown8;
+}

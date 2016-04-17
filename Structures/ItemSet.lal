@@ -1,0 +1,8 @@
+type ItemSet
+{
+    string -> Unknown0;
+    uint32 -> Unknown1_, 17;
+    uint16 -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
+}

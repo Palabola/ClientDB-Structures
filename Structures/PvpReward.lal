@@ -1,0 +1,6 @@
+type PvpReward
+{
+    int32  -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+}

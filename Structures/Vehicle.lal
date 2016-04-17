@@ -1,0 +1,32 @@
+type Vehicle
+{
+    int32  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    float  -> Unknown9;
+    float  -> Unknown10;
+    float  -> Unknown11;
+    float  -> Unknown12;
+    float  -> Unknown13;
+    float  -> Unknown14;
+    float  -> Unknown15;
+    float  -> Unknown16;
+    float  -> Unknown17;
+    float  -> Unknown18_, 2;
+    string -> Unknown19;
+    string -> Unknown20;
+    string -> Unknown21_, 2;
+    float  -> Unknown22;
+    float  -> Unknown23;
+    uint16 -> Unknown24_, 8;
+    uint16 -> Unknown25;
+    uint16 -> Unknown26_, 3;
+    uint8  -> Unknown27;
+    uint8  -> Unknown28;
+}

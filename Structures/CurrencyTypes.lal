@@ -1,0 +1,13 @@
+type CurrencyTypes
+{
+    string -> Unknown0;
+    string -> Unknown1_, 2;
+    uint32 -> Unknown2;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
+    string -> Unknown5;
+    uint8  -> Unknown6;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8;
+    int32  -> Unknown9;
+}

@@ -1,0 +1,4 @@
+type CameraEffect
+{
+    uint8  -> Unknown0;
+}

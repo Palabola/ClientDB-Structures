@@ -1,0 +1,31 @@
+type SpellVisual
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Unknown5;
+    int32  -> Unknown6;
+    int32  -> Unknown7;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
+    int32  -> Unknown11;
+    int32  -> Unknown12;
+    int32  -> Unknown13;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
+    float  -> Unknown16_, 3;
+    float  -> Unknown17_, 3;
+    int32  -> Unknown18;
+    int32  -> Unknown19;
+    uint16 -> Unknown20;
+    uint16 -> Unknown21;
+    uint16 -> Unknown22;
+    uint16 -> Unknown23;
+    uint16 -> Unknown24;
+    int8   -> Unknown25;
+    int8   -> Unknown26;
+    int32  -> Id;
+}

@@ -1,0 +1,8 @@
+type LockType
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    int32  -> Id;
+}

@@ -1,0 +1,12 @@
+type PvpTalent
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    string -> Unknown2;
+    int32  -> Unknown3;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
+    uint32 -> Unknown7;
+    uint32 -> Unknown8;
+}

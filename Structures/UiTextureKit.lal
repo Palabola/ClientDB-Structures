@@ -1,0 +1,4 @@
+type UiTextureKit
+{
+    string -> Unknown0;
+}

@@ -1,0 +1,4 @@
+type GMSurveySurveys
+{
+    uint8  -> Unknown0;
+}

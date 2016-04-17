@@ -1,0 +1,4 @@
+type TactKeyLookup
+{
+    uint8  -> Unknown0;
+}

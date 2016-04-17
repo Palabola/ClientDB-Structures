@@ -1,0 +1,5 @@
+type FileDataComplete
+{
+    string -> Directory;
+    string -> FileName;
+}

@@ -1,0 +1,7 @@
+type SpellProcsPerMinuteMod
+{
+    float  -> Unknown0;
+    int16  -> Unknown1;
+    uint8  -> Unknown2;
+    uint8  -> Unknown3;
+}

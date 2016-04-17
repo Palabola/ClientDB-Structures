@@ -1,0 +1,5 @@
+type FootprintTextures
+{
+    string -> Unknown0;
+    int32  -> Id;
+}

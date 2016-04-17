@@ -1,0 +1,7 @@
+type SceneScript
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+}

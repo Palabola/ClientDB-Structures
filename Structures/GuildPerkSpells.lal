@@ -1,0 +1,4 @@
+type GuildPerkSpells
+{
+    int32  -> Unknown0;
+}

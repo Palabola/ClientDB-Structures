@@ -1,0 +1,7 @@
+type SoundKitEntry
+{
+    int32  -> Unknown0;
+    float  -> Unknown1;
+    uint8  -> Unknown2;
+    int32  -> Unknown3;
+}

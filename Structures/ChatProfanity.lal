@@ -1,0 +1,5 @@
+type ChatProfanity
+{
+    string -> Unknown0;
+    int8   -> Unknown1;
+}

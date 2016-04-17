@@ -1,0 +1,6 @@
+type RandPropPoints
+{
+    int32  -> Unknown0_, 5;
+    int32  -> Unknown1_, 5;
+    int32  -> Unknown2;
+}

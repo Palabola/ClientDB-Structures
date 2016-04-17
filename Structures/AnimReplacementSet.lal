@@ -1,0 +1,4 @@
+type AnimReplacementSet
+{
+    uint8  -> Unknown0;
+}

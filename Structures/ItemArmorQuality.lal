@@ -1,0 +1,5 @@
+type ItemArmorQuality
+{
+    float  -> Unknown0_, 7;
+    int16  -> Unknown1;
+}

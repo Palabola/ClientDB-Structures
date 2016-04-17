@@ -1,0 +1,4 @@
+type CreatureMovementInfo
+{
+    float  -> Unknown0;
+}

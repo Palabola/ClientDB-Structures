@@ -1,0 +1,6 @@
+type ItemPriceBase
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    uint16 -> Unknown2;
+}

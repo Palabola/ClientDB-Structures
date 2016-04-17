@@ -1,0 +1,5 @@
+type GarrMissionTexture
+{
+    float  -> Unknown0_, 2;
+    uint8  -> Unknown1;
+}

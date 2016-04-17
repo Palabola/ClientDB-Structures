@@ -1,0 +1,4 @@
+type VehicleUIIndicator
+{
+    string -> Unknown0;
+}

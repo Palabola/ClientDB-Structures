@@ -1,0 +1,4 @@
+type SpellMechanic
+{
+    string -> Unknown0;
+}

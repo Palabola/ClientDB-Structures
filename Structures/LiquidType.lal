@@ -1,0 +1,22 @@
+type LiquidType
+{
+    string -> Unknown0;
+    uint32 -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    string -> Unknown7_, 6;
+    int32  -> Unknown8_, 2;
+    float  -> Unknown9_, 18;
+    uint32 -> Unknown10_, 4;
+    uint16 -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    uint8  -> Unknown16;
+    uint8  -> Unknown17_, 6;
+    int32  -> Unknown18;
+}

@@ -1,0 +1,7 @@
+type FriendshipReputation
+{
+    int32  -> Unknown0;
+    string -> Unknown1;
+    uint16 -> Unknown2;
+    int32  -> Id;
+}

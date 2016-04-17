@@ -1,0 +1,5 @@
+type WorldBossLockout
+{
+    string -> Unknown0;
+    uint16 -> Unknown1;
+}

@@ -1,0 +1,14 @@
+type JournalInstance
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    string -> Unknown4;
+    string -> Unknown5;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
+    int32  -> Id;
+}

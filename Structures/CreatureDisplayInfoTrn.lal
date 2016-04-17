@@ -1,0 +1,7 @@
+type CreatureDisplayInfoTrn
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    float  -> Unknown2;
+    uint16 -> Unknown3;
+}

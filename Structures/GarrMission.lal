@@ -1,0 +1,31 @@
+type GarrMission
+{
+    int32  -> Unknown0;
+    uint32 -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    float  -> Unknown5_, 2;
+    float  -> Unknown6_, 2;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
+    int8   -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    uint8  -> Unknown16;
+    uint8  -> Unknown17;
+    uint8  -> Unknown18;
+    uint8  -> Unknown19;
+    uint8  -> Unknown20;
+    uint8  -> Unknown21;
+    uint8  -> Unknown22;
+    int32  -> Id;
+    uint32 -> Unknown24;
+    int32  -> Unknown25;
+    int32  -> Unknown26;
+    int32  -> Unknown27;
+}

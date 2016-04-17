@@ -1,0 +1,7 @@
+type GroundEffectDoodad
+{
+    string -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    uint8  -> Unknown3;
+}

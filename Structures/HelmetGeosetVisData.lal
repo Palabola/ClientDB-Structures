@@ -1,0 +1,4 @@
+type HelmetGeosetVisData
+{
+    int32  -> Unknown0;
+}

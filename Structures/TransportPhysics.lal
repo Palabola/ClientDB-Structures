@@ -1,0 +1,13 @@
+type TransportPhysics
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    float  -> Unknown9;
+}

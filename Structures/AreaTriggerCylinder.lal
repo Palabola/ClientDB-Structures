@@ -1,0 +1,6 @@
+type AreaTriggerCylinder
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+}

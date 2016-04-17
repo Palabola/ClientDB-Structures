@@ -1,0 +1,4 @@
+type SpellDescriptionVariables
+{
+    string -> Unknown0;
+}

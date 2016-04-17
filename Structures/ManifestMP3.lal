@@ -1,0 +1,4 @@
+type ManifestMP3
+{
+    int32  -> Id;
+}

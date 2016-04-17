@@ -1,0 +1,11 @@
+type BroadcastText
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    uint16 -> Unknown2_, 3;
+    uint16 -> Unknown3_, 3;
+    uint16 -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
+    int32  -> Unknown7;
+}

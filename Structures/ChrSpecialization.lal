@@ -1,0 +1,17 @@
+type ChrSpecialization
+{
+    int32  -> Unknown0_, 2;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    int16  -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
+    int8   -> Unknown9;
+    int8   -> Unknown10;
+    int32  -> Id;
+    int32  -> Unknown12;
+    uint32 -> Unknown13;
+}

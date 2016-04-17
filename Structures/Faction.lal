@@ -1,0 +1,16 @@
+type Faction
+{
+    uint32 -> Unknown0_, 4;
+    int32  -> Unknown1_, 4;
+    float  -> Unknown2_, 2;
+    string -> Unknown3;
+    string -> Unknown4;
+    int16  -> Unknown5;
+    uint16 -> Unknown6_, 4;
+    uint16 -> Unknown7_, 4;
+    uint16 -> Unknown8;
+    uint8  -> Unknown9_, 2;
+    uint8  -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+}

@@ -1,0 +1,4 @@
+type ItemCurrencyCost
+{
+    int32  -> Unknown0;
+}

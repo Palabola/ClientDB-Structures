@@ -1,0 +1,4 @@
+type TradeSkillItem
+{
+    uint16 -> Unknown0;
+}

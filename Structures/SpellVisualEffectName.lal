@@ -1,0 +1,16 @@
+type SpellVisualEffectName
+{
+    string -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    uint32 -> Unknown7;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
+    uint8  -> Unknown10;
+    int32  -> Unknown11;
+    int32  -> Unknown12;
+}

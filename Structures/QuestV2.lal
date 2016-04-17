@@ -1,0 +1,4 @@
+type QuestV2
+{
+    uint16 -> Unknown0;
+}

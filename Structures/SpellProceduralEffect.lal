@@ -1,0 +1,6 @@
+type SpellProceduralEffect
+{
+    float  -> Unknown0_, 4;
+    int8   -> Unknown1;
+    int32  -> Id;
+}

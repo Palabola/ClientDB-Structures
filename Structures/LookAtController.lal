@@ -1,0 +1,21 @@
+type LookAtController
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    uint16 -> Unknown4;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
+    uint8  -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    int32  -> Unknown13;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
+    int32  -> Unknown16;
+    int32  -> Unknown17;
+}

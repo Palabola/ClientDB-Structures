@@ -1,0 +1,10 @@
+type JournalEncounterCreature
+{
+    uint32 -> Unknown0;
+    uint32 -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    uint16 -> Unknown4;
+    uint8  -> Unknown5;
+    int32  -> Id;
+}

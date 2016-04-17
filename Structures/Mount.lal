@@ -1,0 +1,13 @@
+type Mount
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    int8   -> Unknown8;
+    int32  -> Id;
+}

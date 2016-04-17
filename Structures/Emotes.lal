@@ -1,0 +1,12 @@
+type Emotes
+{
+    string -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+    int16  -> Unknown3;
+    uint8  -> Unknown4;
+    int32  -> Unknown5;
+    int32  -> Unknown6;
+    int32  -> Unknown7;
+    uint32 -> Unknown8;
+}

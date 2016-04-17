@@ -1,0 +1,5 @@
+type ItemNameDescription
+{
+    string -> Unknown0;
+    int32  -> Unknown1;
+}

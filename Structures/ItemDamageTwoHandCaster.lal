@@ -1,0 +1,5 @@
+type ItemDamageTwoHandCaster
+{
+    float  -> Unknown0_, 7;
+    uint16 -> Unknown1;
+}

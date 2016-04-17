@@ -1,0 +1,4 @@
+type QuestLine
+{
+    string -> Unknown0;
+}

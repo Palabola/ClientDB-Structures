@@ -1,0 +1,4 @@
+type ManifestInterfaceItemIcon
+{
+    int32  -> Id;
+}

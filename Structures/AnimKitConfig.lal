@@ -1,0 +1,4 @@
+type AnimKitConfig
+{
+    uint32 -> Unknown0;
+}

@@ -1,0 +1,19 @@
+type CharShipmentContainer
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+    uint16 -> Unknown4;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
+    uint8  -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    int8   -> Unknown14;
+    int32  -> Unknown15;
+}

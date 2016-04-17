@@ -1,0 +1,14 @@
+type CameraMode
+{
+    float  -> Unknown0_, 3;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    int16  -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
+    int8   -> Unknown9;
+    int8   -> Unknown10;
+}

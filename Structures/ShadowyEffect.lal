@@ -1,0 +1,13 @@
+type ShadowyEffect
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7;
+    int8   -> Unknown8;
+    int8   -> Unknown9;
+}

@@ -1,0 +1,5 @@
+type JournalItemXDifficulty
+{
+    uint16 -> Unknown0;
+    uint8  -> Unknown1;
+}

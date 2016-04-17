@@ -1,0 +1,5 @@
+type Languages
+{
+    string -> Unknown0;
+    int32  -> Id;
+}

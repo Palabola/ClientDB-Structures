@@ -1,0 +1,12 @@
+type TaxiNodes
+{
+    float  -> Unknown0_, 3;
+    string -> Unknown1;
+    int32  -> Unknown2_, 2;
+    float  -> Unknown3_, 2;
+    uint16 -> Unknown4;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint8  -> Unknown7;
+    int32  -> Id;
+}

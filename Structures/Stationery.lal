@@ -1,0 +1,6 @@
+type Stationery
+{
+    string -> Unknown0;
+    uint8  -> Unknown1;
+    int32  -> Unknown2;
+}

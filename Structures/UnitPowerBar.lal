@@ -1,0 +1,19 @@
+type UnitPowerBar
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    int32  -> Unknown2_, 6;
+    int32  -> Unknown3_, 6;
+    string -> Unknown4;
+    string -> Unknown5;
+    string -> Unknown6;
+    string -> Unknown7;
+    float  -> Unknown8;
+    float  -> Unknown9;
+    uint16 -> Unknown10;
+    uint16 -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
+}

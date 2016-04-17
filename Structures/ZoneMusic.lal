@@ -1,0 +1,7 @@
+type ZoneMusic
+{
+    string -> Unknown0;
+    uint32 -> Unknown1_, 2;
+    uint32 -> Unknown2_, 2;
+    int32  -> Unknown3;
+}

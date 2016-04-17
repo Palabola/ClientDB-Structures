@@ -1,0 +1,22 @@
+type ChrClasses
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
+    uint32 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    uint8  -> Unknown16;
+    uint8  -> Unknown17;
+    int32  -> Id;
+}

@@ -1,0 +1,10 @@
+type FactionTemplate
+{
+    uint16 -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2_, 4;
+    uint16 -> Unknown3_, 4;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
+}

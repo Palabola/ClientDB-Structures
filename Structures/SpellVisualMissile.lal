@@ -1,0 +1,19 @@
+type SpellVisualMissile
+{
+    int32  -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+    float  -> Unknown3_, 3;
+    float  -> Unknown4_, 3;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
+    int8   -> Unknown11;
+    int8   -> Unknown12;
+    int32  -> Id;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
+}

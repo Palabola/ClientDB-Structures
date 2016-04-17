@@ -1,0 +1,16 @@
+type PhaseShiftZoneSounds
+{
+    uint16 -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+    uint16 -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
+    int32  -> Unknown11;
+    int32  -> Unknown12;
+}

@@ -1,0 +1,18 @@
+type BattlemasterList
+{
+    string -> Unknown0;
+    int32  -> Unknown1;
+    string -> Unknown2;
+    int16  -> Unknown3_, 16;
+    int16  -> Unknown4;
+    int16  -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
+    int8   -> Unknown9;
+    int8   -> Unknown10;
+    int8   -> Unknown11;
+    int8   -> Unknown12;
+    int8   -> Unknown13;
+    int8   -> Unknown14;
+}

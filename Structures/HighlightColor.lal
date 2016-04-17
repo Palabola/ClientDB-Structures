@@ -1,0 +1,8 @@
+type HighlightColor
+{
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    int32  -> Unknown2;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
+}

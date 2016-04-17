@@ -1,0 +1,6 @@
+type DeclinedWordCases
+{
+    string -> Unknown0;
+    int8   -> Unknown1;
+    int32  -> Unknown2;
+}

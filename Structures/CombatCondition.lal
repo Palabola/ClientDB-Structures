@@ -1,0 +1,14 @@
+type CombatCondition
+{
+    uint16 -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3_, 2;
+    uint16 -> Unknown4_, 2;
+    uint8  -> Unknown5_, 2;
+    uint8  -> Unknown6_, 2;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8_, 2;
+    uint8  -> Unknown9_, 2;
+    uint8  -> Unknown10;
+}

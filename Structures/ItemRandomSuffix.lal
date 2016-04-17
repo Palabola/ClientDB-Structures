@@ -1,0 +1,7 @@
+type ItemRandomSuffix
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    uint16 -> Unknown2_, 5;
+    uint16 -> Unknown3;
+}

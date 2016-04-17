@@ -1,0 +1,12 @@
+type ObjectEffect
+{
+    string -> Unknown0;
+    float  -> Unknown1_, 3;
+    uint16 -> Unknown2;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
+    uint8  -> Unknown7;
+    int32  -> Unknown8;
+}

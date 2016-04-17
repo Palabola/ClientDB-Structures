@@ -1,0 +1,4 @@
+type ManifestInterfaceActionIcon
+{
+    int32  -> Id;
+}

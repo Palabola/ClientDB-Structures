@@ -1,0 +1,6 @@
+type MapChallengeMode
+{
+    uint16 -> Unknown0;
+    int16  -> Unknown1_, 3;
+    uint8  -> Unknown2;
+}

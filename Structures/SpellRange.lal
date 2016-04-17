@@ -1,0 +1,8 @@
+type SpellRange
+{
+    float  -> Unknown0_, 2;
+    float  -> Unknown1_, 2;
+    string -> Unknown2;
+    string -> Unknown3;
+    uint8  -> Unknown4;
+}

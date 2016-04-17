@@ -1,0 +1,7 @@
+type ChrUpgradeTier
+{
+    string -> Unknown0;
+    uint8  -> Unknown1;
+    uint8  -> Unknown2;
+    int32  -> Id;
+}

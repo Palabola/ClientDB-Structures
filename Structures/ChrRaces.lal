@@ -1,0 +1,38 @@
+type ChrRaces
+{
+    int32  -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    string -> Unknown5;
+    string -> Unknown6_, 2;
+    string -> Unknown7;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
+    float  -> Unknown10_, 3;
+    float  -> Unknown11_, 3;
+    int32  -> Unknown12;
+    int16  -> Unknown13;
+    int16  -> Unknown14;
+    uint16 -> Unknown15;
+    uint16 -> Unknown16;
+    int16  -> Unknown17;
+    int16  -> Unknown18;
+    int16  -> Unknown19;
+    int16  -> Unknown20;
+    int16  -> Unknown21;
+    uint16 -> Unknown22;
+    int8   -> Unknown23;
+    int8   -> Unknown24;
+    int8   -> Unknown25;
+    int8   -> Unknown26;
+    int8   -> Unknown27;
+    int8   -> Unknown28;
+    int8   -> Unknown29;
+    int8   -> Unknown30;
+    int8   -> Unknown31;
+    int8   -> Unknown32;
+    int32  -> Unknown33;
+    int32  -> Unknown34;
+}

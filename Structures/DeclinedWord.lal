@@ -1,0 +1,5 @@
+type DeclinedWord
+{
+    string -> Unknown0;
+    int32  -> Id;
+}

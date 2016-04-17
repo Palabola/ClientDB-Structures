@@ -1,0 +1,4 @@
+type ItemPetFood
+{
+    string -> Unknown0;
+}

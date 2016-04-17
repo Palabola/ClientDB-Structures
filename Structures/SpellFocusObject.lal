@@ -1,0 +1,4 @@
+type SpellFocusObject
+{
+    string -> Unknown0;
+}

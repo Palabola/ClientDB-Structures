@@ -1,0 +1,8 @@
+type WmoMinimapTexture
+{
+    int32  -> Unknown0;
+    int16  -> Unknown1;
+    uint16 -> Unknown2;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
+}

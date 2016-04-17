@@ -1,0 +1,7 @@
+type AreaAssignment
+{
+    uint16 -> Map;
+    uint16 -> Area;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
+}

@@ -1,0 +1,5 @@
+type CriteriaTreeXEffect
+{
+    uint16 -> Unknown0;
+    int16  -> Unknown1;
+}

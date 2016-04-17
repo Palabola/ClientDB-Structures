@@ -1,0 +1,18 @@
+type ItemDisplayInfo
+{
+    int32  -> Unknown0_, 2;
+    int32  -> Unknown1;
+    uint32 -> Unknown2_, 3;
+    uint32 -> Unknown3_, 3;
+    uint32 -> Unknown4;
+    int32  -> Unknown5;
+    uint32 -> Unknown6_, 2;
+    uint32 -> Unknown7;
+    uint32 -> Unknown8;
+    int32  -> Unknown9;
+    uint32 -> Unknown10;
+    uint32 -> Unknown11;
+    uint32 -> Unknown12;
+    uint32 -> Unknown13;
+    int32  -> Unknown14;
+}

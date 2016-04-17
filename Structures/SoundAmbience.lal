@@ -1,0 +1,7 @@
+type SoundAmbience
+{
+    uint8  -> Unknown0;
+    int32  -> Unknown1_, 2;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+}

@@ -1,0 +1,5 @@
+type BattlePetBreedQuality
+{
+    float  -> Unknown0;
+    uint8  -> Unknown1;
+}

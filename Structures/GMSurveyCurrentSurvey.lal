@@ -1,0 +1,4 @@
+type GMSurveyCurrentSurvey
+{
+    uint8  -> Unknown0;
+}

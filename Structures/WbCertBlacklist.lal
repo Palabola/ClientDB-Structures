@@ -1,0 +1,5 @@
+type WbCertBlacklist
+{
+    string -> Unknown0;
+    uint8  -> Unknown1;
+}

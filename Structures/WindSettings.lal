@@ -1,0 +1,13 @@
+type WindSettings
+{
+    float  -> Unknown0;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4_, 3;
+    float  -> Unknown5;
+    float  -> Unknown6_, 3;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    uint8  -> Unknown9;
+}

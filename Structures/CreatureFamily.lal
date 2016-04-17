@@ -1,0 +1,13 @@
+type CreatureFamily
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    int16  -> Unknown4_, 2;
+    int16  -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
+    int8   -> Unknown9;
+}

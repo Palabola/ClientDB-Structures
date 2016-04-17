@@ -1,0 +1,14 @@
+type DissolveEffect
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
+    int32  -> Unknown9;
+    uint32 -> Unknown10;
+}

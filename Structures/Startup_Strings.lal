@@ -1,0 +1,5 @@
+type Startup_Strings
+{
+    string -> Unknown0;
+    string -> Unknown1;
+}

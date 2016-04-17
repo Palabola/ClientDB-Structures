@@ -1,0 +1,22 @@
+type SpellItemEnchantment
+{
+    uint32 -> Unknown0_, 3;
+    string -> Unknown1;
+    float  -> Unknown2_, 3;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
+    int16  -> Unknown5_, 3;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12_, 3;
+    uint8  -> Unknown13;
+    uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    int8   -> Unknown16;
+    int8   -> Unknown17;
+    int32  -> Unknown18;
+}

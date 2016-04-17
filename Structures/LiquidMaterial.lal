@@ -1,0 +1,5 @@
+type LiquidMaterial
+{
+    int8   -> Unknown0;
+    int8   -> Unknown1;
+}

@@ -1,0 +1,4 @@
+type UnitBloodLevels
+{
+    uint8  -> Unknown0;
+}

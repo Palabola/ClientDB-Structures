@@ -1,0 +1,7 @@
+type CinematicCamera
+{
+    string -> Unknown0;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2;
+    uint16 -> Unknown3;
+}

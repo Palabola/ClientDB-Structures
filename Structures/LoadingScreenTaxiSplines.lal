@@ -1,0 +1,8 @@
+type LoadingScreenTaxiSplines
+{
+    float  -> Unknown0_, 10;
+    float  -> Unknown1_, 10;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+    uint8  -> Unknown4;
+}

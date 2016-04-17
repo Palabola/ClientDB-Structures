@@ -1,0 +1,6 @@
+type SpellKeyboundOverride
+{
+    int32  -> Unknown0;
+    string -> Unknown1;
+    int8   -> Unknown2;
+}

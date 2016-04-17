@@ -1,0 +1,26 @@
+type SoundProviderPreferences
+{
+    string -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    float  -> Unknown9;
+    float  -> Unknown10;
+    float  -> Unknown11;
+    float  -> Unknown12;
+    float  -> Unknown13;
+    float  -> Unknown14;
+    float  -> Unknown15;
+    uint16 -> Unknown16;
+    int16  -> Unknown17;
+    int16  -> Unknown18;
+    int16  -> Unknown19;
+    int16  -> Unknown20;
+    int8   -> Unknown21;
+    int8   -> Unknown22;
+}

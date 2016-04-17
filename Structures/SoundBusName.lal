@@ -1,0 +1,5 @@
+type SoundBusName
+{
+    string -> Name;
+    uint32 -> Id;
+}

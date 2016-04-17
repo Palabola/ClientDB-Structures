@@ -1,0 +1,4 @@
+type ItemVisualEffects
+{
+    string -> Unknown0;
+}

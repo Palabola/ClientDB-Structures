@@ -1,0 +1,5 @@
+type JournalTierXInstance
+{
+    uint16 -> Unknown0;
+    uint16 -> Unknown1;
+}

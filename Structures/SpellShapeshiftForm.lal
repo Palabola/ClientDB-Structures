@@ -1,0 +1,13 @@
+type SpellShapeshiftForm
+{
+    string -> Unknown0;
+    float  -> Unknown1;
+    int32  -> Unknown2;
+    int16  -> Unknown3;
+    int16  -> Unknown4;
+    uint16 -> Unknown5_, 4;
+    uint16 -> Unknown6_, 8;
+    int8   -> Unknown7;
+    uint8  -> Unknown8;
+    int8   -> Unknown9;
+}

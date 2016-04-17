@@ -1,0 +1,7 @@
+type GarrTalentTree
+{
+    int8   -> Unknown0;
+    int8   -> Unknown1;
+    int32  -> Unknown2;
+    uint32 -> Unknown3;
+}

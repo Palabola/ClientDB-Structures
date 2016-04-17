@@ -1,0 +1,19 @@
+type AnimKitSegment
+{
+    uint32 -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+    float  -> Unknown3;
+    uint32 -> Unknown4;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
+    uint8  -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    int8   -> Unknown14;
+    int32  -> Unknown15;
+}

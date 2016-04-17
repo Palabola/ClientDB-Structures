@@ -1,0 +1,4 @@
+type ImportPriceQuality
+{
+    float  -> Unknown0;
+}

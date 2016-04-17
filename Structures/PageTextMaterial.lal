@@ -1,0 +1,4 @@
+type PageTextMaterial
+{
+    string -> Unknown0;
+}

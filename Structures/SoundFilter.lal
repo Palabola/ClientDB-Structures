@@ -1,0 +1,4 @@
+type SoundFilter
+{
+    string -> Unknown0;
+}

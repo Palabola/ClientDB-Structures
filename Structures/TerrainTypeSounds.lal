@@ -1,0 +1,4 @@
+type TerrainTypeSounds
+{
+    string -> Unknown0;
+}
