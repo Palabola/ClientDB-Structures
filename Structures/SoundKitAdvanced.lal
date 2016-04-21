@@ -30,4 +30,6 @@ type SoundKitAdvanced
     int32  -> Unknown27;
     int32  -> Unknown28;
     int32  -> Unknown29;
+    int32  -> Unknown30;
+    int32  -> Unknown31;
 }

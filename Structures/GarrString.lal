@@ -1,0 +1,4 @@
+type GarrString
+{
+    string -> Unknown0;
+}

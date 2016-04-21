@@ -8,7 +8,7 @@ type SpellVisual
     int32  -> Unknown5;
     int32  -> Unknown6;
     int32  -> Unknown7;
-    int32  -> Unknown8;
+    uint32 -> Unknown8;
     int32  -> Unknown9;
     int32  -> Unknown10;
     int32  -> Unknown11;
@@ -16,16 +16,16 @@ type SpellVisual
     int32  -> Unknown13;
     int32  -> Unknown14;
     int32  -> Unknown15;
-    float  -> Unknown16_, 3;
+    int32  -> Unknown16;
     float  -> Unknown17_, 3;
-    int32  -> Unknown18;
+    float  -> Unknown18_, 3;
     int32  -> Unknown19;
-    uint16 -> Unknown20;
+    int32  -> Unknown20;
     uint16 -> Unknown21;
     uint16 -> Unknown22;
     uint16 -> Unknown23;
     uint16 -> Unknown24;
-    int8   -> Unknown25;
+    uint16 -> Unknown25;
     int8   -> Unknown26;
-    int32  -> Id;
+    int8   -> Unknown27;
 }
