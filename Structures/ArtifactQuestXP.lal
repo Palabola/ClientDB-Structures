@@ -1,4 +1,4 @@
 type ArtifactQuestXP
 {
-    int32  -> Unknown0;
+    int32  -> Unknown0_, 10;
 }

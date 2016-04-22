@@ -1,5 +1,5 @@
 type GameObjectArtKit
 {
     string -> Unknown0_, 3;
-    string -> Unknown1;
+    string -> Unknown1_, 4;
 }

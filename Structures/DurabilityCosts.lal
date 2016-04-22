@@ -1,5 +1,5 @@
 type DurabilityCosts
 {
     uint16 -> Unknown0_, 21;
-    uint16 -> Unknown1;
+    uint16 -> Unknown1_, 8;
 }

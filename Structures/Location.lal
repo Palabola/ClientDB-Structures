@@ -1,5 +1,5 @@
 type Location
 {
     float  -> Unknown0_, 3;
-    float  -> Unknown1;
+    float  -> Unknown1_, 3;
 }

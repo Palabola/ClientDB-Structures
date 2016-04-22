@@ -1,4 +1,4 @@
 type AreaTriggerBox
 {
-    float  -> Unknown0;
+    float  -> Unknown0_, 3;
 }

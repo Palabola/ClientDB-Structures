@@ -8,5 +8,5 @@ type WeaponTrail
     float  -> Unknown5_, 3;
     float  -> Unknown6_, 3;
     float  -> Unknown7_, 3;
-    float  -> Unknown8;
+    float  -> Unknown8_, 3;
 }

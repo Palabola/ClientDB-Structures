@@ -6,5 +6,5 @@ type WeaponImpactSounds
     int32  -> Unknown3_, 11;
     int32  -> Unknown4_, 11;
     int32  -> Unknown5_, 11;
-    int32  -> Unknown6;
+    int32  -> Unknown6_, 11;
 }

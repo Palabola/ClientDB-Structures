@@ -5,5 +5,5 @@ type TextureBlendSet
     float  -> Unknown2_, 3;
     float  -> Unknown3_, 3;
     float  -> Unknown4_, 3;
-    float  -> Unknown5;
+    float  -> Unknown5_, 4;
 }

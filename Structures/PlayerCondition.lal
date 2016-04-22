@@ -78,5 +78,5 @@ type PlayerCondition
     int32  -> Unknown75;
     uint32 -> Unknown76;
     uint32 -> Unknown77;
-    uint32 -> Unknown78;
+    uint32 -> Unknown78_, 2;
 }

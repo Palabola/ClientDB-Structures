@@ -1,4 +1,4 @@
 type QuestFactionReward
 {
-    int16  -> Unknown0;
+    int16  -> Unknown0_, 10;
 }

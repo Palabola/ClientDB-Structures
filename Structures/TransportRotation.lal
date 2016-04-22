@@ -2,5 +2,5 @@ type TransportRotation
 {
     int32  -> Unknown0;
     uint32 -> Unknown1;
-    float  -> Unknown2;
+    float  -> Unknown2_, 4;
 }

@@ -1,4 +1,4 @@
 type TactKey
 {
-    uint8  -> Unknown0;
+    uint8  -> Unknown0_, 16;
 }

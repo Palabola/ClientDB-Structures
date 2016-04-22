@@ -5,5 +5,5 @@ type SpellItemEnchantmentCondition
     uint8  -> Unknown2_, 5;
     uint8  -> Unknown3_, 5;
     uint8  -> Unknown4_, 5;
-    int32  -> Unknown5;
+    int32  -> Unknown5_, 5;
 }

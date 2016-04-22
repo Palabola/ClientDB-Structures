@@ -1,4 +1,4 @@
 type ItemVisuals
 {
-    uint16 -> Unknown0;
+    uint16 -> Unknown0_, 5;
 }

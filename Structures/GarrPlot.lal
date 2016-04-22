@@ -6,5 +6,5 @@ type GarrPlot
     uint8  -> Unknown3;
     uint8  -> Unknown4;
     uint8  -> Unknown5;
-    int32  -> Unknown6;
+    int32  -> Unknown6_, 2;
 }

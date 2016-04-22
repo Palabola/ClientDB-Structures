@@ -2,5 +2,5 @@ type ParticleColor
 {
     int32  -> Unknown0_, 3;
     int32  -> Unknown1_, 3;
-    int32  -> Unknown2;
+    int32  -> Unknown2_, 3;
 }
