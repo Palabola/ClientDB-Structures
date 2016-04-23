@@ -1,3 +1,4 @@
+// FileOptions: DataOffset, Index
 type Itemsparse
 {
     int32  -> Unknown0_, 3;

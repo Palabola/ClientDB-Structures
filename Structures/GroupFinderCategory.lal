@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GroupFinderCategory
 {
     string -> Unknown0;

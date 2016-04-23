@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ChrClassRaceSex
 {
     int8   -> Unknown0;

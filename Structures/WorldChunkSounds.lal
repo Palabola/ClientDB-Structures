@@ -1,3 +1,4 @@
+// FileOptions: Index
 type WorldChunkSounds
 {
     uint16 -> Unknown0;

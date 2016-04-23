@@ -1,3 +1,4 @@
+// FileOptions: Index
 type PlayerCondition
 {
     int32  -> Unknown0;

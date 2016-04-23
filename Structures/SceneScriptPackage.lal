@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SceneScriptPackage
 {
     string -> Unknown0;

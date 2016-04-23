@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellVisualEffectName
 {
     string -> Unknown0;

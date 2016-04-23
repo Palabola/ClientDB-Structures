@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AnimKitSegment
 {
     uint32 -> Unknown0;

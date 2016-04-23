@@ -1,3 +1,4 @@
+// FileOptions: Index
 type MinorTalent
 {
     uint32 -> Unknown0;

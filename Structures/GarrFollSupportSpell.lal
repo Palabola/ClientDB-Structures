@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrFollSupportSpell
 {
     int32  -> Unknown0;

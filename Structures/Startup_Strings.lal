@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Startup_Strings
 {
     string -> Unknown0;

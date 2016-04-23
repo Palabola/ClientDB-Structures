@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Artifact
 {
     string -> Unknown0;

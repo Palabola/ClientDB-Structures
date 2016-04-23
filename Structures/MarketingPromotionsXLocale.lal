@@ -1,3 +1,4 @@
+// FileOptions: Index
 type MarketingPromotionsXLocale
 {
     int32  -> Unknown0;

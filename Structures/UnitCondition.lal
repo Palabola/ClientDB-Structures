@@ -1,3 +1,4 @@
+// FileOptions: Index
 type UnitCondition
 {
     int32  -> Unknown0_, 8;

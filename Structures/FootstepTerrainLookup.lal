@@ -1,3 +1,4 @@
+// FileOptions: Index
 type FootstepTerrainLookup
 {
     uint16 -> Unknown0;

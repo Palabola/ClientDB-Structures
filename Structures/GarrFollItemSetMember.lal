@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrFollItemSetMember
 {
     int32  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrFollowerSetXFollower
 {
     int32  -> Unknown0;

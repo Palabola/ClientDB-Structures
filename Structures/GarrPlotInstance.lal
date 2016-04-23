@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrPlotInstance
 {
     string -> Unknown0;

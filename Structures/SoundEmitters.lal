@@ -1,3 +1,4 @@
+// FileOptions: None
 type SoundEmitters
 {
     float  -> Unknown0_, 3;

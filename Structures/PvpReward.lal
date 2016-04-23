@@ -1,3 +1,4 @@
+// FileOptions: Index
 type PvpReward
 {
     int32  -> Unknown0;

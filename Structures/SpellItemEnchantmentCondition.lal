@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellItemEnchantmentCondition
 {
     uint8  -> Unknown0_, 5;

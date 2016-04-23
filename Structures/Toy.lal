@@ -1,3 +1,4 @@
+// FileOptions: None
 type Toy
 {
     int32  -> Unknown0;

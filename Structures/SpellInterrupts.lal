@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellInterrupts
 {
     int32  -> Unknown0;

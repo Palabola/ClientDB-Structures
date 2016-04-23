@@ -1,3 +1,4 @@
+// FileOptions: None
 type TextureFileData
 {
     int32  -> Unknown0;

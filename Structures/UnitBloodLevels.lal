@@ -1,3 +1,4 @@
+// FileOptions: Index
 type UnitBloodLevels
 {
     uint8  -> Unknown0_, 3;

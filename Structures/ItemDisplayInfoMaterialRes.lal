@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemDisplayInfoMaterialRes
 {
     int32  -> Unknown0;

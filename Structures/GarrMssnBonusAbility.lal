@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrMssnBonusAbility
 {
     float  -> Unknown0;

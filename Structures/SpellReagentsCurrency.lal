@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellReagentsCurrency
 {
     int32  -> Unknown0;

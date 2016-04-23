@@ -1,3 +1,4 @@
+// FileOptions: None
 type GameObjects
 {
     float  -> Unknown0_, 3;

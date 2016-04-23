@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AuctionHouse
 {
     string -> Unknown0;

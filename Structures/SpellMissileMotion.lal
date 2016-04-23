@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellMissileMotion
 {
     string -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type RandPropPoints
 {
     int32  -> Unknown0_, 5;

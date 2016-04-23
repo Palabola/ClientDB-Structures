@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ScheduledWorldState
 {
     int32  -> Unknown0;

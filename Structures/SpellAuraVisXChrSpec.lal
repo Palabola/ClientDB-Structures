@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellAuraVisXChrSpec
 {
     int16  -> Unknown0;

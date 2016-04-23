@@ -1,3 +1,4 @@
+// FileOptions: Index
 type UiTextureKit
 {
     string -> Unknown0;

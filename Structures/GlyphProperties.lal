@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GlyphProperties
 {
     uint32 -> Unknown0;

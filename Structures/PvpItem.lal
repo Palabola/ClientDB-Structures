@@ -1,3 +1,4 @@
+// FileOptions: Index
 type PvpItem
 {
     int32  -> Unknown0;

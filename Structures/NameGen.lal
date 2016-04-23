@@ -1,3 +1,4 @@
+// FileOptions: Index
 type NameGen
 {
     string -> Unknown0;

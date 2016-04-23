@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ChrUpgradeBucketSpell
 {
     int32  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellDuration
 {
     int32  -> Unknown0;

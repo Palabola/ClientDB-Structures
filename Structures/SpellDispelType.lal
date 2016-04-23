@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellDispelType
 {
     string -> Unknown0;

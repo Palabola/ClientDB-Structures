@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LoadingScreenTaxiSplines
 {
     float  -> Unknown0_, 10;

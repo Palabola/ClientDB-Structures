@@ -1,3 +1,4 @@
+// FileOptions: Index
 type WorldEffect
 {
     int32  -> Unknown0;

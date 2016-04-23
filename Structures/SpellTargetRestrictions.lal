@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellTargetRestrictions
 {
     int32  -> Unknown0;

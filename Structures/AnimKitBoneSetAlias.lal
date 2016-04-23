@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AnimKitBoneSetAlias
 {
     uint8  -> Unknown0;

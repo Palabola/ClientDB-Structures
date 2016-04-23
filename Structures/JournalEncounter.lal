@@ -1,3 +1,4 @@
+// FileOptions: Index
 type JournalEncounter
 {
     float  -> Unknown0_, 2;

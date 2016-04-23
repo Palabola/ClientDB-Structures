@@ -1,3 +1,4 @@
+// FileOptions: Index
 type UnitPowerBar
 {
     float  -> Unknown0;

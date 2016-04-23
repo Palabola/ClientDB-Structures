@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BattlemasterList
 {
     string -> Unknown0;

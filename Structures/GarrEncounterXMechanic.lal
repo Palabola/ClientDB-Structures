@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrEncounterXMechanic
 {
     uint16 -> Unknown0;

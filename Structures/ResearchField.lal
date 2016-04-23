@@ -1,3 +1,4 @@
+// FileOptions: None
 type ResearchField
 {
     string -> Unknown0;

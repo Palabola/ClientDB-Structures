@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ArtifactQuestXP
 {
     int32  -> Unknown0_, 10;

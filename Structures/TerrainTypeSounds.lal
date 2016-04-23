@@ -1,3 +1,4 @@
+// FileOptions: Index
 type TerrainTypeSounds
 {
     string -> Unknown0;

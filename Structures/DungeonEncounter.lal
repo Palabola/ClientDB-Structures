@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DungeonEncounter
 {
     string -> Unknown0;

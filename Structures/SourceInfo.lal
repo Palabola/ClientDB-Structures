@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SourceInfo
 {
     uint32 -> Unknown0;

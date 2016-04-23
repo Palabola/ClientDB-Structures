@@ -1,3 +1,4 @@
+// FileOptions: Index
 type FactionTemplate
 {
     uint16 -> Unknown0;

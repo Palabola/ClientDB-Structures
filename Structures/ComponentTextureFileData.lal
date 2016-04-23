@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ComponentTextureFileData
 {
     uint8  -> Unknown0;

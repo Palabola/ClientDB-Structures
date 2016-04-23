@@ -1,3 +1,4 @@
+// FileOptions: Index
 type TerrainMaterial
 {
     string -> Unknown0;

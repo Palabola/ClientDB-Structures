@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CharTitles
 {
     string -> Unknown0;

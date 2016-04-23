@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LiquidObject
 {
     float  -> Unknown0;

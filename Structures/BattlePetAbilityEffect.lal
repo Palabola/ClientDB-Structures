@@ -1,3 +1,4 @@
+// FileOptions: None
 type BattlePetAbilityEffect
 {
     uint16 -> Unknown0;

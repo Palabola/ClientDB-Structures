@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrTalent
 {
     int32  -> Unknown0;

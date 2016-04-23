@@ -1,3 +1,4 @@
+// FileOptions: None
 type BattlePetAbilityTurn
 {
     uint16 -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DissolveEffect
 {
     float  -> Unknown0;

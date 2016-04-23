@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GameTips
 {
     string -> Unknown0;

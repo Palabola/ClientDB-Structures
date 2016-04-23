@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AreaTriggerBox
 {
     float  -> Unknown0_, 3;

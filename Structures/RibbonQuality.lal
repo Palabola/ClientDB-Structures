@@ -1,3 +1,4 @@
+// FileOptions: Index
 type RibbonQuality
 {
     float  -> Unknown0;

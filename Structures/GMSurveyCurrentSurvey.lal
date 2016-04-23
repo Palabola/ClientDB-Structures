@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GMSurveyCurrentSurvey
 {
     uint8  -> Unknown0;

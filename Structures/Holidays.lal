@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Holidays
 {
     uint32 -> Unknown0_, 16;

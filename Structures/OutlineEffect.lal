@@ -1,3 +1,4 @@
+// FileOptions: Index
 type OutlineEffect
 {
     float  -> Unknown0;

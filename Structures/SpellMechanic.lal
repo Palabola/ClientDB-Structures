@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellMechanic
 {
     string -> Unknown0;

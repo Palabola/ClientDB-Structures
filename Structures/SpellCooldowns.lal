@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellCooldowns
 {
     int32  -> Unknown0;

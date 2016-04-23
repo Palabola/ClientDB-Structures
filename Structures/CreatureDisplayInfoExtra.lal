@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CreatureDisplayInfoExtra
 {
     int32  -> Unknown0;

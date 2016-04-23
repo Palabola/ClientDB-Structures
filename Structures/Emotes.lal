@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Emotes
 {
     string -> Unknown0;

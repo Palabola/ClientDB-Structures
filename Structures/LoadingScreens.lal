@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LoadingScreens
 {
     int32  -> Unknown0;

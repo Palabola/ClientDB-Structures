@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ZoneLight
 {
     string -> Unknown0;

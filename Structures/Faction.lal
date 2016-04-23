@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Faction
 {
     uint32 -> Unknown0_, 4;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ObjectEffect
 {
     string -> Unknown0;

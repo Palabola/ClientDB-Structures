@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemAppearance
 {
     int32  -> Unknown0;

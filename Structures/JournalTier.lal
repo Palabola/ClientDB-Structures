@@ -1,3 +1,4 @@
+// FileOptions: Index
 type JournalTier
 {
     string -> Unknown0;

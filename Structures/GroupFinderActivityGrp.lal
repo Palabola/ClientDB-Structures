@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GroupFinderActivityGrp
 {
     string -> Unknown0;

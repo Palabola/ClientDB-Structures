@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AreaTriggerSphere
 {
     float  -> Unknown0;

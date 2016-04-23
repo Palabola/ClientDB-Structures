@@ -1,3 +1,4 @@
+// FileOptions: None
 type TaxiPathNode
 {
     float  -> Unknown0_, 3;

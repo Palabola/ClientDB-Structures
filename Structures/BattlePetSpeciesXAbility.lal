@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BattlePetSpeciesXAbility
 {
     uint16 -> Unknown0;

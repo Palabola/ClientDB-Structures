@@ -1,3 +1,4 @@
+// FileOptions: Index
 type NamesProfanity
 {
     string -> Unknown0;

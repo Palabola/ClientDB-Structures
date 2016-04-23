@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemDisplayInfo
 {
     int32  -> Unknown0_, 2;

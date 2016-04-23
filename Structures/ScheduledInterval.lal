@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ScheduledInterval
 {
     int32  -> Unknown0;

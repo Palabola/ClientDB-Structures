@@ -1,3 +1,4 @@
+// FileOptions: DataOffset, Index
 type ConversationLine
 {
     uint32 -> Unknown0;

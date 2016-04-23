@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GameObjectDisplayInfo
 {
     int32  -> Unknown0;

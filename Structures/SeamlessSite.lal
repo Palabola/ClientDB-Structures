@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SeamlessSite
 {
     int32  -> Unknown0;

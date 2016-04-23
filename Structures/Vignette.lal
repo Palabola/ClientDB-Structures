@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Vignette
 {
     string -> Unknown0;

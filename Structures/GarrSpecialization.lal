@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrSpecialization
 {
     int32  -> Unknown0;

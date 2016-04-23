@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellProcsPerMinuteMod
 {
     float  -> Unknown0;

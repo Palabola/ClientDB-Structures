@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SoundProviderPreferences
 {
     string -> Unknown0;

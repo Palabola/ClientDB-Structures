@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ScenarioStep
 {
     string -> Unknown0;

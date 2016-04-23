@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CharStartOutfit
 {
     int32  -> Unknown0_, 24;

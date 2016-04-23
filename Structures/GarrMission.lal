@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrMission
 {
     int32  -> Unknown0;

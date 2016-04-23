@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CharacterLoadout
 {
     int32  -> Unknown0;

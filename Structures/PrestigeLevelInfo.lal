@@ -1,3 +1,4 @@
+// FileOptions: Index
 type PrestigeLevelInfo
 {
     int32  -> Unknown0;

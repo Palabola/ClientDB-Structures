@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellChainEffects
 {
     float  -> Unknown0;

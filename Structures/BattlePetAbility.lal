@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BattlePetAbility
 {
     int32  -> Unknown0;

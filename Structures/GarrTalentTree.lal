@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrTalentTree
 {
     int8   -> Unknown0;

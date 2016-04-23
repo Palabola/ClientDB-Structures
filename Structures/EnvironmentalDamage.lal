@@ -1,3 +1,4 @@
+// FileOptions: Index
 type EnvironmentalDamage
 {
     uint16 -> Unknown0;

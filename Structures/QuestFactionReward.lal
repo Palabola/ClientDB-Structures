@@ -1,3 +1,4 @@
+// FileOptions: Index
 type QuestFactionReward
 {
     int16  -> Unknown0_, 10;

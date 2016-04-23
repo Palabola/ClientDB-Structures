@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AnimReplacement
 {
     uint16 -> Unknown0;

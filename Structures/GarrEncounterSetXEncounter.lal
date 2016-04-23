@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrEncounterSetXEncounter
 {
     int32  -> Unknown0;

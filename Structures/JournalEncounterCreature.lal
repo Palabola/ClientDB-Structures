@@ -1,3 +1,4 @@
+// FileOptions: None
 type JournalEncounterCreature
 {
     uint32 -> Unknown0;

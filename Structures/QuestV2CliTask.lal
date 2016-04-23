@@ -1,3 +1,4 @@
+// FileOptions: None
 type QuestV2CliTask
 {
     int32  -> Unknown0;

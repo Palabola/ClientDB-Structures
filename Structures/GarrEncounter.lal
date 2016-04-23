@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrEncounter
 {
     int32  -> Unknown0;

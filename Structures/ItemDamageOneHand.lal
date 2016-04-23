@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemDamageOneHand
 {
     float  -> Unknown0_, 7;

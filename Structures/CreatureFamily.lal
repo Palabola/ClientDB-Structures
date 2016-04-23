@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CreatureFamily
 {
     float  -> Unknown0;

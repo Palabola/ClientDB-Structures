@@ -1,3 +1,4 @@
+// FileOptions: Index
 type JournalTierXInstance
 {
     uint16 -> Unknown0;

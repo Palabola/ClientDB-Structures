@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ModifierTree
 {
     int32  -> Unknown0;

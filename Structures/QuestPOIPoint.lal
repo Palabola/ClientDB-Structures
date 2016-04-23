@@ -1,3 +1,4 @@
+// FileOptions: None
 type QuestPOIPoint
 {
     int32  -> Unknown0;

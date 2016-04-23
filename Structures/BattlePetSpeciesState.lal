@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BattlePetSpeciesState
 {
     int32  -> Unknown0;

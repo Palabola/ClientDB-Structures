@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrUiAnimClassInfo
 {
     float  -> Unknown0;

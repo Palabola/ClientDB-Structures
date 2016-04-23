@@ -1,3 +1,4 @@
+// FileOptions: None
 type ArtifactAppearance
 {
     string -> Unknown0;

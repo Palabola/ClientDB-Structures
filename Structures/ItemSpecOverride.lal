@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemSpecOverride
 {
     int32  -> Unknown0;

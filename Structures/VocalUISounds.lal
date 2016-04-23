@@ -1,3 +1,4 @@
+// FileOptions: Index
 type VocalUISounds
 {
     uint8  -> Unknown0;

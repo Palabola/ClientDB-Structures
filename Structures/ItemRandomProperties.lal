@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemRandomProperties
 {
     string -> Unknown0;

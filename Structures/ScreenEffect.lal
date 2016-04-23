@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ScreenEffect
 {
     string -> Unknown0;

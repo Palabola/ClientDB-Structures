@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemSearchName
 {
     string -> Unknown0;

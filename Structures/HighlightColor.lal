@@ -1,3 +1,4 @@
+// FileOptions: Index
 type HighlightColor
 {
     int32  -> Unknown0;

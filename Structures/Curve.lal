@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Curve
 {
     uint8  -> Unknown0;

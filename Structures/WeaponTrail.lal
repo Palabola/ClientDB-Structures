@@ -1,3 +1,4 @@
+// FileOptions: Index
 type WeaponTrail
 {
     int32  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type PhaseShiftZoneSounds
 {
     uint16 -> Unknown0;

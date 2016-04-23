@@ -1,3 +1,4 @@
+// FileOptions: None
 type TransmogSetItem
 {
     int32  -> Id;

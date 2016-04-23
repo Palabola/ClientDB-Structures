@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ImportPriceShield
 {
     float  -> Unknown0;

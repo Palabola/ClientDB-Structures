@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrBuilding
 {
     int32  -> Unknown0;

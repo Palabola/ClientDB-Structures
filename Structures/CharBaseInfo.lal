@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CharBaseInfo
 {
     int8   -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: None
 type ManifestInterfaceActionIcon
 {
     int32  -> Id;

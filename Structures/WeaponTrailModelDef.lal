@@ -1,3 +1,4 @@
+// FileOptions: Index
 type WeaponTrailModelDef
 {
     int32  -> Unknown0;

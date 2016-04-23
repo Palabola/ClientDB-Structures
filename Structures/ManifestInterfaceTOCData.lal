@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ManifestInterfaceTOCData
 {
     string -> Unknown0;

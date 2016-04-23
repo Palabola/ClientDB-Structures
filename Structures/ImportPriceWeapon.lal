@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ImportPriceWeapon
 {
     float  -> Unknown0;

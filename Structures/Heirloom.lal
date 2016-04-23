@@ -1,3 +1,4 @@
+// FileOptions: None
 type Heirloom
 {
     int32  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ImportPriceQuality
 {
     float  -> Unknown0;

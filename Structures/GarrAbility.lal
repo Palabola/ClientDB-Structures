@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrAbility
 {
     string -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SoundKitEntry
 {
     int32  -> Unknown0;

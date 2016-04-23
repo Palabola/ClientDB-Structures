@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemSubClassMask
 {
     uint32 -> Unknown0;

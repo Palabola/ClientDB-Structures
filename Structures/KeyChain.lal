@@ -1,3 +1,4 @@
+// FileOptions: Index
 type KeyChain
 {
     uint8  -> Unknown0_, 32;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ScenarioEventEntry
 {
     uint16 -> Unknown0;

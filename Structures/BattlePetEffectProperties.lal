@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BattlePetEffectProperties
 {
     string -> Unknown0_, 6;

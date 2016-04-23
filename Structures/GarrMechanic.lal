@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrMechanic
 {
     float  -> Unknown0;

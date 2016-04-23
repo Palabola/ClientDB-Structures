@@ -1,3 +1,4 @@
+// FileOptions: None
 type ChrClasses
 {
     string -> Unknown0;

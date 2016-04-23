@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LookAtController
 {
     float  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ArtifactCategory
 {
     int16  -> Unknown0;

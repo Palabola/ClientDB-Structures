@@ -1,3 +1,4 @@
+// FileOptions: Index
 type EdgeGlowEffect
 {
     float  -> Unknown0;

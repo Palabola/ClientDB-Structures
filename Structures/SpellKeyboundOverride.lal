@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellKeyboundOverride
 {
     int32  -> Unknown0;

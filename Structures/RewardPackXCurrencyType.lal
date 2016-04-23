@@ -1,3 +1,4 @@
+// FileOptions: Index
 type RewardPackXCurrencyType
 {
     int32  -> Unknown0;

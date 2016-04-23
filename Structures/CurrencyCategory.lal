@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CurrencyCategory
 {
     string -> Unknown0;

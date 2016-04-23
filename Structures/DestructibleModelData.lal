@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DestructibleModelData
 {
     uint16 -> Unknown0;

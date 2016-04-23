@@ -1,3 +1,4 @@
+// FileOptions: Index
 type NamesReservedLocale
 {
     string -> Unknown0;

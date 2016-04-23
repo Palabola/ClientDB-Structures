@@ -1,3 +1,4 @@
+// FileOptions: None
 type FriendshipReputation
 {
     int32  -> Unknown0;

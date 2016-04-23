@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemRangedDisplayInfo
 {
     int32  -> Unknown0;

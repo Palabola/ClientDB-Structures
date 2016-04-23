@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemPetFood
 {
     string -> Unknown0;

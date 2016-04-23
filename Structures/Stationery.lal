@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Stationery
 {
     string -> Unknown0;

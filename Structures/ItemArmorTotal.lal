@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemArmorTotal
 {
     float  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LiquidType
 {
     string -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LfgDungeonGroup
 {
     string -> Unknown0;

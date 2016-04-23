@@ -1,3 +1,4 @@
+// FileOptions: Index
 type UiCamFbackTransmogChrRace
 {
     uint16 -> Unknown0;

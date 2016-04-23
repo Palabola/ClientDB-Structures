@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CameraEffect
 {
     uint8  -> Unknown0;

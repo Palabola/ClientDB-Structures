@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemSubClass
 {
     string -> Unknown0;

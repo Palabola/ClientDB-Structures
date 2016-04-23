@@ -1,3 +1,4 @@
+// FileOptions: None
 type SpellEffect
 {
     float  -> Unknown0;

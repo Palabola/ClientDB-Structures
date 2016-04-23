@@ -1,3 +1,4 @@
+// FileOptions: Index
 type QuestLine
 {
     string -> Unknown0;

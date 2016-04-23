@@ -1,3 +1,4 @@
+// FileOptions: Index
 type VehicleUIIndSeat
 {
     float  -> Unknown0;

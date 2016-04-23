@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DeviceBlacklist
 {
     uint16 -> Unknown0;

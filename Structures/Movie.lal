@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Movie
 {
     uint32 -> Unknown0;

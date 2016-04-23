@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DriverBlacklist
 {
     uint32 -> Unknown0;

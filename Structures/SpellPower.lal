@@ -1,3 +1,4 @@
+// FileOptions: None
 type SpellPower
 {
     int32  -> Unknown0;

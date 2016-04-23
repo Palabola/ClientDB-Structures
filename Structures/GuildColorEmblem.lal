@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GuildColorEmblem
 {
     uint8  -> Unknown0;

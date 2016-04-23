@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BattlePetVisual
 {
     string -> Unknown0;

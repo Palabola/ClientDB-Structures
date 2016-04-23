@@ -1,3 +1,4 @@
+// FileOptions: Index
 type LightData
 {
     int32  -> Unknown0;

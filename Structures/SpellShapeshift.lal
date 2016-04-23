@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellShapeshift
 {
     int32  -> Unknown0;

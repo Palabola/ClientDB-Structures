@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SoundKitFallback
 {
     int32  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type NpcModelItemSlotDisplayInfo
 {
     int32  -> Unknown0;

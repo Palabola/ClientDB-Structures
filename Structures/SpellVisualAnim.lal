@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellVisualAnim
 {
     int16  -> Unknown0;

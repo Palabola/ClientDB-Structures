@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemContextPickerEntry
 {
     uint8  -> Unknown0;

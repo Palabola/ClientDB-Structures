@@ -1,3 +1,4 @@
+// FileOptions: None
 type PathNode
 {
     int32  -> Unknown0;

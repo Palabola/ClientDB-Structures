@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GMSurveyAnswers
 {
     string -> Unknown0;

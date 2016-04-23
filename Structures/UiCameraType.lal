@@ -1,3 +1,4 @@
+// FileOptions: Index
 type UiCameraType
 {
     string -> Unknown0;

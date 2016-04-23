@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ObjectEffectPackageElem
 {
     uint16 -> Unknown0;

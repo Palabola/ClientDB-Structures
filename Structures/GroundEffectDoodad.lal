@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GroundEffectDoodad
 {
     string -> Unknown0;

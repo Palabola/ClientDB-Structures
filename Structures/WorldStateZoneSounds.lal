@@ -1,3 +1,4 @@
+// FileOptions: Index
 type WorldStateZoneSounds
 {
     uint32 -> Unknown0;

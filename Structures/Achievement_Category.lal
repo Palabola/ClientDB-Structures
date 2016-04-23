@@ -1,3 +1,4 @@
+// FileOptions: None
 type Achievement_Category
 {
     string -> Unknown0;

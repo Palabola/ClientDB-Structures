@@ -1,3 +1,4 @@
+// FileOptions: Index
 type HolidayDescriptions
 {
     string -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellDescriptionVariables
 {
     string -> Unknown0;

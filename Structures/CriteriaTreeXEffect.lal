@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CriteriaTreeXEffect
 {
     uint16 -> Unknown0;

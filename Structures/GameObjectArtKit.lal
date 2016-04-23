@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GameObjectArtKit
 {
     string -> Unknown0_, 3;

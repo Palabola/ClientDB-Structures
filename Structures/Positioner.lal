@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Positioner
 {
     float  -> Unknown0;

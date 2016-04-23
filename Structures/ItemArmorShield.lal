@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemArmorShield
 {
     float  -> Unknown0_, 7;

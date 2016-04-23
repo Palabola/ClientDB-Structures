@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ArtifactPowerRank
 {
     uint32 -> Unknown0;

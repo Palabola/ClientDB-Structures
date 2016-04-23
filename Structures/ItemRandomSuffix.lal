@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemRandomSuffix
 {
     string -> Unknown0;

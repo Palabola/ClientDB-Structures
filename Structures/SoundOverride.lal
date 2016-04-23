@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SoundOverride
 {
     uint16 -> Unknown0;

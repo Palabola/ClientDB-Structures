@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Cfg_Regions
 {
     string -> Unknown0;

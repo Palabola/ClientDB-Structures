@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemBonus
 {
     int32  -> Unknown0_, 2;

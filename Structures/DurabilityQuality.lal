@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DurabilityQuality
 {
     float  -> Unknown0;

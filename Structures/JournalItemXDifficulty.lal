@@ -1,3 +1,4 @@
+// FileOptions: Index
 type JournalItemXDifficulty
 {
     uint16 -> Unknown0;

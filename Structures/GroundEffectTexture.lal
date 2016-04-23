@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GroundEffectTexture
 {
     uint16 -> Unknown0_, 4;

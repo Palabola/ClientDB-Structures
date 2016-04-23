@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GuildPerkSpells
 {
     int32  -> Unknown0;

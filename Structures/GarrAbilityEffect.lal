@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrAbilityEffect
 {
     float  -> Unknown0;

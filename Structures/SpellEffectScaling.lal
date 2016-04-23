@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellEffectScaling
 {
     float  -> Unknown0;

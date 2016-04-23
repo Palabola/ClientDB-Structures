@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellTotems
 {
     int32  -> Unknown0;

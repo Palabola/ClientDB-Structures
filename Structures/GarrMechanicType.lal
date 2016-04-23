@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrMechanicType
 {
     string -> Unknown0;

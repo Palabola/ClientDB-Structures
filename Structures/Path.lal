@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Path
 {
     uint8  -> Unknown0;

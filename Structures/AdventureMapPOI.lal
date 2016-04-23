@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AdventureMapPOI
 {
     float  -> Unknown0_, 2;

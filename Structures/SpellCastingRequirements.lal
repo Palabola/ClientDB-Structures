@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellCastingRequirements
 {
     int32  -> Unknown0;

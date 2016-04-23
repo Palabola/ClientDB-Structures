@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemSet
 {
     string -> Unknown0;

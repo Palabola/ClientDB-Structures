@@ -1,3 +1,4 @@
+// FileOptions: None
 type PathNodeProperty
 {
     uint16 -> Unknown0;

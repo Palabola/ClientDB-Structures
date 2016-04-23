@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellFocusObject
 {
     string -> Unknown0;

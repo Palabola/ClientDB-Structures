@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DurabilityCosts
 {
     uint16 -> Unknown0_, 21;

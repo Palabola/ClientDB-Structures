@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SpellLearnSpell
 {
     int32  -> Unknown0;

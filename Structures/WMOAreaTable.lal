@@ -1,3 +1,4 @@
+// FileOptions: None
 type WMOAreaTable
 {
     int32  -> Unknown0;

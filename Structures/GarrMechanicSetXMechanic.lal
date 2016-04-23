@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrMechanicSetXMechanic
 {
     uint8  -> Unknown0;

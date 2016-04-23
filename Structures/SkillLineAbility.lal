@@ -1,3 +1,4 @@
+// FileOptions: Index
 type SkillLineAbility
 {
     uint32 -> Unknown0;

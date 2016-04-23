@@ -1,3 +1,4 @@
+// FileOptions: Index
 type TotemCategory
 {
     string -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type QuestPOIPointCliTask
 {
     int16  -> Unknown0;

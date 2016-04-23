@@ -1,3 +1,4 @@
+// FileOptions: Index
 type AnimKitConfig
 {
     uint32 -> Unknown0;

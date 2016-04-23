@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ChrClassVillain
 {
     string -> Unknown0;

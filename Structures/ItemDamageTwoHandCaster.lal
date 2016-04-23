@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ItemDamageTwoHandCaster
 {
     float  -> Unknown0_, 7;

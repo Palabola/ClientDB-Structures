@@ -1,3 +1,4 @@
+// FileOptions: Index
 type BroadcastText
 {
     string -> Unknown0;

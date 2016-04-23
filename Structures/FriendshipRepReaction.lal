@@ -1,3 +1,4 @@
+// FileOptions: Index
 type FriendshipRepReaction
 {
     string -> Unknown0;

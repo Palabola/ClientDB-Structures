@@ -1,3 +1,4 @@
+// FileOptions: Index
 type Weather
 {
     float  -> Unknown0_, 2;

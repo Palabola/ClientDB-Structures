@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GlobalStrings
 {
     string -> Unknown0;

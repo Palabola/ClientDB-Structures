@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CharShipmentContainer
 {
     string -> Unknown0;

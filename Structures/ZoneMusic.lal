@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ZoneMusic
 {
     string -> Unknown0;

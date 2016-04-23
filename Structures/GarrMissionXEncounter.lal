@@ -1,3 +1,4 @@
+// FileOptions: None
 type GarrMissionXEncounter
 {
     uint8  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ScalingStatDistribution
 {
     uint16 -> Unknown0;

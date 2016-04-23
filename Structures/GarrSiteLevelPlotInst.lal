@@ -1,3 +1,4 @@
+// FileOptions: Index
 type GarrSiteLevelPlotInst
 {
     float  -> Unknown0_, 2;

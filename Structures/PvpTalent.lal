@@ -1,3 +1,4 @@
+// FileOptions: Index
 type PvpTalent
 {
     int32  -> Unknown0;

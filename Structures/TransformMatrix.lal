@@ -1,3 +1,4 @@
+// FileOptions: Index
 type TransformMatrix
 {
     float  -> Unknown0_, 3;

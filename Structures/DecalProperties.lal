@@ -1,3 +1,4 @@
+// FileOptions: Index
 type DecalProperties
 {
     int32  -> Unknown0;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type CharacterLoadoutItem
 {
     uint32 -> Unknown0;

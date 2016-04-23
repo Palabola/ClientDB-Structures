@@ -1,3 +1,4 @@
+// FileOptions: Index
 type TextureBlendSet
 {
     int32  -> Unknown0_, 3;

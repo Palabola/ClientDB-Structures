@@ -1,3 +1,4 @@
+// FileOptions: Index
 type WorldMapTransforms
 {
     float  -> Unknown0_, 6;

@@ -1,3 +1,4 @@
+// FileOptions: Index
 type ShadowyEffect
 {
     int32  -> Unknown0;
