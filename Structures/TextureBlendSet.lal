@@ -7,4 +7,8 @@ type TextureBlendSet
     float  -> Unknown3_, 3;
     float  -> Unknown4_, 3;
     float  -> Unknown5_, 4;
+    uint8  -> Unknown6;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
 }

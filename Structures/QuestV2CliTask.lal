@@ -21,6 +21,7 @@ type QuestV2CliTask
     uint8  -> Unknown17;
     uint8  -> Unknown18;
     uint8  -> Unknown19;
+    int32  -> Id;
     int32  -> Unknown20;
     int32  -> Unknown21;
 }

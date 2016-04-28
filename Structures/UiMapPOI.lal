@@ -1,0 +1,11 @@
+// FileOptions: None
+type UiMapPOI
+{
+    int32  -> Unknown0;
+    float  -> Unknown1_, 3;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Unknown5;
+    int32  -> Id;
+}
