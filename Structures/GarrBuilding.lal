@@ -12,10 +12,10 @@ type GarrBuilding
     uint16 -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
+    uint16 -> Unknown11;
+    uint16 -> Unknown12;
+    uint16 -> Unknown13;
+    uint16 -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;

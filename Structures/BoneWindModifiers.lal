@@ -2,8 +2,6 @@
 type BoneWindModifiers
 {
     int32  -> Unknown0;
-    float  -> Unknown1;
+    float  -> Unknown1_, 3;
     float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
 }

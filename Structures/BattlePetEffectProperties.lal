@@ -2,6 +2,6 @@
 type BattlePetEffectProperties
 {
     string -> Unknown0_, 6;
-    uint8  -> Unknown1;
+    uint16 -> Unknown1;
     uint8  -> Unknown2_, 6;
 }

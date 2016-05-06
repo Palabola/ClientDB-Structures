@@ -3,5 +3,5 @@ type SpellTotems
 {
     int32  -> Unknown0;
     int32  -> Unknown1_, 2;
-    uint8  -> Unknown2_, 2;
+    uint16 -> Unknown2_, 2;
 }

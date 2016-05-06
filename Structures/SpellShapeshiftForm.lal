@@ -8,7 +8,7 @@ type SpellShapeshiftForm
     int16  -> Unknown4;
     uint16 -> Unknown5_, 4;
     uint16 -> Unknown6_, 8;
-    int8   -> Unknown7;
-    uint8  -> Unknown8;
+    uint16 -> Unknown7;
+    int8   -> Unknown8;
     int8   -> Unknown9;
 }

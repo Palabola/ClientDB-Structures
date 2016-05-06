@@ -2,6 +2,6 @@
 type QuestLineXQuest
 {
     uint16 -> Unknown0;
-    uint8  -> Unknown1;
+    uint16 -> Unknown1;
     uint8  -> Unknown2;
 }
