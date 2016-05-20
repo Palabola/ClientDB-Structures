@@ -1,7 +1,7 @@
 // FileOptions: Index
 type ScheduledWorldStateGroup
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     uint32 -> Unknown1;
     uint32 -> Unknown2;
     uint32 -> Unknown3;

@@ -11,5 +11,5 @@ type JournalInstance
     uint16 -> Unknown7;
     uint8  -> Unknown8;
     uint8  -> Unknown9;
-    int32  -> Id;
+    uint32 -> Id;
 }

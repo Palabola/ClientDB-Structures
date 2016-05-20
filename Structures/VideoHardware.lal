@@ -15,7 +15,7 @@ type VideoHardware
     int8   -> Unknown11;
     int8   -> Unknown12;
     int8   -> Unknown13;
-    int32  -> Id;
+    uint32 -> Id;
     uint32 -> Unknown15;
     uint32 -> Unknown16;
     uint32 -> Unknown17;

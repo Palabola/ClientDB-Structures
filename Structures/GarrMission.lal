@@ -25,7 +25,7 @@ type GarrMission
     uint8  -> Unknown21;
     uint8  -> Unknown22;
     uint8  -> Unknown23;
-    int32  -> Id;
+    uint32 -> Id;
     uint32 -> Unknown25;
     int32  -> Unknown26;
     int32  -> Unknown27;

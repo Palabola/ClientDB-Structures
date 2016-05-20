@@ -3,7 +3,7 @@ type InvasionClientData
 {
     string -> Unknown0;
     float  -> Unknown1_, 2;
-    int32  -> Id;
+    uint32 -> Id;
     uint32 -> Unknown3;
     uint32 -> Unknown4;
     uint32 -> Unknown5;

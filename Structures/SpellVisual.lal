@@ -25,7 +25,7 @@ type SpellVisual
     uint16 -> Unknown21;
     int8   -> Unknown22;
     int8   -> Unknown23;
-    int32  -> Unknown24;
+    int32  -> Id;
     int32  -> Unknown25;
     int32  -> Unknown26;
     int32  -> Unknown27;

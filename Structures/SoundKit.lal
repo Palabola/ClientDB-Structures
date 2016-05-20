@@ -17,5 +17,5 @@ type SoundKit
     uint8  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
-    int32  -> Id;
+    uint32 -> Id;
 }

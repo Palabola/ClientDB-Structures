@@ -65,7 +65,7 @@ type PlayerCondition
     int8   -> Unknown61;
     uint8  -> Unknown62;
     uint8  -> Unknown63;
-    int32  -> Unknown64;
+    uint32 -> Unknown64;
     uint32 -> Unknown65;
     int32  -> Unknown66_, 3;
     uint32 -> Unknown67_, 4;

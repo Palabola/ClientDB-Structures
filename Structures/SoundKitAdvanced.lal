@@ -28,7 +28,7 @@ type SoundKitAdvanced
     uint8  -> Unknown24;
     uint8  -> Unknown25;
     int32  -> Unknown26;
-    int32  -> Unknown27;
+    uint32 -> Unknown27;
     int32  -> Unknown28;
     int32  -> Unknown29;
     int32  -> Unknown30;

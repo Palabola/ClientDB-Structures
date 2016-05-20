@@ -6,5 +6,5 @@ type ItemModifiedAppearance
     uint8  -> Unknown2;
     uint8  -> Unknown3;
     int8   -> Unknown4;
-    int32  -> Id;
+    uint32 -> Id;
 }

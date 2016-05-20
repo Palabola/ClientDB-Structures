@@ -9,5 +9,5 @@ type ScenarioStep
     uint16 -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    int32  -> Unknown8;
+    uint32 -> Unknown8;
 }

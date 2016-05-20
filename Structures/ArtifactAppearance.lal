@@ -13,7 +13,7 @@ type ArtifactAppearance
     uint8  -> Unknown9;
     uint8  -> Unknown10;
     uint8  -> Unknown11;
-    int32  -> Id;
+    uint32 -> Id;
     int32  -> Unknown13;
     int32  -> Unknown14;
 }

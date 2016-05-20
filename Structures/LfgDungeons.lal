@@ -30,5 +30,5 @@ type LfgDungeons
     uint8  -> Unknown26;
     uint8  -> Unknown27;
     uint8  -> Unknown28;
-    int32  -> Id;
+    uint32 -> Id;
 }

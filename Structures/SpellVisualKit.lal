@@ -5,6 +5,6 @@ type SpellVisualKit
     float  -> Unknown1;
     uint16 -> Unknown2;
     uint16 -> Unknown3;
-    int32  -> Id;
+    uint32 -> Id;
     int32  -> Unknown5;
 }

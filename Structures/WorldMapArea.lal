@@ -16,6 +16,6 @@ type WorldMapArea
     uint8  -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;
-    int32  -> Id;
+    uint32 -> Id;
     int32  -> Unknown16;
 }

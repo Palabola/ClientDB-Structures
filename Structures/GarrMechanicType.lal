@@ -5,5 +5,5 @@ type GarrMechanicType
     string -> Unknown1;
     int32  -> Unknown2;
     uint8  -> Unknown3;
-    int32  -> Id;
+    uint32 -> Id;
 }

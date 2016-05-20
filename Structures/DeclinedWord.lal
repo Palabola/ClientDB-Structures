@@ -2,5 +2,5 @@
 type DeclinedWord
 {
     string -> Unknown0;
-    int32  -> Id;
+    uint32 -> Id;
 }

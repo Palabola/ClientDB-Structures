@@ -22,5 +22,5 @@ type SpellVisualKitModelAttach
     uint16 -> Unknown18;
     int8   -> Unknown19;
     uint8  -> Unknown20;
-    int32  -> Id;
+    uint32 -> Id;
 }

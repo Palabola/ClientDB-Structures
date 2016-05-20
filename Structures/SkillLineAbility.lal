@@ -13,5 +13,5 @@ type SkillLineAbility
     int16  -> Unknown9;
     int8   -> Unknown10;
     int8   -> Unknown11;
-    int32  -> Unknown12;
+    uint32 -> Unknown12;
 }

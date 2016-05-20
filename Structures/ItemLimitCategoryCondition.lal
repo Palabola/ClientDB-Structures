@@ -2,6 +2,6 @@
 type ItemLimitCategoryCondition
 {
     int8   -> Unknown0;
-    int32  -> Unknown1;
+    uint32 -> Unknown1;
     int32  -> Unknown2;
 }

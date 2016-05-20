@@ -1,5 +1,5 @@
 // FileOptions: None
 type ManifestInterfaceActionIcon
 {
-    int32  -> Id;
+    uint32 -> Id;
 }

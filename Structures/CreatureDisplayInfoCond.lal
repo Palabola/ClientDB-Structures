@@ -14,6 +14,6 @@ type CreatureDisplayInfoCond
     int32  -> Unknown10;
     int32  -> Unknown11;
     int32  -> Unknown12;
-    int32  -> Unknown13;
+    uint32 -> Unknown13;
     uint32 -> Unknown14_, 3;
 }

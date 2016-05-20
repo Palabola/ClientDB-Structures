@@ -31,5 +31,5 @@ type GarrFollower
     uint8  -> Unknown27;
     uint8  -> Unknown28;
     uint8  -> Unknown29;
-    int32  -> Id;
+    uint32 -> Id;
 }

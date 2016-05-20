@@ -12,7 +12,7 @@ type ChrSpecialization
     int8   -> Unknown8;
     int8   -> Unknown9;
     int8   -> Unknown10;
-    int32  -> Id;
+    uint32 -> Id;
     int32  -> Unknown12;
     uint32 -> Unknown13;
 }

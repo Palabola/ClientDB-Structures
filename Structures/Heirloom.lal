@@ -10,5 +10,5 @@ type Heirloom
     uint16 -> Unknown6_, 2;
     uint8  -> Unknown7;
     int8   -> Unknown8;
-    int32  -> Id;
+    uint32 -> Id;
 }

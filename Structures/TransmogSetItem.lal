@@ -1,7 +1,7 @@
 // FileOptions: None
 type TransmogSetItem
 {
-    int32  -> Id;
+    uint32 -> Id;
     int32  -> Unknown1;
     int32  -> Unknown2;
     uint32 -> Unknown3;

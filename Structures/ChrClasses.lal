@@ -19,5 +19,5 @@ type ChrClasses
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
-    int32  -> Id;
+    uint32 -> Id;
 }
