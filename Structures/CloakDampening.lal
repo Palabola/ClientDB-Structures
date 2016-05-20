@@ -1,0 +1,9 @@
+// FileOptions: Index
+type CloakDampening
+{
+    float  -> Unknown0_, 5;
+    float  -> Unknown1_, 5;
+    float  -> Unknown2_, 2;
+    float  -> Unknown3_, 2;
+    float  -> Unknown4;
+}

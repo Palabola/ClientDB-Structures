@@ -2,4 +2,5 @@
 type TradeSkillItem
 {
     uint16 -> Unknown0;
+    int8   -> Unknown1;
 }
