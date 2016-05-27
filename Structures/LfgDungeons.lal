@@ -5,21 +5,21 @@ type LfgDungeons
     uint32 -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    uint16 -> Unknown4;
+    int32  -> Unknown4;
     uint16 -> Unknown5;
-    int16  -> Unknown6;
-    uint16 -> Unknown7;
+    uint16 -> Unknown6;
+    int16  -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10;
     uint16 -> Unknown11;
-    uint8  -> Unknown12;
+    uint16 -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
-    int8   -> Unknown17;
-    uint8  -> Unknown18;
+    uint8  -> Unknown17;
+    int8   -> Unknown18;
     uint8  -> Unknown19;
     uint8  -> Unknown20;
     uint8  -> Unknown21;
@@ -30,5 +30,6 @@ type LfgDungeons
     uint8  -> Unknown26;
     uint8  -> Unknown27;
     uint8  -> Unknown28;
+    uint8  -> Unknown29;
     uint32 -> Id;
 }

@@ -14,9 +14,10 @@ type Map
     int16  -> Unknown10;
     int16  -> Unknown11;
     int16  -> Unknown12;
-    uint8  -> Unknown13;
+    int16  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
+    uint8  -> Unknown18;
 }
