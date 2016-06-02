@@ -6,4 +6,5 @@ type GarrFollowerUICreature
     uint16 -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
+    uint8  -> Unknown5;
 }

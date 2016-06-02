@@ -6,4 +6,6 @@ type CloakDampening
     float  -> Unknown2_, 2;
     float  -> Unknown3_, 2;
     float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
 }
