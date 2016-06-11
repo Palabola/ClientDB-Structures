@@ -23,7 +23,7 @@ type ChrRaces
     int16  -> Unknown19;
     int16  -> Unknown20;
     int16  -> Unknown21;
-    uint16 -> Unknown22;
+    int8   -> Unknown22;
     int8   -> Unknown23;
     int8   -> Unknown24;
     int8   -> Unknown25;
@@ -33,7 +33,7 @@ type ChrRaces
     int8   -> Unknown29;
     int8   -> Unknown30;
     int8   -> Unknown31;
-    int8   -> Unknown32;
+    int32  -> Unknown32;
     int32  -> Unknown33;
-    int32  -> Unknown34;
+    int32  -> Unknown34_, 3;
 }
