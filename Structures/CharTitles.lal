@@ -3,7 +3,6 @@ type CharTitles
 {
     string -> Unknown0;
     string -> Unknown1;
-    uint16 -> Unknown2;
-    int16  -> Unknown3;
-    int8   -> Unknown4;
+    int16  -> Unknown2;
+    int8   -> Unknown3;
 }

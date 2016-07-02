@@ -10,5 +10,4 @@ type CreatureFamily
     int8   -> Unknown6;
     int8   -> Unknown7;
     int8   -> Unknown8;
-    int8   -> Unknown9;
 }
