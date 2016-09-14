@@ -8,5 +8,4 @@ type UiTextureAtlasMember
     int16  -> Unknown4;
     int16  -> Unknown5;
     int8   -> Unknown6;
-    uint8  -> Unknown7;
 }

@@ -29,6 +29,4 @@ type CreatureModelData
     int32  -> Unknown25;
     int32  -> Unknown26;
     int32  -> Unknown27;
-    int32  -> Unknown28;
-    int32  -> Unknown29;
 }

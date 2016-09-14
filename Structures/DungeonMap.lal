@@ -7,5 +7,6 @@ type DungeonMap
     int16  -> Unknown3;
     int8   -> Unknown4;
     int8   -> Unknown5;
+    int8   -> Unknown6;
     uint32 -> Id;
 }

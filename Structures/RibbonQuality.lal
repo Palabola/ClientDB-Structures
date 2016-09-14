@@ -5,4 +5,5 @@ type RibbonQuality
     float  -> Unknown1;
     float  -> Unknown2;
     uint8  -> Unknown3;
+    int32  -> Unknown4;
 }

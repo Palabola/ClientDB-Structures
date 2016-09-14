@@ -1,6 +1,0 @@
-// FileOptions: Index
-type SpellEffectCameraShakes
-{
-    uint16 -> Unknown0_, 3;
-    uint16 -> Unknown1;
-}
