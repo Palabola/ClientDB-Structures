@@ -1,15 +1,16 @@
-// FileOptions: Index
+// FileOptions: None
 type Holidays
 {
-    uint32 -> Unknown0_, 16;
-    string -> Unknown1;
-    uint16 -> Unknown2_, 10;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5_, 10;
-    uint8  -> Unknown6;
+    int32  -> Id;
+    uint32 -> Unknown1_, 16;
+    string -> Unknown2;
+    uint16 -> Unknown3_, 10;
+    uint16 -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6_, 10;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
-    int8   -> Unknown9;
-    uint8  -> Unknown10;
+    uint8  -> Unknown9;
+    int8   -> Unknown10;
+    uint8  -> Unknown11;
 }
