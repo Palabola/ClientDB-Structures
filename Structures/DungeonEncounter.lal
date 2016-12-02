@@ -8,6 +8,6 @@ type DungeonEncounter
     int16  -> Unknown4;
     int8   -> Unknown5;
     int8   -> Unknown6;
-    int8   -> Unknown7;
+    uint8  -> Unknown7;
     uint32 -> Unknown8;
 }

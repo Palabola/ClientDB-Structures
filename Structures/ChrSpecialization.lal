@@ -5,14 +5,13 @@ type ChrSpecialization
     string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    string -> Unknown4;
-    int16  -> Unknown5;
+    int16  -> Unknown4;
+    int8   -> Unknown5;
     int8   -> Unknown6;
     int8   -> Unknown7;
     int8   -> Unknown8;
     int8   -> Unknown9;
-    int8   -> Unknown10;
     uint32 -> Id;
-    int32  -> Unknown12;
-    uint32 -> Unknown13;
+    int32  -> Unknown11;
+    uint32 -> Unknown12;
 }
