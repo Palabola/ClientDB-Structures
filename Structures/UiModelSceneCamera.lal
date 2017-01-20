@@ -1,0 +1,20 @@
+// FileOptions: None
+type UiModelSceneCamera
+{
+    string -> Unknown0;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2_, 3;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    float  -> Unknown9;
+    float  -> Unknown10;
+    float  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
+    uint32 -> Id;
+    uint32 -> Unknown15;
+}

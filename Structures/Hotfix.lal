@@ -1,0 +1,7 @@
+// FileOptions: Index
+type Hotfix
+{
+    string -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+}

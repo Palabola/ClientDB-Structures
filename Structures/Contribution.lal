@@ -1,0 +1,10 @@
+// FileOptions: None
+type Contribution
+{
+    uint32 -> Id;
+    uint32 -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    uint32 -> Unknown4_, 4;
+    uint32 -> Unknown5;
+}

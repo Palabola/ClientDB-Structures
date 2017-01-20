@@ -1,0 +1,14 @@
+// FileOptions: None
+type UiModelSceneActor
+{
+    string -> Unknown0;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    uint8  -> Unknown6;
+    uint32 -> Id;
+    uint32 -> Unknown8;
+    uint32 -> Unknown9;
+}

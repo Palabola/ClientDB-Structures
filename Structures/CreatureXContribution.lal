@@ -1,0 +1,7 @@
+// FileOptions: None
+type CreatureXContribution
+{
+    uint32 -> Id;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+}

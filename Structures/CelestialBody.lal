@@ -1,0 +1,19 @@
+// FileOptions: None
+type CelestialBody
+{
+    uint32 -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2_, 2;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5_, 2;
+    float  -> Unknown6_, 2;
+    float  -> Unknown7_, 2;
+    float  -> Unknown8;
+    float  -> Unknown9_, 2;
+    float  -> Unknown10;
+    float  -> Unknown11_, 3;
+    float  -> Unknown12;
+    uint16 -> Unknown13;
+    uint32 -> Id;
+}

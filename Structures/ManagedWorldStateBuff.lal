@@ -1,0 +1,9 @@
+// FileOptions: None
+type ManagedWorldStateBuff
+{
+    uint32 -> Id;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
+}
