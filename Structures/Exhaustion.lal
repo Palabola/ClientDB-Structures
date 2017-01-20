@@ -1,7 +1,7 @@
 // FileOptions: None
 type Exhaustion
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     float  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;

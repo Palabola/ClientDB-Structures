@@ -1,9 +1,9 @@
 // FileOptions: Index
 type GameObjectDisplayInfo
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     float  -> Unknown1_, 6;
     float  -> Unknown2;
     float  -> Unknown3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
 }

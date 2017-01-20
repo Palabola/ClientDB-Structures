@@ -2,15 +2,15 @@
 type ScreenEffect
 {
     string -> Unknown0;
-    int32  -> Unknown1_, 4;
+    uint32 -> Unknown1_, 4;
     uint16 -> Unknown2;
     uint16 -> Unknown3;
     uint16 -> Unknown4;
-    int16  -> Unknown5;
+    uint16 -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    int8   -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
+    uint8  -> Unknown8;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
+    uint32 -> Unknown11;
 }

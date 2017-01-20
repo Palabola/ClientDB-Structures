@@ -14,9 +14,9 @@ type LookAtController
     uint8  -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
-    int32  -> Unknown13;
-    int32  -> Unknown14;
-    int32  -> Unknown15;
-    int32  -> Unknown16;
-    int32  -> Unknown17;
+    uint32 -> Unknown13;
+    uint32 -> Unknown14;
+    uint32 -> Unknown15;
+    uint32 -> Unknown16;
+    uint32 -> Unknown17;
 }

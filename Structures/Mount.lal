@@ -1,15 +1,15 @@
 // FileOptions: None
 type Mount
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
+    uint32 -> Unknown0;
+    string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    string -> Unknown4;
-    float  -> Unknown5;
+    float  -> Unknown4;
+    uint16 -> Unknown5;
     uint16 -> Unknown6;
     uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    int8   -> Unknown9;
+    uint8  -> Unknown8;
     uint32 -> Id;
+    uint32 -> Unknown10;
 }

@@ -1,29 +1,14 @@
 // FileOptions: None
 type SpellEffect
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    int32  -> Unknown5_, 4;
-    float  -> Unknown6;
-    float  -> Unknown7;
+    uint32 -> Unknown0_, 4;
     uint32 -> Id;
-    uint32 -> Unknown9;
-    int32  -> Unknown10;
-    uint32 -> Unknown11;
-    uint32 -> Unknown12;
-    uint32 -> Unknown13;
-    uint32 -> Unknown14;
-    uint32 -> Unknown15;
-    uint32 -> Unknown16;
-    uint32 -> Unknown17;
-    uint32 -> Unknown18_, 2;
-    int32  -> Unknown19_, 2;
-    uint32 -> Unknown20;
-    int32  -> Unknown21_, 2;
-    uint32 -> Unknown22;
-    uint32 -> Unknown23;
-    uint32 -> Unknown24;
+    uint32 -> Unknown2;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
+    uint32 -> Unknown7_, 2;
+    uint32 -> Unknown8_, 2;
+    uint32 -> Unknown9_, 2;
 }

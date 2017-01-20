@@ -5,12 +5,12 @@ type SoundEmitters
     float  -> Unknown1_, 3;
     string -> Unknown2;
     uint16 -> Unknown3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
     uint16 -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
-    uint8  -> Unknown9;
     uint32 -> Id;
-    int32  -> Unknown11;
+    uint32 -> Unknown10;
+    uint32 -> Unknown11;
 }

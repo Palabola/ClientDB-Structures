@@ -5,6 +5,6 @@ type ItemDisenchantLoot
     uint16 -> Unknown1;
     uint16 -> Unknown2;
     uint8  -> Unknown3;
-    int8   -> Unknown4;
+    uint8  -> Unknown4;
     uint8  -> Unknown5;
 }

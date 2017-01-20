@@ -1,5 +1,0 @@
-// FileOptions: Index
-type SpellEffectExtra
-{
-    float  -> Unknown0;
-}

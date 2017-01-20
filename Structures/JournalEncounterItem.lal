@@ -3,8 +3,8 @@ type JournalEncounterItem
 {
     uint32 -> Unknown0;
     uint16 -> Unknown1;
-    int8   -> Unknown2;
-    int8   -> Unknown3;
+    uint8  -> Unknown2;
+    uint8  -> Unknown3;
     uint8  -> Unknown4;
     uint32 -> Id;
 }

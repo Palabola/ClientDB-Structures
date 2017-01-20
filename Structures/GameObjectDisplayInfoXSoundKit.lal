@@ -1,7 +1,7 @@
 // FileOptions: Index
 type GameObjectDisplayInfoXSoundKit
 {
-    int8   -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
+    uint8  -> Unknown0;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
 }

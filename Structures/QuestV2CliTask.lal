@@ -1,17 +1,17 @@
 // FileOptions: None
 type QuestV2CliTask
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
-    int32  -> Unknown3;
+    uint32 -> Unknown3;
     uint16 -> Unknown4;
     uint16 -> Unknown5;
-    int16  -> Unknown6;
+    uint16 -> Unknown6;
     uint16 -> Unknown7_, 3;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
-    int16  -> Unknown10;
+    uint8  -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
@@ -21,7 +21,7 @@ type QuestV2CliTask
     uint8  -> Unknown17;
     uint8  -> Unknown18;
     uint8  -> Unknown19;
-    int32  -> Id;
-    int32  -> Unknown21;
+    uint32 -> Id;
+    uint32 -> Unknown21;
     uint32 -> Unknown22;
 }

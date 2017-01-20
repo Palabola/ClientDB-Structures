@@ -1,8 +1,8 @@
 // FileOptions: None
 type QuestPOIBlob
 {
-    int32  -> Id;
-    int16  -> Unknown1;
+    uint32 -> Id;
+    uint16 -> Unknown1;
     uint16 -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;

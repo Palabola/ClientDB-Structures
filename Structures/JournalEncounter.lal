@@ -8,7 +8,7 @@ type JournalEncounter
     uint16 -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
-    int8   -> Unknown7;
+    uint8  -> Unknown7;
     uint8  -> Unknown8;
-    int32  -> Unknown9;
+    uint32 -> Unknown9;
 }

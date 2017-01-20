@@ -14,5 +14,5 @@ type Weather
     uint8  -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
-    int32  -> Unknown13;
+    uint32 -> Unknown13;
 }

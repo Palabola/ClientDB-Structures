@@ -1,21 +1,21 @@
 // FileOptions: None
 type GarrFollower
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
+    uint32 -> Unknown0;
+    uint32 -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5;
     uint32 -> Unknown6;
     uint32 -> Unknown7;
-    uint16 -> Unknown8;
+    string -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10;
     uint16 -> Unknown11;
     uint16 -> Unknown12;
     uint16 -> Unknown13;
-    uint8  -> Unknown14;
+    uint16 -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
@@ -24,12 +24,13 @@ type GarrFollower
     uint8  -> Unknown20;
     uint8  -> Unknown21;
     uint8  -> Unknown22;
-    int8   -> Unknown23;
-    int8   -> Unknown24;
+    uint8  -> Unknown23;
+    uint8  -> Unknown24;
     uint8  -> Unknown25;
     uint8  -> Unknown26;
     uint8  -> Unknown27;
     uint8  -> Unknown28;
     uint8  -> Unknown29;
+    uint8  -> Unknown30;
     uint32 -> Id;
 }

@@ -4,8 +4,8 @@ type Vignette
     string -> Unknown0;
     float  -> Unknown1;
     float  -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
+    uint8  -> Unknown3;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
 }

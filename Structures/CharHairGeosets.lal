@@ -1,7 +1,7 @@
 // FileOptions: Index
 type CharHairGeosets
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     uint8  -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
@@ -9,6 +9,6 @@ type CharHairGeosets
     uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    int8   -> Unknown8;
+    uint8  -> Unknown8;
     uint32 -> Unknown9;
 }

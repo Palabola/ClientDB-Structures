@@ -5,6 +5,7 @@ type ArtifactPower
     uint8  -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
+    uint8  -> Unknown4;
     uint32 -> Id;
-    uint32 -> Unknown5;
+    uint32 -> Unknown6;
 }

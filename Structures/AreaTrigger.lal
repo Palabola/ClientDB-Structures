@@ -7,13 +7,13 @@ type AreaTrigger
     float  -> Unknown3;
     float  -> Unknown4;
     float  -> Unknown5;
-    int16  -> Unknown6;
-    int16  -> Unknown7;
-    int16  -> Unknown8;
-    int16  -> Unknown9;
-    int16  -> Unknown10;
-    int8   -> Unknown11;
-    int8   -> Unknown12;
-    int8   -> Unknown13;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
+    uint8  -> Unknown11;
+    uint8  -> Unknown12;
+    uint8  -> Unknown13;
     uint32 -> Id;
 }

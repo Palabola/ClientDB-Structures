@@ -1,7 +1,7 @@
 // FileOptions: Index
 type TextureBlendSet
 {
-    int32  -> Unknown0_, 3;
+    uint32 -> Unknown0_, 3;
     float  -> Unknown1_, 3;
     float  -> Unknown2_, 3;
     float  -> Unknown3_, 3;

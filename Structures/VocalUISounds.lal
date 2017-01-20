@@ -4,5 +4,5 @@ type VocalUISounds
     uint8  -> Unknown0;
     uint8  -> Unknown1;
     uint8  -> Unknown2;
-    int32  -> Unknown3_, 2;
+    uint32 -> Unknown3_, 2;
 }

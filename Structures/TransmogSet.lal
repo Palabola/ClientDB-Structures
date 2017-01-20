@@ -1,8 +1,14 @@
 // FileOptions: None
 type TransmogSet
 {
-    int32  -> Id;
+    string -> Unknown0;
     uint32 -> Unknown1;
-    int32  -> Unknown2;
-    uint32 -> Unknown3;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+    uint8  -> Unknown4;
+    uint32 -> Id;
+    uint32 -> Unknown6;
+    uint32 -> Unknown7;
+    uint32 -> Unknown8;
+    uint32 -> Unknown9;
 }

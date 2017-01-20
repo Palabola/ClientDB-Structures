@@ -1,9 +1,9 @@
 // FileOptions: Index
 type Creature
 {
-    int32  -> Unknown0_, 3;
-    int32  -> Unknown1;
-    int32  -> Unknown2_, 4;
+    uint32 -> Unknown0_, 3;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2_, 4;
     float  -> Unknown3_, 4;
     string -> Unknown4;
     string -> Unknown5;

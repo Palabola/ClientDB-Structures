@@ -3,7 +3,7 @@ type ResearchBranch
 {
     string -> Unknown0;
     string -> Unknown1;
-    int32  -> Unknown2;
+    uint32 -> Unknown2;
     uint16 -> Unknown3;
     uint8  -> Unknown4;
 }

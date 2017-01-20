@@ -4,8 +4,8 @@ type JournalEncounterSection
     string -> Unknown0;
     string -> Unknown1;
     uint32 -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
     uint16 -> Unknown7;
@@ -14,5 +14,5 @@ type JournalEncounterSection
     uint16 -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
-    int8   -> Unknown13;
+    uint8  -> Unknown13;
 }

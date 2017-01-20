@@ -2,16 +2,16 @@
 type AdventureMapPOI
 {
     float  -> Unknown0_, 2;
-    int32  -> Unknown1;
+    uint32 -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    int8   -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
+    uint8  -> Unknown4;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
+    uint32 -> Unknown7;
+    uint32 -> Unknown8;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
+    uint32 -> Unknown11;
+    uint32 -> Unknown12;
 }

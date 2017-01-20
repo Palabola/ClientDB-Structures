@@ -1,5 +1,5 @@
 // FileOptions: Index
 type HelmetGeosetVisData
 {
-    int32  -> Unknown0_, 9;
+    uint32 -> Unknown0_, 9;
 }

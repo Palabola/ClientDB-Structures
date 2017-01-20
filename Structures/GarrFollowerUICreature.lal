@@ -1,7 +1,7 @@
 // FileOptions: Index
 type GarrFollowerUICreature
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     float  -> Unknown1;
     uint16 -> Unknown2;
     uint8  -> Unknown3;

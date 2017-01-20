@@ -1,18 +1,18 @@
 // FileOptions: Index
 type AreaPOI
 {
-    float  -> Unknown0_, 2;
-    string -> Unknown1;
+    uint32 -> Unknown0;
+    float  -> Unknown1_, 2;
     string -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    int16  -> Unknown5;
+    string -> Unknown3;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5;
     uint16 -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
-    int32  -> Unknown9;
+    uint16 -> Unknown9;
     uint16 -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
-    int32  -> Unknown13;
+    uint32 -> Unknown13;
 }

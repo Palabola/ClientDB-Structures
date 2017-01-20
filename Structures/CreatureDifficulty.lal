@@ -1,10 +1,10 @@
 // FileOptions: Index
 type CreatureDifficulty
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1_, 7;
+    uint32 -> Unknown0;
+    uint32 -> Unknown1_, 7;
     uint16 -> Unknown2;
-    int8   -> Unknown3;
-    int8   -> Unknown4;
-    int8   -> Unknown5;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
 }

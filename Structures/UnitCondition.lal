@@ -1,8 +1,8 @@
 // FileOptions: Index
 type UnitCondition
 {
-    int32  -> Unknown0_, 8;
+    uint32 -> Unknown0_, 8;
     uint8  -> Unknown1;
     uint8  -> Unknown2_, 8;
-    int8   -> Unknown3_, 8;
+    uint8  -> Unknown3_, 8;
 }

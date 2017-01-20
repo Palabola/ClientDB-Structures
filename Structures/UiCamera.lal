@@ -5,9 +5,9 @@ type UiCamera
     float  -> Unknown1_, 3;
     float  -> Unknown2_, 3;
     float  -> Unknown3_, 3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
     uint8  -> Unknown5;
-    int8   -> Unknown6;
+    uint8  -> Unknown6;
     uint8  -> Unknown7;
     uint32 -> Unknown8;
 }

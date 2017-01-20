@@ -5,8 +5,8 @@ type GarrClassSpec
     string -> Unknown1;
     string -> Unknown2;
     uint16 -> Unknown3;
-    uint8  -> Unknown4;
+    uint16 -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
-    int32  -> Id;
+    uint32 -> Id;
 }

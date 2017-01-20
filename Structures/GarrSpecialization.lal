@@ -1,7 +1,7 @@
 // FileOptions: Index
 type GarrSpecialization
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     float  -> Unknown1_, 2;
     string -> Unknown2;
     string -> Unknown3;

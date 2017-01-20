@@ -2,10 +2,10 @@
 type UnitBlood
 {
     string -> Unknown0_, 5;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
+    uint32 -> Unknown1;
+    uint32 -> Unknown2;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
 }

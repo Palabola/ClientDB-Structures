@@ -1,7 +1,7 @@
 // FileOptions: Index
 type UiTextureAtlas
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     uint16 -> Unknown1;
     uint16 -> Unknown2;
 }

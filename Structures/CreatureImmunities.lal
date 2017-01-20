@@ -1,13 +1,13 @@
 // FileOptions: Index
 type CreatureImmunities
 {
-    int32  -> Unknown0_, 2;
+    uint32 -> Unknown0_, 2;
     uint8  -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
     uint8  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7_, 8;
-    int32  -> Unknown8_, 16;
+    uint32 -> Unknown6;
+    uint32 -> Unknown7_, 8;
+    uint32 -> Unknown8_, 16;
 }

@@ -1,7 +1,7 @@
 // FileOptions: Index
 type Lock
 {
-    int32  -> Unknown0_, 8;
+    uint32 -> Unknown0_, 8;
     uint16 -> Unknown1_, 8;
     uint8  -> Unknown2_, 8;
     uint8  -> Unknown3_, 8;

@@ -1,25 +1,14 @@
-// FileOptions: Index
+// FileOptions: None
 type CreatureDisplayInfo
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
+    uint32 -> Id;
+    uint32 -> Unknown1;
     float  -> Unknown2;
-    int32  -> Unknown3_, 3;
+    uint32 -> Unknown3_, 3;
     string -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    float  -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    uint16 -> Unknown13;
-    uint16 -> Unknown14;
-    uint8  -> Unknown15;
-    int8   -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18;
-    int8   -> Unknown19;
-    int8   -> Unknown20;
+    uint16 -> Unknown5;
+    uint16 -> Unknown6;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8;
+    uint8  -> Unknown9;
 }

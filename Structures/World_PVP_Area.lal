@@ -5,7 +5,7 @@ type World_PVP_Area
     uint16 -> Unknown1;
     uint16 -> Unknown2;
     uint16 -> Unknown3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
 }

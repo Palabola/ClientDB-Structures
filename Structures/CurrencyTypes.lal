@@ -10,5 +10,5 @@ type CurrencyTypes
     uint8  -> Unknown6;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
-    int32  -> Unknown9;
+    uint32 -> Unknown9;
 }

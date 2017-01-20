@@ -1,5 +1,0 @@
-// FileOptions: Index
-type SpellIcon
-{
-    string -> Unknown0;
-}

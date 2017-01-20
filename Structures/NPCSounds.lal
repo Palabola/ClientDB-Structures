@@ -1,5 +1,5 @@
 // FileOptions: Index
 type NPCSounds
 {
-    int32  -> Unknown0_, 4;
+    uint32 -> Unknown0_, 4;
 }

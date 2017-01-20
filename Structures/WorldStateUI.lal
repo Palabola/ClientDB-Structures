@@ -7,12 +7,12 @@ type WorldStateUI
     string -> Unknown3;
     string -> Unknown4;
     string -> Unknown5;
-    int16  -> Unknown6;
+    uint16 -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
-    uint16 -> Unknown10_, 3;
-    uint8  -> Unknown11;
+    uint16 -> Unknown10;
+    uint16 -> Unknown11_, 3;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;

@@ -1,12 +1,12 @@
 // FileOptions: None
 type MountCapability
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
+    uint32 -> Unknown0;
+    uint32 -> Unknown1;
     uint16 -> Unknown2;
     uint16 -> Unknown3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
     uint8  -> Unknown5;
     uint32 -> Id;
-    int32  -> Unknown7;
+    uint32 -> Unknown7;
 }

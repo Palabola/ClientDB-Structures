@@ -1,7 +1,7 @@
 // FileOptions: Index
 type TransportAnimation
 {
-    int32  -> Unknown0;
+    uint32 -> Unknown0;
     uint32 -> Unknown1;
     float  -> Unknown2_, 3;
     uint8  -> Unknown3;
