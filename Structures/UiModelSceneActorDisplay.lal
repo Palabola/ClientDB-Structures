@@ -3,6 +3,7 @@ type UiModelSceneActorDisplay
 {
     float  -> Unknown0;
     float  -> Unknown1;
-    uint32 -> Unknown2;
+    float  -> Unknown2;
     uint32 -> Unknown3;
+    uint32 -> Unknown4;
 }

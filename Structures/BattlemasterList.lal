@@ -4,11 +4,11 @@ type BattlemasterList
     string -> Unknown0;
     uint32 -> Unknown1;
     string -> Unknown2;
-    uint16 -> Unknown3_, 16;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
+    string -> Unknown3;
+    string -> Unknown4;
+    uint16 -> Unknown5_, 16;
+    uint16 -> Unknown6;
+    uint16 -> Unknown7;
     uint8  -> Unknown8;
     uint8  -> Unknown9;
     uint8  -> Unknown10;
@@ -16,4 +16,6 @@ type BattlemasterList
     uint8  -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    uint8  -> Unknown16;
 }

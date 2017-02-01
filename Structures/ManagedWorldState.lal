@@ -10,4 +10,6 @@ type ManagedWorldState
     uint32 -> Unknown6;
     uint32 -> Unknown7;
     uint32 -> Unknown8;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
 }

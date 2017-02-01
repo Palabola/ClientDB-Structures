@@ -8,10 +8,10 @@ type Faction
     string -> Unknown4;
     string -> Unknown5;
     uint32 -> Unknown6_, 4;
-    uint32 -> Unknown7;
-    uint16 -> Unknown8;
+    uint16 -> Unknown7;
+    uint16 -> Unknown8_, 4;
     uint16 -> Unknown9_, 4;
-    uint16 -> Unknown10_, 4;
+    uint16 -> Unknown10;
     uint16 -> Unknown11;
     uint8  -> Unknown12_, 2;
     uint8  -> Unknown13;
