@@ -1,7 +1,7 @@
 // FileOptions: Index
 type ChrRaces
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
@@ -9,28 +9,28 @@ type ChrRaces
     string -> Unknown5;
     string -> Unknown6_, 2;
     string -> Unknown7;
-    uint32 -> Unknown8;
-    uint32 -> Unknown9;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
     float  -> Unknown10_, 3;
     float  -> Unknown11_, 3;
-    uint32 -> Unknown12;
-    uint16 -> Unknown13;
+    int32  -> Unknown12;
+    int16  -> Unknown13;
     uint16 -> Unknown14;
     uint16 -> Unknown15;
-    uint16 -> Unknown16;
-    uint16 -> Unknown17;
-    uint16 -> Unknown18;
-    uint8  -> Unknown19;
-    uint8  -> Unknown20;
-    uint8  -> Unknown21;
-    uint8  -> Unknown22;
-    uint8  -> Unknown23;
-    uint8  -> Unknown24;
-    uint8  -> Unknown25;
-    uint8  -> Unknown26;
-    uint8  -> Unknown27;
-    uint8  -> Unknown28;
-    uint32 -> Unknown29;
-    uint32 -> Unknown30;
-    uint32 -> Unknown31_, 3;
+    int16  -> Unknown16;
+    int16  -> Unknown17;
+    int16  -> Unknown18;
+    int8   -> Unknown19;
+    int8   -> Unknown20;
+    int8   -> Unknown21;
+    int8   -> Unknown22;
+    int8   -> Unknown23;
+    int8   -> Unknown24;
+    int8   -> Unknown25;
+    int8   -> Unknown26;
+    int8   -> Unknown27;
+    int8   -> Unknown28;
+    int32  -> Unknown29;
+    int32  -> Unknown30;
+    int32  -> Unknown31_, 3;
 }

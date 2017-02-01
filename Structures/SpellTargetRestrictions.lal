@@ -1,12 +1,12 @@
 // FileOptions: Index
 type SpellTargetRestrictions
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     float  -> Unknown1;
     float  -> Unknown2;
-    uint32 -> Unknown3;
-    uint16 -> Unknown4;
+    int32  -> Unknown3;
+    int16  -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
-    uint32 -> Unknown7;
+    int32  -> Unknown7;
 }

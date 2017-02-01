@@ -1,8 +1,8 @@
 // FileOptions: Index
 type GarrFollSupportSpell
 {
-    uint32 -> Unknown0;
-    uint32 -> Unknown1;
+    int32  -> Unknown0;
+    int32  -> Unknown1;
     uint8  -> Unknown2;
-    uint32 -> Unknown3;
+    int32  -> Unknown3;
 }

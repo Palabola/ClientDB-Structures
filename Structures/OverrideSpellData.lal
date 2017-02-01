@@ -1,7 +1,7 @@
 // FileOptions: Index
 type OverrideSpellData
 {
-    uint32 -> Unknown0_, 10;
-    uint32 -> Unknown1;
+    int32  -> Unknown0_, 10;
+    int32  -> Unknown1;
     uint8  -> Unknown2;
 }

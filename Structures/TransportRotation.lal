@@ -1,7 +1,7 @@
 // FileOptions: Index
 type TransportRotation
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     uint32 -> Unknown1;
     float  -> Unknown2_, 4;
 }

@@ -8,6 +8,6 @@ type BroadcastText
     uint16 -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
-    uint32 -> Unknown7_, 2;
+    int32  -> Unknown7_, 2;
     uint32 -> Unknown8;
 }

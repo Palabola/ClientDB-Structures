@@ -3,6 +3,6 @@ type SpellEffectEmission
 {
     float  -> Unknown0;
     float  -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    int16  -> Unknown2;
+    int8   -> Unknown3;
 }

@@ -1,27 +1,27 @@
 // FileOptions: Index
 type AreaTable
 {
-    uint32 -> Unknown0_, 2;
+    int32  -> Unknown0_, 2;
     string -> Unknown1;
     float  -> Unknown2;
     string -> Unknown3;
     uint16 -> Unknown4;
     uint16 -> Unknown5;
-    uint16 -> Unknown6;
+    int16  -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10_, 4;
     uint16 -> Unknown11;
     uint16 -> Unknown12;
-    uint16 -> Unknown13;
+    int16  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
-    uint8  -> Unknown16;
+    int8   -> Unknown16;
     uint8  -> Unknown17;
     uint8  -> Unknown18;
     uint8  -> Unknown19;
     uint8  -> Unknown20;
     uint8  -> Unknown21;
-    uint32 -> Unknown22;
+    int32  -> Unknown22;
 }

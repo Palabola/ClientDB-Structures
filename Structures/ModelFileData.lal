@@ -3,5 +3,5 @@ type ModelFileData
 {
     uint8  -> Unknown0;
     uint32 -> Id;
-    uint32 -> Unknown2;
+    int32  -> Unknown2;
 }

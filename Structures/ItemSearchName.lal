@@ -2,8 +2,8 @@
 type ItemSearchName
 {
     string -> Unknown0;
-    uint32 -> Unknown1_, 3;
-    uint32 -> Unknown2;
+    int32  -> Unknown1_, 3;
+    int32  -> Unknown2;
     uint32 -> Unknown3;
     uint16 -> Unknown4;
     uint16 -> Unknown5;
@@ -12,6 +12,6 @@ type ItemSearchName
     uint8  -> Unknown8;
     uint8  -> Unknown9;
     uint8  -> Unknown10;
-    uint8  -> Unknown11;
+    int8   -> Unknown11;
     uint32 -> Unknown12;
 }

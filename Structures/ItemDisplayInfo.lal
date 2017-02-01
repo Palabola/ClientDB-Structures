@@ -1,19 +1,19 @@
 // FileOptions: Index
 type ItemDisplayInfo
 {
-    uint32 -> Unknown0_, 2;
+    int32  -> Unknown0_, 2;
     uint32 -> Unknown1_, 2;
     uint32 -> Unknown2_, 3;
     uint32 -> Unknown3_, 3;
     uint32 -> Unknown4;
-    uint32 -> Unknown5;
+    int32  -> Unknown5;
     uint32 -> Unknown6_, 2;
     uint32 -> Unknown7;
     uint32 -> Unknown8;
-    uint32 -> Unknown9;
+    int32  -> Unknown9;
     uint32 -> Unknown10;
     uint32 -> Unknown11;
     uint32 -> Unknown12;
     uint32 -> Unknown13;
-    uint32 -> Unknown14;
+    int32  -> Unknown14;
 }

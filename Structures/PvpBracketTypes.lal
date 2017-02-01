@@ -1,6 +1,6 @@
 // FileOptions: Index
 type PvpBracketTypes
 {
-    uint8  -> Unknown0;
-    uint32 -> Unknown1_, 4;
+    int8   -> Unknown0;
+    int32  -> Unknown1_, 4;
 }

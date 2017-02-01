@@ -15,6 +15,6 @@ type UnitPowerBar
     uint16 -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
-    uint32 -> Unknown14;
-    uint32 -> Unknown15;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
 }

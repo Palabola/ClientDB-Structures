@@ -1,7 +1,7 @@
 // FileOptions: Index
 type SpellFlyout
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
     uint8  -> Unknown3;

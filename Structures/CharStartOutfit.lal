@@ -1,7 +1,7 @@
 // FileOptions: Index
 type CharStartOutfit
 {
-    uint32 -> Unknown0_, 24;
+    int32  -> Unknown0_, 24;
     uint32 -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;

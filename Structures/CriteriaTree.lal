@@ -1,11 +1,11 @@
 // FileOptions: Index
 type CriteriaTree
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     string -> Unknown1;
     uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint32 -> Unknown5;
+    int16  -> Unknown3;
+    int8   -> Unknown4;
+    int32  -> Unknown5;
     uint32 -> Unknown6;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index
 type CharComponentTextureLayouts
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
+    int16  -> Unknown0;
+    int16  -> Unknown1;
 }

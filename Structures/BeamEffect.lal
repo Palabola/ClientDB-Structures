@@ -1,14 +1,14 @@
 // FileOptions: Index
 type BeamEffect
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     float  -> Unknown1;
     float  -> Unknown2;
-    uint32 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
+    int32  -> Unknown3;
+    int16  -> Unknown4;
+    int16  -> Unknown5;
+    int16  -> Unknown6;
+    int16  -> Unknown7;
+    int16  -> Unknown8;
+    int16  -> Unknown9;
 }

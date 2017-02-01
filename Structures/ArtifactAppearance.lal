@@ -2,7 +2,7 @@
 type ArtifactAppearance
 {
     string -> Unknown0;
-    uint32 -> Unknown1;
+    int32  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;
     uint32 -> Unknown4;
@@ -14,6 +14,6 @@ type ArtifactAppearance
     uint8  -> Unknown10;
     uint8  -> Unknown11;
     uint32 -> Id;
-    uint32 -> Unknown13;
-    uint32 -> Unknown14;
+    int32  -> Unknown13;
+    int32  -> Unknown14;
 }

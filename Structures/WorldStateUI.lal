@@ -7,7 +7,7 @@ type WorldStateUI
     string -> Unknown3;
     string -> Unknown4;
     string -> Unknown5;
-    uint16 -> Unknown6;
+    int16  -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;

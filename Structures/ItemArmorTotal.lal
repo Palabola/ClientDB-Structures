@@ -5,5 +5,5 @@ type ItemArmorTotal
     float  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;
-    uint16 -> Unknown4;
+    int16  -> Unknown4;
 }

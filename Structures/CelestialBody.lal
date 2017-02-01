@@ -1,12 +1,12 @@
 // FileOptions: None
 type CelestialBody
 {
-    uint32 -> Unknown0;
-    uint32 -> Unknown1;
-    uint32 -> Unknown2_, 2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
-    uint32 -> Unknown5_, 2;
+    int32  -> Unknown0;
+    int32  -> Unknown1;
+    int32  -> Unknown2_, 2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Unknown5_, 2;
     float  -> Unknown6_, 2;
     float  -> Unknown7_, 2;
     float  -> Unknown8;
@@ -14,6 +14,6 @@ type CelestialBody
     float  -> Unknown10;
     float  -> Unknown11_, 3;
     float  -> Unknown12;
-    uint16 -> Unknown13;
+    int16  -> Unknown13;
     uint32 -> Id;
 }

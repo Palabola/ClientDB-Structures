@@ -4,8 +4,8 @@ type AdventureJournal
     string -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
     string -> Unknown5;
     string -> Unknown6;
     uint16 -> Unknown7;

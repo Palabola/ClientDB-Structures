@@ -37,7 +37,7 @@ type FullScreenEffect
     float  -> Unknown33;
     float  -> Unknown34;
     uint8  -> Unknown35;
-    uint32 -> Unknown36;
-    uint32 -> Unknown37;
-    uint32 -> Unknown38;
+    int32  -> Unknown36;
+    int32  -> Unknown37;
+    int32  -> Unknown38;
 }

@@ -3,13 +3,13 @@ type PositionerStateEntry
 {
     float  -> Unknown0;
     float  -> Unknown1;
-    uint32 -> Unknown2;
-    uint16 -> Unknown3;
-    uint32 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint32 -> Unknown10;
+    int32  -> Unknown2;
+    int16  -> Unknown3;
+    int32  -> Unknown4;
+    int16  -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
+    int8   -> Unknown9;
+    int32  -> Unknown10;
 }

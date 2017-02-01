@@ -6,7 +6,7 @@ type SpellItemEnchantment
     float  -> Unknown2_, 3;
     uint32 -> Unknown3;
     uint32 -> Unknown4;
-    uint16 -> Unknown5_, 3;
+    int16  -> Unknown5_, 3;
     uint16 -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
@@ -17,7 +17,7 @@ type SpellItemEnchantment
     uint8  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint32 -> Unknown18;
+    int8   -> Unknown16;
+    int8   -> Unknown17;
+    int32  -> Unknown18;
 }

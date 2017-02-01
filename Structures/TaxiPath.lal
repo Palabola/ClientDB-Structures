@@ -4,5 +4,5 @@ type TaxiPath
     uint16 -> Unknown0;
     uint16 -> Unknown1;
     uint32 -> Id;
-    uint32 -> Unknown3;
+    int32  -> Unknown3;
 }

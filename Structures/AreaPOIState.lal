@@ -5,5 +5,5 @@ type AreaPOIState
     uint16 -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown4;
 }

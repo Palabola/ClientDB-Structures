@@ -1,7 +1,7 @@
 // FileOptions: None
 type SoundBusOverride
 {
-    uint32 -> Id;
+    int32  -> Id;
     float  -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;

@@ -1,5 +1,5 @@
 // FileOptions: Index
 type AreaTriggerActionSet
 {
-    uint16 -> Unknown0;
+    int16  -> Unknown0;
 }

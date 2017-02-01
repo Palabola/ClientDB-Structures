@@ -1,10 +1,10 @@
 // FileOptions: None
 type ItemModifiedAppearance
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     uint16 -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    int8   -> Unknown4;
     uint32 -> Id;
 }

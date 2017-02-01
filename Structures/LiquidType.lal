@@ -9,7 +9,7 @@ type LiquidType
     float  -> Unknown5;
     float  -> Unknown6;
     string -> Unknown7_, 6;
-    uint32 -> Unknown8_, 2;
+    int32  -> Unknown8_, 2;
     float  -> Unknown9_, 18;
     uint32 -> Unknown10_, 4;
     uint16 -> Unknown11;
@@ -19,5 +19,5 @@ type LiquidType
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17_, 6;
-    uint32 -> Unknown18;
+    int32  -> Unknown18;
 }

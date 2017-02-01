@@ -3,10 +3,10 @@ type PositionerState
 {
     float  -> Unknown0;
     uint8  -> Unknown1;
-    uint32 -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
-    uint32 -> Unknown5;
-    uint32 -> Unknown6;
-    uint32 -> Unknown7;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Unknown5;
+    int32  -> Unknown6;
+    int32  -> Unknown7;
 }

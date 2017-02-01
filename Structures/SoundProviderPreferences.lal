@@ -18,10 +18,10 @@ type SoundProviderPreferences
     float  -> Unknown14;
     float  -> Unknown15;
     uint16 -> Unknown16;
-    uint16 -> Unknown17;
-    uint16 -> Unknown18;
-    uint16 -> Unknown19;
-    uint16 -> Unknown20;
-    uint8  -> Unknown21;
-    uint8  -> Unknown22;
+    int16  -> Unknown17;
+    int16  -> Unknown18;
+    int16  -> Unknown19;
+    int16  -> Unknown20;
+    int8   -> Unknown21;
+    int8   -> Unknown22;
 }

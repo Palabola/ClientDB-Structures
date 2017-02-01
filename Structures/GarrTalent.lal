@@ -1,24 +1,24 @@
 // FileOptions: None
 type GarrTalent
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
-    uint32 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    int32  -> Unknown3;
+    int8   -> Unknown4;
+    int8   -> Unknown5;
+    int8   -> Unknown6;
     uint32 -> Id;
-    uint32 -> Unknown8;
-    uint32 -> Unknown9;
-    uint32 -> Unknown10;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
     uint32 -> Unknown11;
-    uint32 -> Unknown12;
+    int32  -> Unknown12;
     uint32 -> Unknown13;
-    uint32 -> Unknown14;
-    uint32 -> Unknown15;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
     uint32 -> Unknown16;
-    uint32 -> Unknown17;
+    int32  -> Unknown17;
     uint32 -> Unknown18;
     uint32 -> Unknown19;
 }

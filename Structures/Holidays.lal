@@ -1,7 +1,7 @@
 // FileOptions: None
 type Holidays
 {
-    uint32 -> Id;
+    int32  -> Id;
     uint32 -> Unknown1_, 16;
     string -> Unknown2;
     uint16 -> Unknown3_, 10;
@@ -9,8 +9,8 @@ type Holidays
     uint8  -> Unknown5;
     uint8  -> Unknown6_, 10;
     uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    int8   -> Unknown8;
     uint8  -> Unknown9;
-    uint32 -> Unknown10;
-    uint32 -> Unknown11;
+    int32  -> Unknown10;
+    int32  -> Unknown11;
 }

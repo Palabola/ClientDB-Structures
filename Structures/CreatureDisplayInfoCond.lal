@@ -1,19 +1,19 @@
 // FileOptions: Index
 type CreatureDisplayInfoCond
 {
-    uint32 -> Unknown0;
-    uint32 -> Unknown1_, 2;
-    uint32 -> Unknown2_, 2;
-    uint32 -> Unknown3_, 2;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint32 -> Unknown6;
-    uint32 -> Unknown7;
-    uint32 -> Unknown8;
-    uint32 -> Unknown9;
-    uint32 -> Unknown10;
-    uint32 -> Unknown11;
-    uint32 -> Unknown12;
+    int32  -> Unknown0;
+    int32  -> Unknown1_, 2;
+    int32  -> Unknown2_, 2;
+    int32  -> Unknown3_, 2;
+    int8   -> Unknown4;
+    int8   -> Unknown5;
+    int32  -> Unknown6;
+    int32  -> Unknown7;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
+    int32  -> Unknown11;
+    int32  -> Unknown12;
     uint32 -> Unknown13;
     uint32 -> Unknown14_, 3;
 }

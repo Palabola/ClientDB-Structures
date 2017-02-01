@@ -8,7 +8,7 @@ type InvasionClientData
     uint32 -> Unknown4;
     uint32 -> Unknown5;
     uint32 -> Unknown6;
-    uint32 -> Unknown7;
+    int32  -> Unknown7;
     uint32 -> Unknown8;
     uint32 -> Unknown9;
 }

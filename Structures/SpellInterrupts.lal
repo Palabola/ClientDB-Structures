@@ -1,9 +1,9 @@
 // FileOptions: Index
 type SpellInterrupts
 {
-    uint32 -> Unknown0;
-    uint32 -> Unknown1_, 2;
-    uint32 -> Unknown2_, 2;
-    uint16 -> Unknown3;
+    int32  -> Unknown0;
+    int32  -> Unknown1_, 2;
+    int32  -> Unknown2_, 2;
+    int16  -> Unknown3;
     uint8  -> Unknown4;
 }

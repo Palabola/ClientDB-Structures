@@ -5,6 +5,6 @@ type BattlePetAbilityTurn
     uint16 -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    int8   -> Unknown4;
     uint32 -> Id;
 }

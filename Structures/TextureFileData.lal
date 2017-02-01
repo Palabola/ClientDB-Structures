@@ -1,7 +1,7 @@
 // FileOptions: None
 type TextureFileData
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     uint8  -> Unknown1;
     uint32 -> Id;
 }

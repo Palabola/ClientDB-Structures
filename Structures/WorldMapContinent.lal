@@ -5,7 +5,7 @@ type WorldMapContinent
     float  -> Unknown1;
     float  -> Unknown2_, 2;
     float  -> Unknown3_, 2;
-    uint16 -> Unknown4;
+    int16  -> Unknown4;
     uint16 -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;

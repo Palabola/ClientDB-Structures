@@ -4,10 +4,10 @@ type CreatureFamily
     float  -> Unknown0;
     float  -> Unknown1;
     string -> Unknown2;
-    uint32 -> Unknown3;
-    uint16 -> Unknown4_, 2;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    int32  -> Unknown3;
+    int16  -> Unknown4_, 2;
+    int16  -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
 }

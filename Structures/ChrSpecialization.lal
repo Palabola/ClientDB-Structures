@@ -1,17 +1,17 @@
 // FileOptions: None
 type ChrSpecialization
 {
-    uint32 -> Unknown0_, 2;
+    int32  -> Unknown0_, 2;
     string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    int8   -> Unknown4;
+    int8   -> Unknown5;
+    int8   -> Unknown6;
+    int8   -> Unknown7;
+    int8   -> Unknown8;
     uint32 -> Id;
     uint32 -> Unknown10;
-    uint32 -> Unknown11;
+    int32  -> Unknown11;
     uint32 -> Unknown12;
 }

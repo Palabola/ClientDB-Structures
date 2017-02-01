@@ -1,7 +1,7 @@
 // FileOptions: None
 type SpellVisualMissile
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     uint32 -> Unknown1;
     uint32 -> Unknown2;
     float  -> Unknown3_, 3;
@@ -12,9 +12,9 @@ type SpellVisualMissile
     uint16 -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
+    int8   -> Unknown11;
+    int8   -> Unknown12;
     uint32 -> Id;
-    uint32 -> Unknown14;
-    uint32 -> Unknown15;
+    int32  -> Unknown14;
+    int32  -> Unknown15;
 }

@@ -1,13 +1,13 @@
 // FileOptions: Index
 type GarrBuilding
 {
-    uint32 -> Unknown0;
-    uint32 -> Unknown1;
+    int32  -> Unknown0;
+    int32  -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
     string -> Unknown4;
     string -> Unknown5;
-    uint32 -> Unknown6;
+    int32  -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;

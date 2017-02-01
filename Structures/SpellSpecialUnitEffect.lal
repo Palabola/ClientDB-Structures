@@ -2,5 +2,5 @@
 type SpellSpecialUnitEffect
 {
     uint16 -> Unknown0;
-    uint32 -> Unknown1;
+    int32  -> Unknown1;
 }

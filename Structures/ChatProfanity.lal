@@ -2,5 +2,5 @@
 type ChatProfanity
 {
     string -> Unknown0;
-    uint8  -> Unknown1;
+    int8   -> Unknown1;
 }

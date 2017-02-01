@@ -1,7 +1,7 @@
 // FileOptions: None
 type WMOAreaTable
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     string -> Unknown1;
     uint16 -> Unknown2;
     uint16 -> Unknown3;
@@ -15,5 +15,5 @@ type WMOAreaTable
     uint8  -> Unknown11;
     uint8  -> Unknown12;
     uint32 -> Id;
-    uint32 -> Unknown14;
+    int32  -> Unknown14;
 }

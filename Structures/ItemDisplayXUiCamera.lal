@@ -1,6 +1,6 @@
 // FileOptions: Index
 type ItemDisplayXUiCamera
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
     uint16 -> Unknown1;
 }

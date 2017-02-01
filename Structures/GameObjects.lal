@@ -4,7 +4,7 @@ type GameObjects
     float  -> Unknown0_, 3;
     float  -> Unknown1_, 4;
     float  -> Unknown2;
-    uint32 -> Unknown3_, 8;
+    int32  -> Unknown3_, 8;
     string -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
