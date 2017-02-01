@@ -1,0 +1,7 @@
+// FileOptions: Index
+type MapCelestialBody
+{
+    uint16 -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2;
+}

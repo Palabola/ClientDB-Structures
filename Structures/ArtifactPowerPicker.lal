@@ -1,0 +1,5 @@
+// FileOptions: Index
+type ArtifactPowerPicker
+{
+    uint32 -> Unknown0;
+}
