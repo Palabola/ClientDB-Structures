@@ -8,16 +8,18 @@ type Map
     string -> Unknown4;
     string -> Unknown5;
     string -> Unknown6;
-    uint16 -> Unknown7;
-    int16  -> Unknown8;
-    int16  -> Unknown9;
+    string -> Unknown7;
+    string -> Unknown8;
+    uint16 -> Unknown9;
     int16  -> Unknown10;
     int16  -> Unknown11;
     int16  -> Unknown12;
     int16  -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
+    int16  -> Unknown14;
+    int16  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
     uint8  -> Unknown18;
+    uint8  -> Unknown19;
+    uint8  -> Unknown20;
 }

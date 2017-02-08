@@ -1,17 +1,18 @@
-// FileOptions: Index
+// FileOptions: None
 type WorldMapOverlay
 {
-    string -> Unknown0;
-    uint16 -> Unknown1;
+    int32  -> Id;
+    string -> Unknown1;
     uint16 -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4_, 4;
-    uint32 -> Unknown5;
+    uint16 -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Unknown5_, 4;
     uint32 -> Unknown6;
     uint32 -> Unknown7;
     uint32 -> Unknown8;
     uint32 -> Unknown9;
     uint32 -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
+    uint32 -> Unknown11;
+    uint32 -> Unknown12;
+    uint32 -> Unknown13;
 }
