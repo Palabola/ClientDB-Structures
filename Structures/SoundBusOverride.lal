@@ -7,5 +7,5 @@ type SoundBusOverride
     uint8  -> Unknown3;
     uint8  -> Unknown4;
     uint32 -> Unknown5;
-    uint32 -> Unknown6;
+    int32  -> Unknown6;
 }

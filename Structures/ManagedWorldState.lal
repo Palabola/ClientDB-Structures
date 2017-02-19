@@ -1,15 +1,14 @@
 // FileOptions: None
 type ManagedWorldState
 {
-    int32  -> Id;
+    int32  -> Unknown0;
     int32  -> Unknown1;
-    int32  -> Unknown2;
+    uint32 -> Unknown2;
     uint32 -> Unknown3;
-    uint32 -> Unknown4;
-    uint32 -> Unknown5;
-    uint32 -> Unknown6;
-    uint32 -> Unknown7;
+    int32  -> Unknown4;
+    int32  -> Unknown5;
+    int32  -> Unknown6;
+    int32  -> Unknown7;
     int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
+    uint32 -> Id;
 }

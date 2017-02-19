@@ -11,8 +11,8 @@ type AreaPOI
     int16  -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
-    uint16 -> Unknown10;
+    uint8  -> Unknown10;
     uint8  -> Unknown11;
-    uint8  -> Unknown12;
+    int32  -> Unknown12;
     int32  -> Unknown13;
 }

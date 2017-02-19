@@ -4,11 +4,11 @@ type TransmogSet
     string -> Unknown0;
     uint16 -> Unknown1;
     int16  -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
+    uint8  -> Unknown3;
     int32  -> Id;
-    uint32 -> Unknown6;
-    int32  -> Unknown7;
+    uint32 -> Unknown5;
+    int32  -> Unknown6;
+    uint32 -> Unknown7;
     uint32 -> Unknown8;
-    uint32 -> Unknown9;
+    int32  -> Unknown9;
 }

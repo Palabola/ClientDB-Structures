@@ -3,6 +3,7 @@ type Cfg_Regions
 {
     string -> Unknown0;
     uint32 -> Unknown1;
-    uint8  -> Unknown2;
+    uint32 -> Unknown2;
     uint8  -> Unknown3;
+    uint8  -> Unknown4;
 }

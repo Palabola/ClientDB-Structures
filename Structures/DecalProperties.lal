@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: None
 type DecalProperties
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
+    int32  -> Id;
+    int32  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;
     float  -> Unknown4;
@@ -10,9 +10,12 @@ type DecalProperties
     float  -> Unknown6;
     float  -> Unknown7;
     float  -> Unknown8;
-    uint8  -> Unknown9;
+    float  -> Unknown9;
     uint8  -> Unknown10;
-    uint32 -> Unknown11;
+    uint8  -> Unknown11;
     uint32 -> Unknown12;
     uint32 -> Unknown13;
+    uint32 -> Unknown14;
+    uint32 -> Unknown15;
+    uint32 -> Unknown16;
 }

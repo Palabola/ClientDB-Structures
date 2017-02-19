@@ -11,16 +11,16 @@ type AdventureJournal
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint16 -> Unknown11_, 2;
+    uint16 -> Unknown10_, 2;
+    uint16 -> Unknown11;
     uint16 -> Unknown12;
-    uint16 -> Unknown13;
+    uint8  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
-    uint8  -> Unknown18;
-    uint8  -> Unknown19_, 2;
+    uint8  -> Unknown18_, 2;
+    uint8  -> Unknown19;
     uint8  -> Unknown20;
-    uint8  -> Unknown21;
+    int32  -> Unknown21;
 }

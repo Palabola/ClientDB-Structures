@@ -8,12 +8,12 @@ type ArtifactAppearance
     uint32 -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
-    uint16 -> Unknown7;
+    uint8  -> Unknown7;
     uint8  -> Unknown8;
     uint8  -> Unknown9;
     uint8  -> Unknown10;
-    uint8  -> Unknown11;
     uint32 -> Id;
+    int32  -> Unknown12;
     int32  -> Unknown13;
     int32  -> Unknown14;
 }

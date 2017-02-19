@@ -1,8 +1,8 @@
 // FileOptions: Index
 type CinematicCamera
 {
-    string -> Unknown0;
-    uint32 -> Unknown1;
-    float  -> Unknown2_, 3;
-    float  -> Unknown3;
+    uint32 -> Unknown0;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2;
+    int32  -> Unknown3;
 }
