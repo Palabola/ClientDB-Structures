@@ -21,6 +21,6 @@ type AdventureJournal
     uint8  -> Unknown17;
     uint8  -> Unknown18_, 2;
     uint8  -> Unknown19;
-    uint8  -> Unknown20;
+    int32  -> Unknown20;
     int32  -> Unknown21;
 }
