@@ -24,7 +24,7 @@ type SpellEffect
     float  -> Unknown20;
     uint32 -> Unknown21;
     float  -> Unknown22;
-    int32  -> Unknown23;
+    uint32 -> Unknown23;
     float  -> Unknown24;
     float  -> Unknown25;
 }

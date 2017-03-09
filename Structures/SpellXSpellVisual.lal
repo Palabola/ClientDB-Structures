@@ -10,8 +10,8 @@ type SpellXSpellVisual
     uint16 -> Unknown6;
     uint16 -> Unknown7;
     int32  -> Unknown8;
-    int32  -> Unknown9;
+    uint32 -> Unknown9;
     uint8  -> Unknown10;
     uint8  -> Unknown11;
-    int8   -> Unknown12;
+    uint8  -> Unknown12;
 }
