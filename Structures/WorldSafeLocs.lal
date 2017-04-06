@@ -6,5 +6,5 @@ type WorldSafeLocs
     float  -> Z;
     float  -> Unknown;
     string -> Name;
-    uint32 -> Map;
+    uint16 -> Map;
 }
