@@ -4,4 +4,6 @@ type FactionGroup
     string -> Unknown0;
     string -> Unknown1;
     uint8  -> Unknown2;
+    uint32 -> Unknown3;
+    uint32 -> Unknown4;
 }
