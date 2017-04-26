@@ -1,0 +1,8 @@
+// FileOptions: None
+type CommentatorTrackedCooldown
+{
+    int32  -> Id;
+    int32  -> Unknown1;
+    uint16 -> Unknown2;
+    uint8  -> Unknown3;
+}
