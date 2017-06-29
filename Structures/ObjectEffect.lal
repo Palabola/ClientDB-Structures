@@ -1,13 +1,12 @@
 // FileOptions: Index
 type ObjectEffect
 {
-    string -> Unknown0;
-    float  -> Unknown1_, 3;
-    uint16 -> Unknown2;
+    float  -> Unknown0_, 3;
+    uint16 -> Unknown1;
+    uint8  -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    int8   -> Unknown6;
+    int8   -> Unknown5;
+    int32  -> Unknown6;
     int32  -> Unknown7;
-    int32  -> Unknown8;
 }

@@ -1,5 +1,6 @@
 // FileOptions: Index
-type ItemVisualEffects
+type VirtualAttachment
 {
     string -> Unknown0;
+    int16  -> Unknown1;
 }

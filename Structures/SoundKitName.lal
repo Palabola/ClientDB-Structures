@@ -1,0 +1,5 @@
+// FileOptions: Index
+type SoundKitName
+{
+    string -> Unknown0;
+}

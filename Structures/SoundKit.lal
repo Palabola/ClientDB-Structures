@@ -1,21 +1,20 @@
 // FileOptions: None
 type SoundKit
 {
-    string -> Unknown0;
+    int32  -> Id;
     float  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    float  -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint16 -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
+    uint16 -> Unknown4;
+    uint16 -> Unknown5;
+    uint8  -> Unknown6;
+    uint8  -> Unknown7;
+    uint8  -> Unknown8;
+    float  -> Unknown9;
+    float  -> Unknown10;
+    float  -> Unknown11;
+    float  -> Unknown12;
+    float  -> Unknown13;
+    uint16 -> Unknown14;
     uint8  -> Unknown15;
-    uint32 -> Id;
 }

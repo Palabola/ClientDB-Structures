@@ -1,17 +1,18 @@
-// FileOptions: Index
+// FileOptions: None
 type ItemSearchName
 {
-    string -> Unknown0;
-    int32  -> Unknown1_, 3;
-    int32  -> Unknown2;
-    uint32 -> Unknown3;
+    int32  -> Id;
+    string -> Unknown1;
+    int32  -> Unknown2_, 3;
+    int32  -> Unknown3;
     uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
+    int8   -> Unknown7;
+    uint32 -> Unknown8;
+    uint16 -> Unknown9;
     uint8  -> Unknown10;
-    int8   -> Unknown11;
-    uint32 -> Unknown12;
+    uint16 -> Unknown11;
+    uint16 -> Unknown12;
+    int32  -> Unknown13;
 }

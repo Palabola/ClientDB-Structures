@@ -1,6 +1,0 @@
-// FileOptions: Index
-type RacialMounts
-{
-    int32  -> Unknown0;
-    uint8  -> Unknown1;
-}

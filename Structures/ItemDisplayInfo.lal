@@ -3,8 +3,8 @@ type ItemDisplayInfo
 {
     int32  -> Unknown0_, 2;
     uint32 -> Unknown1_, 2;
-    uint32 -> Unknown2_, 3;
-    uint32 -> Unknown3_, 3;
+    uint32 -> Unknown2_, 4;
+    uint32 -> Unknown3_, 4;
     uint32 -> Unknown4;
     int32  -> Unknown5;
     uint32 -> Unknown6_, 2;

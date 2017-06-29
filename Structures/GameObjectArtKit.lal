@@ -1,6 +1,6 @@
 // FileOptions: Index
 type GameObjectArtKit
 {
-    string -> Unknown0_, 3;
-    string -> Unknown1_, 4;
+    uint32 -> Unknown0_, 3;
+    uint32 -> Unknown1;
 }

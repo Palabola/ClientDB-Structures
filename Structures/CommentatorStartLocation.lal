@@ -1,0 +1,6 @@
+// FileOptions: Index
+type CommentatorStartLocation
+{
+    float  -> Unknown0_, 3;
+    uint32 -> Unknown1;
+}

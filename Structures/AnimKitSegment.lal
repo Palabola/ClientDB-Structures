@@ -9,12 +9,14 @@ type AnimKitSegment
     uint16 -> Unknown5;
     uint16 -> Unknown6;
     uint16 -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
+    uint16 -> Unknown8;
+    uint16 -> Unknown9;
+    uint16 -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
-    int8   -> Unknown14;
-    int32  -> Unknown15;
+    uint8  -> Unknown14;
+    uint8  -> Unknown15;
+    int8   -> Unknown16;
+    int32  -> Unknown17;
 }

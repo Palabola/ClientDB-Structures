@@ -8,8 +8,11 @@ type DissolveEffect
     float  -> Unknown4;
     float  -> Unknown5;
     float  -> Unknown6;
-    int8   -> Unknown7;
+    float  -> Unknown7;
     int8   -> Unknown8;
-    uint32 -> Unknown9;
+    int8   -> Unknown9;
     uint32 -> Unknown10;
+    uint32 -> Unknown11;
+    uint32 -> Unknown12;
+    int32  -> Unknown13;
 }
