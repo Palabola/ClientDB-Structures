@@ -1,5 +1,5 @@
 // FileOptions: DataOffset, Unknown, Index
-type WmoMinimapTexture
+type WMOMinimapTexture
 {
     int32  -> Unknown0;
     int16  -> Unknown1;

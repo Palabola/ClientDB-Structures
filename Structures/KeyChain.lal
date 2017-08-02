@@ -1,5 +1,5 @@
 // FileOptions: Index
-type KeyChain
+type Keychain
 {
     uint8  -> Unknown0_, 32;
 }

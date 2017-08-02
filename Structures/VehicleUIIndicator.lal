@@ -1,5 +1,5 @@
 // FileOptions: Index
 type VehicleUIIndicator
 {
-    string -> Unknown0;
+    uint32 -> Unknown0;
 }

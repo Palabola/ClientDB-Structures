@@ -1,5 +1,0 @@
-// FileOptions: Index
-type StringLookups
-{
-    string -> Unknown0;
-}

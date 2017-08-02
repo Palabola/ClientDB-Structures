@@ -20,7 +20,7 @@ type SpellVisualKitModelAttach
     uint16 -> Unknown16;
     uint16 -> Unknown17;
     uint16 -> Unknown18;
-    uint16 -> Unknown19;
+    int16  -> Unknown19;
     uint32 -> Unknown20;
     float  -> Unknown21;
 }

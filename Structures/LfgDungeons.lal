@@ -1,5 +1,5 @@
 // FileOptions: Index
-type LfgDungeons
+type LFGDungeons
 {
     string -> Unknown0;
     uint32 -> Unknown1;

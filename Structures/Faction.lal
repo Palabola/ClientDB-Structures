@@ -2,7 +2,7 @@
 type Faction
 {
     int32  -> Id;
-    uint32 -> Unknown1_, 4;
+    int32  -> Unknown1_, 4;
     int32  -> Unknown2_, 4;
     float  -> Unknown3_, 2;
     string -> Unknown4;

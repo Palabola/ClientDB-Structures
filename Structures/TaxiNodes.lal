@@ -6,9 +6,11 @@ type TaxiNodes
     int32  -> Unknown2_, 2;
     float  -> Unknown3_, 2;
     float  -> Unknown4;
-    uint16 -> Unknown5;
+    float  -> Unknown5_, 2;
     uint16 -> Unknown6;
     uint16 -> Unknown7;
-    uint8  -> Unknown8;
-    uint32 -> Unknown9;
+    uint16 -> Unknown8;
+    uint8  -> Unknown9;
+    uint32 -> Unknown10;
+    int32  -> Unknown11;
 }

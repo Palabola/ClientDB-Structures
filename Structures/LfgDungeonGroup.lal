@@ -1,5 +1,5 @@
 // FileOptions: Index
-type LfgDungeonGroup
+type LFGDungeonGroup
 {
     string -> Unknown0;
     uint16 -> Unknown1;

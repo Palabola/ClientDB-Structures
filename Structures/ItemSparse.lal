@@ -1,7 +1,7 @@
 // FileOptions: DataOffset, Index
 type ItemSparse
 {
-    int32  -> Unknown0_, 3;
+    int32  -> Unknown0_, 4;
     float  -> Unknown1;
     float  -> Unknown2;
     uint32 -> Unknown3;

@@ -2,7 +2,7 @@
 type CreatureDisplayInfoCond
 {
     int32  -> Unknown0;
-    uint32 -> Unknown1;
+    int32  -> Unknown1;
     int32  -> Unknown2_, 2;
     int32  -> Unknown3_, 2;
     int32  -> Unknown4_, 2;

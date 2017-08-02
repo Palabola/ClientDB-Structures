@@ -1,5 +1,0 @@
-// FileOptions: Index
-type ObjectEffectPackage
-{
-    string -> Unknown0;
-}

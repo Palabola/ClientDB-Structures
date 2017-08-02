@@ -1,34 +1,19 @@
 // FileOptions: None
 type SpellVisual
 {
-    int32  -> Unknown0;
+    float  -> Unknown0_, 3;
     float  -> Unknown1_, 3;
-    float  -> Unknown2_, 3;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    int8   -> Unknown5;
-    int8   -> Unknown6;
+    int8   -> Unknown2;
+    int8   -> Unknown3;
     uint32 -> Id;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    uint32 -> Unknown10;
-    uint32 -> Unknown11;
+    uint32 -> Unknown5;
+    uint32 -> Unknown6;
+    uint16 -> Unknown7;
+    uint32 -> Unknown8;
+    uint32 -> Unknown9;
+    int32  -> Unknown10;
+    uint16 -> Unknown11;
     uint32 -> Unknown12;
     uint32 -> Unknown13;
     uint32 -> Unknown14;
-    int32  -> Unknown15;
-    uint32 -> Unknown16;
-    uint32 -> Unknown17;
-    uint32 -> Unknown18;
-    uint32 -> Unknown19;
-    uint32 -> Unknown20;
-    uint32 -> Unknown21;
-    uint32 -> Unknown22;
-    int32  -> Unknown23;
-    uint32 -> Unknown24;
-    int32  -> Unknown25;
-    uint32 -> Unknown26;
-    int32  -> Unknown27;
-    int32  -> Unknown28;
-    int32  -> Unknown29;
 }

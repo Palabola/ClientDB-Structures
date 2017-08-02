@@ -43,12 +43,12 @@ type SpellChainEffects
     uint32 -> Unknown39;
     float  -> Unknown40;
     float  -> Unknown41;
-    string -> Unknown42;
-    uint16 -> Unknown43;
+    float  -> Unknown42;
+    float  -> Unknown43;
     uint16 -> Unknown44;
-    uint16 -> Unknown45_, 11;
-    uint16 -> Unknown46;
-    uint8  -> Unknown47;
+    uint16 -> Unknown45;
+    uint16 -> Unknown46_, 11;
+    uint16 -> Unknown47;
     uint8  -> Unknown48;
     uint8  -> Unknown49;
     uint8  -> Unknown50;
@@ -58,6 +58,7 @@ type SpellChainEffects
     uint8  -> Unknown54;
     uint8  -> Unknown55;
     uint8  -> Unknown56;
-    int32  -> Unknown57;
-    uint32 -> Unknown58_, 3;
+    uint8  -> Unknown57;
+    int32  -> Unknown58;
+    uint32 -> Unknown59_, 3;
 }

@@ -1,5 +1,6 @@
 // FileOptions: Index
-type ObjectEffectGroup
+type ConfigurationWarning
 {
     string -> Unknown0;
+    int32  -> Unknown1;
 }

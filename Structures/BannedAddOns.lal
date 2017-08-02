@@ -1,5 +1,5 @@
 // FileOptions: Index
-type BannedAddOns
+type BannedAddons
 {
     string -> Unknown0;
     string -> Unknown1;

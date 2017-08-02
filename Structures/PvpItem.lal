@@ -1,5 +1,5 @@
 // FileOptions: Index
-type PvpItem
+type PVPItem
 {
     int32  -> Unknown0;
     uint8  -> Unknown1;

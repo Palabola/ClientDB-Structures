@@ -1,10 +1,8 @@
-// FileOptions: None
+// FileOptions: Index
 type AnimationData
 {
-    int32  -> Id;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
+    int32  -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2;
+    uint8  -> Unknown3;
 }

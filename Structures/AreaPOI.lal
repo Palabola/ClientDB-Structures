@@ -2,7 +2,7 @@
 type AreaPOI
 {
     uint32 -> Unknown0;
-    float  -> Unknown1_, 2;
+    float  -> Unknown1_, 3;
     string -> Unknown2;
     string -> Unknown3;
     int32  -> Unknown4;
@@ -16,4 +16,5 @@ type AreaPOI
     int32  -> Unknown12;
     int32  -> Unknown13;
     uint32 -> Unknown14;
+    uint32 -> Unknown15;
 }

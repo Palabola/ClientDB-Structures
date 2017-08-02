@@ -1,0 +1,16 @@
+// FileOptions: Index
+type MissileTargeting
+{
+    float  -> Unknown0;
+    float  -> Unknown1;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    float  -> Unknown6;
+    float  -> Unknown7_, 2;
+    float  -> Unknown8;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
+    uint32 -> Unknown11_, 2;
+}
