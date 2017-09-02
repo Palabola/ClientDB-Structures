@@ -16,12 +16,12 @@ type CreatureDisplayInfo
     float  -> Unknown12;
     uint32 -> Unknown13;
     uint8  -> Unknown14;
-    uint16 -> Unknown15;
+    int16  -> Unknown15;
     uint32 -> Unknown16;
     uint16 -> Unknown17;
     uint16 -> Unknown18;
     uint8  -> Unknown19;
-    int32  -> Unknown20;
+    uint32 -> Unknown20;
     float  -> Unknown21;
-    uint32 -> Unknown22;
+    int32  -> Unknown22;
 }

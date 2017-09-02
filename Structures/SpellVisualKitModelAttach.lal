@@ -8,7 +8,7 @@ type SpellVisualKitModelAttach
     int8   -> Unknown4;
     uint8  -> Unknown5;
     uint32 -> Id;
-    uint16 -> Unknown7;
+    int16  -> Unknown7;
     float  -> Unknown8;
     float  -> Unknown9;
     float  -> Unknown10;
@@ -17,10 +17,10 @@ type SpellVisualKitModelAttach
     float  -> Unknown13;
     float  -> Unknown14;
     float  -> Unknown15;
-    uint16 -> Unknown16;
-    uint16 -> Unknown17;
+    int16  -> Unknown16;
+    int16  -> Unknown17;
     uint16 -> Unknown18;
-    int16  -> Unknown19;
+    uint16 -> Unknown19;
     uint32 -> Unknown20;
     float  -> Unknown21;
 }

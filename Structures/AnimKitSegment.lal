@@ -5,7 +5,7 @@ type AnimKitSegment
     uint32 -> Unknown1;
     uint32 -> Unknown2;
     float  -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
     uint16 -> Unknown7;

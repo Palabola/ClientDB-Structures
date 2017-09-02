@@ -10,4 +10,5 @@ type WorldMapTransforms
     uint16 -> Unknown6;
     uint16 -> Unknown7;
     uint8  -> Unknown8;
+    uint32 -> Unknown9;
 }

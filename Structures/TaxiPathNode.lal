@@ -6,8 +6,8 @@ type TaxiPathNode
     uint16 -> Unknown2;
     uint8  -> Unknown3;
     uint32 -> Id;
-    uint8  -> Unknown5;
+    int8   -> Unknown5;
     uint32 -> Unknown6;
     uint16 -> Unknown7;
-    int16  -> Unknown8;
+    uint16 -> Unknown8;
 }
