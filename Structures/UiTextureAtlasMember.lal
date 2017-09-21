@@ -1,11 +1,12 @@
-// FileOptions: Index
+// FileOptions: None
 type UiTextureAtlasMember
 {
-    string -> Unknown0;
-    uint16 -> Unknown1;
-    int16  -> Unknown2;
+    int32  -> Id;
+    string -> Unknown1;
+    uint16 -> Unknown2;
     int16  -> Unknown3;
     int16  -> Unknown4;
     int16  -> Unknown5;
-    int8   -> Unknown6;
+    int16  -> Unknown6;
+    int8   -> Unknown7;
 }

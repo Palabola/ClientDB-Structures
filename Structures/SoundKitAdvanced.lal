@@ -19,15 +19,15 @@ type SoundKitAdvanced
     uint32 -> Unknown15;
     int32  -> Unknown16;
     int32  -> Unknown17;
-    uint32 -> Unknown18;
-    uint32 -> Unknown19;
-    uint8  -> Unknown20;
+    int32  -> Unknown18;
+    int32  -> Unknown19;
+    int8   -> Unknown20;
     float  -> Unknown21;
     float  -> Unknown22;
     float  -> Unknown23;
     float  -> Unknown24;
-    uint8  -> Unknown25;
-    uint16 -> Unknown26;
+    int8   -> Unknown25;
+    int16  -> Unknown26;
     float  -> Unknown27;
     float  -> Unknown28;
     uint32 -> Unknown29;
@@ -39,6 +39,6 @@ type SoundKitAdvanced
     uint32 -> Unknown35;
     uint32 -> Unknown36;
     uint32 -> Unknown37;
-    uint32 -> Unknown38;
-    uint32 -> Unknown39;
+    int32  -> Unknown38;
+    int32  -> Unknown39;
 }
