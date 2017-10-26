@@ -7,13 +7,13 @@ type SpellVisual
     int8   -> Unknown3;
     uint32 -> Id;
     int32  -> Unknown5;
-    uint32 -> Unknown6;
-    uint16 -> Unknown7;
+    int32  -> Unknown6;
+    int16  -> Unknown7;
     uint32 -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int16  -> Unknown11;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
+    uint16 -> Unknown11;
     uint32 -> Unknown12;
     uint32 -> Unknown13;
-    uint32 -> Unknown14;
+    int32  -> Unknown14;
 }

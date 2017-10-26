@@ -34,7 +34,7 @@ type PlayerCondition
     uint16 -> Unknown30;
     uint8  -> Unknown31;
     uint8  -> Unknown32;
-    int32  -> Unknown33;
+    uint32 -> Unknown33;
     int8   -> Unknown34;
     int8   -> Unknown35;
     uint32 -> Unknown36;
