@@ -1,0 +1,15 @@
+// FileOptions: Index, None
+type CharacterServiceInfo
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
+    int32  -> Unknown5;
+    uint32 -> Unknown6;
+    int32  -> Unknown7;
+    int32  -> Unknown8;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
+}
