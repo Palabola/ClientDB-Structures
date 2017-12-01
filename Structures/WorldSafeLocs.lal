@@ -1,10 +1,10 @@
 // FileOptions: Index
 type WorldSafeLocs
 {
+    string -> Name;
     float  -> X;
     float  -> Y;
     float  -> Z;
     float  -> Unknown;
-    string -> Name;
     uint16 -> Map;
 }
