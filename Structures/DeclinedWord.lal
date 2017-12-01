@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type DeclinedWord
 {
     string -> Unknown0;

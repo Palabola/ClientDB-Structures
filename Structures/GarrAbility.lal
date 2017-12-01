@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type GarrAbility
 {
     string -> Unknown0;

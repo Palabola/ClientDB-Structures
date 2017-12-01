@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type JournalEncounterCreature
 {
     string -> Unknown0;

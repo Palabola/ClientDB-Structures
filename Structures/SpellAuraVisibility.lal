@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type SpellAuraVisibility
 {
     int8   -> Unknown0;

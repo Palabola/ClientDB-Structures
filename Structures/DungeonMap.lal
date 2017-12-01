@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type DungeonMap
 {
     float  -> Unknown0_, 2;

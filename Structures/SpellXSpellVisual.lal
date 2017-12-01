@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type SpellXSpellVisual
 {
     uint32 -> Unknown0;

@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type Startup_Strings
 {
     string -> Unknown0;

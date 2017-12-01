@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type ItemModifiedAppearance
 {
     int32  -> Unknown0;

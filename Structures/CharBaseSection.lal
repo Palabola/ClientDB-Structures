@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type CharBaseSection
 {
     uint8  -> Unknown0;

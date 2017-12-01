@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type FootstepTerrainLookup
 {
     uint16 -> Unknown0;

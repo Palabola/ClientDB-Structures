@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type SpellFlyoutItem
 {
     int32  -> Unknown0;

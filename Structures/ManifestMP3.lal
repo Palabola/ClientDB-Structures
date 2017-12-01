@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type ManifestMP3
 {
     uint32 -> Id;

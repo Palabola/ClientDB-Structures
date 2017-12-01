@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type GarrFollower
 {
     string -> Unknown0;

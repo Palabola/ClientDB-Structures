@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type SpellVisualMissile
 {
     int32  -> Unknown0;

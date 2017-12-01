@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type World_PVP_Area
 {
     uint16 -> Unknown0;

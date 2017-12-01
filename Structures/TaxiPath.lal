@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type TaxiPath
 {
     uint16 -> Unknown0;

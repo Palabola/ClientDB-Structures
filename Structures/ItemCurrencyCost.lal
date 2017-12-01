@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type ItemCurrencyCost
 {
     int32  -> Unknown0;

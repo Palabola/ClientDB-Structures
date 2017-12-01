@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type Keychain
 {
     uint8  -> Unknown0_, 32;

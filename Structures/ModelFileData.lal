@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type ModelFileData
 {
     uint8  -> Unknown0;

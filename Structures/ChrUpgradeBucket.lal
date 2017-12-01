@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type ChrUpgradeBucket
 {
     uint16 -> Unknown0;

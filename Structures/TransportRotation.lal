@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type TransportRotation
 {
     uint32 -> Unknown0;

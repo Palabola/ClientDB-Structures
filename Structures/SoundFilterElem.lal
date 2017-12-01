@@ -1,4 +1,4 @@
-// FileOptions: 20
+// FileOptions: Index, None
 type SoundFilterElem
 {
     float  -> Unknown0_, 9;

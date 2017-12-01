@@ -1,4 +1,4 @@
-// FileOptions: 16
+// FileOptions: None
 type CreatureXContribution
 {
     int32  -> Id;
