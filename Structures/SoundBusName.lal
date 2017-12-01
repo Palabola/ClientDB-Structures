@@ -1,6 +1,0 @@
-// FileOptions: None
-type SoundBusName
-{
-    string -> Name;
-    uint32 -> Id;
-}
