@@ -1,9 +1,9 @@
-// FileOptions: None
+// FileOptions: 16
 type GarrTalent
 {
-    int32  -> Unknown0;
+    string -> Unknown0;
     string -> Unknown1;
-    string -> Unknown2;
+    int32  -> Unknown2;
     int32  -> Unknown3;
     int8   -> Unknown4;
     int8   -> Unknown5;

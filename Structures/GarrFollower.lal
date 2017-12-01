@@ -1,15 +1,15 @@
-// FileOptions: None
+// FileOptions: 16
 type GarrFollower
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
+    string -> Unknown0;
+    string -> Unknown1;
     string -> Unknown2;
-    string -> Unknown3;
+    int32  -> Unknown3;
     int32  -> Unknown4;
     int32  -> Unknown5;
-    uint32 -> Unknown6;
+    int32  -> Unknown6;
     uint32 -> Unknown7;
-    string -> Unknown8;
+    uint32 -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10;
     uint16 -> Unknown11;

@@ -1,14 +1,14 @@
-// FileOptions: None
+// FileOptions: 16
 type SpellVisualKitModelAttach
 {
-    int32  -> Unknown0;
+    float  -> Unknown0_, 3;
     float  -> Unknown1_, 3;
-    float  -> Unknown2_, 3;
-    uint16 -> Unknown3;
-    int8   -> Unknown4;
-    uint8  -> Unknown5;
     uint32 -> Id;
-    int16  -> Unknown7;
+    uint16 -> Unknown3;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
+    uint16 -> Unknown6;
+    float  -> Unknown7;
     float  -> Unknown8;
     float  -> Unknown9;
     float  -> Unknown10;
@@ -16,11 +16,11 @@ type SpellVisualKitModelAttach
     float  -> Unknown12;
     float  -> Unknown13;
     float  -> Unknown14;
-    float  -> Unknown15;
-    int16  -> Unknown16;
-    int16  -> Unknown17;
+    uint16 -> Unknown15;
+    uint16 -> Unknown16;
+    uint16 -> Unknown17;
     uint16 -> Unknown18;
-    uint16 -> Unknown19;
-    uint32 -> Unknown20;
-    float  -> Unknown21;
+    int32  -> Unknown19;
+    float  -> Unknown20;
+    int32  -> Unknown21;
 }

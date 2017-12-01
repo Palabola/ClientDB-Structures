@@ -1,7 +1,7 @@
-// FileOptions: Index
+// FileOptions: 20
 type SpellKeyboundOverride
 {
-    int32  -> Unknown0;
-    string -> Unknown1;
+    string -> Unknown0;
+    int32  -> Unknown1;
     int8   -> Unknown2;
 }

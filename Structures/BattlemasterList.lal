@@ -1,11 +1,11 @@
-// FileOptions: Index
+// FileOptions: 20
 type BattlemasterList
 {
     string -> Unknown0;
-    int32  -> Unknown1;
+    string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    string -> Unknown4;
+    int32  -> Unknown4;
     int16  -> Unknown5_, 16;
     int16  -> Unknown6;
     int16  -> Unknown7;

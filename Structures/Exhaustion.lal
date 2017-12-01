@@ -1,12 +1,12 @@
-// FileOptions: None
+// FileOptions: 16
 type Exhaustion
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
+    string -> Unknown0;
+    string -> Unknown1;
+    int32  -> Unknown2;
     float  -> Unknown3;
-    string -> Unknown4;
+    float  -> Unknown4;
     float  -> Unknown5;
-    string -> Unknown6;
+    float  -> Unknown6;
     uint32 -> Id;
 }

@@ -1,24 +1,23 @@
-// FileOptions: DataOffset, Index
 type ItemSparse
 {
-    int32  -> Unknown0_, 4;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
-    uint32 -> Unknown5;
-    int32  -> Unknown6;
-    uint32 -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10_, 10;
-    float  -> Unknown11_, 10;
-    float  -> Unknown12;
-    string -> Unknown13;
-    string -> Unknown14;
-    string -> Unknown15;
-    string -> Unknown16;
-    string -> Unknown17;
+    int64  -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    string -> Unknown4;
+    string -> Unknown5;
+    int32  -> Unknown6_, 4;
+    float  -> Unknown7;
+    float  -> Unknown8;
+    uint32 -> Unknown9;
+    uint32 -> Unknown10;
+    uint32 -> Unknown11;
+    uint32 -> Unknown12;
+    int32  -> Unknown13;
+    int32  -> Unknown14;
+    int32  -> Unknown15_, 10;
+    float  -> Unknown16_, 10;
+    float  -> Unknown17;
     uint32 -> Unknown18;
     float  -> Unknown19;
     uint32 -> Unknown20;

@@ -1,6 +1,6 @@
-// FileOptions: Index
+// FileOptions: 20
 type ChrClassesXPowerTypes
 {
     uint8  -> Unknown0;
-    uint8  -> Unknown1;
+    int8   -> Unknown1;
 }

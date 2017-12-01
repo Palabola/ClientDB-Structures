@@ -1,13 +1,15 @@
-// FileOptions: Index
+// FileOptions: 20
 type SpellMisc
 {
-    int32  -> Unknown0_, 14;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint32 -> Unknown7;
-    uint32 -> Unknown8;
+    uint16 -> Unknown0;
+    uint16 -> Unknown1;
+    uint16 -> Unknown2;
+    uint8  -> Unknown3;
+    uint32 -> Unknown4;
+    float  -> Unknown5;
+    uint32 -> Unknown6;
+    float  -> Unknown7;
+    uint8  -> Unknown8;
+    uint32 -> Unknown9_, 14;
+    uint32 -> Unknown10;
 }

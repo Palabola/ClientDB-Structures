@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type GarrBuildingPlotInst
 {
     float  -> Unknown0_, 2;

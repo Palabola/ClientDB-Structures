@@ -1,11 +1,11 @@
-// FileOptions: Index
+// FileOptions: 20
 type CurrencyTypes
 {
     string -> Unknown0;
-    uint32 -> Unknown1;
+    string -> Unknown1;
     uint32 -> Unknown2;
     uint32 -> Unknown3;
-    string -> Unknown4;
+    uint32 -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;

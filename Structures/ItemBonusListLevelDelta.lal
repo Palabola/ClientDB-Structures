@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type ItemBonusListLevelDelta
 {
     int16  -> Unknown0;

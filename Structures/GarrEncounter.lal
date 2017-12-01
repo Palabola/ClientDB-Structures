@@ -1,8 +1,8 @@
-// FileOptions: None
+// FileOptions: 16
 type GarrEncounter
 {
-    int32  -> Unknown0;
-    string -> Unknown1;
+    string -> Unknown0;
+    int32  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;
     int32  -> Unknown4;

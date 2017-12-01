@@ -1,10 +1,10 @@
-// FileOptions: None
+// FileOptions: 16
 type Achievement
 {
     string -> Unknown0;
     string -> Unknown1;
-    int32  -> Unknown2;
-    string -> Unknown3;
+    string -> Unknown2;
+    int32  -> Unknown3;
     int16  -> Unknown4;
     int16  -> Unknown5;
     int16  -> Unknown6;

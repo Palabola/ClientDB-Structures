@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type Trophy
 {
     string -> Unknown0;

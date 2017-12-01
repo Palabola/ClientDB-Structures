@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type ArtifactPower
 {
     float  -> Unknown0_, 2;

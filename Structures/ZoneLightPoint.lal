@@ -1,7 +1,7 @@
-// FileOptions: Index
+// FileOptions: 20
 type ZoneLightPoint
 {
     float  -> Unknown0_, 2;
-    uint16 -> Unknown1;
-    uint8  -> Unknown2;
+    uint8  -> Unknown1;
+    uint16 -> Unknown2;
 }

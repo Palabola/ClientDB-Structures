@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type GarrMissionTexture
 {
     float  -> Unknown0_, 2;

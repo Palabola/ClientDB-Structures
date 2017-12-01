@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type ChrClasses
 {
     string -> Unknown0;
@@ -10,14 +10,15 @@ type ChrClasses
     uint32 -> Unknown6;
     uint32 -> Unknown7;
     uint32 -> Unknown8;
-    uint16 -> Unknown9;
+    int32  -> Unknown9;
     uint16 -> Unknown10;
     uint16 -> Unknown11;
-    uint8  -> Unknown12;
+    uint16 -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
+    uint8  -> Unknown18;
     uint32 -> Id;
 }

@@ -1,11 +1,8 @@
-// FileOptions: None
+// FileOptions: 20
 type Spell
 {
     string -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    int32  -> Unknown4;
-    uint32 -> Id;
-    int32  -> Unknown6;
 }

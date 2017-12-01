@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type CameraEffectEntry
 {
     float  -> Unknown0;
@@ -10,11 +10,11 @@ type CameraEffectEntry
     float  -> Unknown6;
     float  -> Unknown7;
     uint16 -> Unknown8;
-    uint16 -> Unknown9;
+    uint8  -> Unknown9;
     uint8  -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;
-    uint8  -> Unknown15;
+    int16  -> Unknown15;
 }

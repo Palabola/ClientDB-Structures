@@ -1,12 +1,12 @@
-// FileOptions: Index
+// FileOptions: 20
 type QuestObjective
 {
-    int32  -> Unknown0;
+    string -> Unknown0;
     int32  -> Unknown1;
-    string -> Unknown2;
-    uint16 -> Unknown3;
+    int32  -> Unknown2;
+    uint8  -> Unknown3;
     uint8  -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
-    uint8  -> Unknown7;
+    int16  -> Unknown7;
 }

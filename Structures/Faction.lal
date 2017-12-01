@@ -1,12 +1,12 @@
-// FileOptions: None
+// FileOptions: 16
 type Faction
 {
+    int64  -> Unknown0_, 4;
+    string -> Unknown1;
+    string -> Unknown2;
     int32  -> Id;
-    int32  -> Unknown1_, 4;
-    int32  -> Unknown2_, 4;
-    float  -> Unknown3_, 2;
-    string -> Unknown4;
-    string -> Unknown5;
+    int32  -> Unknown4_, 4;
+    float  -> Unknown5_, 2;
     int32  -> Unknown6_, 4;
     int16  -> Unknown7;
     uint16 -> Unknown8_, 4;

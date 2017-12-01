@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type CreatureSoundData
 {
     float  -> Unknown0;
@@ -17,8 +17,8 @@ type CreatureSoundData
     int32  -> Unknown13;
     int32  -> Unknown14;
     int32  -> Unknown15;
-    int32  -> Unknown16_, 5;
-    int32  -> Unknown17_, 4;
+    int32  -> Unknown16;
+    int32  -> Unknown17;
     int32  -> Unknown18;
     int32  -> Unknown19;
     int32  -> Unknown20;
@@ -36,6 +36,6 @@ type CreatureSoundData
     int32  -> Unknown32;
     int32  -> Unknown33;
     int32  -> Unknown34;
-    int32  -> Unknown35;
-    int32  -> Unknown36;
+    int32  -> Unknown35_, 5;
+    int32  -> Unknown36_, 4;
 }

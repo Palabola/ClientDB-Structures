@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type Light
 {
     float  -> Unknown0_, 3;

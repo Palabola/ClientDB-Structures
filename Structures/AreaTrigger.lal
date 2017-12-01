@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type AreaTrigger
 {
     float  -> Unknown0_, 3;

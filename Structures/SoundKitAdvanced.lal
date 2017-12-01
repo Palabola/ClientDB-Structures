@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type SoundKitAdvanced
 {
     int32  -> Id;
@@ -13,9 +13,9 @@ type SoundKitAdvanced
     uint8  -> Unknown9;
     int32  -> Unknown10;
     int32  -> Unknown11;
-    uint32 -> Unknown12;
-    uint32 -> Unknown13;
-    uint32 -> Unknown14;
+    int32  -> Unknown12;
+    int32  -> Unknown13;
+    int32  -> Unknown14;
     uint32 -> Unknown15;
     int32  -> Unknown16;
     int32  -> Unknown17;
@@ -27,18 +27,18 @@ type SoundKitAdvanced
     float  -> Unknown23;
     float  -> Unknown24;
     uint8  -> Unknown25;
-    int16  -> Unknown26;
+    uint16 -> Unknown26;
     float  -> Unknown27;
     float  -> Unknown28;
     uint32 -> Unknown29;
-    uint32 -> Unknown30;
-    uint32 -> Unknown31;
+    int32  -> Unknown30;
+    int32  -> Unknown31;
     uint8  -> Unknown32;
     uint8  -> Unknown33;
     uint32 -> Unknown34;
     uint32 -> Unknown35;
-    uint32 -> Unknown36;
+    int32  -> Unknown36;
     uint32 -> Unknown37;
     uint32 -> Unknown38;
-    uint32 -> Unknown39;
+    int32  -> Unknown39;
 }

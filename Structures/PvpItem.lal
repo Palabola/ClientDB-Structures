@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type PVPItem
 {
     int32  -> Unknown0;

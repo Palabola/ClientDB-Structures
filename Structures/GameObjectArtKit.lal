@@ -1,6 +1,6 @@
-// FileOptions: Index
+// FileOptions: 20
 type GameObjectArtKit
 {
-    uint32 -> Unknown0_, 3;
-    uint32 -> Unknown1;
+    uint32 -> Unknown0;
+    uint32 -> Unknown1_, 3;
 }

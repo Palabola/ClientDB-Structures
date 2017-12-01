@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type ItemLevelSelectorQualitySet
 {
     int16  -> Unknown0;

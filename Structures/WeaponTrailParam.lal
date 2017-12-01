@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type WeaponTrailParam
 {
     float  -> Unknown0;
@@ -6,9 +6,9 @@ type WeaponTrailParam
     float  -> Unknown2;
     float  -> Unknown3;
     float  -> Unknown4;
-    uint16 -> Unknown5;
+    uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
-    uint8  -> Unknown9;
+    int16  -> Unknown9;
 }

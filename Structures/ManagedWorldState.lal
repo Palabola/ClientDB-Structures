@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type ManagedWorldState
 {
     uint32 -> Unknown0;

@@ -1,13 +1,13 @@
-// FileOptions: Index
+// FileOptions: 20
 type ItemEffect
 {
     int32  -> Unknown0;
     int32  -> Unknown1;
     int32  -> Unknown2;
-    int32  -> Unknown3;
-    int16  -> Unknown4;
+    int16  -> Unknown3;
+    uint16 -> Unknown4;
     uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint8  -> Unknown7;
-    int8   -> Unknown8;
+    uint8  -> Unknown6;
+    int8   -> Unknown7;
+    uint32 -> Unknown8;
 }

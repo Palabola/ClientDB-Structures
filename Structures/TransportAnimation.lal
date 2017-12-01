@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: 20
 type TransportAnimation
 {
-    int32  -> Unknown0;
-    uint32 -> Unknown1;
-    float  -> Unknown2_, 3;
-    uint8  -> Unknown3;
+    uint32 -> Unknown0;
+    float  -> Unknown1_, 3;
+    uint8  -> Unknown2;
+    int32  -> Unknown3;
 }

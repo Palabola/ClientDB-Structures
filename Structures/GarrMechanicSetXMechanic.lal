@@ -1,7 +1,7 @@
-// FileOptions: None
+// FileOptions: 16
 type GarrMechanicSetXMechanic
 {
     uint8  -> Unknown0;
     uint32 -> Id;
-    int32  -> Unknown2;
+    uint32 -> Unknown2;
 }

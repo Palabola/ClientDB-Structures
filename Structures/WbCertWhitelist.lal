@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type WbCertWhitelist
 {
     string -> Unknown0;

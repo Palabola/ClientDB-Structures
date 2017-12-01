@@ -1,9 +1,9 @@
-// FileOptions: None
+// FileOptions: 16
 type GarrMissionXEncounter
 {
     uint8  -> Unknown0;
     uint32 -> Id;
     int32  -> Unknown2;
     int32  -> Unknown3;
-    int32  -> Unknown4;
+    uint32 -> Unknown4;
 }

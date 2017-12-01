@@ -1,9 +1,9 @@
-// FileOptions: None
+// FileOptions: 16
 type SpecializationSpells
 {
-    uint32 -> Unknown0;
-    int32  -> Unknown1;
-    string -> Unknown2;
+    string -> Unknown0;
+    uint32 -> Unknown1;
+    int32  -> Unknown2;
     uint16 -> Unknown3;
     uint8  -> Unknown4;
     uint32 -> Id;

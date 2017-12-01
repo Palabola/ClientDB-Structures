@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type UiModelSceneCamera
 {
     string -> Unknown0;
@@ -16,5 +16,5 @@ type UiModelSceneCamera
     uint8  -> Unknown12;
     uint8  -> Unknown13;
     uint32 -> Id;
-    uint32 -> Unknown15;
+    int32  -> Unknown15;
 }

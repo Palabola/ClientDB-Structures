@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type SpellEquippedItems
 {
     int32  -> Unknown0;

@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: 20
 type SourceInfo
 {
-    uint32 -> Unknown0;
-    string -> Unknown1;
+    string -> Unknown0;
+    int8   -> Unknown1;
     int8   -> Unknown2;
-    int8   -> Unknown3;
+    int32  -> Unknown3;
 }

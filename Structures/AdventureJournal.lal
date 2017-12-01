@@ -1,13 +1,13 @@
-// FileOptions: Index
+// FileOptions: 20
 type AdventureJournal
 {
     string -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    string -> Unknown5;
-    string -> Unknown6;
+    string -> Unknown3;
+    string -> Unknown4;
+    int32  -> Unknown5;
+    int32  -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;

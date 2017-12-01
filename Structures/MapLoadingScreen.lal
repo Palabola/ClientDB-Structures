@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type MapLoadingScreen
 {
     float  -> Unknown0_, 2;

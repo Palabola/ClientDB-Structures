@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type SpellProceduralEffect
 {
     float  -> Unknown0_, 4;

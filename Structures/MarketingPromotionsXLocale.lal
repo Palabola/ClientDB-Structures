@@ -1,11 +1,11 @@
-// FileOptions: Index
+// FileOptions: 20
 type MarketingPromotionsXLocale
 {
-    int32  -> Unknown0;
+    string -> Unknown0;
     int32  -> Unknown1;
     int32  -> Unknown2;
     int32  -> Unknown3;
-    string -> Unknown4;
+    int32  -> Unknown4;
     uint8  -> Unknown5;
     int8   -> Unknown6;
 }

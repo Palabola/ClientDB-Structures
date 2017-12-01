@@ -1,8 +1,8 @@
-// FileOptions: None
+// FileOptions: 16
 type MapChallengeMode
 {
+    string -> Unknown0;
     int32  -> Id;
-    string -> Unknown1;
     uint16 -> Unknown2;
     int16  -> Unknown3_, 3;
     uint8  -> Unknown4;

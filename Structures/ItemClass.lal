@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: 20
 type ItemClass
 {
-    float  -> Unknown0;
-    string -> Unknown1;
+    string -> Unknown0;
+    float  -> Unknown1;
     int8   -> Unknown2;
     uint8  -> Unknown3;
 }

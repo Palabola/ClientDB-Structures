@@ -1,6 +1,6 @@
-// FileOptions: Index
+// FileOptions: 20
 type JournalEncounterXDifficulty
 {
-    uint16 -> Unknown0;
-    uint8  -> Unknown1;
+    uint8  -> Unknown0;
+    int16  -> Unknown1;
 }

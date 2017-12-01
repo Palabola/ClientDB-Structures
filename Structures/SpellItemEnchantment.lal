@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: 20
 type SpellItemEnchantment
 {
-    uint32 -> Unknown0_, 3;
-    string -> Unknown1;
+    string -> Unknown0;
+    uint32 -> Unknown1_, 3;
     float  -> Unknown2_, 3;
     uint32 -> Unknown3;
     uint32 -> Unknown4;

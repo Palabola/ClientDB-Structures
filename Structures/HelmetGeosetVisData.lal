@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type HelmetGeosetVisData
 {
     int32  -> Unknown0_, 9;

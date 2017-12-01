@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type JournalEncounterXMapLoc
 {
     float  -> Unknown0_, 2;
@@ -6,5 +6,5 @@ type JournalEncounterXMapLoc
     uint32 -> Unknown2;
     uint32 -> Unknown3;
     uint32 -> Unknown4;
-    uint32 -> Unknown5;
+    int32  -> Unknown5;
 }

@@ -1,9 +1,9 @@
-// FileOptions: Index
+// FileOptions: 20
 type CreatureFamily
 {
-    float  -> Unknown0;
+    string -> Unknown0;
     float  -> Unknown1;
-    string -> Unknown2;
+    float  -> Unknown2;
     int32  -> Unknown3;
     int16  -> Unknown4_, 2;
     int16  -> Unknown5;

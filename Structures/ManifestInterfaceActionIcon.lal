@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type ManifestInterfaceActionIcon
 {
     uint32 -> Id;

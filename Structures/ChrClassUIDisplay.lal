@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type ChrClassUIDisplay
 {
     uint8  -> Unknown0;

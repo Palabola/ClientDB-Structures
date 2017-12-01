@@ -1,12 +1,12 @@
-// FileOptions: None
+// FileOptions: 16
 type SoundBus
 {
     float  -> Unknown0;
-    uint16 -> Unknown1;
+    uint8  -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    int8   -> Unknown6;
+    int8   -> Unknown5;
     uint32 -> Id;
+    int16  -> Unknown7;
 }

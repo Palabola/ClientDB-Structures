@@ -1,11 +1,11 @@
-// FileOptions: None
+// FileOptions: 16
 type GameObjects
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1_, 4;
-    float  -> Unknown2;
-    int32  -> Unknown3_, 8;
-    string -> Unknown4;
+    string -> Unknown0;
+    float  -> Unknown1_, 3;
+    float  -> Unknown2_, 4;
+    float  -> Unknown3;
+    int32  -> Unknown4_, 8;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
     uint16 -> Unknown7;

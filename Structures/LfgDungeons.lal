@@ -1,9 +1,9 @@
-// FileOptions: Index
+// FileOptions: 20
 type LFGDungeons
 {
     string -> Unknown0;
-    uint32 -> Unknown1;
-    string -> Unknown2;
+    string -> Unknown1;
+    uint32 -> Unknown2;
     float  -> Unknown3;
     uint16 -> Unknown4;
     uint16 -> Unknown5;

@@ -1,7 +1,7 @@
-// FileOptions: Index
+// FileOptions: 20
 type ItemBonus
 {
-    int32  -> Unknown0_, 2;
+    int32  -> Unknown0_, 3;
     uint16 -> Unknown1;
     uint8  -> Unknown2;
     uint8  -> Unknown3;

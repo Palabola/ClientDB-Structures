@@ -1,10 +1,9 @@
-// FileOptions: None
+// FileOptions: 20
 type SpellVisualKit
 {
-    int32  -> Id;
-    int32  -> Unknown1;
-    float  -> Unknown2;
-    uint32 -> Unknown3;
+    uint32 -> Unknown0;
+    float  -> Unknown1;
+    int32  -> Unknown2;
+    uint16 -> Unknown3;
     uint16 -> Unknown4;
-    uint16 -> Unknown5;
 }

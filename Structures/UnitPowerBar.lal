@@ -1,14 +1,14 @@
-// FileOptions: Index
+// FileOptions: 20
 type UnitPowerBar
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    int32  -> Unknown2_, 6;
-    int32  -> Unknown3_, 6;
-    string -> Unknown4;
-    string -> Unknown5;
-    string -> Unknown6;
-    string -> Unknown7;
+    string -> Unknown0;
+    string -> Unknown1;
+    string -> Unknown2;
+    string -> Unknown3;
+    float  -> Unknown4;
+    float  -> Unknown5;
+    int32  -> Unknown6_, 6;
+    int32  -> Unknown7_, 6;
     float  -> Unknown8;
     float  -> Unknown9;
     uint16 -> Unknown10;

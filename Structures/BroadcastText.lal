@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type BroadcastText
 {
     string -> Unknown0;
@@ -8,6 +8,6 @@ type BroadcastText
     uint16 -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
-    int32  -> Unknown7_, 2;
-    uint32 -> Unknown8;
+    uint32 -> Unknown7;
+    int32  -> Unknown8_, 2;
 }

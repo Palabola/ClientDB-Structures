@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type TactKey
 {
     uint8  -> Unknown0_, 16;

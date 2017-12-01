@@ -1,9 +1,9 @@
-// FileOptions: Index
+// FileOptions: 20
 type ArtifactPowerRank
 {
     uint32 -> Unknown0;
     float  -> Unknown1;
     uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
+    uint8  -> Unknown3;
+    uint16 -> Unknown4;
 }

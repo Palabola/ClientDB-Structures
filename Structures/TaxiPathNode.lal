@@ -1,4 +1,4 @@
-// FileOptions: None
+// FileOptions: 16
 type TaxiPathNode
 {
     float  -> Unknown0_, 3;
@@ -6,8 +6,8 @@ type TaxiPathNode
     uint16 -> Unknown2;
     uint8  -> Unknown3;
     uint32 -> Id;
-    int8   -> Unknown5;
-    uint32 -> Unknown6;
+    uint8  -> Unknown5;
+    int32  -> Unknown6;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
 }

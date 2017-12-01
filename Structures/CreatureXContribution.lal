@@ -1,7 +1,7 @@
-// FileOptions: None
+// FileOptions: 16
 type CreatureXContribution
 {
     int32  -> Id;
     int32  -> Unknown1;
-    int32  -> Unknown2;
+    uint32 -> Unknown2;
 }

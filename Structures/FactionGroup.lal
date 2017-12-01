@@ -1,9 +1,10 @@
-// FileOptions: Index
+// FileOptions: 16
 type FactionGroup
 {
     string -> Unknown0;
     string -> Unknown1;
-    uint8  -> Unknown2;
-    uint32 -> Unknown3;
+    int32  -> Id;
+    uint8  -> Unknown3;
     uint32 -> Unknown4;
+    uint32 -> Unknown5;
 }

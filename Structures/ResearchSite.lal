@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: 20
 type ResearchSite
 {
-    int32  -> Unknown0;
-    string -> Unknown1;
+    string -> Unknown0;
+    int32  -> Unknown1;
     int16  -> Unknown2;
     int32  -> Unknown3;
 }

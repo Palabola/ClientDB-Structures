@@ -1,16 +1,16 @@
-// FileOptions: None
+// FileOptions: 16
 type SoundEmitters
 {
-    float  -> Unknown0_, 3;
+    string -> Unknown0;
     float  -> Unknown1_, 3;
-    string -> Unknown2;
+    float  -> Unknown2_, 3;
     uint16 -> Unknown3;
-    int16  -> Unknown4;
-    uint16 -> Unknown5;
+    uint16 -> Unknown4;
+    uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    uint8  -> Unknown8;
     uint32 -> Id;
+    int32  -> Unknown9;
     int32  -> Unknown10;
-    int32  -> Unknown11;
+    int16  -> Unknown11;
 }

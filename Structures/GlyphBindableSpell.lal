@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type GlyphBindableSpell
 {
     int32  -> Unknown0;

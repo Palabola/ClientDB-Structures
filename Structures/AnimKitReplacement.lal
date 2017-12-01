@@ -1,9 +1,9 @@
-// FileOptions: None
+// FileOptions: 16
 type AnimKitReplacement
 {
     uint16 -> Unknown0;
     uint16 -> Unknown1;
     uint16 -> Unknown2;
-    uint16 -> Unknown3;
     uint32 -> Id;
+    uint16 -> Unknown4;
 }

@@ -1,6 +1,6 @@
-// FileOptions: Index
+// FileOptions: 20
 type ItemSpecOverride
 {
-    int32  -> Unknown0;
-    uint16 -> Unknown1;
+    uint16 -> Unknown0;
+    int32  -> Unknown1;
 }

@@ -1,4 +1,4 @@
-// FileOptions: Index
+// FileOptions: 20
 type ItemVisuals
 {
     uint32 -> Unknown0_, 5;

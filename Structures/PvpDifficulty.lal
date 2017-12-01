@@ -1,8 +1,8 @@
-// FileOptions: Index
+// FileOptions: 20
 type PVPDifficulty
 {
-    uint16 -> Unknown0;
+    uint8  -> Unknown0;
     uint8  -> Unknown1;
     uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    int16  -> Unknown3;
 }
