@@ -5,13 +5,13 @@ type GarrMission
     string -> Unknown1;
     string -> Unknown2;
     int32  -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown4;
     float  -> Unknown5_, 2;
     float  -> Unknown6_, 2;
     uint16 -> Unknown7;
     uint16 -> Unknown8;
     uint16 -> Unknown9;
-    int8   -> Unknown10;
+    uint8  -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
@@ -20,8 +20,8 @@ type GarrMission
     uint8  -> Unknown16;
     uint8  -> Unknown17;
     uint8  -> Unknown18;
-    uint32 -> Id;
-    uint32 -> Unknown20;
+    int32  -> Id;
+    int32  -> Unknown20;
     int32  -> Unknown21;
     int32  -> Unknown22;
     int32  -> Unknown23;

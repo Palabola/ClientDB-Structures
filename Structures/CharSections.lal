@@ -2,10 +2,10 @@
 type CharSections
 {
     int32  -> Unknown0_, 3;
-    int16  -> Unknown1;
-    int8   -> Unknown2;
-    int8   -> Unknown3;
-    int8   -> Unknown4;
-    int8   -> Unknown5;
-    int8   -> Unknown6;
+    uint16 -> Unknown1;
+    uint8  -> Unknown2;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
 }

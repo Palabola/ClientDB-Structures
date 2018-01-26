@@ -5,5 +5,5 @@ type LockType
     string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
-    uint32 -> Id;
+    int32  -> Id;
 }

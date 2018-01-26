@@ -9,6 +9,6 @@ type CharHairGeosets
     uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    int8   -> Unknown8;
-    uint32 -> Unknown9;
+    uint8  -> Unknown8;
+    int32  -> Unknown9;
 }

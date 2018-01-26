@@ -2,5 +2,5 @@
 type ChrClassesXPowerTypes
 {
     uint8  -> Unknown0;
-    int8   -> Unknown1;
+    uint8  -> Unknown1;
 }

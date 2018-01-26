@@ -2,5 +2,5 @@
 type CommentatorStartLocation
 {
     float  -> Unknown0_, 3;
-    uint32 -> Unknown1;
+    int32  -> Unknown1;
 }

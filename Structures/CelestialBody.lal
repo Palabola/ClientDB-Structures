@@ -14,6 +14,6 @@ type CelestialBody
     float  -> Unknown10;
     float  -> Unknown11_, 3;
     float  -> Unknown12;
-    int16  -> Unknown13;
-    uint32 -> Id;
+    uint16 -> Unknown13;
+    int32  -> Id;
 }

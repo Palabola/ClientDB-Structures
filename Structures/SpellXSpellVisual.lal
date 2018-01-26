@@ -1,15 +1,15 @@
 // FileOptions: None
 type SpellXSpellVisual
 {
-    uint32 -> Unknown0;
-    uint32 -> Id;
+    int32  -> Unknown0;
+    int32  -> Id;
     float  -> Unknown2;
     uint16 -> Unknown3;
     uint16 -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
-    uint32 -> Unknown7;
-    uint32 -> Unknown8;
+    int32  -> Unknown7;
+    int32  -> Unknown8;
     uint8  -> Unknown9;
     uint8  -> Unknown10;
     uint8  -> Unknown11;

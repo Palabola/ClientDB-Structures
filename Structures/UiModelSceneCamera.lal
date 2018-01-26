@@ -15,6 +15,6 @@ type UiModelSceneCamera
     float  -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
-    uint32 -> Id;
+    int32  -> Id;
     int32  -> Unknown15;
 }

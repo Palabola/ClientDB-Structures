@@ -10,6 +10,6 @@ type LightParams
     uint16 -> Unknown6;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
-    int8   -> Unknown9;
-    uint32 -> Id;
+    uint8  -> Unknown9;
+    int32  -> Id;
 }

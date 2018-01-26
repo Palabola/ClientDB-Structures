@@ -5,5 +5,5 @@ type GameObjectDisplayInfo
     float  -> Unknown1_, 6;
     float  -> Unknown2;
     float  -> Unknown3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
 }

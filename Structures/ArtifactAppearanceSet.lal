@@ -6,7 +6,7 @@ type ArtifactAppearanceSet
     uint16 -> Unknown2;
     uint16 -> Unknown3;
     uint8  -> Unknown4;
-    int8   -> Unknown5;
+    uint8  -> Unknown5;
     uint8  -> Unknown6;
     int32  -> Id;
     uint8  -> Unknown8;

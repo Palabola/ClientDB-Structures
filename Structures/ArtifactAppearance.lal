@@ -5,14 +5,14 @@ type ArtifactAppearance
     int32  -> Unknown1;
     float  -> Unknown2;
     float  -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown4;
     uint16 -> Unknown5;
     uint16 -> Unknown6;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
     uint8  -> Unknown9;
     uint8  -> Unknown10;
-    uint32 -> Id;
+    int32  -> Id;
     int32  -> Unknown12;
     int32  -> Unknown13;
     int32  -> Unknown14;

@@ -2,6 +2,7 @@
 type ModelFileData
 {
     uint8  -> Unknown0;
-    uint32 -> Id;
-    int32  -> Unknown2;
+    uint8  -> Unknown1;
+    int32  -> Id;
+    int32  -> Unknown3;
 }

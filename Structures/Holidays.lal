@@ -2,15 +2,15 @@
 type Holidays
 {
     int32  -> Id;
-    uint32 -> Unknown1_, 16;
+    int32  -> Unknown1_, 16;
     uint16 -> Unknown2_, 10;
     uint16 -> Unknown3;
     uint8  -> Unknown4;
     uint8  -> Unknown5_, 10;
     uint8  -> Unknown6;
-    int8   -> Unknown7;
+    uint8  -> Unknown7;
     uint8  -> Unknown8;
     int32  -> Unknown9;
     int32  -> Unknown10;
-    uint32 -> Unknown11_, 3;
+    int32  -> Unknown11_, 3;
 }

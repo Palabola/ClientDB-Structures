@@ -6,7 +6,7 @@ type ObjectEffect
     uint8  -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
-    int8   -> Unknown5;
+    uint8  -> Unknown5;
     int32  -> Unknown6;
     int32  -> Unknown7;
 }

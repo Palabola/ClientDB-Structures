@@ -3,7 +3,7 @@ type MapLoadingScreen
 {
     float  -> Unknown0_, 2;
     float  -> Unknown1_, 2;
-    uint32 -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
 }

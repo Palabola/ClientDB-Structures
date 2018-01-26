@@ -1,3 +1,4 @@
+// FileOptions: DataOffset, Index, None
 type SceneScriptText
 {
     string -> Unknown0;

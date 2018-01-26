@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type PVPBracketTypes
 {
-    int8   -> Unknown0;
+    uint8  -> Unknown0;
     int32  -> Unknown1_, 4;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type UiModelScene
 {
-    int8   -> Unknown0;
+    uint8  -> Unknown0;
     uint8  -> Unknown1;
 }

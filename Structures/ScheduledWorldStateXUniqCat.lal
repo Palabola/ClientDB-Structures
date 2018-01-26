@@ -1,7 +1,7 @@
 // FileOptions: None
 type ScheduledWorldStateXUniqCat
 {
-    uint32 -> Id;
-    uint32 -> Unknown1;
+    int32  -> Id;
+    int32  -> Unknown1;
     uint32 -> Unknown2;
 }

@@ -3,7 +3,7 @@ type SpellVisualKitModelAttach
 {
     float  -> Unknown0_, 3;
     float  -> Unknown1_, 3;
-    uint32 -> Id;
+    int32  -> Id;
     uint16 -> Unknown3;
     uint8  -> Unknown4;
     uint8  -> Unknown5;

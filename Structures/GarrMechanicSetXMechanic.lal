@@ -2,6 +2,6 @@
 type GarrMechanicSetXMechanic
 {
     uint8  -> Unknown0;
-    uint32 -> Id;
+    int32  -> Id;
     uint32 -> Unknown2;
 }

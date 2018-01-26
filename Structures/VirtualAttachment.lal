@@ -2,5 +2,5 @@
 type VirtualAttachment
 {
     string -> Unknown0;
-    int16  -> Unknown1;
+    uint16 -> Unknown1;
 }

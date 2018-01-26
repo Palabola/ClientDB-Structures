@@ -5,11 +5,11 @@ type SpellMisc
     uint16 -> Unknown1;
     uint16 -> Unknown2;
     uint8  -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown4;
     float  -> Unknown5;
-    uint32 -> Unknown6;
+    int32  -> Unknown6;
     float  -> Unknown7;
     uint8  -> Unknown8;
-    uint32 -> Unknown9_, 14;
-    uint32 -> Unknown10;
+    int32  -> Unknown9_, 14;
+    int32  -> Unknown10;
 }

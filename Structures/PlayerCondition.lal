@@ -1,19 +1,19 @@
 // FileOptions: None
 type PlayerCondition
 {
-    int64  -> Unknown0;
+    uint64 -> Unknown0;
     string -> Unknown1;
     int32  -> Id;
     uint8  -> Unknown3;
     uint16 -> Unknown4;
     uint16 -> Unknown5;
-    uint32 -> Unknown6;
+    int32  -> Unknown6;
     uint8  -> Unknown7;
     uint8  -> Unknown8;
     int32  -> Unknown9;
     uint8  -> Unknown10;
     uint8  -> Unknown11;
-    uint32 -> Unknown12;
+    int32  -> Unknown12;
     uint16 -> Unknown13;
     uint8  -> Unknown14;
     int32  -> Unknown15;
@@ -47,8 +47,8 @@ type PlayerCondition
     uint8  -> Unknown43;
     uint16 -> Unknown44;
     int32  -> Unknown45;
-    uint32 -> Unknown46;
-    uint32 -> Unknown47;
+    int32  -> Unknown46;
+    int32  -> Unknown47;
     uint16 -> Unknown48;
     uint16 -> Unknown49;
     uint8  -> Unknown50;
@@ -57,7 +57,7 @@ type PlayerCondition
     uint8  -> Unknown53;
     uint8  -> Unknown54;
     int32  -> Unknown55;
-    uint32 -> Unknown56;
+    int32  -> Unknown56;
     uint16 -> Unknown57_, 4;
     uint16 -> Unknown58_, 4;
     uint16 -> Unknown59_, 4;
@@ -66,12 +66,12 @@ type PlayerCondition
     uint16 -> Unknown62_, 4;
     uint16 -> Unknown63_, 4;
     uint16 -> Unknown64_, 4;
-    uint32 -> Unknown65_, 4;
-    uint32 -> Unknown66_, 4;
+    int32  -> Unknown65_, 4;
+    int32  -> Unknown66_, 4;
     int32  -> Unknown67_, 4;
     uint16 -> Unknown68_, 2;
     int32  -> Unknown69_, 2;
-    uint32 -> Unknown70_, 4;
+    int32  -> Unknown70_, 4;
     uint8  -> Unknown71_, 4;
     uint16 -> Unknown72_, 4;
     uint8  -> Unknown73_, 4;
@@ -81,5 +81,5 @@ type PlayerCondition
     int32  -> Unknown77_, 4;
     int32  -> Unknown78_, 4;
     int32  -> Unknown79_, 6;
-    uint32 -> Unknown80_, 2;
+    int32  -> Unknown80_, 2;
 }

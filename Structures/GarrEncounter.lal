@@ -6,6 +6,6 @@ type GarrEncounter
     float  -> Unknown2;
     float  -> Unknown3;
     int32  -> Unknown4;
-    uint32 -> Id;
+    int32  -> Id;
     int32  -> Unknown6;
 }

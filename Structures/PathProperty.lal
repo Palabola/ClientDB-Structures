@@ -4,5 +4,5 @@ type PathProperty
     int32  -> Unknown0;
     uint16 -> Unknown1;
     uint8  -> Unknown2;
-    uint32 -> Id;
+    int32  -> Id;
 }

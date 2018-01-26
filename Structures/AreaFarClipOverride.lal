@@ -5,5 +5,5 @@ type AreaFarClipOverride
     float  -> Unknown1;
     float  -> Unknown2;
     int32  -> Unknown3;
-    uint32 -> Id;
+    int32  -> Id;
 }

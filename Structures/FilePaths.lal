@@ -1,0 +1,7 @@
+// FileOptions: Index, None
+type FilePaths
+{
+    string -> Unknown0;
+    string -> Unknown1;
+    int32  -> Unknown2;
+}

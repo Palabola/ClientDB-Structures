@@ -3,6 +3,6 @@ type ResearchSite
 {
     string -> Unknown0;
     int32  -> Unknown1;
-    int16  -> Unknown2;
+    uint16 -> Unknown2;
     int32  -> Unknown3;
 }

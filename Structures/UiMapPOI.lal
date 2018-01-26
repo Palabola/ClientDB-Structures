@@ -5,7 +5,7 @@ type UiMapPOI
     float  -> Unknown1_, 3;
     int32  -> Unknown2;
     int32  -> Unknown3;
-    int16  -> Unknown4;
+    uint16 -> Unknown4;
     uint16 -> Unknown5;
-    uint32 -> Id;
+    int32  -> Id;
 }

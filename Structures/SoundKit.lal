@@ -6,10 +6,10 @@ type SoundKit
     float  -> Unknown2;
     float  -> Unknown3;
     uint16 -> Unknown4;
-    uint16 -> Unknown5;
+    uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    int32  -> Unknown8;
     float  -> Unknown9;
     float  -> Unknown10;
     float  -> Unknown11;

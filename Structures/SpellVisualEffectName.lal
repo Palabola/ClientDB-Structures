@@ -7,11 +7,11 @@ type SpellVisualEffectName
     float  -> Unknown3;
     float  -> Unknown4;
     float  -> Unknown5;
-    uint32 -> Unknown6;
+    int32  -> Unknown6;
     int32  -> Unknown7;
     int32  -> Unknown8;
     uint8  -> Unknown9;
-    uint32 -> Unknown10;
+    int32  -> Unknown10;
     int32  -> Unknown11;
-    uint32 -> Unknown12;
+    int32  -> Unknown12;
 }

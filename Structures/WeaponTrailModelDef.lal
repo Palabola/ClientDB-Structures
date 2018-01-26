@@ -3,5 +3,5 @@ type WeaponTrailModelDef
 {
     int32  -> Unknown0;
     uint16 -> Unknown1;
-    uint16 -> Unknown2;
+    int16  -> Unknown2;
 }

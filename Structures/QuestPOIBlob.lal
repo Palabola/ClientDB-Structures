@@ -2,11 +2,11 @@
 type QuestPOIBlob
 {
     int32  -> Id;
-    int16  -> Unknown1;
+    uint16 -> Unknown1;
     uint16 -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
     int32  -> Unknown5;
-    uint32 -> Unknown6;
-    uint32 -> Unknown7;
+    int32  -> Unknown6;
+    int32  -> Unknown7;
 }

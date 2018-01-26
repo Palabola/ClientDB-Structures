@@ -2,5 +2,5 @@
 type AreaGroupMember
 {
     uint16 -> Unknown0;
-    int16  -> Unknown1;
+    uint16 -> Unknown1;
 }

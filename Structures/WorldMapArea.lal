@@ -6,16 +6,16 @@ type WorldMapArea
     float  -> Unknown2;
     float  -> Unknown3;
     float  -> Unknown4;
-    uint32 -> Unknown5;
-    int16  -> Unknown6;
+    int32  -> Unknown5;
+    uint16 -> Unknown6;
     uint16 -> Unknown7;
-    int16  -> Unknown8;
+    uint16 -> Unknown8;
     uint16 -> Unknown9;
     uint16 -> Unknown10;
     uint8  -> Unknown11;
     uint8  -> Unknown12;
     uint8  -> Unknown13;
     uint8  -> Unknown14;
-    uint32 -> Id;
+    int32  -> Id;
     int32  -> Unknown16;
 }

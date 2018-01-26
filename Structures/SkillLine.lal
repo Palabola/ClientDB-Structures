@@ -5,8 +5,9 @@ type SkillLine
     string -> Unknown1;
     string -> Unknown2;
     uint16 -> Unknown3;
-    int8   -> Unknown4;
-    int8   -> Unknown5;
-    uint32 -> Unknown6;
+    uint8  -> Unknown4;
+    uint8  -> Unknown5;
+    int32  -> Unknown6;
     int32  -> Unknown7;
+    int32  -> Unknown8;
 }

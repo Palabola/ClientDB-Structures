@@ -8,5 +8,5 @@ type Exhaustion
     float  -> Unknown4;
     float  -> Unknown5;
     float  -> Unknown6;
-    uint32 -> Id;
+    int32  -> Id;
 }

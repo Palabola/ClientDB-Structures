@@ -3,10 +3,10 @@ type JournalEncounterCreature
 {
     string -> Unknown0;
     string -> Unknown1;
-    uint32 -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
     uint16 -> Unknown5;
     uint8  -> Unknown6;
-    uint32 -> Id;
+    int32  -> Id;
 }

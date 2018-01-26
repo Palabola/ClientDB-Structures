@@ -3,12 +3,12 @@ type CurrencyTypes
 {
     string -> Unknown0;
     string -> Unknown1;
-    uint32 -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
     uint8  -> Unknown5;
     uint8  -> Unknown6;
     uint8  -> Unknown7;
-    uint32 -> Unknown8;
+    int32  -> Unknown8;
     int32  -> Unknown9;
 }

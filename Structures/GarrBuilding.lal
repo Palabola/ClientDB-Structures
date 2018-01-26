@@ -22,7 +22,7 @@ type GarrBuilding
     uint8  -> Unknown18;
     uint8  -> Unknown19;
     uint8  -> Unknown20;
-    uint32 -> Unknown21;
-    uint32 -> Unknown22;
-    uint32 -> Unknown23;
+    int32  -> Unknown21;
+    int32  -> Unknown22;
+    int32  -> Unknown23;
 }

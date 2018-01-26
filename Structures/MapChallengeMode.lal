@@ -4,6 +4,6 @@ type MapChallengeMode
     string -> Unknown0;
     int32  -> Id;
     uint16 -> Unknown2;
-    int16  -> Unknown3_, 3;
+    uint16 -> Unknown3_, 3;
     uint8  -> Unknown4;
 }

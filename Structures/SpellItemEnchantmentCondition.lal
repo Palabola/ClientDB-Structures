@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type SpellItemEnchantmentCondition
 {
-    uint32 -> Unknown0_, 5;
+    int32  -> Unknown0_, 5;
     uint8  -> Unknown1_, 5;
     uint8  -> Unknown2_, 5;
     uint8  -> Unknown3_, 5;

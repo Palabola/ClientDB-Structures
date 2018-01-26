@@ -12,5 +12,5 @@ type GarrAbilityEffect
     uint8  -> Unknown8;
     uint8  -> Unknown9;
     uint8  -> Unknown10;
-    uint32 -> Id;
+    int32  -> Id;
 }

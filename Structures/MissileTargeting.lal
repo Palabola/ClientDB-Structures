@@ -10,7 +10,7 @@ type MissileTargeting
     float  -> Unknown6;
     float  -> Unknown7_, 2;
     float  -> Unknown8;
-    uint32 -> Unknown9;
-    uint32 -> Unknown10;
-    uint32 -> Unknown11_, 2;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
+    int32  -> Unknown11_, 2;
 }

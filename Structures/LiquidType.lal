@@ -3,21 +3,23 @@ type LiquidType
 {
     string -> Unknown0;
     string -> Unknown1_, 6;
-    uint32 -> Unknown2;
+    int32  -> Unknown2;
     float  -> Unknown3;
     float  -> Unknown4;
     float  -> Unknown5;
     float  -> Unknown6;
     float  -> Unknown7;
-    int32  -> Unknown8_, 2;
-    float  -> Unknown9_, 18;
-    uint32 -> Unknown10_, 4;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
+    int32  -> Unknown8;
+    int32  -> Unknown9_, 2;
+    float  -> Unknown10_, 18;
+    int32  -> Unknown11_, 4;
+    float  -> Unknown12_, 4;
+    uint16 -> Unknown13;
+    uint16 -> Unknown14;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
-    uint8  -> Unknown17_, 6;
-    int32  -> Unknown18;
+    uint8  -> Unknown17;
+    uint8  -> Unknown18;
+    uint8  -> Unknown19_, 6;
+    int32  -> Unknown20;
 }

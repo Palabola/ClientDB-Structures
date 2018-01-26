@@ -3,6 +3,6 @@ type ItemClass
 {
     string -> Unknown0;
     float  -> Unknown1;
-    int8   -> Unknown2;
+    uint8  -> Unknown2;
     uint8  -> Unknown3;
 }

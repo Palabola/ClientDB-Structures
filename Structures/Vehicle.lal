@@ -18,5 +18,5 @@ type Vehicle
     uint16 -> Unknown14_, 3;
     uint8  -> Unknown15;
     uint8  -> Unknown16;
-    uint32 -> Unknown17;
+    int32  -> Unknown17;
 }

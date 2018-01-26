@@ -4,8 +4,8 @@ type SpellChainEffects
     float  -> Unknown0;
     float  -> Unknown1;
     float  -> Unknown2;
-    uint32 -> Unknown3;
-    uint32 -> Unknown4;
+    int32  -> Unknown3;
+    int32  -> Unknown4;
     float  -> Unknown5;
     float  -> Unknown6;
     float  -> Unknown7;
@@ -40,7 +40,7 @@ type SpellChainEffects
     float  -> Unknown36_, 3;
     float  -> Unknown37_, 3;
     float  -> Unknown38_, 3;
-    uint32 -> Unknown39;
+    int32  -> Unknown39;
     float  -> Unknown40;
     float  -> Unknown41;
     float  -> Unknown42;
@@ -60,5 +60,5 @@ type SpellChainEffects
     uint8  -> Unknown56;
     uint8  -> Unknown57;
     int32  -> Unknown58;
-    uint32 -> Unknown59_, 3;
+    int32  -> Unknown59_, 3;
 }

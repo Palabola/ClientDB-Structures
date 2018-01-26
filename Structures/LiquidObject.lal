@@ -3,7 +3,7 @@ type LiquidObject
 {
     float  -> Unknown0;
     float  -> Unknown1;
-    int16  -> Unknown2;
+    uint16 -> Unknown2;
     uint8  -> Unknown3;
     uint8  -> Unknown4;
 }

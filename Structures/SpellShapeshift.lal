@@ -4,5 +4,5 @@ type SpellShapeshift
     int32  -> Unknown0;
     int32  -> Unknown1_, 2;
     int32  -> Unknown2_, 2;
-    int8   -> Unknown3;
+    uint8  -> Unknown3;
 }

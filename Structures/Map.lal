@@ -11,12 +11,12 @@ type Map
     float  -> Unknown7;
     float  -> Unknown8_, 2;
     uint16 -> Unknown9;
-    int16  -> Unknown10;
-    int16  -> Unknown11;
-    int16  -> Unknown12;
-    int16  -> Unknown13;
-    int16  -> Unknown14;
-    int16  -> Unknown15;
+    uint16 -> Unknown10;
+    uint16 -> Unknown11;
+    uint16 -> Unknown12;
+    uint16 -> Unknown13;
+    uint16 -> Unknown14;
+    uint16 -> Unknown15;
     uint8  -> Unknown16;
     uint8  -> Unknown17;
     uint8  -> Unknown18;

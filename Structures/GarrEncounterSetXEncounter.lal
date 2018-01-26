@@ -1,6 +1,7 @@
-// FileOptions: Index, None
+// FileOptions: None
 type GarrEncounterSetXEncounter
 {
-    int32  -> Unknown0;
+    int32  -> Id;
     int32  -> Unknown1;
+    int32  -> Unknown2;
 }

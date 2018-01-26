@@ -3,6 +3,6 @@ type BattlePetSpeciesXAbility
 {
     uint16 -> Unknown0;
     uint8  -> Unknown1;
-    int8   -> Unknown2;
+    uint8  -> Unknown2;
     int16  -> Unknown3;
 }

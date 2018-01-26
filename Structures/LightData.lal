@@ -28,10 +28,10 @@ type LightData
     float  -> Unknown24;
     float  -> Unknown25;
     float  -> Unknown26;
-    uint32 -> Unknown27;
-    uint32 -> Unknown28;
-    uint32 -> Unknown29;
-    uint32 -> Unknown30;
+    int32  -> Unknown27;
+    int32  -> Unknown28;
+    int32  -> Unknown29;
+    int32  -> Unknown30;
     int32  -> Unknown31;
     int32  -> Unknown32;
     uint16 -> Unknown33;

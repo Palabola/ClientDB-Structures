@@ -3,8 +3,8 @@ type CreatureDifficulty
 {
     int32  -> Unknown0_, 7;
     uint16 -> Unknown1;
-    int8   -> Unknown2;
-    int8   -> Unknown3;
-    int8   -> Unknown4;
+    uint8  -> Unknown2;
+    uint8  -> Unknown3;
+    uint8  -> Unknown4;
     int32  -> Unknown5;
 }

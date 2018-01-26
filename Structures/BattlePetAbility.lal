@@ -5,7 +5,7 @@ type BattlePetAbility
     string -> Unknown1;
     int32  -> Unknown2;
     uint16 -> Unknown3;
-    int8   -> Unknown4;
+    uint8  -> Unknown4;
     uint8  -> Unknown5;
     int32  -> Unknown6;
 }

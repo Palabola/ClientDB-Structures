@@ -1,6 +1,7 @@
+// FileOptions: DataOffset, Index, None
 type ItemSparse
 {
-    int64  -> Unknown0;
+    uint64 -> Unknown0;
     string -> Unknown1;
     string -> Unknown2;
     string -> Unknown3;
@@ -9,25 +10,25 @@ type ItemSparse
     int32  -> Unknown6_, 4;
     float  -> Unknown7;
     float  -> Unknown8;
-    uint32 -> Unknown9;
-    uint32 -> Unknown10;
-    uint32 -> Unknown11;
-    uint32 -> Unknown12;
+    int32  -> Unknown9;
+    int32  -> Unknown10;
+    int32  -> Unknown11;
+    int32  -> Unknown12;
     int32  -> Unknown13;
     int32  -> Unknown14;
     int32  -> Unknown15_, 10;
     float  -> Unknown16_, 10;
     float  -> Unknown17;
-    uint32 -> Unknown18;
+    int32  -> Unknown18;
     float  -> Unknown19;
-    uint32 -> Unknown20;
+    int32  -> Unknown20;
     float  -> Unknown21;
-    int16  -> Unknown22;
+    uint16 -> Unknown22;
     uint16 -> Unknown23;
     uint16 -> Unknown24;
     uint16 -> Unknown25;
     uint16 -> Unknown26;
-    int16  -> Unknown27_, 10;
+    uint16 -> Unknown27;
     uint16 -> Unknown28;
     uint16 -> Unknown29;
     uint16 -> Unknown30;
@@ -44,24 +45,23 @@ type ItemSparse
     uint16 -> Unknown41;
     uint16 -> Unknown42;
     uint16 -> Unknown43;
-    uint16 -> Unknown44;
+    uint8  -> Unknown44;
     uint8  -> Unknown45;
     uint8  -> Unknown46;
-    int8   -> Unknown47;
+    uint8  -> Unknown47;
     uint8  -> Unknown48;
     uint8  -> Unknown49;
     uint8  -> Unknown50;
-    uint8  -> Unknown51;
-    int8   -> Unknown52_, 10;
+    uint8  -> Unknown51_, 10;
+    uint8  -> Unknown52;
     uint8  -> Unknown53;
     uint8  -> Unknown54;
     uint8  -> Unknown55;
     uint8  -> Unknown56;
     uint8  -> Unknown57;
-    uint8  -> Unknown58;
-    uint8  -> Unknown59_, 3;
+    uint8  -> Unknown58_, 3;
+    uint8  -> Unknown59;
     uint8  -> Unknown60;
     uint8  -> Unknown61;
     uint8  -> Unknown62;
-    uint8  -> Unknown63;
 }

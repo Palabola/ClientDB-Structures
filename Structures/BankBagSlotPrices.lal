@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type BankBagSlotPrices
 {
-    uint32 -> Unknown0;
+    int32  -> Unknown0;
 }

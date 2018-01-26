@@ -6,7 +6,7 @@ type SpellActivationOverlay
     int32  -> Unknown2;
     float  -> Unknown3;
     int32  -> Unknown4_, 4;
-    int8   -> Unknown5;
-    int8   -> Unknown6;
+    uint8  -> Unknown5;
+    uint8  -> Unknown6;
     int32  -> Unknown7;
 }
