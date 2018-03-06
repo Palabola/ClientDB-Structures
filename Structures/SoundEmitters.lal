@@ -1,16 +1,15 @@
 // FileOptions: None
 type SoundEmitters
 {
-    string -> Unknown0;
-    float  -> Unknown1_, 3;
-    float  -> Unknown2_, 3;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
+    string -> Name;
+    float  -> Position, 3;
+    float  -> Direction, 3;
+    uint16 -> WorldStateExpressionId;
+    uint16 -> PhaseId;
+    uint8  -> EmitterType;
+    uint8  -> PhaseUseFlags;
+    uint8  -> Flags;
     int32  -> Id;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int16  -> Unknown11;
+    int32  -> SoundEntriesId;
+    int32  -> PhaseGroupId;
 }

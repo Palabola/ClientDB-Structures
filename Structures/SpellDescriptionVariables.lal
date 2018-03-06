@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type SpellDescriptionVariables
 {
-    string -> Unknown0;
+    string -> Variables;
 }

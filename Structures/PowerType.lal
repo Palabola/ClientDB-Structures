@@ -1,16 +1,16 @@
 // FileOptions: Index, None
 type PowerType
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
+    string -> NameGlobalStringTag;
+    string -> CostGlobalStringTag;
+    float  -> RegenPeace;
+    float  -> RegenCombat;
+    uint16 -> MaxBasePower;
+    uint16 -> RegenInterruptTimeMS;
+    uint16 -> Flags;
+    uint8  -> PowerTypeEnum;
+    uint8  -> MinPower;
+    uint8  -> CenterPower;
+    uint8  -> DefaultPower;
+    uint8  -> DisplayModifier;
 }

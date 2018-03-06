@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SpellShapeshift
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1_, 2;
-    int32  -> Unknown2_, 2;
-    uint8  -> Unknown3;
+    int32  -> SpellId;
+    uint32  -> ShapeshiftExclude, 2;
+    uint32  -> ShapeshiftMask, 2;
+    uint8  -> StanceBarOrder;
 }

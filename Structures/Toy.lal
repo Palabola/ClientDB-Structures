@@ -1,9 +1,9 @@
 // FileOptions: None
 type Toy
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> SourceText;
+    int32  -> ItemId;
+    uint8  -> Flags;
+    uint8  -> SourceTypeEnum;
     int32  -> Id;
 }

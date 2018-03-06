@@ -1,8 +1,8 @@
 // FileOptions: None
 type FriendshipReputation
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    uint16 -> Unknown2;
+    string -> Description;
+    int32  -> TextureFileId;
+    uint16 -> FactionId;
     int32  -> Id;
 }

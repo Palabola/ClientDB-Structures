@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type GameObjectArtKit
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1_, 3;
+    int32  -> AttachModelFileId;
+    int32  -> TextureVariationFileId, 3;
 }

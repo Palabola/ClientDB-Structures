@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type Startup_Strings
 {
-    string -> Unknown0;
-    string -> Unknown1;
+    string -> Name;
+    string -> Message;
 }

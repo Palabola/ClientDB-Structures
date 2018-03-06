@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type HighlightColor
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    uint32  -> StartColor;
+    uint32  -> MidColor;
+    uint32  -> EndColor;
+    uint8  -> Type;
+    uint8  -> Flags;
 }

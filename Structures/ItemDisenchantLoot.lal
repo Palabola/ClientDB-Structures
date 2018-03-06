@@ -1,11 +1,10 @@
 // FileOptions: Index, None
 type ItemDisenchantLoot
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    uint16 -> MinLevel;
+    uint16 -> MaxLevel;
+    uint16 -> SkillRequired;
+    uint8  -> Subclass;
+    uint8  -> Quality;
+    uint8  -> ExpansionId;
 }

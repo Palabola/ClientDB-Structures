@@ -1,9 +1,8 @@
 // FileOptions: Index, None
 type AlliedRaceRacialAbility
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
-    uint32 -> Unknown4;
+    string -> Name;
+    string -> Description;
+    uint8  -> OrderIndex;
+    int32  -> IconFileDataId;
 }

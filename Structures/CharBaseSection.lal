@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type CharBaseSection
 {
-    uint8  -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
+    uint8  -> VariationEnum;
+    uint8  -> ResolutionVariationEnum;
+    uint8  -> LayoutResType;
 }

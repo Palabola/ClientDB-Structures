@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type DeathThudLookups
 {
-    uint8  -> Unknown0;
-    uint8  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
+    uint8  -> SizeClass;
+    uint8  -> TerrainTypeSoundId;
+    int32  -> SoundEntryId;
+    int32  -> SoundEntryIDWater;
 }

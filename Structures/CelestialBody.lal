@@ -1,19 +1,19 @@
 // FileOptions: None
 type CelestialBody
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2_, 2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5_, 2;
-    float  -> Unknown6_, 2;
-    float  -> Unknown7_, 2;
-    float  -> Unknown8;
-    float  -> Unknown9_, 2;
-    float  -> Unknown10;
-    float  -> Unknown11_, 3;
-    float  -> Unknown12;
-    uint16 -> Unknown13;
+    int32  -> BaseFileDataId;
+    int32  -> LightMaskFileDataId;
+    int32  -> GlowMaskFileDataId, 2;
+    int32  -> AtmosphericMaskFileDataId;
+    int32  -> AtmosphericModifiedFileDataId;
+    int32  -> GlowModifiedFileDataId, 2;
+    float  -> ScrollURate, 2;
+    float  -> ScrollVRate, 2;
+    float  -> RotateRate;
+    float  -> GlowMaskScale, 2;
+    float  -> AtmosphericMaskScale;
+    float  -> Position, 3;
+    float  -> BodyBaseScale;
+    uint16 -> SkyArrayBand;
     int32  -> Id;
 }

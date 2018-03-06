@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type Emotes
 {
-    uint64 -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
+    uint64 -> RaceMask;
+    string -> EmoteSlashCommand;
+    int32  -> EmoteFlags;
+    int32  -> SpellVisualKitId;
+    uint16 -> AnimId;
+    uint8  -> EmoteSpecProc;
+    int32  -> ClassMask;
+    int32  -> EmoteSpecProcParam;
+    int32  -> EventSoundId;
 }

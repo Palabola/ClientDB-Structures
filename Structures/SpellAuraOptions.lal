@@ -1,12 +1,11 @@
 // FileOptions: Index, None
 type SpellAuraOptions
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1_, 2;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    int32  -> Unknown7;
+    uint32  -> ProcCharges;
+    uint32  -> ProcTypeMask, 2;
+    int32  -> ProcCategoryRecovery;
+    uint16 -> CumulativeAura;
+    uint16 -> SpellProcsPerMinuteId;
+    uint8  -> DifficultyId;
+    uint8  -> ProcChance;
 }

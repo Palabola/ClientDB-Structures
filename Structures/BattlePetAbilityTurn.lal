@@ -1,10 +1,10 @@
 // FileOptions: None
 type BattlePetAbilityTurn
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    uint16 -> BattlePetAbilityId;
+    uint16 -> BattlePetVisualId;
+    uint8  -> OrderIndex;
+    uint8  -> TurnTypeEnum;
+    uint8  -> EventTypeEnum;
     int32  -> Id;
 }

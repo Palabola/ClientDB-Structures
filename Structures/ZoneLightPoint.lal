@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type ZoneLightPoint
 {
-    float  -> Unknown0_, 2;
-    uint8  -> Unknown1;
-    int16  -> Unknown2;
+    float  -> Pos, 2;
+    uint8  -> PointOrder;
 }

@@ -1,8 +1,7 @@
 // FileOptions: Index, None
 type VehicleUIIndSeat
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    uint8  -> Unknown2;
-    int16  -> Unknown3;
+    float  -> XPos;
+    float  -> YPos;
+    uint8  -> VirtualSeatIndex;
 }

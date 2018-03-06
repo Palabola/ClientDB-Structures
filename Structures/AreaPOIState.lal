@@ -1,9 +1,8 @@
 // FileOptions: Index, None
 type AreaPOIState
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
+    string -> Description;
+    uint8  -> WorldStateValue;
+    uint8  -> IconEnumValue;
+    int32  -> UiTextureAtlasMemberId;
 }

@@ -1,10 +1,10 @@
 // FileOptions: None
 type SpecializationSpells
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
+    string -> Description;
+    int32  -> SpellId;
+    int32  -> OverridesSpellId;
+    uint16 -> SpecId;
+    uint8  -> DisplayOrder;
     int32  -> Id;
 }

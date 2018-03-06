@@ -1,13 +1,13 @@
 // FileOptions: None
 type DungeonEncounter
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
+    string -> Name;
+    int32  -> CreatureDisplayId;
+    uint16 -> MapId;
+    uint8  -> DifficultyId;
+    uint8  -> Bit;
+    uint8  -> Flags;
     int32  -> Id;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
+    int32  -> OrderIndex;
+    int32  -> SpellIconFileId;
 }

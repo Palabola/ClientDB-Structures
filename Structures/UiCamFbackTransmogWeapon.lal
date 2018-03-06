@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type UiCamFbackTransmogWeapon
 {
-    uint16 -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    uint16 -> UiCameraId;
+    uint8  -> ItemClass;
+    uint8  -> ItemSubclass;
+    uint8  -> InventoryType;
 }

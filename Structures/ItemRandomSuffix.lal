@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ItemRandomSuffix
 {
-    string -> Unknown0;
-    uint16 -> Unknown1_, 5;
-    uint16 -> Unknown2_, 5;
+    string -> Name;
+    uint16 -> Enchantment, 5;
+    uint16 -> AllocationPct, 5;
 }

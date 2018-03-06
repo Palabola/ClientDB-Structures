@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type GarrClassSpecPlayerCond
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
+    string -> Name;
+    int32  -> IconFileDataId;
+    uint8  -> OrderIndex;
+    int32  -> GarrClassSpecId;
+    int32  -> PlayerConditionId;
+    int32  -> FlavorGarrStringId;
 }

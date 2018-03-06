@@ -1,20 +1,20 @@
 // FileOptions: Index, None
 type UnitPowerBar
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    int32  -> Unknown6_, 6;
-    int32  -> Unknown7_, 6;
-    float  -> Unknown8;
-    float  -> Unknown9;
-    uint16 -> Unknown10;
-    uint16 -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    int32  -> Unknown14;
-    int32  -> Unknown15;
+    string -> Name;
+    string -> Cost;
+    string -> OutOfError;
+    string -> ToolTip;
+    float  -> RegenerationPeace;
+    float  -> RegenerationCombat;
+    int32  -> FileDataId, 6;
+    uint32  -> Color, 6;
+    float  -> StartInset;
+    float  -> EndInset;
+    uint16 -> StartPower;
+    uint16 -> Flags;
+    uint8  -> CenterPower;
+    uint8  -> BarType;
+    int32  -> MinPower;
+    int32  -> MaxPower;
 }

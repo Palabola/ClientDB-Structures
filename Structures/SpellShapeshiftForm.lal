@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type SpellShapeshiftForm
 {
-    string -> Unknown0;
-    float  -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8_, 4;
-    int32  -> Unknown9_, 8;
+    string -> Name;
+    float  -> DamageVariance;
+    int32  -> Flags;
+    uint16 -> CombatRoundTime;
+    uint16 -> MountTypeId;
+    uint8  -> CreatureType;
+    uint8  -> BonusActionBar;
+    int32  -> AttackIconFileId;
+    int32  -> CreatureDisplayId, 4;
+    int32  -> PresetSpellId, 8;
 }

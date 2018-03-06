@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type SpellVisualAnim
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
+    uint16 -> InitialAnimId;
+    uint16 -> LoopAnimId;
+    uint16 -> AnimKitId;
 }

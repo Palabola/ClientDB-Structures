@@ -1,15 +1,15 @@
 // FileOptions: None
 type Mount
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    int32  -> Unknown3;
-    float  -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint8  -> Unknown7;
+    string -> Name;
+    string -> Description;
+    string -> SourceText;
+    int32  -> SourceSpellId;
+    float  -> MountFlyRideHeight;
+    uint16 -> MountTypeId;
+    uint16 -> Flags;
+    uint8  -> SourceTypeEnum;
     int32  -> Id;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
+    int32  -> PlayerConditionId;
+    int32  -> UiModelSceneId;
 }

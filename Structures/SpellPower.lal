@@ -1,18 +1,17 @@
 // FileOptions: None
 type SpellPower
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    int32  -> Unknown3;
-    float  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    uint32  -> ManaCost;
+    float  -> PowerCostPct;
+    float  -> PowerPctPerSecond;
+    int32  -> RequiredAuraSpellId;
+    float  -> PowerCostMaxPct;
+    uint8  -> OrderIndex;
+    uint8  -> PowerType;
     int32  -> Id;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
-    int32  -> Unknown13;
+    uint32  -> ManaCostPerLevel;
+    int32  -> ManaPerSecond;
+    int32  -> OptionalCost;
+    int32  -> PowerDisplayId;
+    int32  -> AltPowerBarId;
 }

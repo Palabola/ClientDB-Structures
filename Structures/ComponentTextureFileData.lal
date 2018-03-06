@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ComponentTextureFileData
 {
-    uint8  -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
+    uint8  -> GenderIndex;
+    uint8  -> ClassId;
+    uint8  -> RaceId;
 }

@@ -1,13 +1,12 @@
 // FileOptions: Index, None
 type SpellVisualEvent
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    uint32 -> Unknown8;
+    int32  -> StartEvent;
+    int32  -> StartMinOffsetMs;
+    int32  -> StartMaxOffsetMs;
+    int32  -> EndEvent;
+    int32  -> EndMinOffsetMs;
+    int32  -> EndMaxOffsetMs;
+    int32  -> TargetType;
+    int32  -> SpellVisualKitId;
 }

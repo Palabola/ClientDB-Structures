@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type FactionTemplate
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2_, 4;
-    uint16 -> Unknown3_, 4;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    uint16 -> Faction;
+    uint16 -> Flags;
+    uint16 -> Enemies, 4;
+    uint16 -> Friend, 4;
+    uint8  -> FactionGroup;
+    uint8  -> FriendGroup;
+    uint8  -> EnemyGroup;
 }

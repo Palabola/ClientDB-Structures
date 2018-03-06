@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type Artifact
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
+    string -> Name;
+    uint32  -> UiBarOverlayColor;
+    uint32  -> UiBarBackgroundColor;
+    uint32  -> UiNameColor;
+    uint16 -> UiTextureKitId;
+    uint16 -> ChrSpecializationId;
+    uint8  -> ArtifactCategoryId;
+    uint8  -> Flags;
+    int32  -> UiModelSceneId;
+    int32  -> SpellVisualKitId;
 }

@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type GarrSiteLevel
 {
-    float  -> Unknown0_, 2;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    float  -> TownHallUiPos, 2;
+    uint16 -> MapId;
+    uint16 -> UiTextureKitId;
+    uint16 -> UpgradeMovieId;
+    uint16 -> UpgradeCost;
+    uint16 -> UpgradeGoldCost;
+    uint8  -> GarrLevel;
+    uint8  -> GarrSiteId;
+    uint8  -> MaxBuildingLevel;
 }

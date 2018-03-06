@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ManifestInterfaceData
 {
-    string -> Unknown0;
-    string -> Unknown1;
+    string -> FilePath;
+    string -> FileName;
 }

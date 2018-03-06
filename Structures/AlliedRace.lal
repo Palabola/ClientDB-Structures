@@ -1,12 +1,12 @@
 // FileOptions: None
 type AlliedRace
 {
-    int32  -> Unknown0;
+    int32  -> BannerColor;
     int32  -> Id;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
+    int32  -> RaceId;
+    int32  -> CrestTextureId;
+    int32  -> ModelBackgroundTextureId;
+    int32  -> MaleCreatureDisplayId;
+    int32  -> FemaleCreatureDisplayId;
+    int32  -> UiUnlockAchievementId;
 }

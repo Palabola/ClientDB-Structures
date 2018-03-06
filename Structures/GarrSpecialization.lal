@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type GarrSpecialization
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    float  -> Unknown3_, 2;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    string -> Name;
+    string -> Tooltip;
+    int32  -> IconFileDataId;
+    float  -> Param, 2;
+    uint8  -> BuildingType;
+    uint8  -> SpecType;
+    uint8  -> RequiredUpgradeLevel;
 }

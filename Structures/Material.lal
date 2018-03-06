@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type Material
 {
-    uint8  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
+    uint8  -> Flags;
+    int32  -> FoleySoundId;
+    int32  -> SheatheSoundId;
+    int32  -> UnsheatheSoundId;
 }

@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type SpellLearnSpell
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
+    int32  -> SpellId;
+    int32  -> LearnSpellId;
+    int32  -> OverridesSpellId;
 }

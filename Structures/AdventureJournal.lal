@@ -1,26 +1,26 @@
 // FileOptions: Index, None
 type AdventureJournal
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
-    string -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10_, 2;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18_, 2;
-    uint8  -> Unknown19;
-    int32  -> Unknown20;
-    int32  -> Unknown21;
+    string -> Name;
+    string -> Description;
+    string -> ButtonText;
+    string -> RewardDescription;
+    string -> ContinueDescription;
+    int32  -> TextureFileDataId;
+    int32  -> ItemId;
+    uint16 -> LfgDungeonId;
+    uint16 -> QuestId;
+    uint16 -> BattleMasterListId;
+    uint16 -> BonusPlayerConditionId, 2;
+    uint16 -> CurrencyType;
+    uint16 -> WorldMapAreaId;
+    uint8  -> Type;
+    uint8  -> Flags;
+    uint8  -> ButtonActionType;
+    uint8  -> PriorityMin;
+    uint8  -> PriorityMax;
+    uint8  -> BonusValue, 2;
+    uint8  -> CurrencyQuantity;
+    int32  -> PlayerConditionId;
+    int32  -> ItemQuantity;
 }

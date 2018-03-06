@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ItemNameDescription
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
+    string -> Description;
+    uint32  -> Color;
 }

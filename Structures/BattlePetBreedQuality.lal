@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type BattlePetBreedQuality
 {
-    float  -> Unknown0;
-    uint8  -> Unknown1;
+    float  -> StateMultiplier;
+    uint8  -> QualityEnum;
 }

@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type RibbonQuality
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    uint8  -> Unknown3;
-    int32  -> Unknown4;
+    float  -> MaxSampleTimeDelta;
+    float  -> AngleThreshold;
+    float  -> MinDistancePerSlice;
+    uint8  -> NumStrips;
+    int32  -> Flags;
 }

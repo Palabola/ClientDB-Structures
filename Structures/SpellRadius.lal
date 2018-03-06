@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SpellRadius
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
+    float  -> Radius;
+    float  -> RadiusPerLevel;
+    float  -> RadiusMin;
+    float  -> RadiusMax;
 }

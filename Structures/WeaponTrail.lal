@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type WeaponTrail
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    int32  -> Unknown4_, 3;
-    float  -> Unknown5_, 3;
-    float  -> Unknown6_, 3;
-    float  -> Unknown7_, 3;
-    float  -> Unknown8_, 3;
+    int32  -> FileDataId;
+    float  -> Yaw;
+    float  -> Pitch;
+    float  -> Roll;
+    int32  -> TextureFileDataId, 3;
+    float  -> TextureScrollRateU, 3;
+    float  -> TextureScrollRateV, 3;
+    float  -> TextureScaleU, 3;
+    float  -> TextureScaleV, 3;
 }

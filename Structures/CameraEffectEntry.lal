@@ -1,20 +1,19 @@
 // FileOptions: Index, None
 type CameraEffectEntry
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    int16  -> Unknown15;
+    float  -> Duration;
+    float  -> Delay;
+    float  -> Phase;
+    float  -> Amplitude;
+    float  -> AmplitudeB;
+    float  -> Frequency;
+    float  -> RadiusMin;
+    float  -> RadiusMax;
+    uint16 -> AmplitudeCurveId;
+    uint8  -> OrderIndex;
+    uint8  -> Flags;
+    uint8  -> EffectType;
+    uint8  -> DirectionType;
+    uint8  -> MovementType;
+    uint8  -> AttenuationType;
 }

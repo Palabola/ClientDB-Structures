@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type ChrClassRaceSex
 {
-    uint8  -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
+    uint8  -> ClassId;
+    uint8  -> RaceId;
+    uint8  -> Sex;
+    int32  -> Flags;
+    int32  -> SoundId;
+    int32  -> VoiceSoundFilterId;
 }

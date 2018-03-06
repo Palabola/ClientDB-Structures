@@ -1,21 +1,21 @@
 // FileOptions: None
 type WorldStateUI
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
-    string -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10_, 3;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
+    string -> Icon;
+    string -> ExtendedUI;
+    string -> DynamicTooltip;
+    string -> String;
+    string -> Tooltip;
+    uint16 -> MapId;
+    uint16 -> AreaId;
+    uint16 -> PhaseId;
+    uint16 -> PhaseGroupId;
+    uint16 -> StateVariable;
+    uint16 -> ExtendedUIStateVariable, 3;
+    uint8  -> OrderIndex;
+    uint8  -> PhaseUseFlags;
+    uint8  -> Type;
     int32  -> Id;
-    int32  -> Unknown15;
-    int32  -> Unknown16;
+    int32  -> DynamicIconFileId;
+    int32  -> DynamicFlashIconFileId;
 }

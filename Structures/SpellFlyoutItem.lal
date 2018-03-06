@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type SpellFlyoutItem
 {
-    int32  -> Unknown0;
-    uint8  -> Unknown1;
-    int8   -> Unknown2;
+    int32  -> SpellId;
+    uint8  -> Slot;
 }

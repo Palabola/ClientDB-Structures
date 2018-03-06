@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ArmorLocation
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
+    float  -> Clothmodifier;
+    float  -> Leathermodifier;
+    float  -> Chainmodifier;
+    float  -> Platemodifier;
+    float  -> Modifier;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type SoundEmitterPillPoints
 {
-    float  -> Unknown0_, 3;
-    uint16 -> Unknown1;
+    float  -> Position, 3;
+    uint16 -> SoundEmittersId;
 }

@@ -1,15 +1,15 @@
 // FileOptions: Index, None
 type CombatCondition
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3_, 2;
-    uint16 -> Unknown4_, 2;
-    uint8  -> Unknown5_, 2;
-    uint8  -> Unknown6_, 2;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8_, 2;
-    uint8  -> Unknown9_, 2;
-    uint8  -> Unknown10;
+    uint16 -> WorldStateExpressionId;
+    uint16 -> SelfConditionId;
+    uint16 -> TargetConditionId;
+    uint16 -> FriendConditionId, 2;
+    uint16 -> EnemyConditionId, 2;
+    uint8  -> FriendConditionOp, 2;
+    uint8  -> FriendConditionCount, 2;
+    uint8  -> FriendConditionLogic;
+    uint8  -> EnemyConditionOp, 2;
+    uint8  -> EnemyConditionCount, 2;
+    uint8  -> EnemyConditionLogic;
 }

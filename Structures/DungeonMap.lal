@@ -1,12 +1,12 @@
 // FileOptions: None
 type DungeonMap
 {
-    float  -> Unknown0_, 2;
-    float  -> Unknown1_, 2;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    float  -> Min, 2;
+    float  -> Max, 2;
+    uint16 -> MapId;
+    uint16 -> ParentWorldMapId;
+    uint8  -> FloorIndex;
+    uint8  -> RelativeHeightIndex;
+    uint8  -> Flags;
     int32  -> Id;
 }

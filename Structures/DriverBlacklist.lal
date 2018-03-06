@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type DriverBlacklist
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    int32  -> DriverVersionHi;
+    int32  -> DriverVersionLow;
+    uint16 -> VendorId;
+    uint8  -> DeviceId;
+    uint8  -> OsVersion;
+    uint8  -> OsBits;
+    uint8  -> Flags;
 }

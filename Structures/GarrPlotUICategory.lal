@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type GarrPlotUICategory
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
+    string -> CategoryName;
+    uint8  -> PlotType;
 }

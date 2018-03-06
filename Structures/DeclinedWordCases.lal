@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type DeclinedWordCases
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
-    int32  -> Unknown2;
+    string -> DeclinedWord;
+    uint8  -> CaseIndex;
 }

@@ -1,19 +1,19 @@
 // FileOptions: None
 type ArtifactAppearance
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    int32  -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
+    string -> Name;
+    uint32  -> UiSwatchColor;
+    float  -> UiModelSaturation;
+    float  -> UiModelOpacity;
+    int32  -> OverrideShapeshiftDisplayId;
+    uint16 -> ArtifactAppearanceSetId;
+    uint16 -> UiCameraId;
+    uint8  -> DisplayIndex;
+    uint8  -> ItemAppearanceModifierId;
+    uint8  -> Flags;
+    uint8  -> OverrideShapeshiftFormId;
     int32  -> Id;
-    int32  -> Unknown12;
-    int32  -> Unknown13;
-    int32  -> Unknown14;
+    int32  -> UnlockPlayerConditionId;
+    int32  -> UiItemAppearanceId;
+    int32  -> UiAltItemAppearanceId;
 }

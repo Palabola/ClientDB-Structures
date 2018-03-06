@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ItemModifiedAppearanceExtra
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    int32  -> IconFileDataId;
+    int32  -> UnequippedIconFileDataId;
+    uint8  -> SheatheType;
+    uint8  -> DisplayWeaponSubclassId;
+    uint8  -> DisplayInventoryType;
 }

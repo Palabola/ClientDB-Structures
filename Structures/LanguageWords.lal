@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type LanguageWords
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
+    string -> Word;
+    uint8  -> LanguageId;
 }

@@ -1,14 +1,14 @@
 // FileOptions: None
 type Heirloom
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5_, 3;
-    uint16 -> Unknown6_, 3;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    string -> SourceText;
+    int32  -> ItemId;
+    int32  -> LegacyItemId;
+    int32  -> LegacyUpgradedItemId;
+    int32  -> StaticUpgradedItemId;
+    int32  -> UpgradeItemId, 3;
+    uint16 -> UpgradeItemBonusListId, 3;
+    uint8  -> Flags;
+    uint8  -> SourceTypeEnum;
     int32  -> Id;
 }

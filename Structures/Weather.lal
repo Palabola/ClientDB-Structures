@@ -1,19 +1,19 @@
 // FileOptions: Index, None
 type Weather
 {
-    float  -> Unknown0_, 2;
-    float  -> Unknown1;
-    float  -> Unknown2_, 3;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    int32  -> Unknown8;
-    uint16 -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    int32  -> Unknown13;
-    int32  -> Unknown14;
+    float  -> Intensity, 2;
+    float  -> TransitionSkyBox;
+    float  -> EffectColor, 3;
+    float  -> Scale;
+    float  -> Volatility;
+    float  -> TwinkleIntensity;
+    float  -> FallModifier;
+    float  -> RotationalSpeed;
+    int32  -> ParticulateFileDataId;
+    uint16 -> SoundAmbienceId;
+    uint8  -> Type;
+    uint8  -> EffectType;
+    uint8  -> WindSettingsId;
+    int32  -> AmbienceId;
+    int32  -> EffectTextureFileDataId;
 }

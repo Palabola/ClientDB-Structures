@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type RandPropPoints
 {
-    int32  -> Unknown0_, 5;
-    int32  -> Unknown1_, 5;
-    int32  -> Unknown2_, 5;
+    int32  -> Epic, 5;
+    int32  -> Superior, 5;
+    int32  -> Good, 5;
 }

@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SoundOverride
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    uint16 -> ZoneIntroMusicId;
+    uint16 -> ZoneMusicId;
+    uint16 -> SoundAmbienceId;
+    uint8  -> SoundProviderPreferencesId;
 }

@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type QuestMoneyReward
 {
-    int32  -> Unknown0_, 10;
+    int32  -> Difficulty, 10;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type Location
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1_, 3;
+    float  -> Pos, 3;
+    float  -> Rot, 3;
 }

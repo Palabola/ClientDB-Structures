@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type SpellRange
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    float  -> Unknown2_, 2;
-    float  -> Unknown3_, 2;
-    uint8  -> Unknown4;
+    string -> DisplayName;
+    string -> DisplayNameShort;
+    float  -> RangeMin, 2;
+    float  -> RangeMax, 2;
+    uint8  -> Flags;
 }

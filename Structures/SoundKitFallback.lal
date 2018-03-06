@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type SoundKitFallback
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
+    int32  -> SoundKitId;
+    int32  -> FallbackSoundKitId;
 }

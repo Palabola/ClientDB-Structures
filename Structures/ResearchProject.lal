@@ -1,13 +1,13 @@
 // FileOptions: None
 type ResearchProject
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
+    string -> Name;
+    string -> Description;
+    int32  -> SpellId;
+    uint16 -> ResearchBranchId;
+    uint8  -> Rarity;
+    uint8  -> NumSockets;
     int32  -> Id;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
+    int32  -> TextureFileId;
+    int32  -> RequiredWeight;
 }

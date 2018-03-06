@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CommentatorStartLocation
 {
-    float  -> Unknown0_, 3;
-    int32  -> Unknown1;
+    float  -> Pos, 3;
+    int32  -> MapId;
 }

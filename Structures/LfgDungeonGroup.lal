@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type LFGDungeonGroup
 {
-    string -> Unknown0;
-    uint16 -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Name;
+    uint16 -> OrderIndex;
+    uint8  -> ParentGroup_id;
+    uint8  -> Typeid;
 }

@@ -1,16 +1,16 @@
 // FileOptions: Index, None
 type TaxiNodes
 {
-    string -> Unknown0;
-    float  -> Unknown1_, 3;
-    int32  -> Unknown2_, 2;
-    float  -> Unknown3_, 2;
-    float  -> Unknown4;
-    float  -> Unknown5_, 2;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
+    string -> Name;
+    float  -> Pos, 3;
+    int32  -> MountCreatureId, 2;
+    float  -> MapOffset, 2;
+    float  -> Facing;
+    float  -> FlightMapOffset, 2;
+    uint16 -> ContinentId;
+    uint16 -> ConditionId;
+    uint16 -> CharacterBitNumber;
+    uint8  -> Flags;
+    int32  -> UiTextureKitId;
+    int32  -> SpecialIconConditionId;
 }

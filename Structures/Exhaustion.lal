@@ -1,12 +1,12 @@
 // FileOptions: None
 type Exhaustion
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
+    string -> Name;
+    string -> CombatLogText;
+    uint32  -> Xp;
+    float  -> Factor;
+    float  -> OutdoorHours;
+    float  -> InnHours;
+    float  -> Threshold;
     int32  -> Id;
 }

@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type UiModelSceneActorDisplay
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    float  -> AnimSpeed;
+    float  -> Alpha;
+    float  -> Scale;
+    int32  -> AnimationId;
+    int32  -> SequenceVariation;
 }

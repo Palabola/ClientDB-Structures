@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type GarrMssnBonusAbility
 {
-    float  -> Unknown0;
-    int32  -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    float  -> Radius;
+    int32  -> DurationSecs;
+    uint16 -> GarrAbilityId;
+    uint8  -> GarrFollowerTypeId;
+    uint8  -> GarrMissionTextureId;
 }

@@ -1,19 +1,19 @@
 // FileOptions: Index, None
 type ItemDisplayInfo
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10_, 2;
-    int32  -> Unknown11_, 2;
-    int32  -> Unknown12_, 4;
-    int32  -> Unknown13_, 4;
-    int32  -> Unknown14_, 2;
+    int32  -> Flags;
+    int32  -> ItemRangedDisplayInfoId;
+    int32  -> ItemVisual;
+    int32  -> ParticleColorId;
+    int32  -> OverrideSwooshSoundKitId;
+    int32  -> SheatheTransformMatrixId;
+    int32  -> ModelType1;
+    int32  -> StateSpellVisualKitId;
+    int32  -> SheathedSpellVisualKitId;
+    int32  -> UnsheathedSpellVisualKitId;
+    int32  -> ModelResourcesId, 2;
+    int32  -> ModelMaterialResourcesId, 2;
+    int32  -> GeosetGroup, 4;
+    int32  -> AttachmentGeosetGroup, 4;
+    int32  -> HelmetGeosetVis, 2;
 }

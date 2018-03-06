@@ -1,17 +1,17 @@
 // FileOptions: Index, None
 type GarrUiAnimRaceInfo
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    float  -> Unknown8;
-    float  -> Unknown9;
-    float  -> Unknown10;
-    float  -> Unknown11;
-    uint8  -> Unknown12;
+    float  -> MaleScale;
+    float  -> MaleHeight;
+    float  -> MaleSingleModelScale;
+    float  -> MaleSingleModelHeight;
+    float  -> MaleFollowerPageScale;
+    float  -> MaleFollowerPageHeight;
+    float  -> FemaleScale;
+    float  -> FemaleHeight;
+    float  -> FemaleSingleModelScale;
+    float  -> FemaleSingleModelHeight;
+    float  -> FemaleFollowerPageScale;
+    float  -> FemaleFollowerPageHeight;
+    uint8  -> GarrFollRaceId;
 }

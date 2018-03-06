@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type ItemGroupSounds
 {
-    int32  -> Unknown0_, 4;
+    int32  -> Sound, 4;
 }

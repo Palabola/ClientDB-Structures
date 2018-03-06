@@ -2,26 +2,26 @@
 type CreatureDisplayInfo
 {
     int32  -> Id;
-    float  -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    uint8  -> Unknown9;
-    uint16 -> Unknown10;
-    float  -> Unknown11;
-    int32  -> Unknown12;
-    uint8  -> Unknown13;
-    uint16 -> Unknown14;
-    uint16 -> Unknown15;
-    uint16 -> Unknown16;
-    uint8  -> Unknown17;
-    int32  -> Unknown18;
-    float  -> Unknown19;
-    int32  -> Unknown20;
-    int32  -> Unknown21;
-    int32  -> Unknown22_, 3;
+    float  -> CreatureModelScale;
+    uint16 -> ModelId;
+    uint16 -> NPCSoundId;
+    uint8  -> SizeClass;
+    uint8  -> Flags;
+    uint8  -> Gender;
+    int32  -> ExtendedDisplayInfoId;
+    int32  -> PortraitTextureFileDataId;
+    uint8  -> CreatureModelAlpha;
+    uint16 -> SoundId;
+    float  -> PlayerOverrideScale;
+    int32  -> PortraitCreatureDisplayInfoId;
+    uint8  -> BloodId;
+    uint16 -> ParticleColorId;
+    uint16 -> ObjectEffectPackageId;
+    uint16 -> AnimReplacementSetId;
+    uint8  -> UnarmedWeaponType;
+    int32  -> StateSpellVisualKitId;
+    float  -> PetInstanceScale;
+    int32  -> MountPoofSpellVisualKitId;
+    int32  -> DissolveEffectId;
+    int32  -> TextureVariationFileDataId, 3;
 }

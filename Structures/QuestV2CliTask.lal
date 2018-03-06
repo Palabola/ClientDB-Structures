@@ -1,28 +1,28 @@
 // FileOptions: None
 type QuestV2CliTask
 {
-    uint64 -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7_, 3;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18;
-    uint8  -> Unknown19;
+    uint64 -> FiltRaces;
+    string -> QuestTitle;
+    string -> BulletText;
+    int32  -> StartItem;
+    uint16 -> UniqueBitFlag;
+    uint16 -> ConditionId;
+    uint16 -> FiltClasses;
+    uint16 -> FiltCompletedQuest, 3;
+    uint16 -> FiltMinSkillId;
+    uint16 -> WorldStateExpressionId;
+    uint8  -> FiltActiveQuest;
+    uint8  -> FiltCompletedQuestLogic;
+    uint8  -> FiltMaxFactionId;
+    uint8  -> FiltMaxFactionValue;
+    uint8  -> FiltMaxLevel;
+    uint8  -> FiltMinFactionId;
+    uint8  -> FiltMinFactionValue;
+    uint8  -> FiltMinLevel;
+    uint8  -> FiltMinSkillValue;
+    uint8  -> FiltNonActiveQuest;
     int32  -> Id;
-    int32  -> Unknown21;
-    int32  -> Unknown22;
-    int32  -> Unknown23;
+    int32  -> BreadCrumbId;
+    int32  -> QuestInfoId;
+    int32  -> SandboxScalingId;
 }

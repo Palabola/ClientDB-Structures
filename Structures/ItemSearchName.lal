@@ -1,18 +1,18 @@
 // FileOptions: None
 type ItemSearchName
 {
-    uint64 -> Unknown0;
-    string -> Unknown1;
+    uint64 -> AllowableRace;
+    string -> Display;
     int32  -> Id;
-    int32  -> Unknown3_, 3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    int32  -> Unknown10;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    int32  -> Unknown13;
+    uint32  -> Flags, 3;
+    uint16 -> ItemLevel;
+    uint8  -> OverallQualityId;
+    uint8  -> ExpansionId;
+    uint8  -> RequiredLevel;
+    uint16 -> MinFactionId;
+    uint8  -> MinReputation;
+    int32  -> AllowableClass;
+    uint16 -> RequiredSkill;
+    uint16 -> RequiredSkillRank;
+    int32  -> RequiredAbility;
 }

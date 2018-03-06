@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type ScenarioStep
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
+    string -> Description;
+    string -> Title;
+    uint16 -> ScenarioId;
+    uint16 -> Supersedes;
+    uint16 -> RewardQuestId;
+    uint8  -> OrderIndex;
+    uint8  -> Flags;
+    int32  -> Criteriatreeid;
+    int32  -> RelatedStep;
+    int32  -> VisibilityPlayerConditionId;
 }

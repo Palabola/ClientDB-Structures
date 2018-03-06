@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type Vignette
 {
-    string -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
+    string -> Name;
+    float  -> MaxHeight;
+    float  -> MinHeight;
+    int32  -> QuestFeedbackEffectId;
+    int32  -> Flags;
+    int32  -> PlayerConditionId;
+    int32  -> VisibleTrackingQuestId;
 }

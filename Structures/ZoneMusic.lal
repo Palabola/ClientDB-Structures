@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type ZoneMusic
 {
-    string -> Unknown0;
-    int32  -> Unknown1_, 2;
-    int32  -> Unknown2_, 2;
-    int32  -> Unknown3_, 2;
+    string -> SetName;
+    int32  -> SilenceIntervalMin, 2;
+    int32  -> SilenceIntervalMax, 2;
+    int32  -> Sounds, 2;
 }

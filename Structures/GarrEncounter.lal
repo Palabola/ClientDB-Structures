@@ -1,11 +1,11 @@
 // FileOptions: None
 type GarrEncounter
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    int32  -> Unknown4;
+    string -> Name;
+    int32  -> CreatureId;
+    float  -> UiAnimScale;
+    float  -> UiAnimHeight;
+    int32  -> PortraitFileDataId;
     int32  -> Id;
-    int32  -> Unknown6;
+    int32  -> UiTextureKitId;
 }

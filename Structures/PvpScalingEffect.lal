@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type PvpScalingEffect
 {
-    float  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
+    float  -> Value;
+    int32  -> PvpScalingEffectTypeId;
+    int32  -> SpecializationId;
 }

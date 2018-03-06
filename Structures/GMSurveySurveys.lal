@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type GMSurveySurveys
 {
-    uint8  -> Unknown0_, 15;
+    uint8  -> Q, 15;
 }

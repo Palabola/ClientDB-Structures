@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type NameGen
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
+    string -> Name;
+    uint8  -> RaceId;
+    uint8  -> Sex;
 }

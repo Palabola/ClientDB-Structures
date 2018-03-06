@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type SceneScriptPackage
 {
-    string -> Unknown0;
+    string -> Name;
 }

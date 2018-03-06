@@ -1,13 +1,14 @@
 // FileOptions: Index, None
 type SkillLine
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
+    string -> DisplayName;
+    string -> HordeDisplayName;
+    string -> Description;
+    string -> AlternateVerb;
+    uint16 -> Flags;
+    uint8  -> CategoryId;
+    uint8  -> CanLink;
+    int32  -> SpellIconFileId;
+    int32  -> ParentSkillLineId;
+    int32  -> ParentTierIndex;
 }

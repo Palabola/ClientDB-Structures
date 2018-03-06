@@ -2,19 +2,19 @@
 type SoundKit
 {
     int32  -> Id;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    int32  -> Unknown8;
-    float  -> Unknown9;
-    float  -> Unknown10;
-    float  -> Unknown11;
-    float  -> Unknown12;
-    float  -> Unknown13;
-    uint16 -> Unknown14;
-    uint8  -> Unknown15;
+    float  -> VolumeFloat;
+    float  -> MinDistance;
+    float  -> DistanceCutoff;
+    uint16 -> Flags;
+    uint8  -> SoundType;
+    uint8  -> DialogType;
+    uint8  -> EAXDef;
+    int32  -> SoundKitAdvancedId;
+    float  -> VolumeVariationPlus;
+    float  -> VolumeVariationMinus;
+    float  -> PitchVariationPlus;
+    float  -> PitchVariationMinus;
+    float  -> PitchAdjust;
+    uint16 -> BusOverwriteId;
+    uint8  -> MaxInstances;
 }

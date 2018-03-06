@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type LiquidObject
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    float  -> FlowDirection;
+    float  -> FlowSpeed;
+    uint16 -> LiquidTypeId;
+    uint8  -> Fishable;
+    uint8  -> Reflection;
 }

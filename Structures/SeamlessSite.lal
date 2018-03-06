@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type SeamlessSite
 {
-    int32  -> Unknown0;
+    int32  -> MapId;
 }

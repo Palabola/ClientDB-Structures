@@ -1,0 +1,8 @@
+// FileOptions: None
+type NumTalentsAtLevel
+{
+    int32  -> Id;
+    int32  -> NumTalents;
+    int32  -> NumTalentsDeathKnight;
+    int32  -> NumTalentsDemonHunter;
+}

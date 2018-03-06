@@ -1,6 +1,6 @@
 // FileOptions: None
 type Languages
 {
-    string -> Unknown0;
+    string -> Name;
     int32  -> Id;
 }

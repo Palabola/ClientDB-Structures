@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type MailTemplate
 {
-    string -> Unknown0;
+    string -> Body;
 }

@@ -1,15 +1,15 @@
 // FileOptions: Index, None
 type WorldMapContinent
 {
-    float  -> Unknown0_, 2;
-    float  -> Unknown1;
-    float  -> Unknown2_, 2;
-    float  -> Unknown3_, 2;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
+    float  -> ContinentOffset, 2;
+    float  -> Scale;
+    float  -> TaxiMin, 2;
+    float  -> TaxiMax, 2;
+    uint16 -> MapId;
+    uint16 -> WorldMapId;
+    uint8  -> LeftBoundary;
+    uint8  -> RightBoundary;
+    uint8  -> TopBoundary;
+    uint8  -> BottomBoundary;
+    uint8  -> Flags;
 }

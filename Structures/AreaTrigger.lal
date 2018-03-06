@@ -1,19 +1,19 @@
 // FileOptions: None
 type AreaTrigger
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
+    float  -> Pos, 3;
+    float  -> Radius;
+    float  -> BoxLength;
+    float  -> BoxWidth;
+    float  -> BoxHeight;
+    float  -> BoxYaw;
+    uint16 -> ContinentId;
+    uint16 -> PhaseId;
+    uint16 -> PhaseGroupId;
+    uint16 -> ShapeId;
+    uint16 -> AreaTriggerActionSetId;
+    uint8  -> PhaseUseFlags;
+    uint8  -> ShapeType;
+    uint8  -> Flags;
     int32  -> Id;
 }

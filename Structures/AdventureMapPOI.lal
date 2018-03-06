@@ -1,17 +1,17 @@
 // FileOptions: Index, None
 type AdventureMapPOI
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    float  -> Unknown2_, 2;
-    int32  -> Unknown3;
-    uint8  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
+    string -> Title;
+    string -> Description;
+    float  -> WorldPosition, 2;
+    int32  -> RewardItemId;
+    uint8  -> Type;
+    int32  -> PlayerConditionId;
+    int32  -> QuestId;
+    int32  -> LfgDungeonId;
+    int32  -> UiTextureAtlasMemberId;
+    int32  -> UiTextureKitId;
+    int32  -> WorldMapAreaId;
+    int32  -> DungeonMapId;
+    int32  -> AreaTableId;
 }

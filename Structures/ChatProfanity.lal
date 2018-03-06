@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ChatProfanity
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
+    string -> Text;
+    uint8  -> Language;
 }

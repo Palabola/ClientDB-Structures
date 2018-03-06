@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type TactKey
 {
-    uint8  -> Unknown0_, 16;
+    uint8  -> Key, 16;
 }

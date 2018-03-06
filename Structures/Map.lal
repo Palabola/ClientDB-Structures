@@ -1,25 +1,25 @@
 // FileOptions: Index, None
 type Map
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
-    string -> Unknown4;
-    string -> Unknown5;
-    int32  -> Unknown6_, 2;
-    float  -> Unknown7;
-    float  -> Unknown8_, 2;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    uint16 -> Unknown13;
-    uint16 -> Unknown14;
-    uint16 -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18;
-    uint8  -> Unknown19;
-    uint8  -> Unknown20;
+    string -> Directory;
+    string -> MapName;
+    string -> MapDescription0;
+    string -> MapDescription1;
+    string -> PvpShortDescription;
+    string -> PvpLongDescription;
+    uint32  -> Flags, 2;
+    float  -> MinimapIconScale;
+    float  -> Corpse, 2;
+    uint16 -> AreaTableId;
+    uint16 -> LoadingScreenId;
+    uint16 -> CorpseMapId;
+    uint16 -> TimeOfDayOverride;
+    uint16 -> ParentMapId;
+    uint16 -> CosmeticParentMapId;
+    uint16 -> WindSettingsId;
+    uint8  -> InstanceType;
+    uint8  -> MapType;
+    uint8  -> ExpansionId;
+    uint8  -> MaxPlayers;
+    uint8  -> TimeOffset;
 }

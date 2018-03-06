@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type ItemLevelSelectorQuality
 {
-    int32  -> Unknown0;
-    uint8  -> Unknown1;
-    int16  -> Unknown2;
+    int32  -> QualityItemBonusListId;
+    uint8  -> Quality;
 }

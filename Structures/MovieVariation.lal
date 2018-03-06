@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type MovieVariation
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    uint16 -> Unknown2;
+    int32  -> FileDataId;
+    int32  -> OverlayFileDataId;
 }

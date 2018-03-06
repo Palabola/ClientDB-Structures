@@ -1,9 +1,9 @@
 // FileOptions: None
 type GarrBuildingPlotInst
 {
-    float  -> Unknown0_, 2;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    float  -> MapOffset, 2;
+    uint16 -> UiTextureAtlasMemberId;
+    uint16 -> GarrSiteLevelPlotInstId;
+    uint8  -> GarrBuildingId;
     int32  -> Id;
 }

@@ -1,17 +1,17 @@
 // FileOptions: Index, None
 type PhaseShiftZoneSounds
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
+    uint16 -> AreaId;
+    uint16 -> PhaseId;
+    uint16 -> PhaseGroupId;
+    uint16 -> SoundAmbienceId;
+    uint16 -> UwSoundAmbienceId;
+    uint8  -> WmoAreaId;
+    uint8  -> PhaseUseFlags;
+    uint8  -> SoundProviderPreferencesId;
+    uint8  -> UwSoundProviderPreferencesId;
+    int32  -> ZoneIntroMusicId;
+    int32  -> ZoneMusicId;
+    int32  -> UwZoneIntroMusicId;
+    int32  -> UwZoneMusicId;
 }

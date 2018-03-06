@@ -1,12 +1,12 @@
 // FileOptions: None
 type GarrClassSpec
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    string -> ClassSpec;
+    string -> ClassSpecMale;
+    string -> ClassSpecFemale;
+    uint16 -> UiTextureAtlasMemberId;
+    uint16 -> GarrFollItemSetId;
+    uint8  -> FollowerClassLimit;
+    uint8  -> Flags;
     int32  -> Id;
 }

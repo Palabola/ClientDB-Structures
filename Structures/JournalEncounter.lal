@@ -1,15 +1,15 @@
 // FileOptions: Index, None
 type JournalEncounter
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    float  -> Unknown2_, 2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
+    string -> Name;
+    string -> Description;
+    float  -> Map, 2;
+    uint16 -> DungeonMapId;
+    uint16 -> WorldMapAreaId;
+    uint16 -> FirstSectionId;
+    uint16 -> JournalInstanceId;
+    uint8  -> DifficultyMask;
+    uint8  -> Flags;
+    int32  -> OrderIndex;
+    int32  -> MapDisplayConditionId;
 }

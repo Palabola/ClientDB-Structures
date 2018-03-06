@@ -1,17 +1,16 @@
 // FileOptions: None
 type SpellXSpellVisual
 {
-    int32  -> Unknown0;
+    int32  -> SpellVisualId;
     int32  -> Id;
-    float  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
-    uint32 -> Unknown12;
+    float  -> Probability;
+    uint16 -> CasterPlayerConditionId;
+    uint16 -> CasterUnitConditionId;
+    uint16 -> ViewerPlayerConditionId;
+    uint16 -> ViewerUnitConditionId;
+    int32  -> SpellIconFileId;
+    int32  -> ActiveIconFileId;
+    uint8  -> Flags;
+    uint8  -> DifficultyId;
+    uint8  -> Priority;
 }

@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type BeamEffect
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
+    int32  -> BeamId;
+    float  -> SourceMinDistance;
+    float  -> FixedLength;
+    int32  -> Flags;
+    int32  -> SourceOffset;
+    int32  -> DestOffset;
+    int32  -> SourceAttachId;
+    int32  -> DestAttachId;
+    int32  -> SourcePositionerId;
+    int32  -> DestPositionerId;
 }

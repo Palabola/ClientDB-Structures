@@ -1,20 +1,19 @@
 // FileOptions: None
 type SpellVisualMissile
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    float  -> Unknown3_, 3;
-    float  -> Unknown4_, 3;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
+    uint32  -> FollowGroundHeight;
+    int32  -> FollowGroundDropSpeed;
+    int32  -> Flags;
+    float  -> CastOffset, 3;
+    float  -> ImpactOffset, 3;
+    uint16 -> SpellVisualEffectNameId;
+    uint16 -> CastPositionerId;
+    uint16 -> ImpactPositionerId;
+    uint16 -> FollowGroundApproach;
+    uint16 -> SpellMissileMotionId;
+    uint8  -> Attachment;
+    uint8  -> DestinationAttachment;
     int32  -> Id;
-    int32  -> Unknown13;
-    int32  -> Unknown14;
-    int16  -> Unknown15;
+    int32  -> SoundEntriesId;
+    int32  -> AnimKitId;
 }

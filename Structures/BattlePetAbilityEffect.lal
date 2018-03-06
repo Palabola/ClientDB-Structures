@@ -1,11 +1,11 @@
 // FileOptions: None
 type BattlePetAbilityEffect
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4_, 6;
-    uint8  -> Unknown5;
+    uint16 -> BattlePetAbilityTurnId;
+    uint16 -> BattlePetVisualId;
+    uint16 -> AuraBattlePetAbilityId;
+    uint16 -> BattlePetEffectPropertiesId;
+    uint16 -> Param, 6;
+    uint8  -> OrderIndex;
     int32  -> Id;
 }

@@ -1,16 +1,16 @@
 // FileOptions: None
 type GameObjects
 {
-    string -> Unknown0;
-    float  -> Unknown1_, 3;
-    float  -> Unknown2_, 4;
-    float  -> Unknown3;
-    int32  -> Unknown4_, 8;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
+    string -> Name;
+    float  -> Pos, 3;
+    float  -> Rot, 4;
+    float  -> Scale;
+    uint32  -> PropValue, 8;
+    uint16 -> OwnerId;
+    uint16 -> DisplayId;
+    uint16 -> PhaseId;
+    uint16 -> PhaseGroupId;
+    uint8  -> PhaseUseFlags;
+    uint8  -> TypeId;
     int32  -> Id;
 }

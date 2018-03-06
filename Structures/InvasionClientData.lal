@@ -1,14 +1,13 @@
 // FileOptions: None
 type InvasionClientData
 {
-    string -> Unknown0;
-    float  -> Unknown1_, 2;
+    string -> Name;
+    float  -> IconLocation, 2;
     int32  -> Id;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
+    int32  -> WorldStateId;
+    int32  -> UiTextureAtlasMemberId;
+    int32  -> ScenarioId;
+    int32  -> WorldQuestId;
+    int32  -> WorldStateValue;
+    int32  -> InvasionEnabledWorldStateId;
 }

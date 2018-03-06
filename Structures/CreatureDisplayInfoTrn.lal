@@ -1,10 +1,9 @@
 // FileOptions: Index, None
 type CreatureDisplayInfoTrn
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
+    int32  -> DstCreatureDisplayInfoId;
+    float  -> MaxTime;
+    int32  -> DissolveEffectId;
+    int32  -> StartVisualKitId;
+    int32  -> FinishVisualKitId;
 }

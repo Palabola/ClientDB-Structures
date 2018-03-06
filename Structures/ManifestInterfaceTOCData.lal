@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type ManifestInterfaceTOCData
 {
-    string -> Unknown0;
+    string -> FilePath;
 }

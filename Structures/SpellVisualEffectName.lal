@@ -1,17 +1,18 @@
 // FileOptions: Index, None
 type SpellVisualEffectName
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    uint8  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
+    int32  -> ModelFileDataId;
+    float  -> EffectRadius;
+    float  -> BaseMissileSpeed;
+    float  -> Scale;
+    float  -> MinAllowedScale;
+    float  -> MaxAllowedScale;
+    float  -> Alpha;
+    int32  -> Flags;
+    int32  -> Type;
+    int32  -> GenericId;
+    int32  -> TextureFileDataId;
+    int32  -> RibbonQualityId;
+    int32  -> DissolveEffectId;
+    int32  -> Unknown13;
 }

@@ -1,11 +1,11 @@
 // FileOptions: None
 type ArtifactPower
 {
-    float  -> Unknown0_, 2;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
+    float  -> DisplayPos, 2;
+    uint8  -> ArtifactId;
+    uint8  -> Flags;
+    uint8  -> MaxPurchasableRank;
+    uint8  -> Tier;
     int32  -> Id;
-    int32  -> Unknown6;
+    int32  -> Label;
 }

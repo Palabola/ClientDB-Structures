@@ -1,15 +1,15 @@
 // FileOptions: None
 type BattlePetSpecies
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
+    string -> SourceText;
+    string -> Description;
+    int32  -> CreatureId;
+    int32  -> IconFileDataId;
+    int32  -> SummonSpellId;
+    uint16 -> Flags;
+    uint8  -> PetTypeEnum;
+    uint8  -> SourceTypeEnum;
     int32  -> Id;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
+    int32  -> CardUIModelSceneId;
+    int32  -> LoadoutUIModelSceneId;
 }

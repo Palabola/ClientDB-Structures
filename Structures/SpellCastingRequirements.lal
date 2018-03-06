@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type SpellCastingRequirements
 {
-    int32  -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    int32  -> SpellId;
+    uint16 -> MinFactionId;
+    uint16 -> RequiredAreasId;
+    uint16 -> RequiresSpellFocus;
+    uint8  -> FacingCasterFlags;
+    uint8  -> MinReputation;
+    uint8  -> RequiredAuraVision;
 }

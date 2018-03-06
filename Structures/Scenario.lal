@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type Scenario
 {
-    string -> Unknown0;
-    uint16 -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Name;
+    uint16 -> AreaTableId;
+    uint8  -> Flags;
+    uint8  -> Type;
 }

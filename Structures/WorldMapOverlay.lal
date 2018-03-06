@@ -1,18 +1,18 @@
 // FileOptions: None
 type WorldMapOverlay
 {
-    string -> Unknown0;
+    string -> TextureName;
     int32  -> Id;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
-    int32  -> Unknown13_, 4;
+    uint16 -> TextureWidth;
+    uint16 -> TextureHeight;
+    int32  -> MapAreaId;
+    int32  -> OffsetX;
+    int32  -> OffsetY;
+    int32  -> HitRectTop;
+    int32  -> HitRectLeft;
+    int32  -> HitRectBottom;
+    int32  -> HitRectRight;
+    int32  -> PlayerConditionId;
+    int32  -> Flags;
+    int32  -> AreaId, 4;
 }

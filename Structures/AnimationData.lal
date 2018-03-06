@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type AnimationData
 {
-    int32  -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    uint32  -> Flags;
+    uint16 -> Fallback;
+    uint16 -> BehaviorId;
+    uint8  -> BehaviorTier;
 }

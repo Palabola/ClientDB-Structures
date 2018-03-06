@@ -5,6 +5,6 @@ type WorldSafeLocs
     float  -> X;
     float  -> Y;
     float  -> Z;
-    float  -> Unknown;
-    uint16 -> Map;
+    float  -> Rotation;
+    uint16 -> MapId;
 }

@@ -1,14 +1,13 @@
 // FileOptions: Index, None
 type WeaponTrailParam
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    int16  -> Unknown9;
+    float  -> Duration;
+    float  -> FadeOutTime;
+    float  -> EdgeLifeSpan;
+    float  -> InitialDelay;
+    float  -> SmoothSampleAngle;
+    uint8  -> Hand;
+    uint8  -> OverrideAttachTop;
+    uint8  -> OverrideAttachBot;
+    uint8  -> Flags;
 }

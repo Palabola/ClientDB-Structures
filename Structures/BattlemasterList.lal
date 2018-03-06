@@ -1,21 +1,21 @@
 // FileOptions: Index, None
 type BattlemasterList
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
-    int32  -> Unknown4;
-    uint16 -> Unknown5_, 16;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
+    string -> Name;
+    string -> GameType;
+    string -> ShortDescription;
+    string -> LongDescription;
+    int32  -> IconFileDataId;
+    uint16 -> MapId, 16;
+    uint16 -> HolidayWorldState;
+    uint16 -> RequiredPlayer_Condition_Id;
+    uint8  -> InstanceType;
+    uint8  -> GroupsAllowed;
+    uint8  -> MaxGroupSize;
+    uint8  -> MinLevel;
+    uint8  -> MaxLevel;
+    uint8  -> RatedPlayers;
+    uint8  -> MinPlayers;
+    uint8  -> MaxPlayers;
+    uint8  -> Flags;
 }

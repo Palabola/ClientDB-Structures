@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type Spell
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
+    string -> Name;
+    string -> NameSubtext;
+    string -> Description;
+    string -> AuraDescription;
 }

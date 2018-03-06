@@ -1,13 +1,12 @@
 // FileOptions: None
 type ArtifactAppearanceSet
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    string -> Name;
+    string -> Description;
+    uint16 -> UiCameraId;
+    uint16 -> AltHandUICameraId;
+    uint8  -> DisplayIndex;
+    uint8  -> ForgeAttachmentOverride;
+    uint8  -> Flags;
     int32  -> Id;
-    uint8  -> Unknown8;
 }

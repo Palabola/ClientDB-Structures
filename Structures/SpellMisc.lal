@@ -1,15 +1,14 @@
 // FileOptions: Index, None
 type SpellMisc
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
-    int32  -> Unknown4;
-    float  -> Unknown5;
-    int32  -> Unknown6;
-    float  -> Unknown7;
-    uint8  -> Unknown8;
-    int32  -> Unknown9_, 14;
-    int32  -> Unknown10;
+    uint16 -> CastingTimeIndex;
+    uint16 -> DurationIndex;
+    uint16 -> RangeIndex;
+    uint8  -> SchoolMask;
+    int32  -> SpellIconFileDataId;
+    float  -> Speed;
+    int32  -> ActiveIconFileDataId;
+    float  -> LaunchDelay;
+    uint8  -> DifficultyId;
+    int32  -> Attributes, 14;
 }

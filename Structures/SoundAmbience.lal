@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SoundAmbience
 {
-    uint8  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3_, 2;
+    uint8  -> Flags;
+    int32  -> SoundFilterId;
+    int32  -> FlavorSoundFilterId;
+    int32  -> AmbienceId, 2;
 }

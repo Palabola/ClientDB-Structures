@@ -1,8 +1,7 @@
 // FileOptions: Index, None
 type SourceInfo
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
+    string -> SourceText;
+    uint8  -> SourceTypeEnum;
+    uint8  -> PvpFaction;
 }

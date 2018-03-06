@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type BroadcastText
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint16 -> Unknown2_, 3;
-    uint16 -> Unknown3_, 3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8_, 2;
+    string -> Text;
+    string -> Text1;
+    uint16 -> EmoteId, 3;
+    uint16 -> EmoteDelay, 3;
+    uint16 -> EmotesId;
+    uint8  -> LanguageId;
+    uint8  -> Flags;
+    int32  -> ConditionId;
+    int32  -> SoundEntriesId, 2;
 }

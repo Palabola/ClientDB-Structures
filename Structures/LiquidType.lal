@@ -1,25 +1,25 @@
 // FileOptions: Index, None
 type LiquidType
 {
-    string -> Unknown0;
-    string -> Unknown1_, 6;
-    int32  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9_, 2;
-    float  -> Unknown10_, 18;
-    int32  -> Unknown11_, 4;
-    float  -> Unknown12_, 4;
-    uint16 -> Unknown13;
-    uint16 -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18;
-    uint8  -> Unknown19_, 6;
-    int32  -> Unknown20;
+    string -> Name;
+    string -> Texture, 6;
+    int32  -> SpellId;
+    float  -> MaxDarkenDepth;
+    float  -> FogDarkenIntensity;
+    float  -> AmbDarkenIntensity;
+    float  -> DirDarkenIntensity;
+    float  -> ParticleScale;
+    uint32  -> MinimapStaticCol;
+    uint32  -> Color, 2;
+    float  -> Float, 18;
+    int32  -> Int, 4;
+    float  -> Coefficient, 4;
+    uint16 -> Flags;
+    uint16 -> LightId;
+    uint8  -> SoundBank;
+    uint8  -> ParticleMovement;
+    uint8  -> ParticleTexSlots;
+    uint8  -> MaterialId;
+    uint8  -> FrameCountTexture, 6;
+    int32  -> SoundId;
 }

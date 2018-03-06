@@ -1,22 +1,22 @@
 // FileOptions: Index, None
 type Vehicle
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    float  -> Unknown8;
-    float  -> Unknown9;
-    float  -> Unknown10;
-    float  -> Unknown11;
-    uint16 -> Unknown12_, 8;
-    uint16 -> Unknown13;
-    uint16 -> Unknown14_, 3;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    int32  -> Unknown17;
+    uint32  -> Flags;
+    float  -> TurnSpeed;
+    float  -> PitchSpeed;
+    float  -> PitchMin;
+    float  -> PitchMax;
+    float  -> MouseLookOffsetPitch;
+    float  -> CameraFadeDistScalarMin;
+    float  -> CameraFadeDistScalarMax;
+    float  -> CameraPitchOffset;
+    float  -> FacingLimitRight;
+    float  -> FacingLimitLeft;
+    float  -> CameraYawOffset;
+    uint16 -> SeatId, 8;
+    uint16 -> VehicleUIIndicatorId;
+    uint16 -> PowerDisplayId, 3;
+    uint8  -> FlagsB;
+    uint8  -> UiLocomotionType;
+    int32  -> MissileTargetingId;
 }

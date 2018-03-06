@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type ItemBagFamily
 {
-    string -> Unknown0;
+    string -> Name;
 }

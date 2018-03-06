@@ -1,15 +1,15 @@
 // FileOptions: Index, None
 type PositionerStateEntry
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    int32  -> Unknown10;
+    float  -> ParamA;
+    float  -> ParamB;
+    uint16 -> SrcValType;
+    uint16 -> SrcVal;
+    uint16 -> DstValType;
+    uint16 -> DstVal;
+    uint8  -> EntryType;
+    uint8  -> Style;
+    uint8  -> SrcType;
+    uint8  -> DstType;
+    int32  -> CurveId;
 }

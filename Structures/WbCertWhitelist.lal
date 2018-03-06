@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type WbCertWhitelist
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Domain;
+    uint8  -> GrantAccess;
+    uint8  -> RevokeAccess;
+    uint8  -> WowEditInternal;
 }

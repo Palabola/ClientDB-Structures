@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type SpellReagents
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1_, 8;
-    uint16 -> Unknown2_, 8;
+    int32  -> SpellId;
+    int32  -> Reagent, 8;
+    uint16 -> ReagentCount, 8;
 }

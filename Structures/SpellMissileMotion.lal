@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SpellMissileMotion
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Name;
+    string -> ScriptBody;
+    uint8  -> Flags;
+    uint8  -> MissileCount;
 }

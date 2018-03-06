@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type SpellFlyout
 {
-    uint64 -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    uint8  -> Unknown3;
-    int32  -> Unknown4;
-    int32  -> Unknown5;
+    uint64 -> RaceMask;
+    string -> Name;
+    string -> Description;
+    uint8  -> Flags;
+    int32  -> ClassMask;
+    int32  -> SpellIconFileId;
 }

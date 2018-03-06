@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type CharShipment
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    int32  -> TreasureId;
+    int32  -> Duration;
+    int32  -> SpellId;
+    int32  -> DummyItemId;
+    int32  -> OnCompleteSpellId;
+    uint16 -> ContainerId;
+    uint16 -> GarrFollowerId;
+    uint8  -> MaxShipments;
+    uint8  -> Flags;
 }

@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ItemSet
 {
-    string -> Unknown0;
-    int32  -> Unknown1_, 17;
-    uint16 -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    string -> Name;
+    int32  -> ItemId, 17;
+    uint16 -> RequiredSkillRank;
+    int32  -> RequiredSkill;
+    int32  -> SetFlags;
 }

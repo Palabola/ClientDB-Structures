@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type CreatureFamily
 {
-    string -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4_, 2;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    string -> Name;
+    float  -> MinScale;
+    float  -> MaxScale;
+    int32  -> IconFileId;
+    uint16 -> SkillLine, 2;
+    uint16 -> PetFoodMask;
+    uint8  -> MinScaleLevel;
+    uint8  -> MaxScaleLevel;
+    uint8  -> PetTalentType;
 }

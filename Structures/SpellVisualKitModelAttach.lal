@@ -1,26 +1,25 @@
 // FileOptions: None
 type SpellVisualKitModelAttach
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1_, 3;
+    float  -> Offset, 3;
+    float  -> OffsetVariation, 3;
     int32  -> Id;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint16 -> Unknown6;
-    float  -> Unknown7;
-    float  -> Unknown8;
-    float  -> Unknown9;
-    float  -> Unknown10;
-    float  -> Unknown11;
-    float  -> Unknown12;
-    float  -> Unknown13;
-    float  -> Unknown14;
-    uint16 -> Unknown15;
-    uint16 -> Unknown16;
-    uint16 -> Unknown17;
-    uint16 -> Unknown18;
-    int32  -> Unknown19;
-    float  -> Unknown20;
-    int32  -> Unknown21;
+    uint16 -> SpellVisualEffectNameId;
+    uint8  -> AttachmentId;
+    uint8  -> Flags;
+    uint16 -> PositionerId;
+    float  -> Yaw;
+    float  -> Pitch;
+    float  -> Roll;
+    float  -> YawVariation;
+    float  -> PitchVariation;
+    float  -> RollVariation;
+    float  -> Scale;
+    float  -> ScaleVariation;
+    uint16 -> StartAnimId;
+    uint16 -> AnimId;
+    uint16 -> EndAnimId;
+    uint16 -> AnimKitId;
+    int32  -> LowDefModelAttachId;
+    float  -> StartDelay;
 }

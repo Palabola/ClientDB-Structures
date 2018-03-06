@@ -1,0 +1,8 @@
+// FileOptions: Index, None
+type PvpTalentSlotUnlock
+{
+    uint8  -> Slot;
+    int32  -> LevelRequired;
+    int32  -> DeathKnightLevelRequired;
+    int32  -> DemonHunterLevelRequired;
+}

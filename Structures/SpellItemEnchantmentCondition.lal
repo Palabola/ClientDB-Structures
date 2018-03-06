@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type SpellItemEnchantmentCondition
 {
-    int32  -> Unknown0_, 5;
-    uint8  -> Unknown1_, 5;
-    uint8  -> Unknown2_, 5;
-    uint8  -> Unknown3_, 5;
-    uint8  -> Unknown4_, 5;
-    uint8  -> Unknown5_, 5;
+    int32  -> LtOperand, 5;
+    uint8  -> LtOperandType, 5;
+    uint8  -> Operator, 5;
+    uint8  -> RtOperandType, 5;
+    uint8  -> RtOperand, 5;
+    uint8  -> Logic, 5;
 }

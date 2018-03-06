@@ -1,19 +1,19 @@
 // FileOptions: Index, None
 type SpellMissile
 {
-    int32  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    float  -> Unknown8;
-    float  -> Unknown9;
-    float  -> Unknown10;
-    float  -> Unknown11;
-    float  -> Unknown12;
-    float  -> Unknown13;
-    uint8  -> Unknown14;
+    int32  -> SpellId;
+    float  -> DefaultPitchMin;
+    float  -> DefaultPitchMax;
+    float  -> DefaultSpeedMin;
+    float  -> DefaultSpeedMax;
+    float  -> RandomizeFacingMin;
+    float  -> RandomizeFacingMax;
+    float  -> RandomizePitchMin;
+    float  -> RandomizePitchMax;
+    float  -> RandomizeSpeedMin;
+    float  -> RandomizeSpeedMax;
+    float  -> Gravity;
+    float  -> MaxDuration;
+    float  -> CollisionRadius;
+    uint8  -> Flags;
 }

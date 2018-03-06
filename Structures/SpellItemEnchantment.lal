@@ -1,23 +1,24 @@
 // FileOptions: Index, None
 type SpellItemEnchantment
 {
-    string -> Unknown0;
-    int32  -> Unknown1_, 3;
-    float  -> Unknown2_, 3;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    uint16 -> Unknown5_, 3;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12_, 3;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    int32  -> Unknown18;
+    string -> Name;
+    string -> HordeName;
+    int32  -> EffectArg, 3;
+    float  -> EffectScalingPoints, 3;
+    int32  -> TransmogCost;
+    int32  -> IconFileDataId;
+    uint16 -> EffectPointsMin, 3;
+    uint16 -> ItemVisual;
+    uint16 -> Flags;
+    uint16 -> RequiredSkillId;
+    uint16 -> RequiredSkillRank;
+    uint16 -> ItemLevel;
+    uint8  -> Charges;
+    uint8  -> Effect, 3;
+    uint8  -> ConditionId;
+    uint8  -> MinLevel;
+    uint8  -> MaxLevel;
+    uint8  -> ScalingClass;
+    uint8  -> ScalingClassRestricted;
+    int32  -> TransmogPlayerConditionId;
 }

@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type LightSkybox
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Name;
+    int32  -> CelestialSkyboxFileDataId;
+    int32  -> SkyboxFileDataId;
+    uint8  -> Flags;
 }

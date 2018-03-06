@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ConfigurationWarning
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
+    string -> Warning;
+    int32  -> Type;
 }

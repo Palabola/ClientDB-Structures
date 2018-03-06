@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GameTips
 {
-    string -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Text;
+    uint16 -> MinLevel;
+    uint16 -> MaxLevel;
+    uint8  -> SortIndex;
 }

@@ -2,5 +2,5 @@
 type TransmogHoliday
 {
     int32  -> Id;
-    int32  -> Unknown1;
+    int32  -> RequiredTransmogHoliday;
 }

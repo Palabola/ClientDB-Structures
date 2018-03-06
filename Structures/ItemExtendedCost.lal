@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type ItemExtendedCost
 {
-    int32  -> Unknown0_, 5;
-    int32  -> Unknown1_, 5;
-    uint16 -> Unknown2_, 5;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4_, 5;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
+    int32  -> ItemId, 5;
+    int32  -> CurrencyCount, 5;
+    uint16 -> ItemCount, 5;
+    uint16 -> RequiredArenaRating;
+    uint16 -> CurrencyId, 5;
+    uint8  -> ArenaBracket;
+    uint8  -> MinFactionId;
+    uint8  -> MinReputation;
+    uint8  -> Flags;
+    uint8  -> RequiredAchievement;
 }

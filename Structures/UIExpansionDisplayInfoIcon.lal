@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type UIExpansionDisplayInfoIcon
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
+    string -> FeatureDescription;
+    int32  -> ParentId;
+    int32  -> FeatureIcon;
 }

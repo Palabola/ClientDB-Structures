@@ -1,11 +1,10 @@
 // FileOptions: Index, None
 type CharStartOutfit
 {
-    int32  -> Unknown0_, 24;
-    int32  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    int8   -> Unknown6;
+    int32  -> ItemId, 24;
+    int32  -> PetDisplayId;
+    uint8  -> ClassId;
+    uint8  -> SexId;
+    uint8  -> OutfitId;
+    uint8  -> PetFamilyId;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type SceneScriptGlobalText
 {
-    string -> Unknown0;
-    string -> Unknown1;
+    string -> Name;
+    string -> Script;
 }

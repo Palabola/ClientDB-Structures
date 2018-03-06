@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ScheduledInterval
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    int32  -> Flags;
+    int32  -> RepeatType;
+    int32  -> DurationSecs;
+    int32  -> OffsetSecs;
+    int32  -> DateAlignmentType;
 }

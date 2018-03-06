@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SpellDispelType
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> Name;
+    string -> InternalName;
+    uint8  -> Mask;
+    uint8  -> ImmunityPossible;
 }

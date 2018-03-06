@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type BattlePetState
 {
-    string -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
+    string -> LuaName;
+    uint16 -> BattlePetVisualId;
+    uint16 -> Flags;
 }

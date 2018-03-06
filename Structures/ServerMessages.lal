@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type ServerMessages
 {
-    string -> Unknown0;
+    string -> Text;
 }

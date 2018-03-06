@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type AnimKitPriority
 {
-    uint8  -> Unknown0;
+    uint8  -> Priority;
 }

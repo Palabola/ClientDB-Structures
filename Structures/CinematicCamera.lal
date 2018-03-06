@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type CinematicCamera
 {
-    int32  -> Unknown0;
-    float  -> Unknown1_, 3;
-    float  -> Unknown2;
-    int32  -> Unknown3;
+    int32  -> SoundId;
+    float  -> Origin, 3;
+    float  -> OriginFacing;
+    int32  -> FileDataId;
 }

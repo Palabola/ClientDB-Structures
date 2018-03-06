@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type Cfg_Regions
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
+    string -> Tag;
+    int32  -> Raidorigin;
+    int32  -> ChallengeOrigin;
+    uint16 -> RegionId;
+    uint8  -> RegionGroup_mask;
 }

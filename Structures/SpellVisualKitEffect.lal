@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type SpellVisualKitEffect
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
+    int32  -> EffectType;
+    int32  -> Effect;
 }

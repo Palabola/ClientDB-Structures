@@ -1,9 +1,8 @@
 // FileOptions: Index, None
 type MapLoadingScreen
 {
-    float  -> Unknown0_, 2;
-    float  -> Unknown1_, 2;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    float  -> Min, 2;
+    float  -> Max, 2;
+    int32  -> LoadingScreenId;
+    int32  -> OrderIndex;
 }

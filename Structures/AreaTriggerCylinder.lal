@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type AreaTriggerCylinder
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
+    float  -> Radius;
+    float  -> Height;
+    float  -> ZOffset;
 }

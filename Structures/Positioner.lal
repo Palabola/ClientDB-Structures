@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type Positioner
 {
-    float  -> Unknown0;
-    uint16 -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    float  -> StartLife;
+    uint16 -> FirstStateId;
+    uint8  -> Flags;
+    uint8  -> StartLifePercent;
 }

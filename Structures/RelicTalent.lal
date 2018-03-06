@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type RelicTalent
 {
-    uint16 -> Unknown0;
-    uint8  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    uint16 -> ArtifactPowerId;
+    uint8  -> ArtifactPowerLabel;
+    int32  -> Type;
+    int32  -> PVal;
+    int32  -> Flags;
 }

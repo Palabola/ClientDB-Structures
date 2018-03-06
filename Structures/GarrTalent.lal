@@ -1,24 +1,24 @@
 // FileOptions: None
 type GarrTalent
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    string -> Name;
+    string -> Description;
+    int32  -> IconFileDataId;
+    int32  -> ResearchDurationSecs;
+    uint8  -> Tier;
+    uint8  -> UiOrder;
+    uint8  -> Flags;
     int32  -> Id;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
-    int32  -> Unknown13;
-    int32  -> Unknown14;
-    int32  -> Unknown15;
-    int32  -> Unknown16;
-    int32  -> Unknown17;
-    int32  -> Unknown18;
-    int32  -> Unknown19;
+    int32  -> GarrTalentTreeId;
+    int32  -> GarrAbilityId;
+    int32  -> PlayerConditionId;
+    int32  -> ResearchCost;
+    int32  -> ResearchCostCurrencyTypesId;
+    int32  -> ResearchGoldCost;
+    int32  -> PerkSpellId;
+    int32  -> PerkPlayerConditionId;
+    int32  -> RespecCost;
+    int32  -> RespecCostCurrencyTypesId;
+    int32  -> RespecDurationSecs;
+    int32  -> RespecGoldCost;
 }

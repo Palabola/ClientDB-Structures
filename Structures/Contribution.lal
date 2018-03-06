@@ -1,10 +1,10 @@
 // FileOptions: None
 type Contribution
 {
-    string -> Unknown0;
-    string -> Unknown1;
+    string -> Description;
+    string -> Name;
     int32  -> Id;
-    int32  -> Unknown3;
-    int32  -> Unknown4_, 4;
-    int32  -> Unknown5;
+    int32  -> ManagedWorldStateInputId;
+    int32  -> UiTextureAtlasMemberId, 4;
+    int32  -> OrderIndex;
 }

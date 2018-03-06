@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type GMSurveyQuestions
 {
-    string -> Unknown0;
+    string -> Question;
 }

@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ScheduledWorldStateGroup
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
+    int32  -> Flags;
+    int32  -> ScheduledIntervalId;
+    int32  -> SelectionType;
+    int32  -> SelectionCount;
+    int32  -> Priority;
 }

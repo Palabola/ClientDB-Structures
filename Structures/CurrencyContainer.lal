@@ -1,0 +1,10 @@
+// FileOptions: Index, None
+type CurrencyContainer
+{
+    string -> ContainerName;
+    string -> ContainerDescription;
+    int32  -> MinAmount;
+    int32  -> MaxAmount;
+    int32  -> ContainerIconId;
+    int32  -> ContainerQuality;
+}

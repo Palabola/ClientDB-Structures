@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SpellEffectEmission
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    float  -> EmissionRate;
+    float  -> ModelScale;
+    uint16 -> AreaModelId;
+    uint8  -> Flags;
 }

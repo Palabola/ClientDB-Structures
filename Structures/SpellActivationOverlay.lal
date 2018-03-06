@@ -1,12 +1,12 @@
 // FileOptions: Index, None
 type SpellActivationOverlay
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    float  -> Unknown3;
-    int32  -> Unknown4_, 4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    int32  -> Unknown7;
+    int32  -> SpellId;
+    int32  -> OverlayFileDataId;
+    uint32  -> Color;
+    float  -> Scale;
+    uint32  -> IconHighlightSpellClassMask, 4;
+    uint8  -> ScreenLocationId;
+    uint8  -> TriggerType;
+    int32  -> SoundEntriesId;
 }

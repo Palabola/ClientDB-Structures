@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type MarketingPromotionsXLocale
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    string -> AcceptURL;
+    int32  -> AdTexture;
+    int32  -> LogoTexture;
+    int32  -> AcceptButtonTexture;
+    int32  -> DeclineButtonTexture;
+    uint8  -> PromotionId;
+    uint8  -> LocaleId;
 }

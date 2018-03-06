@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ItemArmorQuality
 {
-    float  -> Unknown0_, 7;
-    uint16 -> Unknown1;
+    float  -> Qualitymod, 7;
+    uint16 -> ItemLevel;
 }

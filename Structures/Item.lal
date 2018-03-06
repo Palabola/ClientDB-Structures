@@ -1,12 +1,12 @@
 // FileOptions: Index, None
 type Item
 {
-    int32  -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
+    int32  -> IconFileDataId;
+    uint8  -> ClassId;
+    uint8  -> SubclassId;
+    uint8  -> SoundOverride_subclassId;
+    uint8  -> Material;
+    uint8  -> InventoryType;
+    uint8  -> SheatheType;
+    uint8  -> ItemGroupSoundsId;
 }

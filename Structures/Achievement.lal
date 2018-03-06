@@ -1,19 +1,19 @@
 // FileOptions: None
 type Achievement
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
+    string -> Title;
+    string -> Description;
+    string -> Reward;
+    int32  -> Flags;
+    uint16 -> InstanceId;
+    uint16 -> Supercedes;
+    uint16 -> Category;
+    uint16 -> UiOrder;
+    uint16 -> SharesCriteria;
+    uint8  -> Faction;
+    uint8  -> Points;
+    uint8  -> MinimumCriteria;
     int32  -> Id;
-    int32  -> Unknown13;
-    int32  -> Unknown14;
+    int32  -> IconFileId;
+    int32  -> CriteriaTree;
 }

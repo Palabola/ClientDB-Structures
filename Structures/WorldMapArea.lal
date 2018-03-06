@@ -1,21 +1,21 @@
 // FileOptions: None
 type WorldMapArea
 {
-    string -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    int32  -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
+    string -> AreaName;
+    float  -> LocLeft;
+    float  -> LocRight;
+    float  -> LocTop;
+    float  -> LocBottom;
+    int32  -> Flags;
+    uint16 -> MapId;
+    uint16 -> AreaId;
+    uint16 -> DisplayMapId;
+    uint16 -> DefaultDungeonFloor;
+    uint16 -> ParentWorldMapId;
+    uint8  -> LevelRangeMin;
+    uint8  -> LevelRangeMax;
+    uint8  -> BountySetId;
+    uint8  -> BountyDisplayLocation;
     int32  -> Id;
-    int32  -> Unknown16;
+    int32  -> VisibilityPlayerConditionId;
 }

@@ -1,8 +1,7 @@
 // FileOptions: Index, None
 type BattlePetSpeciesXAbility
 {
-    uint16 -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    int16  -> Unknown3;
+    uint16 -> BattlePetAbilityId;
+    uint8  -> RequiredLevel;
+    uint8  -> SlotEnum;
 }

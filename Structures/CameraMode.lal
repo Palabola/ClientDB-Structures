@@ -1,15 +1,15 @@
 // FileOptions: Index, None
 type CameraMode
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1_, 3;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
+    float  -> PositionOffset, 3;
+    float  -> TargetOffset, 3;
+    float  -> PositionSmoothing;
+    float  -> RotationSmoothing;
+    float  -> FieldOfView;
+    uint16 -> Flags;
+    uint8  -> Type;
+    uint8  -> LockedPositionOffsetBase;
+    uint8  -> LockedPositionOffsetDirection;
+    uint8  -> LockedTargetOffsetBase;
+    uint8  -> LockedTargetOffsetDirection;
 }

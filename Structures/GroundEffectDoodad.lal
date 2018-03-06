@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GroundEffectDoodad
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
+    float  -> Animscale;
+    float  -> PushScale;
+    uint8  -> Flags;
+    int32  -> ModelFileId;
 }

@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type TactKeyLookup
 {
-    uint8  -> Unknown0_, 8;
+    uint8  -> TACTId, 8;
 }

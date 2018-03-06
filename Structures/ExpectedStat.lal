@@ -1,0 +1,13 @@
+// FileOptions: Index, None
+type ExpectedStat
+{
+    uint32  -> ExpansionId;
+    float  -> CreatureHealth;
+    float  -> PlayerHealth;
+    float  -> CreatureAutoAttackDps;
+    float  -> CreatureArmor;
+    float  -> PlayerMana;
+    float  -> PlayerPrimaryStat;
+    float  -> PlayerSecondaryStat;
+    float  -> ArmorConstant;
+}

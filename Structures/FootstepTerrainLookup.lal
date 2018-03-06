@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type FootstepTerrainLookup
 {
-    uint16 -> Unknown0;
-    uint8  -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
+    uint16 -> CreatureFootstepId;
+    uint8  -> TerrainSoundId;
+    int32  -> SoundId;
+    int32  -> SoundIDSplash;
 }

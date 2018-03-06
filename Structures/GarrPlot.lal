@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type GarrPlot
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    uint8  -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    int32  -> Unknown6_, 2;
+    string -> Name;
+    int32  -> AllianceConstructObjId;
+    int32  -> HordeConstructObjId;
+    uint8  -> UiCategoryId;
+    uint8  -> PlotType;
+    uint8  -> Flags;
+    int32  -> UpgradeRequirement, 2;
 }

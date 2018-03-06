@@ -1,20 +1,20 @@
 // FileOptions: Index, None
 type CharShipmentContainer
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    uint8  -> Unknown10;
-    uint8  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    int32  -> Unknown15;
+    string -> PendingText;
+    string -> Description;
+    int32  -> WorkingSpellVisualId;
+    uint16 -> UiTextureKitId;
+    uint16 -> WorkingDisplayInfoId;
+    uint16 -> SmallDisplayInfoId;
+    uint16 -> MediumDisplayInfoId;
+    uint16 -> LargeDisplayInfoId;
+    uint16 -> CrossFactionId;
+    uint8  -> BaseCapacity;
+    uint8  -> GarrBuildingType;
+    uint8  -> GarrTypeId;
+    uint8  -> MediumThreshold;
+    uint8  -> LargeThreshold;
+    uint8  -> Faction;
+    int32  -> CompleteSpellVisualId;
 }

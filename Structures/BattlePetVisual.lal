@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type BattlePetVisual
 {
-    string -> Unknown0;
-    int32  -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    string -> SceneScriptFunction;
+    int32  -> SpellVisualId;
+    uint16 -> CastMilliSeconds;
+    uint16 -> ImpactMilliSeconds;
+    uint16 -> SceneScriptPackageId;
+    uint8  -> RangeTypeEnum;
+    uint8  -> Flags;
 }

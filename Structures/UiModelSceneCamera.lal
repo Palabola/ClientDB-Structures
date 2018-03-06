@@ -1,20 +1,19 @@
 // FileOptions: None
 type UiModelSceneCamera
 {
-    string -> Unknown0;
-    float  -> Unknown1_, 3;
-    float  -> Unknown2_, 3;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7;
-    float  -> Unknown8;
-    float  -> Unknown9;
-    float  -> Unknown10;
-    float  -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
+    string -> ScriptTag;
+    float  -> Target, 3;
+    float  -> ZoomedTargetOffset, 3;
+    float  -> Yaw;
+    float  -> Pitch;
+    float  -> Roll;
+    float  -> ZoomedYawOffset;
+    float  -> ZoomedPitchOffset;
+    float  -> ZoomedRollOffset;
+    float  -> ZoomDistance;
+    float  -> MinZoomDistance;
+    float  -> MaxZoomDistance;
+    uint8  -> Flags;
+    uint8  -> CameraType;
     int32  -> Id;
-    int32  -> Unknown15;
 }

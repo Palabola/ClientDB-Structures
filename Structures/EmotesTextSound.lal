@@ -1,9 +1,8 @@
 // FileOptions: Index, None
 type EmotesTextSound
 {
-    uint8  -> Unknown0;
-    uint8  -> Unknown1;
-    uint8  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
+    uint8  -> RaceId;
+    uint8  -> SexId;
+    uint8  -> ClassId;
+    int32  -> SoundId;
 }

@@ -1,24 +1,24 @@
 // FileOptions: None
 type ChrClasses
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    string -> Unknown3;
-    string -> Unknown4;
-    int32  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    uint16 -> Unknown10;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    uint8  -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18;
+    string -> PetNameToken;
+    string -> Name;
+    string -> NameFemale;
+    string -> NameMale;
+    string -> Filename;
+    int32  -> CreateScreenFileDataId;
+    int32  -> SelectScreenFileDataId;
+    int32  -> LowResScreenFileDataId;
+    int32  -> IconFileDataId;
+    int32  -> StartingLevel;
+    uint16 -> Flags;
+    uint16 -> CinematicSequenceId;
+    uint16 -> DefaultSpec;
+    uint8  -> DisplayPower;
+    uint8  -> SpellClassSet;
+    uint8  -> AttackPowerPerStrength;
+    uint8  -> AttackPowerPerAgility;
+    uint8  -> RangedAttackPowerPerAgility;
+    uint8  -> PrimaryStatPriority;
     int32  -> Id;
 }

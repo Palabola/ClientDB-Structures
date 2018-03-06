@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type CharComponentTextureSections
 {
-    int32  -> Unknown0;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
+    int32  -> OverlapSectionMask;
+    uint16 -> X;
+    uint16 -> Y;
+    uint16 -> Width;
+    uint16 -> Height;
+    uint8  -> CharComponentTextureLayoutId;
+    uint8  -> SectionType;
 }

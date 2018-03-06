@@ -1,17 +1,17 @@
 // FileOptions: None
 type ChrSpecialization
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    string -> Unknown2;
-    int32  -> Unknown3_, 2;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    uint8  -> Unknown8;
+    string -> Name;
+    string -> FemaleName;
+    string -> Description;
+    int32  -> MasterySpellId, 2;
+    uint8  -> ClassId;
+    uint8  -> OrderIndex;
+    uint8  -> PetTalentType;
+    uint8  -> Role;
+    uint8  -> PrimaryStatPriority;
     int32  -> Id;
-    int32  -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
+    int32  -> SpellIconFileId;
+    int32  -> Flags;
+    int32  -> AnimReplacements;
 }

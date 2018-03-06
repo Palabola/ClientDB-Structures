@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type BattlePetAbilityState
 {
-    int32  -> Unknown0;
-    uint8  -> Unknown1;
-    int16  -> Unknown2;
+    uint32  -> Value;
+    uint8  -> BattlePetStateId;
 }

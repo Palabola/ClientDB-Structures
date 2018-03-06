@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CreatureType
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
+    string -> Name;
+    uint8  -> Flags;
 }

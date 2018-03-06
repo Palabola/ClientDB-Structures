@@ -1,16 +1,16 @@
 // FileOptions: Index, None
 type MissileTargeting
 {
-    float  -> Unknown0;
-    float  -> Unknown1;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    float  -> Unknown4;
-    float  -> Unknown5;
-    float  -> Unknown6;
-    float  -> Unknown7_, 2;
-    float  -> Unknown8;
-    int32  -> Unknown9;
-    int32  -> Unknown10;
-    int32  -> Unknown11_, 2;
+    float  -> TurnLingering;
+    float  -> PitchLingering;
+    float  -> MouseLingering;
+    float  -> EndOpacity;
+    float  -> ArcSpeed;
+    float  -> ArcRepeat;
+    float  -> ArcWidth;
+    float  -> ImpactRadius, 2;
+    float  -> ImpactTexRadius;
+    int32  -> ArcTextureFileId;
+    int32  -> ImpactTextureFileId;
+    int32  -> ImpactModelFileId, 2;
 }

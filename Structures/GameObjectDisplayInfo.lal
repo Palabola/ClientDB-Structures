@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type GameObjectDisplayInfo
 {
-    int32  -> Unknown0;
-    float  -> Unknown1_, 6;
-    float  -> Unknown2;
-    float  -> Unknown3;
-    uint16 -> Unknown4;
+    int32  -> FileDataId;
+    float  -> GeoBox, 6;
+    float  -> OverrideLootEffectScale;
+    float  -> OverrideNameScale;
+    uint16 -> ObjectEffectPackageId;
 }

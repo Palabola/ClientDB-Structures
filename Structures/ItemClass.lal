@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type ItemClass
 {
-    string -> Unknown0;
-    float  -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    string -> ClassName;
+    float  -> PriceModifier;
+    uint8  -> ClassId;
+    uint8  -> Flags;
 }

@@ -1,19 +1,19 @@
 // FileOptions: None
 type SkillLineAbility
 {
-    uint64 -> Unknown0;
+    uint64 -> RaceMask;
     int32  -> Id;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint8  -> Unknown9;
-    int32  -> Unknown10;
-    uint16 -> Unknown11;
-    uint8  -> Unknown12;
-    uint8  -> Unknown13;
-    uint16 -> Unknown14;
+    int32  -> Spell;
+    int32  -> SupercedesSpell;
+    uint16 -> SkillLine;
+    uint16 -> TrivialSkillLineRankHigh;
+    uint16 -> TrivialSkillLineRankLow;
+    uint16 -> UniqueBit;
+    uint16 -> TradeSkillCategoryId;
+    uint8  -> NumSkillUps;
+    int32  -> ClassMask;
+    uint16 -> MinSkillLineRank;
+    uint8  -> AcquireMethod;
+    uint8  -> Flags;
+    uint16 -> SkillupSkillLineId;
 }

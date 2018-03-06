@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type AnimKitConfigBoneSet
 {
-    uint16 -> Unknown0;
-    uint8  -> Unknown1;
-    uint16 -> Unknown2;
+    uint16 -> AnimKitPriorityId;
+    uint8  -> AnimKitBoneSetId;
 }

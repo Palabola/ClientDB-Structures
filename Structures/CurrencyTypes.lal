@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type CurrencyTypes
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
+    string -> Name;
+    string -> Description;
+    int32  -> MaxQty;
+    int32  -> MaxEarnablePerWeek;
+    int32  -> Flags;
+    uint8  -> CategoryId;
+    uint8  -> SpellCategory;
+    uint8  -> Quality;
+    int32  -> InventoryIconFileId;
+    int32  -> SpellWeight;
 }

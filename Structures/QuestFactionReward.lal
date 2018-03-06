@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type QuestFactionReward
 {
-    uint16 -> Unknown0_, 10;
+    uint16 -> Difficulty, 10;
 }

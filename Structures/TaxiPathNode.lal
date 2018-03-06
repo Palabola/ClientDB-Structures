@@ -1,13 +1,13 @@
 // FileOptions: None
 type TaxiPathNode
 {
-    float  -> Unknown0_, 3;
-    uint16 -> Unknown1;
-    uint16 -> Unknown2;
-    uint8  -> Unknown3;
+    float  -> Loc, 3;
+    uint16 -> PathId;
+    uint16 -> ContinentId;
+    uint8  -> NodeIndex;
     int32  -> Id;
-    uint8  -> Unknown5;
-    int32  -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
+    uint8  -> Flags;
+    int32  -> Delay;
+    uint16 -> ArrivalEventId;
+    uint16 -> DepartureEventId;
 }

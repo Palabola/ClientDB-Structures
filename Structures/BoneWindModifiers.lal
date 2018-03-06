@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type BoneWindModifiers
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1;
+    float  -> Multiplier, 3;
+    float  -> PhaseMultiplier;
 }

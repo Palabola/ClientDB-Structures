@@ -1,12 +1,12 @@
 // FileOptions: None
 type JournalEncounterCreature
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2;
-    int32  -> Unknown3;
-    int32  -> Unknown4;
-    uint16 -> Unknown5;
-    uint8  -> Unknown6;
+    string -> Name;
+    string -> Description;
+    int32  -> CreatureDisplayInfoId;
+    int32  -> FileDataId;
+    uint16 -> JournalEncounterId;
+    uint8  -> OrderIndex;
     int32  -> Id;
+    int32  -> UiModelSceneId;
 }

@@ -1,6 +1,5 @@
 // FileOptions: Index, None
 type GlyphRequiredSpec
 {
-    uint16 -> Unknown0;
-    uint16 -> Unknown1;
+    uint16 -> ChrSpecializationId;
 }

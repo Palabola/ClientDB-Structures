@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type LoadingScreens
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
+    int32  -> NarrowScreenFileDataId;
+    int32  -> WideScreenFileDataId;
+    int32  -> WideScreen169FileDataId;
 }

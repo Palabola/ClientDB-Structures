@@ -1,27 +1,27 @@
 // FileOptions: Index, None
 type AreaTable
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    int32  -> Unknown2_, 2;
-    float  -> Unknown3;
-    uint16 -> Unknown4;
-    uint16 -> Unknown5;
-    uint16 -> Unknown6;
-    uint16 -> Unknown7;
-    uint16 -> Unknown8;
-    uint16 -> Unknown9;
-    uint16 -> Unknown10_, 4;
-    uint16 -> Unknown11;
-    uint16 -> Unknown12;
-    uint16 -> Unknown13;
-    uint8  -> Unknown14;
-    uint8  -> Unknown15;
-    uint8  -> Unknown16;
-    uint8  -> Unknown17;
-    uint8  -> Unknown18;
-    uint8  -> Unknown19;
-    uint8  -> Unknown20;
-    uint8  -> Unknown21;
-    int32  -> Unknown22;
+    string -> ZoneName;
+    string -> AreaName;
+    uint32  -> Flags, 2;
+    float  -> AmbientMultiplier;
+    uint16 -> ContinentId;
+    uint16 -> ParentAreaId;
+    uint16 -> AreaBit;
+    uint16 -> AmbienceId;
+    uint16 -> ZoneMusic;
+    uint16 -> IntroSound;
+    uint16 -> LiquidTypeId, 4;
+    uint16 -> UwZoneMusic;
+    uint16 -> UwAmbience;
+    uint16 -> PvpCombatWorldStateId;
+    uint8  -> SoundProviderPref;
+    uint8  -> SoundProviderPrefUnderwater;
+    uint8  -> ExplorationLevel;
+    uint8  -> FactionGroupMask;
+    uint8  -> MountFlags;
+    uint8  -> WildBattlePetLevelMin;
+    uint8  -> WildBattlePetLevelMax;
+    uint8  -> WindSettingsId;
+    int32  -> UwIntroSound;
 }

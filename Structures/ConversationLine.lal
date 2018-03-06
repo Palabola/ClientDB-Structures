@@ -1,12 +1,12 @@
 // FileOptions: DataOffset, Index, None
 type ConversationLine
 {
-    int32  -> Unknown0;
-    int32  -> Unknown1;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint16 -> Unknown4;
-    uint8  -> Unknown5;
-    uint8  -> Unknown6;
-    uint8  -> Unknown7;
+    int32  -> BroadcastTextId;
+    int32  -> SpellVisualKitId;
+    uint32  -> AdditionalDuration;
+    uint16 -> NextConversationLineId;
+    uint16 -> AnimKitId;
+    uint8  -> SpeechType;
+    uint8  -> StartAnimation;
+    uint8  -> EndAnimation;
 }

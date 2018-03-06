@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type GlobalStrings
 {
-    string -> Unknown0;
-    string -> Unknown1;
-    uint8  -> Unknown2;
+    string -> BaseTag;
+    string -> TagText;
+    uint8  -> Flags;
 }

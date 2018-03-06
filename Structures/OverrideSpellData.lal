@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type OverrideSpellData
 {
-    int32  -> Unknown0_, 10;
-    int32  -> Unknown1;
-    uint8  -> Unknown2;
+    int32  -> Spells, 10;
+    uint32  -> PlayerActionBarFileDataId;
+    uint8  -> Flags;
 }

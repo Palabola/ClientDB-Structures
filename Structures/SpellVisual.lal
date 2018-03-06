@@ -1,18 +1,18 @@
 // FileOptions: Index, None
 type SpellVisual
 {
-    float  -> Unknown0_, 3;
-    float  -> Unknown1_, 3;
-    int32  -> Unknown2;
-    uint16 -> Unknown3;
-    uint8  -> Unknown4;
-    uint8  -> Unknown5;
-    int32  -> Unknown6;
-    int32  -> Unknown7;
-    int32  -> Unknown8;
-    int32  -> Unknown9;
-    uint16 -> Unknown10;
-    int32  -> Unknown11;
-    int32  -> Unknown12;
-    int32  -> Unknown13;
+    float  -> MissileCastOffset, 3;
+    float  -> MissileImpactOffset, 3;
+    int32  -> Flags;
+    uint16 -> SpellVisualMissileSetId;
+    uint8  -> MissileDestinationAttachment;
+    uint8  -> MissileAttachment;
+    int32  -> MissileCastPositionerId;
+    int32  -> MissileImpactPositionerId;
+    int32  -> MissileTargetingKit;
+    int32  -> AnimEventSoundId;
+    uint16 -> DamageNumberDelay;
+    int32  -> HostileSpellVisualId;
+    int32  -> CasterSpellVisualId;
+    int32  -> LowViolenceSpellVisualId;
 }

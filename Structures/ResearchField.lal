@@ -1,7 +1,7 @@
 // FileOptions: None
 type ResearchField
 {
-    string -> Unknown0;
-    uint8  -> Unknown1;
+    string -> Name;
+    uint8  -> Slot;
     int32  -> Id;
 }

@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GarrSiteLevelPlotInst
 {
-    float  -> Unknown0_, 2;
-    uint16 -> Unknown1;
-    uint8  -> Unknown2;
-    uint8  -> Unknown3;
+    float  -> UiMarkerPos, 2;
+    uint16 -> GarrSiteLevelId;
+    uint8  -> GarrPlotInstanceId;
+    uint8  -> UiMarkerSize;
 }

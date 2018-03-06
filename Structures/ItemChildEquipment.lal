@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type ItemChildEquipment
 {
-    int32  -> Unknown0;
-    uint8  -> Unknown1;
-    int32  -> Unknown2;
+    int32  -> ChildItemId;
+    uint8  -> ChildItemEquipSlot;
 }
