@@ -2,9 +2,9 @@
 type World_PVP_Area
 {
     uint16 -> AreaId;
-    uint16 -> NextTime_worldstate;
-    uint16 -> GameTime_worldstate;
-    uint16 -> BattlePopulate_time;
+    uint16 -> NextTimeWorldstate;
+    uint16 -> GameTimeWorldstate;
+    uint16 -> BattlePopulateTime;
     uint16 -> MapId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;

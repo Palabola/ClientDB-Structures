@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type OutlineEffect
 {
-    float  -> Range;
-    int32  -> UnitConditionId;
     int32  -> PassiveHighlightColorId;
     int32  -> HighlightColorId;
     int32  -> Priority;
     int32  -> Flags;
+    float  -> Range;
+    int32  -> UnitConditionId, 2;
 }

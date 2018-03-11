@@ -1,0 +1,5 @@
+// FileOptions: Index, None
+type WeatherXParticulate
+{
+    int32  -> FileDataId;
+}

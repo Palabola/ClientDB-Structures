@@ -4,12 +4,12 @@ type Criteria
     int32  -> Asset;
     int32  -> StartAsset;
     uint32  -> FailAsset;
-    int32  -> ModifierTree_id;
+    int32  -> ModifierTreeId;
     uint16 -> StartTimer;
-    uint16 -> EligibilityWorld_state_Id;
+    uint16 -> EligibilityWorldStateId;
     uint8  -> Type;
     uint8  -> StartEvent;
     uint8  -> FailEvent;
     uint8  -> Flags;
-    uint8  -> EligibilityWorld_state_value;
+    uint8  -> EligibilityWorldStateValue;
 }

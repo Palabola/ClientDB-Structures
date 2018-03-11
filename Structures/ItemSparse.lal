@@ -39,7 +39,7 @@ type ItemSparse
     uint16 -> ZoneBound;
     uint16 -> InstanceBound;
     uint16 -> TotemCategoryId;
-    uint16 -> SocketMatch_enchantment_id;
+    uint16 -> SocketMatchEnchantmentId;
     uint16 -> GemProperties;
     uint16 -> LimitCategory;
     uint16 -> RequiredHoliday;

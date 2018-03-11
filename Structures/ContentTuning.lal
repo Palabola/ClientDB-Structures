@@ -1,5 +1,5 @@
 // FileOptions: Index, None
-type SandboxScaling
+type ContentTuning
 {
     int32  -> MinLevel;
     int32  -> MaxLevel;

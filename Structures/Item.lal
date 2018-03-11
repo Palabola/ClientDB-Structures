@@ -4,7 +4,7 @@ type Item
     int32  -> IconFileDataId;
     uint8  -> ClassId;
     uint8  -> SubclassId;
-    uint8  -> SoundOverride_subclassId;
+    uint8  -> SoundOverrideSubclassId;
     uint8  -> Material;
     uint8  -> InventoryType;
     uint8  -> SheatheType;

@@ -8,7 +8,7 @@ type BattlemasterList
     int32  -> IconFileDataId;
     uint16 -> MapId, 16;
     uint16 -> HolidayWorldState;
-    uint16 -> RequiredPlayer_Condition_Id;
+    uint16 -> RequiredPlayerConditionId;
     uint8  -> InstanceType;
     uint8  -> GroupsAllowed;
     uint8  -> MaxGroupSize;

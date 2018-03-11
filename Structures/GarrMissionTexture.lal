@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type GarrMissionTexture
 {
-    float  -> Pos_, 2;
+    float  -> Pos, 2;
     uint16 -> UiTextureKitId;
 }

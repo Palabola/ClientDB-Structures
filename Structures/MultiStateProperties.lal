@@ -1,0 +1,13 @@
+// FileOptions: Index, None
+type MultiStateProperties
+{
+    float  -> Offset, 3;
+    uint8  -> StateIndex;
+    int32  -> GameObjectId;
+    int32  -> GameEventId;
+    float  -> Facing;
+    int32  -> TransitionInId;
+    int32  -> TransitionOutId;
+    int32  -> CollisionHull;
+    int32  -> Flags;
+}

@@ -10,4 +10,5 @@ type ExpectedStat
     float  -> PlayerPrimaryStat;
     float  -> PlayerSecondaryStat;
     float  -> ArmorConstant;
+    float  -> CreatureSpellDamage;
 }

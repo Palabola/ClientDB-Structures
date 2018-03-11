@@ -6,7 +6,7 @@ type ChrRaces
     string -> Name;
     string -> NameFemale;
     string -> NameLowercase;
-    string -> NameFemale_lowercase;
+    string -> NameFemaleLowercase;
     int32  -> Flags;
     int32  -> MaleDisplayId;
     int32  -> FemaleDisplayId;

@@ -3,6 +3,6 @@ type LFGDungeonGroup
 {
     string -> Name;
     uint16 -> OrderIndex;
-    uint8  -> ParentGroup_id;
+    uint8  -> ParentGroupId;
     uint8  -> Typeid;
 }

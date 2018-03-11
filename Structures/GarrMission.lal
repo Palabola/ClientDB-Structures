@@ -6,7 +6,7 @@ type GarrMission
     string -> Location;
     int32  -> MissionDuration;
     int32  -> OfferDuration;
-    float  -> MapPos_, 2;
+    float  -> MapPos, 2;
     float  -> WorldPos, 2;
     uint16 -> TargetItemLevel;
     uint16 -> UiTextureKitId;

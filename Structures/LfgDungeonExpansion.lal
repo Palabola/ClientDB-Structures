@@ -3,8 +3,8 @@ type LFGDungeonExpansion
 {
     uint16 -> RandomId;
     uint8  -> ExpansionLevel;
-    uint8  -> HardLevel_min;
-    uint8  -> HardLevel_max;
-    int32  -> TargetLevel_min;
-    int32  -> TargetLevel_max;
+    uint8  -> HardLevelMin;
+    uint8  -> HardLevelMax;
+    int32  -> TargetLevelMin;
+    int32  -> TargetLevelMax;
 }

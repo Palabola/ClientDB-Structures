@@ -5,5 +5,5 @@ type Cfg_Regions
     int32  -> Raidorigin;
     int32  -> ChallengeOrigin;
     uint16 -> RegionId;
-    uint8  -> RegionGroup_mask;
+    uint8  -> RegionGroupMask;
 }

@@ -14,5 +14,5 @@ type SpellVisualEffectName
     int32  -> TextureFileDataId;
     int32  -> RibbonQualityId;
     int32  -> DissolveEffectId;
-    int32  -> Unknown13;
+    int32  -> ModelPosition;
 }

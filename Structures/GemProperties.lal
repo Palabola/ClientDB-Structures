@@ -3,5 +3,5 @@ type GemProperties
 {
     int32  -> Type;
     uint16 -> EnchantId;
-    uint16 -> MinItem_level;
+    uint16 -> MinItemLevel;
 }
