@@ -4,4 +4,5 @@ type ContentTuning
     int32  -> MinLevel;
     int32  -> MaxLevel;
     int32  -> Flags;
+    int32  -> ExpectedStatModId;
 }

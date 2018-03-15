@@ -17,6 +17,8 @@ type ChrRaces
     int32  -> LowResScreenFileDataId;
     int32  -> StartingLevel;
     int32  -> UiDisplayOrder;
+    float  -> MaleModelFallbackArmor2Scale;
+    float  -> FemaleModelFallbackArmor2Scale;
     uint16 -> FactionId;
     uint16 -> ResSicknessSpellId;
     uint16 -> SplashSoundId;
@@ -29,8 +31,15 @@ type ChrRaces
     uint8  -> CharComponentTextureLayoutId;
     uint8  -> DefaultClassId;
     uint8  -> NeutralRaceId;
-    uint8  -> DisplayRaceId;
     uint8  -> CharComponentTexLayoutHiResId;
+    uint8  -> MaleModelFallbackRaceId;
+    uint8  -> MaleModelFallbackSex;
+    uint8  -> FemaleModelFallbackRaceId;
+    uint8  -> FemaleModelFallbackSex;
+    uint8  -> MaleTextureFallbackRaceId;
+    uint8  -> MaleTextureFallbackSex;
+    uint8  -> FemaleTextureFallbackRaceId;
+    uint8  -> FemaleTextureFallbackSex;
     int32  -> Id;
     int32  -> HighResMaleDisplayId;
     int32  -> HighResFemaleDisplayId;

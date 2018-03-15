@@ -6,4 +6,5 @@ type CreatureDifficulty
     uint8  -> ExpansionId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
+    int32  -> ContentTuningId;
 }

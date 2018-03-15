@@ -1,8 +1,9 @@
-// FileOptions: Index, None
+// FileOptions: None
 type TradeSkillCategory
 {
     string -> Name;
     string -> HordeName;
+    int32  -> Id;
     uint16 -> SkillLineId;
     uint16 -> ParentTradeSkillCategoryId;
     uint16 -> OrderIndex;

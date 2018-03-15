@@ -1,0 +1,13 @@
+// FileOptions: Index, None
+type ExpectedStatMod
+{
+    float  -> CreatureHealthMod;
+    float  -> PlayerHealthMod;
+    float  -> CreatureAutoAttackDPSMod;
+    float  -> CreatureArmorMod;
+    float  -> PlayerManaMod;
+    float  -> PlayerPrimaryStatMod;
+    float  -> PlayerSecondaryStatMod;
+    float  -> ArmorConstantMod;
+    float  -> CreatureSpellDamageMod;
+}
