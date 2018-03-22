@@ -3,10 +3,10 @@ type UiModelSceneCamera
 {
     string -> ScriptTag;
     float  -> Target, 3;
-    float  -> ZoomedTargetOffset, 3;
     float  -> Yaw;
     float  -> Pitch;
     float  -> Roll;
+    float  -> ZoomedTargetOffset, 3;
     float  -> ZoomedYawOffset;
     float  -> ZoomedPitchOffset;
     float  -> ZoomedRollOffset;

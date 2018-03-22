@@ -2,8 +2,8 @@
 type SpellTargetRestrictions
 {
     float  -> ConeDegrees;
-    float  -> Width;
     int32  -> Targets;
+    float  -> Width;
     uint16 -> TargetCreatureType;
     uint8  -> DifficultyId;
     uint8  -> MaxTargets;

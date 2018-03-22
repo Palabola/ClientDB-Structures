@@ -2,18 +2,18 @@
 type CelestialBody
 {
     int32  -> BaseFileDataId;
-    int32  -> LightMaskFileDataId;
+    float  -> BodyBaseScale;
+    float  -> Position, 3;
     int32  -> GlowMaskFileDataId, 2;
+    float  -> GlowMaskScale, 2;
+    int32  -> GlowModifiedFileDataId, 2;
     int32  -> AtmosphericMaskFileDataId;
     int32  -> AtmosphericModifiedFileDataId;
-    int32  -> GlowModifiedFileDataId, 2;
     float  -> ScrollURate, 2;
     float  -> ScrollVRate, 2;
     float  -> RotateRate;
-    float  -> GlowMaskScale, 2;
     float  -> AtmosphericMaskScale;
-    float  -> Position, 3;
-    float  -> BodyBaseScale;
+    int32  -> LightMaskFileDataId;
     uint16 -> SkyArrayBand;
     int32  -> Id;
 }

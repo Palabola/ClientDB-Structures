@@ -1,5 +1,4 @@
-// FileOptions: Index, None
 type GarrFollowerSetXFollower
 {
-    int32  -> GarrFollowerId;
+    int32  -> GarrFollowerID;
 }

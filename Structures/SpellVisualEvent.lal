@@ -2,9 +2,9 @@
 type SpellVisualEvent
 {
     int32  -> StartEvent;
+    int32  -> EndEvent;
     int32  -> StartMinOffsetMs;
     int32  -> StartMaxOffsetMs;
-    int32  -> EndEvent;
     int32  -> EndMinOffsetMs;
     int32  -> EndMaxOffsetMs;
     int32  -> TargetType;

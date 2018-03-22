@@ -9,11 +9,11 @@ type AreaTable
     uint16 -> ParentAreaId;
     uint16 -> AreaBit;
     uint16 -> AmbienceId;
+    uint16 -> UwAmbience;
     uint16 -> ZoneMusic;
+    uint16 -> UwZoneMusic;
     uint16 -> IntroSound;
     uint16 -> LiquidTypeId, 4;
-    uint16 -> UwZoneMusic;
-    uint16 -> UwAmbience;
     uint16 -> PvpCombatWorldStateId;
     uint8  -> SoundProviderPref;
     uint8  -> SoundProviderPrefUnderwater;

@@ -3,8 +3,8 @@ type ArtifactPower
 {
     float  -> DisplayPos, 2;
     uint8  -> ArtifactId;
-    uint8  -> Flags;
     uint8  -> MaxPurchasableRank;
+    uint8  -> Flags;
     uint8  -> Tier;
     int32  -> Id;
     int32  -> Label;

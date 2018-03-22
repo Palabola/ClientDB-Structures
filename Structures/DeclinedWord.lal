@@ -1,6 +1,5 @@
-// FileOptions: None
 type DeclinedWord
 {
     string -> Word;
-    int32  -> Id;
+    int32  -> ID;
 }

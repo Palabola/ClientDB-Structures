@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type SoundKitChild
 {
-    int32  -> ParentSoundKitId;
     int32  -> SoundKitId;
+    int32  -> ParentSoundKitId;
 }

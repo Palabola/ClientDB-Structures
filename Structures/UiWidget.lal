@@ -1,0 +1,9 @@
+// FileOptions: Index, None
+type UiWidget
+{
+    int32  -> VisId;
+    int32  -> MapId;
+    int32  -> PlayerConditionId;
+    int32  -> OrderIndex;
+    uint16 -> ParentSetId;
+}

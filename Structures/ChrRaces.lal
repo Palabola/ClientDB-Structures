@@ -20,18 +20,18 @@ type ChrRaces
     float  -> MaleModelFallbackArmor2Scale;
     float  -> FemaleModelFallbackArmor2Scale;
     uint16 -> FactionId;
+    uint16 -> CinematicSequenceId;
     uint16 -> ResSicknessSpellId;
     uint16 -> SplashSoundId;
-    uint16 -> CinematicSequenceId;
     uint8  -> BaseLanguage;
     uint8  -> CreatureType;
     uint8  -> Alliance;
     uint8  -> RaceRelated;
     uint8  -> UnalteredVisualRaceId;
     uint8  -> CharComponentTextureLayoutId;
+    uint8  -> CharComponentTexLayoutHiResId;
     uint8  -> DefaultClassId;
     uint8  -> NeutralRaceId;
-    uint8  -> CharComponentTexLayoutHiResId;
     uint8  -> MaleModelFallbackRaceId;
     uint8  -> MaleModelFallbackSex;
     uint8  -> FemaleModelFallbackRaceId;
@@ -44,8 +44,8 @@ type ChrRaces
     int32  -> HighResMaleDisplayId;
     int32  -> HighResFemaleDisplayId;
     int32  -> HeritageArmorAchievementId;
-    int32  -> MaleSkeletonFileDataId;
     int32  -> FemaleSkeletonFileDataId;
+    int32  -> MaleSkeletonFileDataId;
     int32  -> AlteredFormStartVisualKitId, 3;
     int32  -> AlteredFormFinishVisualKitId, 3;
 }

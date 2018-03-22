@@ -10,12 +10,12 @@ type BattlemasterList
     uint16 -> HolidayWorldState;
     uint16 -> RequiredPlayerConditionId;
     uint8  -> InstanceType;
-    uint8  -> GroupsAllowed;
-    uint8  -> MaxGroupSize;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
     uint8  -> RatedPlayers;
     uint8  -> MinPlayers;
     uint8  -> MaxPlayers;
+    uint8  -> GroupsAllowed;
+    uint8  -> MaxGroupSize;
     uint8  -> Flags;
 }

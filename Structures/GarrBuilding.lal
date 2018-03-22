@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GarrBuilding
 {
-    string -> AllianceName;
     string -> HordeName;
+    string -> AllianceName;
     string -> Description;
     string -> Tooltip;
     int32  -> HordeGameObjectId;
@@ -16,12 +16,12 @@ type GarrBuilding
     uint16 -> GarrAbilityId;
     uint16 -> BonusGarrAbilityId;
     uint16 -> GoldCost;
-    uint8  -> GarrSiteId;
-    uint8  -> BuildingType;
-    uint8  -> UpgradeLevel;
-    uint8  -> Flags;
-    uint8  -> ShipmentCapacity;
     uint8  -> GarrTypeId;
+    uint8  -> BuildingType;
+    uint8  -> GarrSiteId;
+    uint8  -> UpgradeLevel;
+    uint8  -> ShipmentCapacity;
+    uint8  -> Flags;
     int32  -> BuildSeconds;
     int32  -> CurrencyQty;
     int32  -> MaxAssignments;

@@ -2,31 +2,31 @@
 type GarrMission
 {
     string -> Name;
-    string -> Description;
     string -> Location;
+    string -> Description;
     int32  -> MissionDuration;
     int32  -> OfferDuration;
     float  -> MapPos, 2;
     float  -> WorldPos, 2;
-    uint16 -> TargetItemLevel;
-    uint16 -> UiTextureKitId;
     uint16 -> MissionCostCurrencyTypesId;
-    uint8  -> TargetLevel;
-    uint8  -> EnvGarrMechanicTypeId;
-    uint8  -> MaxFollowers;
-    uint8  -> OfferedGarrMissionTextureId;
+    uint16 -> UiTextureKitId;
+    uint16 -> TargetItemLevel;
+    uint8  -> GarrTypeId;
     uint8  -> GarrMissionTypeId;
     uint8  -> GarrFollowerTypeId;
+    uint8  -> MaxFollowers;
+    uint8  -> OfferedGarrMissionTextureId;
+    uint8  -> EnvGarrMechanicTypeId;
+    uint8  -> TargetLevel;
     uint8  -> BaseCompletionChance;
     uint8  -> FollowerDeathChance;
-    uint8  -> GarrTypeId;
     int32  -> Id;
-    int32  -> TravelDuration;
-    int32  -> PlayerConditionId;
     int32  -> MissionCost;
-    int32  -> Flags;
-    int32  -> BaseFollowerXP;
-    int32  -> AreaId;
-    int32  -> OvermaxRewardPackId;
     int32  -> EnvGarrMechanicId;
+    int32  -> PlayerConditionId;
+    int32  -> TravelDuration;
+    int32  -> BaseFollowerXP;
+    int32  -> OvermaxRewardPackId;
+    int32  -> AreaId;
+    int32  -> Flags;
 }

@@ -10,8 +10,8 @@ type ArtifactAppearance
     uint16 -> UiCameraId;
     uint8  -> DisplayIndex;
     uint8  -> ItemAppearanceModifierId;
-    uint8  -> Flags;
     uint8  -> OverrideShapeshiftFormId;
+    uint8  -> Flags;
     int32  -> Id;
     int32  -> UnlockPlayerConditionId;
     int32  -> UiItemAppearanceId;

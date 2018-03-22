@@ -17,11 +17,11 @@ type SoundProviderPreferences
     float  -> EAX3ModulationDepth;
     float  -> EAX3HFReference;
     float  -> EAX3LFReference;
-    uint16 -> Flags;
     uint16 -> EAX2Room;
     uint16 -> EAX2RoomHF;
     uint16 -> EAX2Reflections;
     uint16 -> EAX2Reverb;
+    uint16 -> Flags;
     uint8  -> EAXEnvironmentSelection;
     uint8  -> EAX3RoomLF;
 }

@@ -9,8 +9,8 @@ type LiquidType
     float  -> AmbDarkenIntensity;
     float  -> DirDarkenIntensity;
     float  -> ParticleScale;
-    uint32  -> MinimapStaticCol;
-    uint32  -> Color, 2;
+    int32  -> MinimapStaticCol;
+    int32  -> Color, 2;
     float  -> Float, 18;
     int32  -> Int, 4;
     float  -> Coefficient, 4;

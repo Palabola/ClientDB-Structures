@@ -2,9 +2,9 @@
 type WorldChunkSounds
 {
     uint16 -> MapId;
+    uint8  -> SoundOverrideId;
     uint8  -> ChunkX;
     uint8  -> ChunkY;
     uint8  -> SubChunkX;
     uint8  -> SubChunkY;
-    uint8  -> SoundOverrideId;
 }

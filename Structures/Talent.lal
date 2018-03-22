@@ -6,8 +6,8 @@ type Talent
     int32  -> OverridesSpellId;
     uint16 -> SpecId;
     uint8  -> TierId;
-    uint8  -> ColumnIndex;
     uint8  -> Flags;
+    uint8  -> ColumnIndex;
     uint8  -> CategoryMask, 2;
     uint8  -> ClassId;
 }

@@ -9,4 +9,5 @@ type UiTextureAtlasMember
     uint16 -> CommittedTop;
     uint16 -> CommittedBottom;
     uint8  -> CommittedFlags;
+    uint8  -> UiCanvasId;
 }

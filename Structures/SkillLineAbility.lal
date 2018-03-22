@@ -11,8 +11,8 @@ type SkillLineAbility
     uint16 -> UniqueBit;
     uint16 -> TradeSkillCategoryId;
     uint8  -> NumSkillUps;
-    int32  -> ClassMask;
     uint16 -> MinSkillLineRank;
+    int32  -> ClassMask;
     uint8  -> AcquireMethod;
     uint8  -> Flags;
     uint16 -> SkillupSkillLineId;

@@ -8,8 +8,8 @@ type ScreenEffect
     uint16 -> LightParamsFadeOut;
     uint16 -> TimeOfDayOverride;
     uint8  -> Effect;
-    uint8  -> LightFlags;
     uint8  -> EffectMask;
+    uint8  -> LightFlags;
     int32  -> FullScreenEffectId;
     int32  -> SoundAmbienceId;
     int32  -> ZoneMusicId;

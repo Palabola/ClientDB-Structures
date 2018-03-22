@@ -3,8 +3,8 @@ type GarrSpecialization
 {
     string -> Name;
     string -> Tooltip;
-    int32  -> IconFileDataId;
     float  -> Param, 2;
+    int32  -> IconFileDataId;
     uint8  -> BuildingType;
     uint8  -> SpecType;
     uint8  -> RequiredUpgradeLevel;

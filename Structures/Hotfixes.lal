@@ -1,5 +1,5 @@
 // FileOptions: Index, None
-type Hotfix
+type Hotfixes
 {
     string -> Tablename;
     int32  -> ObjectId;

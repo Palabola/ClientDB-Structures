@@ -2,8 +2,8 @@
 type Mount
 {
     string -> Name;
-    string -> Description;
     string -> SourceText;
+    string -> Description;
     int32  -> SourceSpellId;
     float  -> MountFlyRideHeight;
     uint16 -> MountTypeId;

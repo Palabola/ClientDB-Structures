@@ -3,6 +3,6 @@ type Locale
 {
     int32  -> FontFileDataId;
     uint8  -> WowLocale;
-    uint8  -> Secondary;
     uint8  -> ClientDisplayExpansion;
+    uint8  -> Secondary;
 }

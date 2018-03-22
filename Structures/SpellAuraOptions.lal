@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type SpellAuraOptions
 {
+    int32  -> ProcCategoryRecovery;
     uint32  -> ProcCharges;
     uint32  -> ProcTypeMask, 2;
-    int32  -> ProcCategoryRecovery;
     uint16 -> CumulativeAura;
     uint16 -> SpellProcsPerMinuteId;
     uint8  -> DifficultyId;

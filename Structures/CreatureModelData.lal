@@ -1,32 +1,32 @@
 // FileOptions: Index, None
 type CreatureModelData
 {
-    float  -> ModelScale;
     float  -> FootprintTextureLength;
     float  -> FootprintTextureWidth;
     float  -> FootprintParticleScale;
     float  -> CollisionWidth;
     float  -> CollisionHeight;
-    float  -> MountHeight;
-    float  -> GeoBox, 6;
     float  -> WorldEffectScale;
+    float  -> HoverHeight;
     float  -> AttachedEffectScale;
+    float  -> ModelScale;
     float  -> MissileCollisionRadius;
     float  -> MissileCollisionPush;
     float  -> MissileCollisionRaise;
+    float  -> MountHeight;
     float  -> OverrideLootEffectScale;
     float  -> OverrideNameScale;
     float  -> OverrideSelectionRadius;
     float  -> TamedPetBaseScale;
-    float  -> HoverHeight;
+    float  -> GeoBox, 6;
     int32  -> Flags;
     int32  -> FileDataId;
-    int32  -> SizeClass;
     int32  -> BloodId;
     int32  -> FootprintTextureId;
     int32  -> FoleyMaterialId;
     int32  -> FootstepCameraEffectId;
     int32  -> DeathThudCameraEffectId;
     int32  -> SoundId;
+    int32  -> SizeClass;
     int32  -> CreatureGeosetDataId;
 }

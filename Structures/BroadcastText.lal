@@ -1,13 +1,14 @@
-// FileOptions: Index, None
+// FileOptions: None
 type BroadcastText
 {
     string -> Text;
     string -> Text1;
+    int32  -> Id;
+    int32  -> SoundEntriesId, 2;
+    uint16 -> EmotesId;
     uint16 -> EmoteId, 3;
     uint16 -> EmoteDelay, 3;
-    uint16 -> EmotesId;
     uint8  -> LanguageId;
     uint8  -> Flags;
     int32  -> ConditionId;
-    int32  -> SoundEntriesId, 2;
 }

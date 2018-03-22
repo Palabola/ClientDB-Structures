@@ -4,8 +4,8 @@ type ScenarioStep
     string -> Description;
     string -> Title;
     uint16 -> ScenarioId;
-    uint16 -> Supersedes;
     uint16 -> RewardQuestId;
+    uint16 -> Supersedes;
     uint8  -> OrderIndex;
     uint8  -> Flags;
     int32  -> Criteriatreeid;

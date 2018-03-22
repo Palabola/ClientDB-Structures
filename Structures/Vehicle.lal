@@ -14,8 +14,8 @@ type Vehicle
     float  -> FacingLimitLeft;
     float  -> CameraYawOffset;
     uint16 -> SeatId, 8;
-    uint16 -> VehicleUIIndicatorId;
     uint16 -> PowerDisplayId, 3;
+    uint16 -> VehicleUIIndicatorId;
     uint8  -> FlagsB;
     uint8  -> UiLocomotionType;
     int32  -> MissileTargetingId;

@@ -9,8 +9,8 @@ type GarrAbilityEffect
     uint8  -> AbilityAction;
     uint8  -> AbilityTargetType;
     uint8  -> GarrMechanicTypeId;
-    uint8  -> Flags;
     uint8  -> ActionRace;
     uint8  -> ActionHours;
+    uint8  -> Flags;
     int32  -> Id;
 }

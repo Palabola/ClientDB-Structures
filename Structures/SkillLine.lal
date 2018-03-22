@@ -2,9 +2,9 @@
 type SkillLine
 {
     string -> DisplayName;
-    string -> HordeDisplayName;
-    string -> Description;
     string -> AlternateVerb;
+    string -> Description;
+    string -> HordeDisplayName;
     uint16 -> Flags;
     uint8  -> CategoryId;
     uint8  -> CanLink;

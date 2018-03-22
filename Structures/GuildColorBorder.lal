@@ -2,6 +2,6 @@
 type GuildColorBorder
 {
     uint8  -> Red;
-    uint8  -> Green;
     uint8  -> Blue;
+    uint8  -> Green;
 }

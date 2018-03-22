@@ -4,8 +4,8 @@ type GarrFollowerQuality
     int32  -> XpToNextQuality;
     uint16 -> ShipmentXP;
     uint8  -> Quality;
+    uint8  -> GarrFollowerTypeId;
     uint8  -> AbilityCount;
     uint8  -> TraitCount;
-    uint8  -> GarrFollowerTypeId;
     int32  -> ClassSpecId;
 }

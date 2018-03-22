@@ -3,7 +3,7 @@ type LightData
 {
     int32  -> DirectColor;
     int32  -> AmbientColor;
-    uint32  -> SkyTopColor;
+    int32  -> SkyTopColor;
     int32  -> SkyMiddleColor;
     int32  -> SkyBand1Color;
     uint32  -> SkyBand2Color;
@@ -21,19 +21,19 @@ type LightData
     uint32  -> ShadowOpacity;
     float  -> FogEnd;
     float  -> FogScaler;
-    float  -> CloudDensity;
     float  -> FogDensity;
     float  -> FogHeight;
     float  -> FogHeightScaler;
     float  -> FogHeightDensity;
     float  -> SunFogAngle;
-    float  -> EndFogColorDistance;
-    int32  -> SunFogColor;
-    int32  -> EndFogColor;
-    int32  -> FogHeightColor;
+    float  -> CloudDensity;
     int32  -> ColorGradingFileDataId;
     int32  -> HorizonAmbientColor;
     int32  -> GroundAmbientColor;
+    int32  -> EndFogColor;
+    float  -> EndFogColorDistance;
+    int32  -> SunFogColor;
+    int32  -> FogHeightColor;
     uint16 -> LightParamId;
     uint16 -> Time;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type LiquidMaterial
 {
-    uint8  -> LVF;
     uint8  -> Flags;
+    uint8  -> LVF;
 }

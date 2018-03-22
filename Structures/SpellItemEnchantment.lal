@@ -15,10 +15,10 @@ type SpellItemEnchantment
     uint16 -> ItemLevel;
     uint8  -> Charges;
     uint8  -> Effect, 3;
+    uint8  -> ScalingClass;
+    uint8  -> ScalingClassRestricted;
     uint8  -> ConditionId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
-    uint8  -> ScalingClass;
-    uint8  -> ScalingClassRestricted;
     int32  -> TransmogPlayerConditionId;
 }

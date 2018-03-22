@@ -2,6 +2,6 @@
 type PvpScalingEffect
 {
     float  -> Value;
-    int32  -> PvpScalingEffectTypeId;
     int32  -> SpecializationId;
+    int32  -> PvpScalingEffectTypeId;
 }

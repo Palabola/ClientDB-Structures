@@ -6,9 +6,9 @@ type TransmogSet
     uint16 -> UiOrder;
     uint8  -> ExpansionId;
     int32  -> Id;
-    int32  -> Flags;
-    int32  -> TrackingQuestId;
     int32  -> ClassMask;
-    int32  -> ItemNameDescriptionId;
+    int32  -> TrackingQuestId;
+    int32  -> Flags;
     int32  -> TransmogSetGroupId;
+    int32  -> ItemNameDescriptionId;
 }

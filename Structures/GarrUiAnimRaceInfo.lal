@@ -3,14 +3,14 @@ type GarrUiAnimRaceInfo
 {
     float  -> MaleScale;
     float  -> MaleHeight;
-    float  -> MaleSingleModelScale;
-    float  -> MaleSingleModelHeight;
-    float  -> MaleFollowerPageScale;
-    float  -> MaleFollowerPageHeight;
     float  -> FemaleScale;
     float  -> FemaleHeight;
+    float  -> MaleSingleModelScale;
+    float  -> MaleSingleModelHeight;
     float  -> FemaleSingleModelScale;
     float  -> FemaleSingleModelHeight;
+    float  -> MaleFollowerPageScale;
+    float  -> MaleFollowerPageHeight;
     float  -> FemaleFollowerPageScale;
     float  -> FemaleFollowerPageHeight;
     uint8  -> GarrFollRaceId;

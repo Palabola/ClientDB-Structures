@@ -3,9 +3,9 @@ type SoundBus
 {
     float  -> DefaultVolume;
     uint8  -> Flags;
-    uint8  -> DefaultPlaybackLimit;
     uint8  -> DefaultPriority;
     uint8  -> DefaultPriorityPenalty;
+    uint8  -> DefaultPlaybackLimit;
     uint8  -> BusEnumId;
     int32  -> Id;
 }

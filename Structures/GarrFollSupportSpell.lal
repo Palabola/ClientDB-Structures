@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type GarrFollSupportSpell
 {
-    int32  -> AllianceSpellId;
     int32  -> HordeSpellId;
+    int32  -> AllianceSpellId;
     uint8  -> OrderIndex;
 }

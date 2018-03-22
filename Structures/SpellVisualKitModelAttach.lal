@@ -6,7 +6,6 @@ type SpellVisualKitModelAttach
     int32  -> Id;
     uint16 -> SpellVisualEffectNameId;
     uint8  -> AttachmentId;
-    uint8  -> Flags;
     uint16 -> PositionerId;
     float  -> Yaw;
     float  -> Pitch;
@@ -20,6 +19,7 @@ type SpellVisualKitModelAttach
     uint16 -> AnimId;
     uint16 -> EndAnimId;
     uint16 -> AnimKitId;
+    uint8  -> Flags;
     int32  -> LowDefModelAttachId;
     float  -> StartDelay;
 }

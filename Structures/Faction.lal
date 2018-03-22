@@ -5,9 +5,9 @@ type Faction
     string -> Name;
     string -> Description;
     int32  -> Id;
-    uint32  -> ReputationBase, 4;
+    int32  -> ReputationBase, 4;
+    int32  -> ReputationMax, 4;
     float  -> ParentFactionMod, 2;
-    uint32  -> ReputationMax, 4;
     uint16 -> ReputationIndex;
     uint16 -> ReputationClassMask, 4;
     uint16 -> ReputationFlags, 4;
@@ -15,6 +15,6 @@ type Faction
     uint16 -> ParagonFactionId;
     uint8  -> ParentFactionCap, 2;
     uint8  -> Expansion;
-    uint8  -> Flags;
     uint8  -> FriendshipRepId;
+    uint8  -> Flags;
 }

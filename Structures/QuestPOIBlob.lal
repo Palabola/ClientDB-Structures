@@ -4,9 +4,9 @@ type QuestPOIBlob
     int32  -> Id;
     uint16 -> MapId;
     uint16 -> WorldMapAreaId;
-    uint8  -> NumPoints;
     uint8  -> Floor;
-    int32  -> PlayerConditionId;
+    uint8  -> NumPoints;
     int32  -> QuestId;
     int32  -> ObjectiveIndex;
+    int32  -> PlayerConditionId;
 }

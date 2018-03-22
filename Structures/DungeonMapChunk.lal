@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type DungeonMapChunk
 {
-    float  -> MinZ;
     int32  -> DoodadPlacementId;
+    float  -> MinZ;
     uint16 -> MapId;
     uint16 -> WmoGroupId;
     uint16 -> DungeonMapId;

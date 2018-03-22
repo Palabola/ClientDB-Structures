@@ -2,19 +2,19 @@
 type WorldStateUI
 {
     string -> Icon;
-    string -> ExtendedUI;
-    string -> DynamicTooltip;
     string -> String;
     string -> Tooltip;
+    string -> DynamicTooltip;
+    string -> ExtendedUI;
     uint16 -> MapId;
     uint16 -> AreaId;
-    uint16 -> PhaseId;
-    uint16 -> PhaseGroupId;
     uint16 -> StateVariable;
     uint16 -> ExtendedUIStateVariable, 3;
+    uint16 -> PhaseId;
+    uint16 -> PhaseGroupId;
+    uint8  -> Type;
     uint8  -> OrderIndex;
     uint8  -> PhaseUseFlags;
-    uint8  -> Type;
     int32  -> Id;
     int32  -> DynamicIconFileId;
     int32  -> DynamicFlashIconFileId;

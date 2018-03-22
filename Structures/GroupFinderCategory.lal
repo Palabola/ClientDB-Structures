@@ -2,6 +2,6 @@
 type GroupFinderCategory
 {
     string -> Name;
-    uint8  -> Flags;
     uint8  -> OrderIndex;
+    uint8  -> Flags;
 }

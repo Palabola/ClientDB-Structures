@@ -2,6 +2,6 @@
 type BattlePetState
 {
     string -> LuaName;
-    uint16 -> BattlePetVisualId;
     uint16 -> Flags;
+    uint16 -> BattlePetVisualId;
 }

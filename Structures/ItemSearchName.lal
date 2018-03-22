@@ -4,7 +4,7 @@ type ItemSearchName
     uint64 -> AllowableRace;
     string -> Display;
     int32  -> Id;
-    uint32  -> Flags, 3;
+    int32  -> Flags, 3;
     uint16 -> ItemLevel;
     uint8  -> OverallQualityId;
     uint8  -> ExpansionId;

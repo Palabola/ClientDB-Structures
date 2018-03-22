@@ -4,6 +4,6 @@ type ItemSet
     string -> Name;
     int32  -> ItemId, 17;
     uint16 -> RequiredSkillRank;
-    int32  -> RequiredSkill;
     int32  -> SetFlags;
+    int32  -> RequiredSkill;
 }

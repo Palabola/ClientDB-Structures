@@ -9,8 +9,8 @@ type WorldMapOverlay
     int32  -> OffsetX;
     int32  -> OffsetY;
     int32  -> HitRectTop;
-    int32  -> HitRectLeft;
     int32  -> HitRectBottom;
+    int32  -> HitRectLeft;
     int32  -> HitRectRight;
     int32  -> PlayerConditionId;
     int32  -> Flags;

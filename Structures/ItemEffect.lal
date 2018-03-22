@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ItemEffect
 {
-    int32  -> SpellId;
     uint32  -> CoolDownMSec;
     uint32  -> CategoryCoolDownMSec;
+    int32  -> SpellId;
     uint16 -> Charges;
     uint16 -> SpellCategoryId;
     uint16 -> ChrSpecializationId;

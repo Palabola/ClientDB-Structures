@@ -5,13 +5,13 @@ type Difficulty
     uint16 -> GroupSizeHealthCurveId;
     uint16 -> GroupSizeDmgCurveId;
     uint16 -> GroupSizeSpellPointsCurveId;
-    uint8  -> FallbackDifficultyId;
     uint8  -> InstanceType;
+    uint8  -> OrderIndex;
+    uint8  -> OldEnumValue;
+    uint8  -> FallbackDifficultyId;
     uint8  -> MinPlayers;
     uint8  -> MaxPlayers;
-    uint8  -> OldEnumValue;
     uint8  -> Flags;
-    uint8  -> ToggleDifficultyId;
     uint8  -> ItemContext;
-    uint8  -> OrderIndex;
+    uint8  -> ToggleDifficultyId;
 }

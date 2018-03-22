@@ -4,8 +4,8 @@ type TradeSkillCategory
     string -> Name;
     string -> HordeName;
     int32  -> Id;
-    uint16 -> SkillLineId;
     uint16 -> ParentTradeSkillCategoryId;
+    uint16 -> SkillLineId;
     uint16 -> OrderIndex;
     uint8  -> Flags;
 }

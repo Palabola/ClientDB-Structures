@@ -3,7 +3,7 @@ type GarrFollowerUICreature
 {
     int32  -> CreatureId;
     float  -> Scale;
-    uint8  -> FactionIndex;
     uint8  -> OrderIndex;
+    uint8  -> FactionIndex;
     uint8  -> Flags;
 }

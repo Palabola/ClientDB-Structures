@@ -3,15 +3,15 @@ type SpellPower
 {
     uint32  -> ManaCost;
     float  -> PowerCostPct;
+    float  -> PowerCostMaxPct;
     float  -> PowerPctPerSecond;
     int32  -> RequiredAuraSpellId;
-    float  -> PowerCostMaxPct;
     uint8  -> OrderIndex;
     uint8  -> PowerType;
     int32  -> Id;
     uint32  -> ManaCostPerLevel;
     int32  -> ManaPerSecond;
-    int32  -> OptionalCost;
     int32  -> PowerDisplayId;
     int32  -> AltPowerBarId;
+    int32  -> OptionalCost;
 }

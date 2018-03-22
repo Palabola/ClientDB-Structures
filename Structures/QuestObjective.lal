@@ -6,6 +6,6 @@ type QuestObjective
     int32  -> ObjectId;
     uint8  -> Type;
     uint8  -> OrderIndex;
-    uint8  -> StorageIndex;
     uint8  -> Flags;
+    uint8  -> StorageIndex;
 }

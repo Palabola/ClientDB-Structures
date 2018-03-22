@@ -3,7 +3,7 @@ type GarrBuildingDoodadSet
 {
     uint8  -> GarrBuildingId;
     uint8  -> Type;
-    uint8  -> AllianceDoodadSet;
     uint8  -> HordeDoodadSet;
+    uint8  -> AllianceDoodadSet;
     uint8  -> SpecializationId;
 }

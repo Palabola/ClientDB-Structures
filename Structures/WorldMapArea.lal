@@ -3,13 +3,13 @@ type WorldMapArea
 {
     string -> AreaName;
     float  -> LocLeft;
-    float  -> LocRight;
     float  -> LocTop;
+    float  -> LocRight;
     float  -> LocBottom;
     int32  -> Flags;
     uint16 -> MapId;
-    uint16 -> AreaId;
     uint16 -> DisplayMapId;
+    uint16 -> AreaId;
     uint16 -> DefaultDungeonFloor;
     uint16 -> ParentWorldMapId;
     uint8  -> LevelRangeMin;

@@ -1,16 +1,16 @@
 // FileOptions: Index, None
 type ItemDisplayInfo
 {
-    int32  -> Flags;
-    int32  -> ItemRangedDisplayInfoId;
+    int32  -> ModelType1;
     int32  -> ItemVisual;
     int32  -> ParticleColorId;
+    int32  -> ItemRangedDisplayInfoId;
     int32  -> OverrideSwooshSoundKitId;
     int32  -> SheatheTransformMatrixId;
-    int32  -> ModelType1;
     int32  -> StateSpellVisualKitId;
     int32  -> SheathedSpellVisualKitId;
     int32  -> UnsheathedSpellVisualKitId;
+    int32  -> Flags;
     int32  -> ModelResourcesId, 2;
     int32  -> ModelMaterialResourcesId, 2;
     int32  -> GeosetGroup, 4;

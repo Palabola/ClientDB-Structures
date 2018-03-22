@@ -2,6 +2,6 @@
 type SourceInfo
 {
     string -> SourceText;
-    uint8  -> SourceTypeEnum;
     uint8  -> PvpFaction;
+    uint8  -> SourceTypeEnum;
 }

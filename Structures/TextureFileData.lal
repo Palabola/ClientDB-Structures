@@ -2,6 +2,6 @@
 type TextureFileData
 {
     int32  -> Id;
-    int32  -> MaterialResourcesId;
     uint8  -> UsageType;
+    int32  -> MaterialResourcesId;
 }

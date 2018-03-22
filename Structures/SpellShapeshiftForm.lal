@@ -2,8 +2,8 @@
 type SpellShapeshiftForm
 {
     string -> Name;
-    float  -> DamageVariance;
     int32  -> Flags;
+    float  -> DamageVariance;
     uint16 -> CombatRoundTime;
     uint16 -> MountTypeId;
     uint8  -> CreatureType;

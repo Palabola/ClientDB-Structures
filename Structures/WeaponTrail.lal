@@ -2,9 +2,9 @@
 type WeaponTrail
 {
     int32  -> FileDataId;
-    float  -> Yaw;
-    float  -> Pitch;
     float  -> Roll;
+    float  -> Pitch;
+    float  -> Yaw;
     int32  -> TextureFileDataId, 3;
     float  -> TextureScrollRateU, 3;
     float  -> TextureScrollRateV, 3;

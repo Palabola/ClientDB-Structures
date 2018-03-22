@@ -1,8 +1,8 @@
 // FileOptions: None
 type Achievement
 {
-    string -> Title;
     string -> Description;
+    string -> Title;
     string -> Reward;
     int32  -> Flags;
     uint16 -> InstanceId;
@@ -11,8 +11,8 @@ type Achievement
     uint16 -> UiOrder;
     uint16 -> SharesCriteria;
     uint8  -> Faction;
-    uint8  -> Points;
     uint8  -> MinimumCriteria;
+    uint8  -> Points;
     int32  -> Id;
     int32  -> IconFileId;
     int32  -> CriteriaTree;

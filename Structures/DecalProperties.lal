@@ -3,11 +3,11 @@ type DecalProperties
 {
     int32  -> Id;
     int32  -> FileDataId;
+    float  -> ModX;
     float  -> InnerRadius;
     float  -> OuterRadius;
     float  -> Rim;
     float  -> Gain;
-    float  -> ModX;
     float  -> Scale;
     float  -> FadeIn;
     float  -> FadeOut;
@@ -15,7 +15,7 @@ type DecalProperties
     uint8  -> BlendMode;
     int32  -> TopTextureBlendSetId;
     int32  -> BotTextureBlendSetId;
-    int32  -> GameFlags;
     int32  -> Flags;
+    int32  -> GameFlags;
     int32  -> CasterDecalPropertiesId;
 }

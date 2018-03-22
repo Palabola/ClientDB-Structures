@@ -2,9 +2,9 @@
 type GarrFollowerType
 {
     uint16 -> MaxItemLevel;
+    uint8  -> GarrTypeId;
     uint8  -> MaxFollowers;
     uint8  -> MaxFollowerBuildingType;
-    uint8  -> GarrTypeId;
     uint8  -> LevelRangeBias;
     uint8  -> ItemLevelRangeBias;
     uint8  -> Flags;

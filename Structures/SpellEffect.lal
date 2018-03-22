@@ -1,13 +1,14 @@
 // FileOptions: Index, None
 type SpellEffect
 {
-    int32  -> Effect;
-    int32  -> EffectBasePoints;
-    int32  -> EffectIndex;
-    int32  -> EffectAura;
     int32  -> DifficultyId;
+    int32  -> EffectIndex;
+    int32  -> Effect;
     float  -> EffectAmplitude;
+    int32  -> EffectAttributes;
+    int32  -> EffectAura;
     int32  -> EffectAuraPeriod;
+    int32  -> EffectBasePoints;
     float  -> EffectBonusCoefficient;
     float  -> EffectChainAmplitude;
     int32  -> EffectChainTargets;
@@ -15,18 +16,17 @@ type SpellEffect
     int32  -> EffectItemType;
     int32  -> EffectMechanic;
     float  -> EffectPointsPerResource;
+    float  -> EffectPosFacing;
     float  -> EffectRealPointsPerLevel;
     int32  -> EffectTriggerSpell;
-    float  -> EffectPosFacing;
-    int32  -> EffectAttributes;
     float  -> BonusCoefficientFromAP;
     float  -> PvpMultiplier;
     float  -> Coefficient;
     float  -> Variance;
     float  -> ResourceCoefficient;
     float  -> GroupSizeBasePointsCoefficient;
-    int32  -> EffectSpellClassMask, 4;
     int32  -> EffectMiscValue, 2;
     int32  -> EffectRadiusIndex, 2;
+    int32  -> EffectSpellClassMask, 4;
     int32  -> ImplicitTarget, 2;
 }

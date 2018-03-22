@@ -3,8 +3,8 @@ type WorldEffect
 {
     uint32  -> TargetAsset;
     uint16 -> CombatConditionId;
-    uint8  -> TargetType;
     uint8  -> WhenToDisplay;
+    uint8  -> TargetType;
     int32  -> QuestFeedbackEffectId;
     int32  -> PlayerConditionId;
 }

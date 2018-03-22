@@ -4,12 +4,12 @@ type JournalEncounter
     string -> Name;
     string -> Description;
     float  -> Map, 2;
-    uint16 -> DungeonMapId;
-    uint16 -> WorldMapAreaId;
-    uint16 -> FirstSectionId;
     uint16 -> JournalInstanceId;
-    uint8  -> DifficultyMask;
+    uint16 -> FirstSectionId;
+    uint16 -> WorldMapAreaId;
+    uint16 -> DungeonMapId;
     uint8  -> Flags;
+    uint8  -> DifficultyMask;
     int32  -> OrderIndex;
     int32  -> MapDisplayConditionId;
 }

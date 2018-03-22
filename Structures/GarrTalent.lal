@@ -10,15 +10,15 @@ type GarrTalent
     uint8  -> Flags;
     int32  -> Id;
     int32  -> GarrTalentTreeId;
-    int32  -> GarrAbilityId;
     int32  -> PlayerConditionId;
-    int32  -> ResearchCost;
-    int32  -> ResearchCostCurrencyTypesId;
-    int32  -> ResearchGoldCost;
+    int32  -> GarrAbilityId;
     int32  -> PerkSpellId;
     int32  -> PerkPlayerConditionId;
-    int32  -> RespecCost;
-    int32  -> RespecCostCurrencyTypesId;
+    int32  -> ResearchGoldCost;
+    int32  -> ResearchCost;
+    int32  -> ResearchCostCurrencyTypesId;
     int32  -> RespecDurationSecs;
     int32  -> RespecGoldCost;
+    int32  -> RespecCost;
+    int32  -> RespecCostCurrencyTypesId;
 }

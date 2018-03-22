@@ -12,14 +12,14 @@ type Map
     float  -> Corpse, 2;
     uint16 -> AreaTableId;
     uint16 -> LoadingScreenId;
-    uint16 -> CorpseMapId;
     uint16 -> TimeOfDayOverride;
     uint16 -> ParentMapId;
     uint16 -> CosmeticParentMapId;
+    uint16 -> CorpseMapId;
     uint16 -> WindSettingsId;
-    uint8  -> InstanceType;
     uint8  -> MapType;
+    uint8  -> InstanceType;
     uint8  -> ExpansionId;
-    uint8  -> MaxPlayers;
     uint8  -> TimeOffset;
+    uint8  -> MaxPlayers;
 }

@@ -3,6 +3,6 @@ type SpellDispelType
 {
     string -> Name;
     string -> InternalName;
-    uint8  -> Mask;
     uint8  -> ImmunityPossible;
+    uint8  -> Mask;
 }

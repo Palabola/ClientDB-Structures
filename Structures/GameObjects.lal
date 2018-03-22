@@ -10,7 +10,7 @@ type GameObjects
     uint16 -> DisplayId;
     uint16 -> PhaseId;
     uint16 -> PhaseGroupId;
-    uint8  -> PhaseUseFlags;
     uint8  -> TypeId;
+    uint8  -> PhaseUseFlags;
     int32  -> Id;
 }

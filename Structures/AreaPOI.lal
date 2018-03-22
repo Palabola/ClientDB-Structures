@@ -3,8 +3,8 @@ type AreaPOI
 {
     string -> Name;
     string -> Description;
-    int32  -> Flags;
     float  -> Pos, 3;
+    int32  -> Flags;
     int32  -> PoiDataType;
     int32  -> PoiData;
     uint16 -> ContinentId;
@@ -12,8 +12,8 @@ type AreaPOI
     uint16 -> WorldStateId;
     uint8  -> Importance;
     uint8  -> Icon;
-    int32  -> PlayerConditionId;
     int32  -> PortLocId;
+    int32  -> PlayerConditionId;
     int32  -> UiTextureAtlasMemberId;
     int32  -> MapFloor;
     int32  -> WmoGroupId;

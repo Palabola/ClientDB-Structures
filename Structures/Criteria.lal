@@ -2,9 +2,9 @@
 type Criteria
 {
     int32  -> Asset;
+    int32  -> ModifierTreeId;
     int32  -> StartAsset;
     uint32  -> FailAsset;
-    int32  -> ModifierTreeId;
     uint16 -> StartTimer;
     uint16 -> EligibilityWorldStateId;
     uint8  -> Type;

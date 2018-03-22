@@ -4,6 +4,7 @@ type QuestV2CliTask
     uint64 -> FiltRaces;
     string -> QuestTitle;
     string -> BulletText;
+    int32  -> FiltCompletedQuestLogic;
     int32  -> StartItem;
     uint16 -> UniqueBitFlag;
     uint16 -> ConditionId;
@@ -12,7 +13,6 @@ type QuestV2CliTask
     uint16 -> FiltMinSkillId;
     uint16 -> WorldStateExpressionId;
     uint8  -> FiltActiveQuest;
-    uint8  -> FiltCompletedQuestLogic;
     uint8  -> FiltMaxFactionId;
     uint8  -> FiltMaxFactionValue;
     uint8  -> FiltMaxLevel;

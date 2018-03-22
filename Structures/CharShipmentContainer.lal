@@ -1,18 +1,18 @@
 // FileOptions: Index, None
 type CharShipmentContainer
 {
-    string -> PendingText;
     string -> Description;
+    string -> PendingText;
     int32  -> WorkingSpellVisualId;
     uint16 -> UiTextureKitId;
-    uint16 -> WorkingDisplayInfoId;
     uint16 -> SmallDisplayInfoId;
     uint16 -> MediumDisplayInfoId;
     uint16 -> LargeDisplayInfoId;
+    uint16 -> WorkingDisplayInfoId;
     uint16 -> CrossFactionId;
-    uint8  -> BaseCapacity;
-    uint8  -> GarrBuildingType;
     uint8  -> GarrTypeId;
+    uint8  -> GarrBuildingType;
+    uint8  -> BaseCapacity;
     uint8  -> MediumThreshold;
     uint8  -> LargeThreshold;
     uint8  -> Faction;

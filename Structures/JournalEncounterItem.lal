@@ -3,8 +3,8 @@ type JournalEncounterItem
 {
     int32  -> ItemId;
     uint16 -> JournalEncounterId;
-    uint8  -> DifficultyMask;
     uint8  -> FactionMask;
     uint8  -> Flags;
+    uint8  -> DifficultyMask;
     int32  -> Id;
 }

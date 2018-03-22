@@ -3,13 +3,13 @@ type SoundKitAdvanced
 {
     int32  -> Id;
     float  -> InnerRadius2D;
+    float  -> OuterRadius2D;
     float  -> DuckToSFX;
     float  -> DuckToMusic;
     float  -> InnerRadiusOfInfluence;
     float  -> OuterRadiusOfInfluence;
     int32  -> TimeToDuck;
     int32  -> TimeToUnduck;
-    float  -> OuterRadius2D;
     uint8  -> Usage;
     int32  -> SoundKitId;
     int32  -> TimeA;
@@ -23,13 +23,13 @@ type SoundKitAdvanced
     int32  -> DelayMax;
     uint8  -> VolumeSliderCategory;
     float  -> DuckToAmbience;
+    float  -> DuckToDialog;
+    float  -> DuckToSuppressors;
     float  -> InsideAngle;
     float  -> OutsideAngle;
     float  -> OutsideVolume;
     uint8  -> MinRandomPosOffset;
     uint16 -> MaxRandomPosOffset;
-    float  -> DuckToDialog;
-    float  -> DuckToSuppressors;
     int32  -> MsOffset;
     int32  -> TimeCooldownMin;
     int32  -> TimeCooldownMax;

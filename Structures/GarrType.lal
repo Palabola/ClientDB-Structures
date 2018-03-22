@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type GarrType
 {
-    int32  -> Flags;
     int32  -> PrimaryCurrencyTypeId;
     int32  -> SecondaryCurrencyTypeId;
     int32  -> ExpansionId;
+    int32  -> Flags;
     int32  -> MapIDs, 2;
 }

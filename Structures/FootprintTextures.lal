@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type FootprintTextures
 {
+    int32  -> FileDataId;
     int32  -> TextureBlendsetId;
     int32  -> Flags;
-    int32  -> FileDataId;
 }

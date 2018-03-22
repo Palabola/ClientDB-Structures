@@ -1,0 +1,6 @@
+// FileOptions: Index, None
+type UiWidgetStringSource
+{
+    string -> Value;
+    uint16 -> ReqId;
+}

@@ -3,5 +3,5 @@ type ParticleColor
 {
     uint32  -> Start, 3;
     uint32  -> Mid, 3;
-    uint32  -> End, 3;
+    int32  -> End, 3;
 }

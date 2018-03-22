@@ -24,6 +24,7 @@ type VehicleSeat
     float  -> PassengerRoll;
     float  -> VehicleEnterAnimDelay;
     float  -> VehicleExitAnimDelay;
+    int32  -> UiSkinFileDataId;
     float  -> CameraEnteringDelay;
     float  -> CameraEnteringDuration;
     float  -> CameraExitingDelay;
@@ -34,7 +35,6 @@ type VehicleSeat
     float  -> CameraEnteringZoom;
     float  -> CameraSeatZoomMin;
     float  -> CameraSeatZoomMax;
-    int32  -> UiSkinFileDataId;
     uint16 -> EnterAnimStart;
     uint16 -> EnterAnimLoop;
     uint16 -> RideAnimStart;
@@ -55,10 +55,10 @@ type VehicleSeat
     uint16 -> VehicleExitAnimKitId;
     uint16 -> CameraModeId;
     uint8  -> AttachmentId;
-    uint8  -> PassengerAttachmentId;
     uint8  -> VehicleEnterAnimBone;
     uint8  -> VehicleExitAnimBone;
     uint8  -> VehicleRideAnimLoopBone;
+    uint8  -> PassengerAttachmentId;
     uint8  -> VehicleAbilityDisplay;
     int32  -> EnterUISoundId;
     int32  -> ExitUISoundId;

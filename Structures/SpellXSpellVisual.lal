@@ -3,14 +3,14 @@ type SpellXSpellVisual
 {
     int32  -> SpellVisualId;
     int32  -> Id;
+    uint8  -> DifficultyId;
     float  -> Probability;
-    uint16 -> CasterPlayerConditionId;
-    uint16 -> CasterUnitConditionId;
-    uint16 -> ViewerPlayerConditionId;
-    uint16 -> ViewerUnitConditionId;
+    uint8  -> Flags;
+    uint8  -> Priority;
     int32  -> SpellIconFileId;
     int32  -> ActiveIconFileId;
-    uint8  -> Flags;
-    uint8  -> DifficultyId;
-    uint8  -> Priority;
+    uint16 -> ViewerUnitConditionId;
+    uint16 -> ViewerPlayerConditionId;
+    uint16 -> CasterUnitConditionId;
+    uint16 -> CasterPlayerConditionId;
 }

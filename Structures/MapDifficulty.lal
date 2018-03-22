@@ -3,10 +3,10 @@ type MapDifficulty
 {
     string -> Message;
     uint8  -> DifficultyId;
+    uint8  -> LockId;
     uint8  -> ResetInterval;
     uint8  -> MaxPlayers;
-    uint8  -> LockId;
-    uint8  -> Flags;
     uint8  -> ItemContext;
+    uint8  -> Flags;
     int32  -> ItemContextPickerId;
 }

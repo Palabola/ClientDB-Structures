@@ -2,8 +2,8 @@
 type GarrBuildingPlotInst
 {
     float  -> MapOffset, 2;
-    uint16 -> UiTextureAtlasMemberId;
     uint16 -> GarrSiteLevelPlotInstId;
+    uint16 -> UiTextureAtlasMemberId;
     uint8  -> GarrBuildingId;
     int32  -> Id;
 }
