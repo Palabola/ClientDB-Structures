@@ -2,4 +2,5 @@
 type ItemSpecOverride
 {
     uint16 -> SpecId;
+    Ref    -> ItemId;
 }

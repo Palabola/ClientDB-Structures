@@ -3,4 +3,5 @@ type SpellFlyoutItem
 {
     int32  -> SpellId;
     uint8  -> Slot;
+    Ref    -> SpellFlyoutId;
 }

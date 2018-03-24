@@ -5,4 +5,5 @@ type CharacterFaceBoneSet
     uint8  -> SexId;
     uint8  -> FaceVariationIndex;
     uint8  -> Resolution;
+    Ref    -> RaceId;
 }

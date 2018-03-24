@@ -16,4 +16,5 @@ type CameraEffectEntry
     uint8  -> DirectionType;
     uint8  -> MovementType;
     uint8  -> AttenuationType;
+    Ref    -> CameraEffectId;
 }

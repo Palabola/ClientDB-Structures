@@ -10,4 +10,5 @@ type WeaponTrailParam
     uint8  -> OverrideAttachTop;
     uint8  -> OverrideAttachBot;
     uint8  -> Flags;
+    Ref    -> WeaponTrailId;
 }

@@ -10,4 +10,5 @@ type InvasionClientData
     int32  -> WorldQuestId;
     int32  -> WorldStateValue;
     int32  -> InvasionEnabledWorldStateId;
+    Ref    -> AreaTableId;
 }

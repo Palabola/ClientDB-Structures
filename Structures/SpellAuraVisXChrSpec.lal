@@ -2,4 +2,5 @@
 type SpellAuraVisXChrSpec
 {
     uint16 -> ChrSpecializationId;
+    Ref    -> SpellAuraVisibilityId;
 }

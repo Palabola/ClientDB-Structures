@@ -5,4 +5,5 @@ type AnimReplacement
     uint16 -> DstAnimId;
     uint16 -> Flags;
     int32  -> Id;
+    Ref    -> ParentAnimReplacementSetId;
 }

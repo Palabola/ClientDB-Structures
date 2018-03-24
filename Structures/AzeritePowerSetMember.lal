@@ -5,4 +5,5 @@ type AzeritePowerSetMember
     uint8  -> Class;
     uint8  -> Tier;
     uint8  -> OrderIndex;
+    Ref    -> AzeritePowerSetId;
 }

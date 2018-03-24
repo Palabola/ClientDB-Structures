@@ -9,4 +9,5 @@ type ArtifactAppearanceSet
     uint8  -> ForgeAttachmentOverride;
     uint8  -> Flags;
     int32  -> Id;
+    Ref    -> ArtifactId;
 }

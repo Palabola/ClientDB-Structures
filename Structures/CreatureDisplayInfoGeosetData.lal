@@ -3,4 +3,5 @@ type CreatureDisplayInfoGeosetData
 {
     uint8  -> GeosetIndex;
     uint8  -> GeosetValue;
+    Ref    -> CreatureDisplayInfoId;
 }

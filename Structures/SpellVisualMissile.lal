@@ -16,4 +16,5 @@ type SpellVisualMissile
     int32  -> Id;
     int32  -> SoundEntriesId;
     int32  -> AnimKitId;
+    Ref    -> SpellVisualMissileSetId;
 }

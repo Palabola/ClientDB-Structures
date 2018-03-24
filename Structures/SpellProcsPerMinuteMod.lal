@@ -4,4 +4,5 @@ type SpellProcsPerMinuteMod
     float  -> Coeff;
     uint16 -> Param;
     uint8  -> Type;
+    Ref    -> SpellProcsPerMinuteId;
 }

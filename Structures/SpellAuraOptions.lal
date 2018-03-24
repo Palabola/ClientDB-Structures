@@ -8,4 +8,5 @@ type SpellAuraOptions
     uint16 -> SpellProcsPerMinuteId;
     uint8  -> DifficultyId;
     uint8  -> ProcChance;
+    Ref    -> SpellId;
 }

@@ -7,4 +7,5 @@ type CurrencyContainer
     int32  -> MaxAmount;
     int32  -> ContainerIconId;
     int32  -> ContainerQuality;
+    Ref    -> CurrencyTypeId;
 }

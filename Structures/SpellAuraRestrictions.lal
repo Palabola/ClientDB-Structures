@@ -10,4 +10,5 @@ type SpellAuraRestrictions
     uint8  -> TargetAuraState;
     uint8  -> ExcludeCasterAuraState;
     uint8  -> ExcludeTargetAuraState;
+    Ref    -> SpellId;
 }

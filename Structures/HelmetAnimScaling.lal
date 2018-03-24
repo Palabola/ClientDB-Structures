@@ -3,4 +3,5 @@ type HelmetAnimScaling
 {
     float  -> Amount;
     int32  -> RaceId;
+    Ref    -> HelmetGeosetVisDataId;
 }

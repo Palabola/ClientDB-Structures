@@ -3,4 +3,5 @@ type RewardPackXCurrencyType
 {
     int32  -> CurrencyTypeId;
     int32  -> Quantity;
+    Ref    -> RewardPackId;
 }

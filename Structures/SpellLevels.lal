@@ -6,4 +6,5 @@ type SpellLevels
     uint16 -> SpellLevel;
     uint8  -> DifficultyId;
     uint8  -> MaxPassiveAuraLevel;
+    Ref    -> SpellId;
 }

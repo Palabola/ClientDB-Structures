@@ -5,4 +5,5 @@ type Bounty
     uint16 -> QuestId;
     uint16 -> FactionId;
     int32  -> TurninPlayerConditionId;
+    Ref    -> BountySetId;
 }

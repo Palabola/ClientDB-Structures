@@ -3,4 +3,5 @@ type ItemDisplayInfoMaterialRes
 {
     int32  -> MaterialResourcesId;
     uint8  -> ComponentSection;
+    Ref    -> ItemDisplayInfoId;
 }

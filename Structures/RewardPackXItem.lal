@@ -3,4 +3,5 @@ type RewardPackXItem
 {
     int32  -> ItemId;
     int32  -> ItemQuantity;
+    Ref    -> RewardPackId;
 }

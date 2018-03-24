@@ -3,4 +3,5 @@ type DeclinedWordCases
 {
     string -> DeclinedWord;
     uint8  -> CaseIndex;
+    Ref    -> DeclinedWordId;
 }

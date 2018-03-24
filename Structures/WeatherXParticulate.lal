@@ -2,4 +2,5 @@
 type WeatherXParticulate
 {
     int32  -> FileDataId;
+    Ref    -> ParentWeatherId;
 }

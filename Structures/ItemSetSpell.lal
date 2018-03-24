@@ -4,4 +4,5 @@ type ItemSetSpell
     int32  -> SpellId;
     uint16 -> ChrSpecId;
     uint8  -> Threshold;
+    Ref    -> ItemSetId;
 }

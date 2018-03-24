@@ -5,4 +5,5 @@ type ArtifactPowerRank
     float  -> AuraPointsOverride;
     uint16 -> ItemBonusListId;
     uint8  -> RankIndex;
+    Ref    -> ArtifactPowerId;
 }

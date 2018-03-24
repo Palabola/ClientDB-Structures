@@ -3,4 +3,5 @@ type GarrEncounterXMechanic
 {
     uint8  -> GarrMechanicId;
     uint8  -> GarrMechanicSetId;
+    Ref    -> GarrEncounterId;
 }

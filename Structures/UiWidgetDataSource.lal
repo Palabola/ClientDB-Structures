@@ -4,4 +4,5 @@ type UiWidgetDataSource
     uint16 -> ReqId;
     uint16 -> SourceId;
     uint8  -> SourceType;
+    Ref    -> ParentWidgetId;
 }

@@ -3,4 +3,5 @@ type GarrMechanicSetXMechanic
 {
     uint8  -> GarrMechanicId;
     int32  -> Id;
+    Ref    -> GarrMechanicSetId;
 }

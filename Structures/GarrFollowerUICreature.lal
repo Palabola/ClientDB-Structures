@@ -6,4 +6,5 @@ type GarrFollowerUICreature
     uint8  -> OrderIndex;
     uint8  -> FactionIndex;
     uint8  -> Flags;
+    Ref    -> GarrFollowerId;
 }

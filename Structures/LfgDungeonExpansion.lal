@@ -7,4 +7,5 @@ type LFGDungeonExpansion
     uint8  -> HardLevelMax;
     int32  -> TargetLevelMin;
     int32  -> TargetLevelMax;
+    Ref    -> LfgId;
 }

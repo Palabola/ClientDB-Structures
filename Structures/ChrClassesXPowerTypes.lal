@@ -2,4 +2,5 @@
 type ChrClassesXPowerTypes
 {
     uint8  -> PowerType;
+    Ref    -> ClassId;
 }

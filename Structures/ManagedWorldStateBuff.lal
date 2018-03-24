@@ -4,4 +4,5 @@ type ManagedWorldStateBuff
     int32  -> BuffSpellId;
     int32  -> OccurrenceValue;
     int32  -> PlayerConditionId;
+    Ref    -> ManagedWorldStateId;
 }

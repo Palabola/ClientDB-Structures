@@ -3,4 +3,5 @@ type WeaponTrailModelDef
 {
     int32  -> LowDefFileDataId;
     uint16 -> WeaponTrailId;
+    Ref    -> AnimEnumId;
 }

@@ -6,4 +6,5 @@ type JournalEncounterXMapLoc
     int32  -> JournalEncounterId;
     int32  -> DungeonMapId;
     int32  -> MapDisplayConditionId;
+    Ref    -> WorldMapAreaId;
 }

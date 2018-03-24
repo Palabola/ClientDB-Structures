@@ -3,4 +3,5 @@ type MapCelestialBody
 {
     uint16 -> CelestialBodyId;
     int32  -> PlayerConditionId;
+    Ref    -> MapId;
 }

@@ -3,4 +3,5 @@ type ScheduledWorldStateXUniqCat
 {
     int32  -> Id;
     int32  -> ScheduledUniqueCategoryId;
+    Ref    -> ScheduledWorldStateId;
 }

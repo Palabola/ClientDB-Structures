@@ -8,4 +8,5 @@ type SoundBus
     uint8  -> DefaultPlaybackLimit;
     uint8  -> BusEnumId;
     int32  -> Id;
+    Ref    -> Parent;
 }

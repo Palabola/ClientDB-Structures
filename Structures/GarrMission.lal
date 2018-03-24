@@ -29,4 +29,5 @@ type GarrMission
     int32  -> OvermaxRewardPackId;
     int32  -> AreaId;
     int32  -> Flags;
+    Ref    -> GarrMissionSetId;
 }

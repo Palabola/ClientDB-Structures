@@ -3,4 +3,5 @@ type SoundFilterElem
 {
     float  -> Params, 9;
     uint8  -> FilterType;
+    Ref    -> SoundFilterId;
 }

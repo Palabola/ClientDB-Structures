@@ -3,4 +3,5 @@ type BattlePetAbilityState
 {
     uint32  -> Value;
     uint8  -> BattlePetStateId;
+    Ref    -> BattlePetAbilityId;
 }

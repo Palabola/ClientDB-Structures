@@ -10,4 +10,5 @@ type UiModelSceneActor
     uint8  -> Flags;
     int32  -> Id;
     int32  -> UiModelSceneActorDisplayId;
+    Ref    -> UiModelSceneId;
 }

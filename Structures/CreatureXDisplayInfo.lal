@@ -5,4 +5,5 @@ type CreatureXDisplayInfo
     float  -> Probability;
     float  -> Scale;
     uint8  -> OrderIndex;
+    Ref    -> CreatureId;
 }

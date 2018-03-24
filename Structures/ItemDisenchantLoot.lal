@@ -7,4 +7,5 @@ type ItemDisenchantLoot
     uint8  -> Subclass;
     uint8  -> Quality;
     uint8  -> ExpansionId;
+    Ref    -> Class;
 }

@@ -2,4 +2,5 @@
 type ModelRibbonQuality
 {
     uint8  -> RibbonQualityId;
+    Ref    -> FileDataId;
 }

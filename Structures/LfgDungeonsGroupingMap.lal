@@ -3,4 +3,5 @@ type LfgDungeonsGroupingMap
 {
     uint16 -> RandomLfgDungeonsId;
     uint8  -> GroupId;
+    Ref    -> LfgDungeonsId;
 }

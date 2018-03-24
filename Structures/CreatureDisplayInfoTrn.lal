@@ -6,4 +6,5 @@ type CreatureDisplayInfoTrn
     int32  -> DissolveEffectId;
     int32  -> StartVisualKitId;
     int32  -> FinishVisualKitId;
+    Ref    -> SrcCreatureDisplayInfoId;
 }

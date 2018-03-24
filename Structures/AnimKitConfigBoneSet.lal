@@ -3,4 +3,5 @@ type AnimKitConfigBoneSet
 {
     uint16 -> AnimKitPriorityId;
     uint8  -> AnimKitBoneSetId;
+    Ref    -> ParentAnimKitConfigId;
 }

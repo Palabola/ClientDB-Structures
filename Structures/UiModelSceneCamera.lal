@@ -16,4 +16,5 @@ type UiModelSceneCamera
     uint8  -> Flags;
     uint8  -> CameraType;
     int32  -> Id;
+    Ref    -> UiModelSceneId;
 }

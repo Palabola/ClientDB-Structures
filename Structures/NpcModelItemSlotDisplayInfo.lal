@@ -3,4 +3,5 @@ type NPCModelItemSlotDisplayInfo
 {
     int32  -> ItemDisplayInfoId;
     uint8  -> ItemSlot;
+    Ref    -> NpcModelId;
 }

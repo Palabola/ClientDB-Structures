@@ -4,4 +4,5 @@ type SpellAuraVisibility
     uint8  -> Type;
     uint8  -> Flags;
     int32  -> Id;
+    Ref    -> SpellId;
 }

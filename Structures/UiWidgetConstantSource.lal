@@ -3,4 +3,5 @@ type UiWidgetConstantSource
 {
     int32  -> Value;
     uint16 -> ReqId;
+    Ref    -> ParentWidgetId;
 }

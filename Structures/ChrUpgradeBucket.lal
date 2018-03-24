@@ -3,4 +3,5 @@ type ChrUpgradeBucket
 {
     uint16 -> ChrSpecializationId;
     int32  -> Id;
+    Ref    -> ChrUpgradeTierId;
 }

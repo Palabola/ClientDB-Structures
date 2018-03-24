@@ -3,4 +3,5 @@ type GMSurveyAnswers
 {
     string -> Answer;
     uint8  -> SortIndex;
+    Ref    -> GMSurveyQuestionId;
 }

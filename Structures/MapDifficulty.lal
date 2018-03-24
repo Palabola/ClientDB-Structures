@@ -9,4 +9,5 @@ type MapDifficulty
     uint8  -> ItemContext;
     uint8  -> Flags;
     int32  -> ItemContextPickerId;
+    Ref    -> MapId;
 }

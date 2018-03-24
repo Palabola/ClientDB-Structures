@@ -1,5 +1,5 @@
 type DeclinedWord
 {
     string -> Word;
-    int32  -> ID;
+    int32  -> Id;
 }

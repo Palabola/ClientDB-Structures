@@ -5,4 +5,5 @@ type GarrMissionXEncounter
     int32  -> Id;
     int32  -> GarrEncounterId;
     int32  -> GarrEncounterSetId;
+    Ref    -> GarrMissionId;
 }

@@ -29,4 +29,5 @@ type SpellEffect
     int32  -> EffectRadiusIndex, 2;
     int32  -> EffectSpellClassMask, 4;
     int32  -> ImplicitTarget, 2;
+    Ref    -> SpellId;
 }

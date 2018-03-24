@@ -5,4 +5,5 @@ type EmotesTextSound
     uint8  -> ClassId;
     uint8  -> SexId;
     int32  -> SoundId;
+    Ref    -> EmotesTextId;
 }

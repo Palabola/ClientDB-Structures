@@ -2,4 +2,5 @@
 type GlyphRequiredSpec
 {
     uint16 -> ChrSpecializationId;
+    Ref    -> GlyphPropertiesId;
 }

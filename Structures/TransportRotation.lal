@@ -3,4 +3,5 @@ type TransportRotation
 {
     int32  -> TimeIndex;
     float  -> Rot, 4;
+    Ref    -> GameObjectsId;
 }

@@ -4,4 +4,5 @@ type TransportAnimation
     int32  -> TimeIndex;
     float  -> Pos, 3;
     uint8  -> SequenceId;
+    Ref    -> TransportId;
 }

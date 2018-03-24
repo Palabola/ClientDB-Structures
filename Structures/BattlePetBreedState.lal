@@ -3,4 +3,5 @@ type BattlePetBreedState
 {
     uint16 -> Value;
     uint8  -> BattlePetStateId;
+    Ref    -> BattlePetBreedId;
 }

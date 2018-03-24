@@ -22,4 +22,5 @@ type SpellVisualKitModelAttach
     uint8  -> Flags;
     int32  -> LowDefModelAttachId;
     float  -> StartDelay;
+    Ref    -> ParentSpellVisualKitId;
 }

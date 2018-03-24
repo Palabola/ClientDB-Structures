@@ -2,4 +2,5 @@
 type CriteriaTreeXEffect
 {
     uint16 -> WorldEffectId;
+    Ref    -> CriteriaTreeId;
 }

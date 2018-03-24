@@ -9,4 +9,5 @@ type SpellVisualEvent
     int32  -> EndMaxOffsetMs;
     int32  -> TargetType;
     int32  -> SpellVisualKitId;
+    Ref    -> SpellVisualId;
 }

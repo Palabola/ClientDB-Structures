@@ -5,4 +5,5 @@ type ItemBonusTreeNode
     uint16 -> ChildItemBonusListId;
     uint16 -> ChildItemLevelSelectorId;
     uint8  -> ItemContext;
+    Ref    -> ParentItemBonusTreeId;
 }

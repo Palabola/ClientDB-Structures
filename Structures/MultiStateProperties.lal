@@ -10,4 +10,5 @@ type MultiStateProperties
     int32  -> TransitionOutId;
     int32  -> CollisionHull;
     int32  -> Flags;
+    Ref    -> MultiPropertiesId;
 }

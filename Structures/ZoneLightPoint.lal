@@ -3,4 +3,5 @@ type ZoneLightPoint
 {
     float  -> Pos, 2;
     uint8  -> PointOrder;
+    Ref    -> ZoneLightId;
 }

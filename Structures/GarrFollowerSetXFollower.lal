@@ -1,4 +1,5 @@
 type GarrFollowerSetXFollower
 {
-    int32  -> GarrFollowerID;
+    int32  -> GarrFollowerId;
+    Ref    -> GarrFollowerSetId;
 }

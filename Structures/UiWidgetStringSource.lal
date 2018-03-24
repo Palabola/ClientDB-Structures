@@ -3,4 +3,5 @@ type UiWidgetStringSource
 {
     string -> Value;
     uint16 -> ReqId;
+    Ref    -> ParentWidgetId;
 }

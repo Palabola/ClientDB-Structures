@@ -5,4 +5,5 @@ type MapLoadingScreen
     float  -> Max, 2;
     int32  -> LoadingScreenId;
     int32  -> OrderIndex;
+    Ref    -> MapId;
 }

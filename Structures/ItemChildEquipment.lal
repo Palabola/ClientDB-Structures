@@ -3,4 +3,5 @@ type ItemChildEquipment
 {
     int32  -> ChildItemId;
     uint8  -> ChildItemEquipSlot;
+    Ref    -> ParentItemId;
 }

@@ -3,4 +3,5 @@ type CreatureXContribution
 {
     int32  -> Id;
     int32  -> ContributionId;
+    Ref    -> CreatureId;
 }

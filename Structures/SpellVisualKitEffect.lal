@@ -3,4 +3,5 @@ type SpellVisualKitEffect
 {
     int32  -> EffectType;
     int32  -> Effect;
+    Ref    -> ParentSpellVisualKitId;
 }

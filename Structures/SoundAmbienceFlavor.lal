@@ -3,4 +3,5 @@ type SoundAmbienceFlavor
 {
     int32  -> SoundEntriesIDDay;
     int32  -> SoundEntriesIDNight;
+    Ref    -> SoundAmbienceId;
 }

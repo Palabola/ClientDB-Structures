@@ -2,4 +2,5 @@
 type JournalItemXDifficulty
 {
     uint8  -> DifficultyId;
+    Ref    -> JournalEncounterItemId;
 }

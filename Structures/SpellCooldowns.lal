@@ -5,4 +5,5 @@ type SpellCooldowns
     int32  -> RecoveryTime;
     int32  -> StartRecoveryTime;
     uint8  -> DifficultyId;
+    Ref    -> SpellId;
 }

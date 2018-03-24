@@ -3,4 +3,5 @@ type GarrMissionXFollower
 {
     int32  -> GarrFollowerId;
     int32  -> GarrFollowerSetId;
+    Ref    -> GarrMissionId;
 }

@@ -9,4 +9,5 @@ type SpellCategories
     uint8  -> DispelType;
     uint8  -> Mechanic;
     uint8  -> PreventionType;
+    Ref    -> SpellId;
 }

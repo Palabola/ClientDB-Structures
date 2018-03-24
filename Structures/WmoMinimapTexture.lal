@@ -5,4 +5,5 @@ type WMOMinimapTexture
     uint16 -> GroupNum;
     uint8  -> BlockX;
     uint8  -> BlockY;
+    Ref    -> WMOId;
 }

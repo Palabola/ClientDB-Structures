@@ -14,4 +14,5 @@ type SpellPower
     int32  -> PowerDisplayId;
     int32  -> AltPowerBarId;
     int32  -> OptionalCost;
+    Ref    -> SpellId;
 }

@@ -2,4 +2,5 @@
 type ItemXBonusTree
 {
     uint16 -> ItemBonusTreeId;
+    Ref    -> ItemId;
 }

@@ -12,4 +12,5 @@ type SoundEmitters
     int32  -> Id;
     int32  -> SoundEntriesId;
     int32  -> PhaseGroupId;
+    Ref    -> MapId;
 }

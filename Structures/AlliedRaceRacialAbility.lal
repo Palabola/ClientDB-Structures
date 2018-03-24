@@ -5,4 +5,5 @@ type AlliedRaceRacialAbility
     string -> Description;
     uint8  -> OrderIndex;
     int32  -> IconFileDataId;
+    Ref    -> AlliedRaceId;
 }

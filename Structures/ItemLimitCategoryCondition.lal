@@ -3,4 +3,5 @@ type ItemLimitCategoryCondition
 {
     uint8  -> AddQuantity;
     int32  -> PlayerConditionId;
+    Ref    -> ParentItemLimitCategoryId;
 }

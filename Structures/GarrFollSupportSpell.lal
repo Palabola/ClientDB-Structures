@@ -4,4 +4,5 @@ type GarrFollSupportSpell
     int32  -> HordeSpellId;
     int32  -> AllianceSpellId;
     uint8  -> OrderIndex;
+    Ref    -> GarrFollowerId;
 }

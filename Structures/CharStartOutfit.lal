@@ -7,4 +7,5 @@ type CharStartOutfit
     uint8  -> SexId;
     uint8  -> OutfitId;
     uint8  -> PetFamilyId;
+    Ref    -> RaceId;
 }

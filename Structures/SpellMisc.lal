@@ -11,4 +11,5 @@ type SpellMisc
     int32  -> SpellIconFileDataId;
     int32  -> ActiveIconFileDataId;
     int32  -> Attributes, 14;
+    Ref    -> SpellId;
 }

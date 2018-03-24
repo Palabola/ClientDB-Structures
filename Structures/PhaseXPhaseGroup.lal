@@ -2,4 +2,5 @@
 type PhaseXPhaseGroup
 {
     uint16 -> PhaseId;
+    Ref    -> PhaseGroupId;
 }

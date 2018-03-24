@@ -3,4 +3,5 @@ type MountXDisplay
 {
     int32  -> CreatureDisplayInfoId;
     int32  -> PlayerConditionId;
+    Ref    -> MountId;
 }

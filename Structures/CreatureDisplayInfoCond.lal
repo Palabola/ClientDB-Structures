@@ -15,4 +15,5 @@ type CreatureDisplayInfoCond
     int32  -> FacialHairStyleMask;
     int32  -> CreatureModelDataId;
     int32  -> TextureVariationFileDataId, 3;
+    Ref    -> CreatureDisplayInfoId;
 }

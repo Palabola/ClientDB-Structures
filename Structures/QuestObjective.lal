@@ -8,4 +8,5 @@ type QuestObjective
     uint8  -> OrderIndex;
     uint8  -> Flags;
     uint8  -> StorageIndex;
+    Ref    -> QuestId;
 }

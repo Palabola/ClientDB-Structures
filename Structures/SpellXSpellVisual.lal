@@ -13,4 +13,5 @@ type SpellXSpellVisual
     uint16 -> ViewerPlayerConditionId;
     uint16 -> CasterUnitConditionId;
     uint16 -> CasterPlayerConditionId;
+    Ref    -> SpellId;
 }

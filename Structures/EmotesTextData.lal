@@ -3,4 +3,5 @@ type EmotesTextData
 {
     string -> Text;
     uint8  -> RelationshipFlags;
+    Ref    -> EmotesTextId;
 }

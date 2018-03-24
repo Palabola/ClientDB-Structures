@@ -8,4 +8,5 @@ type SpellTargetRestrictions
     uint8  -> DifficultyId;
     uint8  -> MaxTargets;
     int32  -> MaxTargetLevel;
+    Ref    -> SpellId;
 }

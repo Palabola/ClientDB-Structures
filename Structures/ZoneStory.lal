@@ -4,4 +4,5 @@ type ZoneStory
     int32  -> DisplayAchievementId;
     int32  -> DisplayWorldMapAreaId;
     uint8  -> PlayerFactionGroupId;
+    Ref    -> PlayerWorldMapAreaId;
 }

@@ -9,4 +9,5 @@ type ItemEffect
     uint16 -> ChrSpecializationId;
     uint8  -> LegacySlotIndex;
     uint8  -> TriggerType;
+    Ref    -> ParentItemId;
 }

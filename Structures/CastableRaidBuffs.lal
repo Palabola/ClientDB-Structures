@@ -2,4 +2,5 @@
 type CastableRaidBuffs
 {
     int32  -> CastingSpellId;
+    Ref    -> SpellId;
 }

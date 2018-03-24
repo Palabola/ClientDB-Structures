@@ -5,4 +5,5 @@ type SpellInterrupts
     uint16 -> InterruptFlags;
     int32  -> AuraInterruptFlags, 2;
     int32  -> ChannelInterruptFlags, 2;
+    Ref    -> SpellId;
 }
