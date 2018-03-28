@@ -1,0 +1,6 @@
+// FileOptions: Index, None
+type UiMapArt
+{
+    int32  -> HighlightFileDataId;
+    int32  -> UiMapArtStyleId;
+}

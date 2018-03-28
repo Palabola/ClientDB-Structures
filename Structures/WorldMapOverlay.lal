@@ -1,11 +1,10 @@
 // FileOptions: None
 type WorldMapOverlay
 {
-    string -> TextureName;
     int32  -> Id;
     uint16 -> TextureWidth;
     uint16 -> TextureHeight;
-    int32  -> MapAreaId;
+    int32  -> UiMapArtId;
     int32  -> OffsetX;
     int32  -> OffsetY;
     int32  -> HitRectTop;

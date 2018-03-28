@@ -6,8 +6,7 @@ type JournalEncounter
     float  -> Map, 2;
     uint16 -> JournalInstanceId;
     uint16 -> FirstSectionId;
-    uint16 -> WorldMapAreaId;
-    uint16 -> DungeonMapId;
+    uint16 -> UiMapId;
     uint8  -> Flags;
     uint8  -> DifficultyMask;
     int32  -> OrderIndex;

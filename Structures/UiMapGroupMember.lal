@@ -1,0 +1,9 @@
+// FileOptions: Index, None
+type UiMapGroupMember
+{
+    string -> Name;
+    int32  -> UiMapGroupId;
+    int32  -> UiMapId;
+    int32  -> FloorIndex;
+    uint8  -> RelativeHeightIndex;
+}

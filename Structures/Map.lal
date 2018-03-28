@@ -10,6 +10,7 @@ type Map
     uint32  -> Flags, 2;
     float  -> MinimapIconScale;
     float  -> Corpse, 2;
+    int32  -> ZmpFileDataId;
     uint16 -> AreaTableId;
     uint16 -> LoadingScreenId;
     uint16 -> TimeOfDayOverride;

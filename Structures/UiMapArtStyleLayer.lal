@@ -1,0 +1,13 @@
+// FileOptions: Index, None
+type UiMapArtStyleLayer
+{
+    float  -> MinScale;
+    float  -> MaxScale;
+    int32  -> AdditionalZoomSteps;
+    uint16 -> LayerWidth;
+    uint16 -> LayerHeight;
+    uint16 -> TileWidth;
+    uint16 -> TileHeight;
+    uint8  -> LayerIndex;
+    Ref    -> UiMapArtStyleId;
+}

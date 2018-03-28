@@ -1,8 +1,9 @@
-// FileOptions: Index, None
+// FileOptions: None
 type AreaPOI
 {
     string -> Name;
     string -> Description;
+    int32  -> Id;
     float  -> Pos, 3;
     int32  -> Flags;
     int32  -> PoiDataType;
@@ -15,6 +16,5 @@ type AreaPOI
     int32  -> PortLocId;
     int32  -> PlayerConditionId;
     int32  -> UiTextureAtlasMemberId;
-    int32  -> MapFloor;
     int32  -> WmoGroupId;
 }

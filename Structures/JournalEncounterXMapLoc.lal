@@ -4,7 +4,6 @@ type JournalEncounterXMapLoc
     float  -> Map, 2;
     uint8  -> Flags;
     int32  -> JournalEncounterId;
-    int32  -> DungeonMapId;
     int32  -> MapDisplayConditionId;
-    Ref    -> WorldMapAreaId;
+    Ref    -> UiMapId;
 }

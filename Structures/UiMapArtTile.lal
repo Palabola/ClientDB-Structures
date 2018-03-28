@@ -1,0 +1,9 @@
+// FileOptions: Index, None
+type UiMapArtTile
+{
+    int32  -> FileDataId;
+    uint8  -> RowIndex;
+    uint8  -> ColIndex;
+    uint8  -> LayerIndex;
+    Ref    -> UiMapArtId;
+}
