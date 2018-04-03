@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type CharacterFaceBoneSet
 {
+    int32  -> ModelFileDataId;
     int32  -> BoneSetFileDataId;
     uint8  -> SexId;
     uint8  -> FaceVariationIndex;
-    uint8  -> Resolution;
     Ref    -> RaceId;
 }

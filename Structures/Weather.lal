@@ -10,6 +10,12 @@ type Weather
     float  -> FallModifier;
     float  -> RotationalSpeed;
     int32  -> ParticulateFileDataId;
+    float  -> VolumeEdgeFadeStart;
+    int32  -> OverrideColor;
+    float  -> OverrideCount;
+    float  -> OverrideOpacity;
+    int32  -> VolumeFlags;
+    int32  -> LightningId;
     uint16 -> SoundAmbienceId;
     uint8  -> Type;
     uint8  -> EffectType;

@@ -1,7 +1,6 @@
-// FileOptions: Index, None
+// FileOptions: DataOffset, Index, None
 type Spell
 {
-    string -> Name;
     string -> NameSubtext;
     string -> Description;
     string -> AuraDescription;

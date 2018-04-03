@@ -5,4 +5,6 @@ type SoundAmbience
     int32  -> SoundFilterId;
     int32  -> FlavorSoundFilterId;
     int32  -> AmbienceId, 2;
+    int32  -> AmbienceStartId, 2;
+    int32  -> AmbienceStopId, 2;
 }

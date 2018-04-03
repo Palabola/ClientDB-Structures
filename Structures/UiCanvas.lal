@@ -1,0 +1,7 @@
+// FileOptions: None
+type UiCanvas
+{
+    int32  -> Id;
+    uint16 -> Width;
+    uint16 -> Height;
+}

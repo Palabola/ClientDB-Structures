@@ -4,4 +4,5 @@ type UiTextureAtlas
     int32  -> FileDataId;
     uint16 -> AtlasWidth;
     uint16 -> AtlasHeight;
+    uint8  -> UiCanvasId;
 }

@@ -1,0 +1,6 @@
+// FileOptions: None
+type UiTextureAtlasElement
+{
+    string -> Name;
+    int32  -> Id;
+}

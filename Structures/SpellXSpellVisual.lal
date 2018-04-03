@@ -10,8 +10,8 @@ type SpellXSpellVisual
     int32  -> SpellIconFileId;
     int32  -> ActiveIconFileId;
     uint16 -> ViewerUnitConditionId;
-    uint16 -> ViewerPlayerConditionId;
+    int32  -> ViewerPlayerConditionId;
     uint16 -> CasterUnitConditionId;
-    uint16 -> CasterPlayerConditionId;
+    int32  -> CasterPlayerConditionId;
     Ref    -> SpellId;
 }

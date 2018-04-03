@@ -4,10 +4,10 @@ type QuestV2CliTask
     uint64 -> FiltRaces;
     string -> QuestTitle;
     string -> BulletText;
+    int32  -> ConditionId;
     int32  -> FiltCompletedQuestLogic;
     int32  -> StartItem;
     uint16 -> UniqueBitFlag;
-    uint16 -> ConditionId;
     uint16 -> FiltClasses;
     uint16 -> FiltCompletedQuest, 3;
     uint16 -> FiltMinSkillId;

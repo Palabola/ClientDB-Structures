@@ -5,9 +5,9 @@ type LFGDungeons
     string -> Description;
     uint32  -> Flags;
     float  -> MinGear;
+    int32  -> RequiredPlayerConditionId;
     uint16 -> MaxLevel;
     uint16 -> MapId;
-    uint16 -> RequiredPlayerConditionId;
     uint16 -> TargetLevelMax;
     uint16 -> RandomId;
     uint16 -> ScenarioId;

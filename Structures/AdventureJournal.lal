@@ -7,11 +7,11 @@ type AdventureJournal
     string -> RewardDescription;
     string -> ContinueDescription;
     int32  -> TextureFileDataId;
+    int32  -> BonusPlayerConditionId, 2;
     int32  -> ItemId;
     uint16 -> LfgDungeonId;
     uint16 -> QuestId;
     uint16 -> BattleMasterListId;
-    uint16 -> BonusPlayerConditionId, 2;
     uint16 -> CurrencyType;
     uint16 -> WorldMapAreaId;
     uint8  -> Type;

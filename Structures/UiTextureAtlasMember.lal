@@ -8,7 +8,7 @@ type UiTextureAtlasMember
     uint16 -> CommittedRight;
     uint16 -> CommittedTop;
     uint16 -> CommittedBottom;
+    uint16 -> UiTextureAtlasElementId;
     uint8  -> CommittedFlags;
     uint8  -> UiCanvasId;
-    Ref    -> UiTextureAtlasElementId;
 }

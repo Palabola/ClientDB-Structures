@@ -1,0 +1,5 @@
+// FileOptions: Index, None
+type SpellName
+{
+    string -> Name;
+}
