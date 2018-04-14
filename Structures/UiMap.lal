@@ -13,5 +13,5 @@ type UiMap
     int32  -> BountyDisplayLocation;
     int32  -> VisibilityPlayerConditionId;
     uint8  -> HelpTextPosition;
-    int32  -> BkgFileDataId;
+    int32  -> BkgAtlasId;
 }

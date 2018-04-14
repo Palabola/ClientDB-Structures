@@ -12,6 +12,7 @@ type Weather
     int32  -> ParticulateFileDataId;
     float  -> VolumeEdgeFadeStart;
     int32  -> OverrideColor;
+    float  -> OverrideColorIntensity;
     float  -> OverrideCount;
     float  -> OverrideOpacity;
     int32  -> VolumeFlags;

@@ -1,0 +1,36 @@
+// FileOptions: Index, None
+type Lightning
+{
+    float  -> BoltDirection, 2;
+    float  -> BoltDirectionVariance;
+    float  -> MinDivergence;
+    float  -> MaxDivergence;
+    float  -> MinConvergenceSpeed;
+    float  -> MaxConvergenceSpeed;
+    float  -> SegmentSize;
+    float  -> MinBoltWidth;
+    float  -> MaxBoltWidth;
+    float  -> MinBoltHeight;
+    float  -> MaxBoltHeight;
+    int32  -> MaxSegmentCount;
+    float  -> MinStrikeTime;
+    float  -> MaxStrikeTime;
+    float  -> MinEndTime;
+    float  -> MaxEndTime;
+    float  -> MinFadeTime;
+    float  -> MaxFadeTime;
+    uint32  -> FlashColor;
+    int32  -> BoltColor;
+    float  -> Brightness;
+    float  -> MinCloudDepth;
+    float  -> MaxCloudDepth;
+    float  -> MinFadeInStrength;
+    float  -> MaxFadeInStrength;
+    float  -> MinStrikeStrength;
+    float  -> MaxStrikeStrength;
+    float  -> GroundBrightnessScalar;
+    float  -> BoltBrightnessScalar;
+    float  -> CloudBrightnessScalar;
+    int32  -> SoundKitId;
+    float  -> SoundEmitterDistance;
+}

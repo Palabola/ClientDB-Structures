@@ -2,6 +2,7 @@
 type GarrFollowerXAbility
 {
     uint16 -> GarrAbilityId;
+    uint8  -> OrderIndex;
     uint8  -> FactionIndex;
     Ref    -> GarrFollowerId;
 }

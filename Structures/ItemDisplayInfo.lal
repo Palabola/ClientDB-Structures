@@ -13,7 +13,7 @@ type ItemDisplayInfo
     int32  -> Flags;
     int32  -> ModelResourcesId, 2;
     int32  -> ModelMaterialResourcesId, 2;
-    int32  -> GeosetGroup, 4;
-    int32  -> AttachmentGeosetGroup, 4;
+    int32  -> GeosetGroup, 6;
+    int32  -> AttachmentGeosetGroup, 6;
     int32  -> HelmetGeosetVis, 2;
 }

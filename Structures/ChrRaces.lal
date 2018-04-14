@@ -17,8 +17,6 @@ type ChrRaces
     int32  -> LowResScreenFileDataId;
     int32  -> StartingLevel;
     int32  -> UiDisplayOrder;
-    float  -> MaleModelFallbackArmor2Scale;
-    float  -> FemaleModelFallbackArmor2Scale;
     uint16 -> FactionId;
     uint16 -> CinematicSequenceId;
     uint16 -> ResSicknessSpellId;

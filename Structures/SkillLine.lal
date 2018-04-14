@@ -1,10 +1,11 @@
-// FileOptions: Index, None
+// FileOptions: None
 type SkillLine
 {
     string -> DisplayName;
     string -> AlternateVerb;
     string -> Description;
     string -> HordeDisplayName;
+    int32  -> Id;
     uint16 -> Flags;
     uint8  -> CategoryId;
     uint8  -> CanLink;

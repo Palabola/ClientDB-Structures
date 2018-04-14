@@ -23,5 +23,7 @@ type CreatureDisplayInfo
     uint8  -> UnarmedWeaponType;
     int32  -> MountPoofSpellVisualKitId;
     int32  -> DissolveEffectId;
+    int32  -> DissolveOutEffectId;
+    uint8  -> CreatureModelMinLod;
     int32  -> TextureVariationFileDataId, 3;
 }

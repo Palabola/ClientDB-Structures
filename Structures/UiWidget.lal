@@ -1,6 +1,7 @@
 // FileOptions: Index, None
 type UiWidget
 {
+    string -> WidgetTag;
     int32  -> VisId;
     uint32  -> MapId;
     int32  -> PlayerConditionId;
