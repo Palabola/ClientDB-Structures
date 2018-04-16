@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type ArtifactPowerPicker
 {
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
 }

@@ -2,6 +2,6 @@
 type MovieVariation
 {
     int32  -> FileDataId;
-    int32  -> OverlayFileDataId;
+    uint32 -> OverlayFileDataId;
     Ref    -> MovieId;
 }

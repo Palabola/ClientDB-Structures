@@ -14,5 +14,5 @@ type DissolveEffect
     int32  -> TextureBlendSetId;
     int32  -> Flags;
     int32  -> CurveId;
-    int32  -> Priority;
+    uint32 -> Priority;
 }

@@ -2,7 +2,7 @@
 type MapDifficultyXCondition
 {
     string -> FailureDescription;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
     int32  -> OrderIndex;
     Ref    -> MapDifficultyId;
 }

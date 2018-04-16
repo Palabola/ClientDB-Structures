@@ -7,7 +7,7 @@ type Emotes
     int32  -> SpellVisualKitId;
     uint16 -> AnimId;
     uint8  -> EmoteSpecProc;
-    int32  -> EmoteSpecProcParam;
-    int32  -> EventSoundId;
+    uint32 -> EmoteSpecProcParam;
+    uint32 -> EventSoundId;
     int32  -> ClassMask;
 }

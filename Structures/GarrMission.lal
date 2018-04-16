@@ -21,13 +21,13 @@ type GarrMission
     uint8  -> BaseCompletionChance;
     uint8  -> FollowerDeathChance;
     int32  -> Id;
-    int32  -> MissionCost;
-    int32  -> EnvGarrMechanicId;
-    int32  -> PlayerConditionId;
+    uint32 -> MissionCost;
+    uint32 -> EnvGarrMechanicId;
+    uint32 -> PlayerConditionId;
     int32  -> TravelDuration;
-    int32  -> BaseFollowerXP;
+    uint32 -> BaseFollowerXP;
     int32  -> OvermaxRewardPackId;
     int32  -> AreaId;
-    int32  -> Flags;
+    uint32 -> Flags;
     Ref    -> GarrMissionSetId;
 }

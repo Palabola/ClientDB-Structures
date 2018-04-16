@@ -2,6 +2,6 @@
 type GameObjectDisplayInfoXSoundKit
 {
     uint8  -> EventIndex;
-    int32  -> SoundKitId;
+    uint32 -> SoundKitId;
     Ref    -> GameObjectDisplayInfoId;
 }

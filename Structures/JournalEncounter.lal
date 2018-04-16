@@ -10,5 +10,5 @@ type JournalEncounter
     uint8  -> Flags;
     uint8  -> DifficultyMask;
     int32  -> OrderIndex;
-    int32  -> MapDisplayConditionId;
+    uint32 -> MapDisplayConditionId;
 }

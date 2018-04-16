@@ -2,5 +2,5 @@
 type SpellSpecialUnitEffect
 {
     uint16 -> SpellVisualEffectNameId;
-    int32  -> PositionerId;
+    uint32 -> PositionerId;
 }

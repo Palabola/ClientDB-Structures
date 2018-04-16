@@ -2,7 +2,7 @@
 type BonusRoll
 {
     int32  -> CurrencyTypesId;
-    int32  -> CurrencyCost;
-    int32  -> JournalEncounterId;
-    int32  -> JournalInstanceId;
+    uint32 -> CurrencyCost;
+    uint32 -> JournalEncounterId;
+    uint32 -> JournalInstanceId;
 }

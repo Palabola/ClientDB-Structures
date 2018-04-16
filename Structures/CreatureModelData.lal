@@ -20,13 +20,13 @@ type CreatureModelData
     float  -> TamedPetBaseScale;
     float  -> GeoBox, 6;
     int32  -> Flags;
-    int32  -> FileDataId;
+    uint32 -> FileDataId;
     int32  -> BloodId;
-    int32  -> FootprintTextureId;
-    int32  -> FoleyMaterialId;
-    int32  -> FootstepCameraEffectId;
-    int32  -> DeathThudCameraEffectId;
-    int32  -> SoundId;
+    uint32 -> FootprintTextureId;
+    uint32 -> FoleyMaterialId;
+    uint32 -> FootstepCameraEffectId;
+    uint32 -> DeathThudCameraEffectId;
+    uint32 -> SoundId;
     int32  -> SizeClass;
     int32  -> CreatureGeosetDataId;
 }

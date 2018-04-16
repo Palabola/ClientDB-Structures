@@ -6,5 +6,5 @@ type ItemModifiedAppearance
     uint8  -> ItemAppearanceModifierId;
     uint16 -> ItemAppearanceId;
     uint8  -> OrderIndex;
-    uint8  -> TransmogSourceTypeEnum;
+    int8   -> TransmogSourceTypeEnum;
 }

@@ -4,5 +4,5 @@ type GroundEffectTexture
     uint16 -> DoodadId, 4;
     uint8  -> DoodadWeight, 4;
     uint8  -> Sound;
-    int32  -> Density;
+    uint32 -> Density;
 }

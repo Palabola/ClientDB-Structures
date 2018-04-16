@@ -21,6 +21,6 @@ type Weather
     uint8  -> Type;
     uint8  -> EffectType;
     uint8  -> WindSettingsId;
-    int32  -> AmbienceId;
+    uint32 -> AmbienceId;
     int32  -> EffectTextureFileDataId;
 }

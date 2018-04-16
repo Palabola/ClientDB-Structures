@@ -20,5 +20,5 @@ type SpellItemEnchantment
     uint8  -> ConditionId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
-    int32  -> TransmogPlayerConditionId;
+    uint32 -> TransmogPlayerConditionId;
 }

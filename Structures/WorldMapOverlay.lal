@@ -4,14 +4,14 @@ type WorldMapOverlay
     int32  -> Id;
     uint16 -> TextureWidth;
     uint16 -> TextureHeight;
-    int32  -> UiMapArtId;
+    uint32 -> UiMapArtId;
     int32  -> OffsetX;
     int32  -> OffsetY;
     int32  -> HitRectTop;
     int32  -> HitRectBottom;
     int32  -> HitRectLeft;
     int32  -> HitRectRight;
-    int32  -> PlayerConditionId;
-    int32  -> Flags;
+    uint32 -> PlayerConditionId;
+    uint32 -> Flags;
     int32  -> AreaId, 4;
 }

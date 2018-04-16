@@ -2,6 +2,6 @@
 type UiCameraType
 {
     string -> Name;
-    int32  -> Width;
-    int32  -> Height;
+    uint32 -> Width;
+    uint32 -> Height;
 }

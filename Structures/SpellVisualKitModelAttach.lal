@@ -5,7 +5,7 @@ type SpellVisualKitModelAttach
     float  -> OffsetVariation, 3;
     int32  -> Id;
     uint16 -> SpellVisualEffectNameId;
-    uint8  -> AttachmentId;
+    int8   -> AttachmentId;
     uint16 -> PositionerId;
     float  -> Yaw;
     float  -> Pitch;

@@ -39,7 +39,7 @@ type ChrRaces
     uint8  -> FemaleTextureFallbackRaceId;
     uint8  -> FemaleTextureFallbackSex;
     int32  -> Id;
-    int32  -> HighResMaleDisplayId;
+    uint32 -> HighResMaleDisplayId;
     int32  -> HighResFemaleDisplayId;
     int32  -> HeritageArmorAchievementId;
     int32  -> FemaleSkeletonFileDataId;

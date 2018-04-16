@@ -2,7 +2,7 @@
 type TransmogSetItem
 {
     int32  -> Id;
-    int32  -> TransmogSetId;
-    int32  -> ItemModifiedAppearanceId;
+    uint32 -> TransmogSetId;
+    uint32 -> ItemModifiedAppearanceId;
     int32  -> Flags;
 }

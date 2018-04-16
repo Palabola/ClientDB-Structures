@@ -16,5 +16,5 @@ type CharShipmentContainer
     uint8  -> MediumThreshold;
     uint8  -> LargeThreshold;
     uint8  -> Faction;
-    int32  -> CompleteSpellVisualId;
+    uint32 -> CompleteSpellVisualId;
 }

@@ -4,7 +4,7 @@ type GarrClassSpecPlayerCond
     string -> Name;
     int32  -> IconFileDataId;
     uint8  -> OrderIndex;
-    int32  -> GarrClassSpecId;
+    uint32 -> GarrClassSpecId;
     int32  -> PlayerConditionId;
     int32  -> FlavorGarrStringId;
 }

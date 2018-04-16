@@ -2,6 +2,6 @@
 type QuestLineXQuest
 {
     int32  -> QuestLineId;
-    int32  -> QuestId;
+    uint32 -> QuestId;
     int32  -> OrderIndex;
 }

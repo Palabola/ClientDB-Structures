@@ -6,5 +6,5 @@ type WorldEffect
     uint8  -> WhenToDisplay;
     uint8  -> TargetType;
     int32  -> QuestFeedbackEffectId;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
 }

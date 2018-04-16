@@ -7,5 +7,5 @@ type SoundEnvelope
     uint16 -> SustainIndex;
     uint16 -> ReleaseIndex;
     uint8  -> EnvelopeType;
-    int32  -> Flags;
+    uint32 -> Flags;
 }

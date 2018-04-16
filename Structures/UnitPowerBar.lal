@@ -15,6 +15,6 @@ type UnitPowerBar
     uint16 -> Flags;
     uint8  -> CenterPower;
     uint8  -> BarType;
-    int32  -> MinPower;
+    uint32 -> MinPower;
     int32  -> MaxPower;
 }

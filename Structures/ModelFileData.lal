@@ -4,5 +4,5 @@ type ModelFileData
     uint8  -> Flags;
     uint8  -> LodCount;
     int32  -> Id;
-    int32  -> ModelResourcesId;
+    uint32 -> ModelResourcesId;
 }

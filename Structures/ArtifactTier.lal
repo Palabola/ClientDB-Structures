@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ArtifactTier
 {
-    int32  -> ArtifactTier;
-    int32  -> MaxNumTraits;
-    int32  -> MaxArtifactKnowledge;
-    int32  -> KnowledgePlayerCondition;
-    int32  -> MinimumEmpowerKnowledge;
+    uint32 -> ArtifactTier;
+    uint32 -> MaxNumTraits;
+    uint32 -> MaxArtifactKnowledge;
+    uint32 -> KnowledgePlayerCondition;
+    uint32 -> MinimumEmpowerKnowledge;
 }

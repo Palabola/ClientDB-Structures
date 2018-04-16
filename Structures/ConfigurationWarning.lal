@@ -2,5 +2,5 @@
 type ConfigurationWarning
 {
     string -> Warning;
-    int32  -> Type;
+    uint32 -> Type;
 }

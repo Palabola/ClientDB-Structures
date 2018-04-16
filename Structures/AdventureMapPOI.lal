@@ -7,10 +7,10 @@ type AdventureMapPOI
     int32  -> RewardItemId;
     uint32  -> MapId;
     uint8  -> Type;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
     int32  -> QuestId;
-    int32  -> LfgDungeonId;
-    int32  -> UiTextureAtlasMemberId;
-    int32  -> UiTextureKitId;
+    uint32 -> LfgDungeonId;
+    uint32 -> UiTextureAtlasMemberId;
+    uint32 -> UiTextureKitId;
     int32  -> AreaTableId;
 }

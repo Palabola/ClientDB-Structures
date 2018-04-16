@@ -8,7 +8,7 @@ type PlayerCondition
     uint16 -> MinLevel;
     uint16 -> MaxLevel;
     int32  -> ClassMask;
-    int32  -> SkillLogic;
+    uint32 -> SkillLogic;
     uint8  -> LanguageId;
     uint8  -> MinLanguage;
     int32  -> MaxLanguage;

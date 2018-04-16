@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type RewardPackXCurrencyType
 {
-    int32  -> CurrencyTypeId;
+    uint32 -> CurrencyTypeId;
     int32  -> Quantity;
     Ref    -> RewardPackId;
 }

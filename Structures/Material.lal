@@ -2,7 +2,7 @@
 type Material
 {
     uint8  -> Flags;
-    int32  -> FoleySoundId;
+    uint32 -> FoleySoundId;
     int32  -> SheatheSoundId;
     int32  -> UnsheatheSoundId;
 }

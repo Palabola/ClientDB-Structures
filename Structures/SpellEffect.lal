@@ -2,32 +2,32 @@
 type SpellEffect
 {
     int32  -> DifficultyId;
-    int32  -> EffectIndex;
-    int32  -> Effect;
+    uint32 -> EffectIndex;
+    uint32 -> Effect;
     float  -> EffectAmplitude;
-    int32  -> EffectAttributes;
-    int32  -> EffectAura;
-    int32  -> EffectAuraPeriod;
-    int32  -> EffectBasePoints;
+    uint32 -> EffectAttributes;
+    uint32 -> EffectAura;
+    uint32 -> EffectAuraPeriod;
+    uint32 -> EffectBasePoints;
     float  -> EffectBonusCoefficient;
     float  -> EffectChainAmplitude;
-    int32  -> EffectChainTargets;
-    int32  -> EffectDieSides;
-    int32  -> EffectItemType;
-    int32  -> EffectMechanic;
+    uint32 -> EffectChainTargets;
+    uint32 -> EffectDieSides;
+    uint32 -> EffectItemType;
+    uint32 -> EffectMechanic;
     float  -> EffectPointsPerResource;
     float  -> EffectPosFacing;
     float  -> EffectRealPointsPerLevel;
-    int32  -> EffectTriggerSpell;
+    uint32 -> EffectTriggerSpell;
     float  -> BonusCoefficientFromAP;
     float  -> PvpMultiplier;
     float  -> Coefficient;
     float  -> Variance;
     float  -> ResourceCoefficient;
     float  -> GroupSizeBasePointsCoefficient;
-    int32  -> EffectMiscValue, 2;
-    int32  -> EffectRadiusIndex, 2;
-    int32  -> EffectSpellClassMask, 4;
+    uint32 -> EffectMiscValue, 2;
+    uint32 -> EffectRadiusIndex, 2;
+    uint32 -> EffectSpellClassMask, 4;
     int32  -> ImplicitTarget, 2;
     Ref    -> SpellId;
 }

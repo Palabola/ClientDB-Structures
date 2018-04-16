@@ -7,11 +7,11 @@ type UiMap
     int32  -> Flags;
     int32  -> System;
     int32  -> Type;
-    int32  -> LevelRangeMin;
-    int32  -> LevelRangeMax;
+    uint32 -> LevelRangeMin;
+    uint32 -> LevelRangeMax;
     int32  -> BountySetId;
-    int32  -> BountyDisplayLocation;
+    uint32 -> BountyDisplayLocation;
     int32  -> VisibilityPlayerConditionId;
-    uint8  -> HelpTextPosition;
+    int8   -> HelpTextPosition;
     int32  -> BkgAtlasId;
 }

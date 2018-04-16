@@ -14,7 +14,7 @@ type AreaPOI
     uint8  -> Importance;
     uint8  -> Icon;
     int32  -> PortLocId;
-    int32  -> PlayerConditionId;
-    int32  -> UiTextureAtlasMemberId;
+    uint32 -> PlayerConditionId;
+    uint32 -> UiTextureAtlasMemberId;
     int32  -> WmoGroupId;
 }

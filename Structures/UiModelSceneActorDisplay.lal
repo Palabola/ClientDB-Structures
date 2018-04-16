@@ -4,6 +4,6 @@ type UiModelSceneActorDisplay
     float  -> Alpha;
     float  -> Scale;
     float  -> AnimSpeed;
-    int32  -> AnimationId;
-    int32  -> SequenceVariation;
+    uint32 -> AnimationId;
+    uint32 -> SequenceVariation;
 }

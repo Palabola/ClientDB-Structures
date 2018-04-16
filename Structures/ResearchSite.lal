@@ -4,5 +4,5 @@ type ResearchSite
     string -> Name;
     int32  -> QuestPoiBlobId;
     uint16 -> MapId;
-    int32  -> AreaPOIIconEnum;
+    uint32 -> AreaPOIIconEnum;
 }

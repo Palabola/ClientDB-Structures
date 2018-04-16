@@ -11,7 +11,7 @@ type ChrSpecialization
     uint8  -> Role;
     uint8  -> PrimaryStatPriority;
     int32  -> Id;
-    int32  -> Flags;
+    uint32 -> Flags;
     int32  -> SpellIconFileId;
     int32  -> AnimReplacements;
 }

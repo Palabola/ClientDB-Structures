@@ -2,8 +2,8 @@
 type SoundAmbience
 {
     uint8  -> Flags;
-    int32  -> SoundFilterId;
-    int32  -> FlavorSoundFilterId;
+    uint32 -> SoundFilterId;
+    uint32 -> FlavorSoundFilterId;
     int32  -> AmbienceId, 2;
     int32  -> AmbienceStartId, 2;
     int32  -> AmbienceStopId, 2;

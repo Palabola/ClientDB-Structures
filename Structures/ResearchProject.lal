@@ -9,5 +9,5 @@ type ResearchProject
     uint8  -> NumSockets;
     int32  -> Id;
     int32  -> TextureFileId;
-    int32  -> RequiredWeight;
+    uint32 -> RequiredWeight;
 }

@@ -4,5 +4,5 @@ type FriendshipReputation
     string -> Description;
     int32  -> TextureFileId;
     uint16 -> FactionId;
-    int32  -> Id;
+    uint32 -> Id;
 }

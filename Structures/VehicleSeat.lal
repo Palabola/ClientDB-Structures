@@ -61,5 +61,5 @@ type VehicleSeat
     uint8  -> PassengerAttachmentId;
     uint8  -> VehicleAbilityDisplay;
     int32  -> EnterUISoundId;
-    int32  -> ExitUISoundId;
+    uint32 -> ExitUISoundId;
 }

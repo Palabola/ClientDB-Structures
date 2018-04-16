@@ -8,5 +8,5 @@ type JournalEncounterCreature
     uint16 -> JournalEncounterId;
     uint8  -> OrderIndex;
     int32  -> Id;
-    int32  -> UiModelSceneId;
+    uint32 -> UiModelSceneId;
 }

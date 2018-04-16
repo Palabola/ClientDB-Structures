@@ -22,5 +22,5 @@ type AdventureJournal
     uint8  -> BonusValue, 2;
     uint8  -> CurrencyQuantity;
     int32  -> PlayerConditionId;
-    int32  -> ItemQuantity;
+    uint32 -> ItemQuantity;
 }

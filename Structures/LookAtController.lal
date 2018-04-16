@@ -14,9 +14,9 @@ type LookAtController
     uint8  -> MaxHeadYaw;
     uint8  -> MaxHeadPitch;
     uint8  -> Flags;
-    int32  -> ReactionWarmUpTimeMSMin;
-    int32  -> ReactionWarmUpTimeMSMax;
+    uint32 -> ReactionWarmUpTimeMSMin;
+    uint32 -> ReactionWarmUpTimeMSMax;
     int32  -> ReactionGiveupFOVDeg;
-    int32  -> MaxTorsoPitchUp;
+    uint32 -> MaxTorsoPitchUp;
     int32  -> MaxTorsoPitchDown;
 }

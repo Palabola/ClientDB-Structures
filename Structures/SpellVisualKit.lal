@@ -3,7 +3,7 @@ type SpellVisualKit
 {
     int32  -> Flags;
     float  -> FallbackPriority;
-    int32  -> FallbackSpellVisualKitId;
+    uint32 -> FallbackSpellVisualKitId;
     uint16 -> DelayMin;
     uint16 -> DelayMax;
 }

@@ -13,5 +13,5 @@ type ShadowyEffect
     uint8  -> AttachPos;
     uint8  -> Flags;
     int32  -> CurveId;
-    int32  -> Priority;
+    uint32 -> Priority;
 }

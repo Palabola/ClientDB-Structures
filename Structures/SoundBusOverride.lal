@@ -7,5 +7,5 @@ type SoundBusOverride
     uint8  -> Priority;
     uint8  -> PriorityPenalty;
     int32  -> SoundBusId;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
 }

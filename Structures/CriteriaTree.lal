@@ -5,7 +5,7 @@ type CriteriaTree
     int32  -> Amount;
     uint16 -> Flags;
     uint8  -> Operator;
-    int32  -> Parent;
-    int32  -> CriteriaId;
+    uint32 -> Parent;
+    uint32 -> CriteriaId;
     int32  -> OrderIndex;
 }

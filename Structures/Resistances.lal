@@ -3,5 +3,5 @@ type Resistances
 {
     string -> Name;
     uint8  -> Flags;
-    int32  -> FizzleSoundId;
+    uint32 -> FizzleSoundId;
 }

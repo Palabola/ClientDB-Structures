@@ -9,7 +9,7 @@ type SoundKit
     uint8  -> SoundType;
     uint8  -> DialogType;
     uint8  -> EAXDef;
-    int32  -> SoundKitAdvancedId;
+    uint32 -> SoundKitAdvancedId;
     float  -> VolumeVariationPlus;
     float  -> VolumeVariationMinus;
     float  -> PitchVariationPlus;

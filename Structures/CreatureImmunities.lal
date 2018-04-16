@@ -7,7 +7,7 @@ type CreatureImmunities
     uint8  -> EffectsAllowed;
     uint8  -> StatesAllowed;
     uint8  -> Flags;
-    int32  -> DispelType;
+    uint32 -> DispelType;
     int32  -> Effect, 9;
     int32  -> State, 16;
 }

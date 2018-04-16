@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type QuestXGroupActivity
 {
-    int32  -> QuestId;
-    int32  -> GroupFinderActivityId;
+    uint32 -> QuestId;
+    uint32 -> GroupFinderActivityId;
 }

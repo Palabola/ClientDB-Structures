@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CastableRaidBuffs
 {
-    int32  -> CastingSpellId;
+    uint32 -> CastingSpellId;
     Ref    -> SpellId;
 }

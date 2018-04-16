@@ -3,6 +3,6 @@ type DeathThudLookups
 {
     uint8  -> SizeClass;
     uint8  -> TerrainTypeSoundId;
-    int32  -> SoundEntryId;
+    uint32 -> SoundEntryId;
     int32  -> SoundEntryIDWater;
 }

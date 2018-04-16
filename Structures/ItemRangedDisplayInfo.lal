@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type ItemRangedDisplayInfo
 {
-    int32  -> CastSpellVisualId;
+    uint32 -> CastSpellVisualId;
     int32  -> AutoAttackSpellVisualId;
-    int32  -> QuiverFileDataId;
+    uint32 -> QuiverFileDataId;
     int32  -> MissileSpellVisualEffectNameId;
 }

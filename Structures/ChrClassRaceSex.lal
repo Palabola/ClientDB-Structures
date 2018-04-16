@@ -6,5 +6,5 @@ type ChrClassRaceSex
     uint8  -> Sex;
     int32  -> Flags;
     int32  -> SoundId;
-    int32  -> VoiceSoundFilterId;
+    uint32 -> VoiceSoundFilterId;
 }

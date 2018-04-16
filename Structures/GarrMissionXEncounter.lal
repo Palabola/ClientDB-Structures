@@ -3,7 +3,7 @@ type GarrMissionXEncounter
 {
     uint8  -> OrderIndex;
     int32  -> Id;
-    int32  -> GarrEncounterId;
-    int32  -> GarrEncounterSetId;
+    uint32 -> GarrEncounterId;
+    uint32 -> GarrEncounterSetId;
     Ref    -> GarrMissionId;
 }

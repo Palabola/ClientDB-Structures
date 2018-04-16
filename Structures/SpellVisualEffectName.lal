@@ -10,9 +10,9 @@ type SpellVisualEffectName
     int32  -> Flags;
     int32  -> TextureFileDataId;
     float  -> EffectRadius;
-    int32  -> Type;
+    uint32 -> Type;
     int32  -> GenericId;
-    int32  -> RibbonQualityId;
+    uint32 -> RibbonQualityId;
     int32  -> DissolveEffectId;
     int32  -> ModelPosition;
 }

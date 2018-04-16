@@ -10,7 +10,7 @@ type Holidays
     uint8  -> Priority;
     uint8  -> CalendarFilterType;
     uint8  -> Flags;
-    int32  -> HolidayNameId;
-    int32  -> HolidayDescriptionId;
+    uint32 -> HolidayNameId;
+    uint32 -> HolidayDescriptionId;
     int32  -> TextureFileDataId, 3;
 }

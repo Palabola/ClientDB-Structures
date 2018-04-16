@@ -6,5 +6,5 @@ type RewardPack
     uint8  -> ArtifactXPDifficulty;
     uint8  -> ArtifactXPCategoryId;
     int32  -> CharTitleId;
-    int32  -> TreasurePickerId;
+    uint32 -> TreasurePickerId;
 }

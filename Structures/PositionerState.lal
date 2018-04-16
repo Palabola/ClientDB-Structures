@@ -3,10 +3,10 @@ type PositionerState
 {
     float  -> EndLife;
     uint8  -> EndLifePercent;
-    int32  -> NextStateId;
-    int32  -> TransformMatrixId;
-    int32  -> PosEntryId;
-    int32  -> RotEntryId;
-    int32  -> ScaleEntryId;
+    uint32 -> NextStateId;
+    uint32 -> TransformMatrixId;
+    uint32 -> PosEntryId;
+    uint32 -> RotEntryId;
+    uint32 -> ScaleEntryId;
     int32  -> Flags;
 }

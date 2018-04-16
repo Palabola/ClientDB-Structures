@@ -8,5 +8,5 @@ type GarrClassSpec
     uint16 -> GarrFollItemSetId;
     uint8  -> FollowerClassLimit;
     uint8  -> Flags;
-    int32  -> Id;
+    uint32 -> Id;
 }

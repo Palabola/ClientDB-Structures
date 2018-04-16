@@ -7,5 +7,5 @@ type GarrFollowerQuality
     uint8  -> GarrFollowerTypeId;
     uint8  -> AbilityCount;
     uint8  -> TraitCount;
-    int32  -> ClassSpecId;
+    uint32 -> ClassSpecId;
 }

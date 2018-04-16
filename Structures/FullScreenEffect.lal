@@ -24,8 +24,8 @@ type FullScreenEffect
     float  -> BlurOffsetY;
     float  -> BlurMultiplier;
     float  -> BlurPower;
-    int32  -> Flags;
-    int32  -> EffectFadeInMs;
-    int32  -> EffectFadeOutMs;
-    int32  -> TextureBlendSetId;
+    uint32 -> Flags;
+    uint32 -> EffectFadeInMs;
+    uint32 -> EffectFadeOutMs;
+    uint32 -> TextureBlendSetId;
 }

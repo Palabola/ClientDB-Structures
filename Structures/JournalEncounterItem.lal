@@ -6,5 +6,5 @@ type JournalEncounterItem
     uint8  -> FactionMask;
     uint8  -> Flags;
     uint8  -> DifficultyMask;
-    int32  -> Id;
+    uint32 -> Id;
 }

@@ -5,5 +5,5 @@ type RibbonQuality
     float  -> AngleThreshold;
     float  -> MinDistancePerSlice;
     uint8  -> NumStrips;
-    int32  -> Flags;
+    uint32 -> Flags;
 }

@@ -4,5 +4,5 @@ type ZoneIntroMusicTable
     string -> Name;
     uint16 -> MinDelayMinutes;
     uint8  -> Priority;
-    int32  -> SoundId;
+    uint32 -> SoundId;
 }

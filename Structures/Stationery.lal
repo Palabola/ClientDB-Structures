@@ -2,6 +2,6 @@
 type Stationery
 {
     uint8  -> Flags;
-    int32  -> ItemId;
+    uint32 -> ItemId;
     int32  -> TextureFileDataId, 2;
 }

@@ -2,6 +2,6 @@
 type UiMapFogOfWarVisualization
 {
     float  -> MaskScalar;
-    int32  -> BackgroundAtlasId;
-    int32  -> MaskAtlasId;
+    uint32 -> BackgroundAtlasId;
+    uint32 -> MaskAtlasId;
 }

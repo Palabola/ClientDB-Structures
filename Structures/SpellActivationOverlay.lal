@@ -8,5 +8,5 @@ type SpellActivationOverlay
     uint32  -> IconHighlightSpellClassMask, 4;
     uint8  -> ScreenLocationId;
     uint8  -> TriggerType;
-    int32  -> SoundEntriesId;
+    uint32 -> SoundEntriesId;
 }

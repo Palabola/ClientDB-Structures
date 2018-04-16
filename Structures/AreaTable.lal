@@ -23,5 +23,5 @@ type AreaTable
     uint8  -> WildBattlePetLevelMin;
     uint8  -> WildBattlePetLevelMax;
     uint8  -> WindSettingsId;
-    int32  -> UwIntroSound;
+    uint32 -> UwIntroSound;
 }

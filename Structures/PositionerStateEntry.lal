@@ -11,5 +11,5 @@ type PositionerStateEntry
     uint8  -> Style;
     uint8  -> SrcType;
     uint8  -> DstType;
-    int32  -> CurveId;
+    uint32 -> CurveId;
 }

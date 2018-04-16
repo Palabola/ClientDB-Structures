@@ -4,5 +4,5 @@ type CinematicCamera
     int32  -> SoundId;
     float  -> Origin, 3;
     float  -> OriginFacing;
-    int32  -> FileDataId;
+    uint32 -> FileDataId;
 }

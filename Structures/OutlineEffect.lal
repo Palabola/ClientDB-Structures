@@ -2,7 +2,7 @@
 type OutlineEffect
 {
     int32  -> PassiveHighlightColorId;
-    int32  -> HighlightColorId;
+    uint32 -> HighlightColorId;
     int32  -> Priority;
     int32  -> Flags;
     float  -> Range;

@@ -2,6 +2,6 @@
 type GarrEncounterSetXEncounter
 {
     int32  -> Id;
-    int32  -> GarrEncounterId;
+    uint32 -> GarrEncounterId;
     Ref    -> GarrEncounterSetId;
 }

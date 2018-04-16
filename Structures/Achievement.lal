@@ -15,5 +15,5 @@ type Achievement
     uint8  -> Points;
     int32  -> Id;
     int32  -> IconFileId;
-    int32  -> CriteriaTree;
+    uint32 -> CriteriaTree;
 }

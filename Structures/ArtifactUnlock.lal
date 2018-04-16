@@ -4,6 +4,6 @@ type ArtifactUnlock
     uint16 -> ItemBonusListId;
     uint8  -> PowerRank;
     int32  -> PowerId;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
     Ref    -> ArtifactId;
 }

@@ -8,7 +8,7 @@ type ScenarioStep
     uint16 -> Supersedes;
     uint8  -> OrderIndex;
     uint8  -> Flags;
-    int32  -> Criteriatreeid;
+    uint32 -> Criteriatreeid;
     int32  -> RelatedStep;
     int32  -> VisibilityPlayerConditionId;
 }

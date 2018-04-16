@@ -7,12 +7,12 @@ type CreatureDisplayInfoCond
     int32  -> CustomOption2Mask, 2;
     uint8  -> OrderIndex;
     uint8  -> Gender;
-    int32  -> ClassMask;
-    int32  -> SkinColorMask;
-    int32  -> HairColorMask;
-    int32  -> HairStyleMask;
-    int32  -> FaceStyleMask;
-    int32  -> FacialHairStyleMask;
+    uint32 -> ClassMask;
+    uint32 -> SkinColorMask;
+    uint32 -> HairColorMask;
+    uint32 -> HairStyleMask;
+    uint32 -> FaceStyleMask;
+    uint32 -> FacialHairStyleMask;
     int32  -> CreatureModelDataId;
     int32  -> TextureVariationFileDataId, 3;
     Ref    -> CreatureDisplayInfoId;

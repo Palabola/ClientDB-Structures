@@ -15,5 +15,5 @@ type WMOAreaTable
     uint8  -> SoundProviderPrefUnderwater;
     uint8  -> Flags;
     int32  -> Id;
-    int32  -> UwZoneMusic;
+    uint32 -> UwZoneMusic;
 }

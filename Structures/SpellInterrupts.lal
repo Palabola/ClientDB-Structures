@@ -2,7 +2,7 @@
 type SpellInterrupts
 {
     uint8  -> DifficultyId;
-    uint16 -> InterruptFlags;
+    int16  -> InterruptFlags;
     int32  -> AuraInterruptFlags, 2;
     int32  -> ChannelInterruptFlags, 2;
     Ref    -> SpellId;

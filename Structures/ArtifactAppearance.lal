@@ -13,7 +13,7 @@ type ArtifactAppearance
     uint8  -> OverrideShapeshiftFormId;
     uint8  -> Flags;
     int32  -> Id;
-    int32  -> UnlockPlayerConditionId;
+    uint32 -> UnlockPlayerConditionId;
     int32  -> UiItemAppearanceId;
     int32  -> UiAltItemAppearanceId;
 }

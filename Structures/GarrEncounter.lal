@@ -7,5 +7,5 @@ type GarrEncounter
     float  -> UiAnimScale;
     float  -> UiAnimHeight;
     int32  -> Id;
-    int32  -> UiTextureKitId;
+    uint32 -> UiTextureKitId;
 }

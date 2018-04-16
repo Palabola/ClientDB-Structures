@@ -9,6 +9,6 @@ type Artifact
     uint16 -> ChrSpecializationId;
     uint8  -> Flags;
     uint8  -> ArtifactCategoryId;
-    int32  -> UiModelSceneId;
+    uint32 -> UiModelSceneId;
     int32  -> SpellVisualKitId;
 }

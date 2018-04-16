@@ -5,15 +5,15 @@ type SpellVisual
     float  -> MissileImpactOffset, 3;
     int32  -> AnimEventSoundId;
     int32  -> Flags;
-    uint8  -> MissileAttachment;
-    uint8  -> MissileDestinationAttachment;
-    int32  -> MissileCastPositionerId;
-    int32  -> MissileImpactPositionerId;
+    int8   -> MissileAttachment;
+    int8   -> MissileDestinationAttachment;
+    uint32 -> MissileCastPositionerId;
+    uint32 -> MissileImpactPositionerId;
     int32  -> MissileTargetingKit;
-    int32  -> HostileSpellVisualId;
+    uint32 -> HostileSpellVisualId;
     int32  -> CasterSpellVisualId;
     uint16 -> SpellVisualMissileSetId;
     uint16 -> DamageNumberDelay;
     int32  -> LowViolenceSpellVisualId;
-    int32  -> RaidSpellVisualMissileSetId;
+    uint32 -> RaidSpellVisualMissileSetId;
 }

@@ -11,5 +11,5 @@ type SpellVisualColorEffect
     uint16 -> OpacityCurveId;
     uint8  -> Flags;
     uint8  -> Type;
-    int32  -> PositionerId;
+    uint32 -> PositionerId;
 }

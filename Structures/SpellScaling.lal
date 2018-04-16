@@ -4,6 +4,6 @@ type SpellScaling
     int32  -> SpellId;
     uint16 -> ScalesFromItemLevel;
     int32  -> Class;
-    int32  -> MinScalingLevel;
+    uint32 -> MinScalingLevel;
     int32  -> MaxScalingLevel;
 }

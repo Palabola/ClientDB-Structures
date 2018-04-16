@@ -2,6 +2,6 @@
 type ModelAnimCloakDampening
 {
     int32  -> AnimationDataId;
-    int32  -> CloakDampeningId;
+    uint32 -> CloakDampeningId;
     Ref    -> FileDataId;
 }

@@ -11,7 +11,7 @@ type SoundKitAdvanced
     int32  -> TimeToDuck;
     int32  -> TimeToUnduck;
     uint8  -> Usage;
-    int32  -> SoundKitId;
+    uint32 -> SoundKitId;
     int32  -> TimeA;
     int32  -> TimeB;
     int32  -> TimeC;

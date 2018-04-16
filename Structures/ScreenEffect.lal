@@ -10,7 +10,7 @@ type ScreenEffect
     uint8  -> Effect;
     uint8  -> EffectMask;
     uint8  -> LightFlags;
-    int32  -> FullScreenEffectId;
+    uint32 -> FullScreenEffectId;
     int32  -> SoundAmbienceId;
-    int32  -> ZoneMusicId;
+    uint32 -> ZoneMusicId;
 }

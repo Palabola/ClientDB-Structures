@@ -2,6 +2,6 @@
 type ChrClassUIDisplay
 {
     uint8  -> ChrClassesId;
-    int32  -> AdvGuidePlayerConditionId;
+    uint32 -> AdvGuidePlayerConditionId;
     int32  -> SplashPlayerConditionId;
 }
