@@ -2,9 +2,7 @@
 type WorldSafeLocs
 {
     string -> Name;
-    float  -> X;
-    float  -> Y;
-    float  -> Z;
+    float  -> Loc, 3;
     float  -> Rotation;
     uint16 -> MapId;
 }
