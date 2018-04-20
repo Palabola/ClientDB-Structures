@@ -7,6 +7,7 @@ type LightParams
     float  -> OceanShallowAlpha;
     float  -> OceanDeepAlpha;
     float  -> OverrideCelestialSphere, 3;
+    uint32 -> Unknown;
     uint16 -> LightSkyboxId;
     uint8  -> HighlightSky;
     uint8  -> CloudTypeId;

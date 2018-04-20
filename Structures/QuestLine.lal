@@ -2,4 +2,6 @@
 type QuestLine
 {
     string -> Name;
+    string -> Description;
+    int32  -> QuestId;
 }

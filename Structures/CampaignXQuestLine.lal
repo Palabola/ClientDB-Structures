@@ -1,0 +1,7 @@
+// FileOptions: Index, None
+type CampaignXQuestLine
+{
+    uint32 -> CampaignId;
+    uint32 -> QuestLineId;
+    uint32 -> ChapterId;
+}

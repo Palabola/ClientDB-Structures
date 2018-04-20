@@ -2,6 +2,7 @@
 type MapDifficulty
 {
     string -> Message;
+    int32  -> Unknown;
     uint8  -> DifficultyId;
     uint8  -> LockId;
     uint8  -> ResetInterval;

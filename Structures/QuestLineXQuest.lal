@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type QuestLineXQuest
 {
-    int32  -> QuestLineId;
+    uint32 -> QuestLineId;
     uint32 -> QuestId;
     int32  -> OrderIndex;
 }

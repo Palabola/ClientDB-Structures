@@ -17,6 +17,7 @@ type ChrRaces
     int32  -> LowResScreenFileDataId;
     int32  -> StartingLevel;
     int32  -> UiDisplayOrder;
+    int32  -> BaseRaceId;
     uint16 -> FactionId;
     uint16 -> CinematicSequenceId;
     uint16 -> ResSicknessSpellId;

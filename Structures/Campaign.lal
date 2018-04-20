@@ -1,0 +1,11 @@
+// FileOptions: None
+type Campaign
+{
+    string -> Name;
+    string -> Title;
+    string -> Description;
+    int32  -> Id;
+    int32  -> UiTextureKitId;
+    int32  -> Unknown;
+    int32  -> Unknown2;
+}

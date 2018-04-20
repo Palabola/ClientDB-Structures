@@ -1,0 +1,7 @@
+// FileOptions: Index, None
+type ArtifactItemToTransmog
+{
+    int32  -> ItemId;
+    int32  -> ArtifactId;
+    Ref    -> TransmogItemId;
+}
