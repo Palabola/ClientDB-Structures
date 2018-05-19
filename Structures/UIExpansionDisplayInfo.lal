@@ -3,5 +3,5 @@ type UIExpansionDisplayInfo
 {
     int32  -> ExpansionLogo;
     int32  -> ExpansionBanner;
-    int32  -> ExpansionLevel;
+    uint32 -> ExpansionLevel;
 }

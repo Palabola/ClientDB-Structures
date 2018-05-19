@@ -8,6 +8,7 @@ type SpellMisc
     uint8  -> SchoolMask;
     float  -> Speed;
     float  -> LaunchDelay;
+    float  -> Unknown;
     int32  -> SpellIconFileDataId;
     int32  -> ActiveIconFileDataId;
     int32  -> Attributes, 14;

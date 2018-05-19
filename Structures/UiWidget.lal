@@ -5,6 +5,6 @@ type UiWidget
     int32  -> VisId;
     uint32  -> MapId;
     int32  -> PlayerConditionId;
-    int32  -> OrderIndex;
     uint16 -> ParentSetId;
+    int32  -> OrderIndex;
 }

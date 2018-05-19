@@ -11,4 +11,5 @@ type BroadcastText
     uint8  -> LanguageId;
     uint8  -> Flags;
     int32  -> ConditionId;
+    int32  -> Unknown;
 }

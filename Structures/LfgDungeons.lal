@@ -3,9 +3,8 @@ type LFGDungeons
 {
     string -> Name;
     string -> Description;
-    uint32  -> Flags;
+    uint32 -> Flags;
     float  -> MinGear;
-    int32  -> RequiredPlayerConditionId;
     uint16 -> MaxLevel;
     uint16 -> MapId;
     uint16 -> TargetLevelMax;
@@ -34,4 +33,5 @@ type LFGDungeons
     int32  -> IconTextureFileId;
     int32  -> RewardsBgTextureFileId;
     int32  -> PopupBgTextureFileId;
+    uint32 -> RequiredPlayerConditionId;
 }

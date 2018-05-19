@@ -1,7 +1,8 @@
-// FileOptions: Index, None
+// FileOptions: None
 type KeystoneAffix
 {
     string -> Name;
     string -> Description;
     int32  -> Filedataid;
+    int32  -> Id;
 }

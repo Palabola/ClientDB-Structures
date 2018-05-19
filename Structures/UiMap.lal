@@ -6,7 +6,7 @@ type UiMap
     int32  -> ParentUiMapId;
     int32  -> Flags;
     int32  -> System;
-    int32  -> Type;
+    uint32 -> Type;
     uint32 -> LevelRangeMin;
     uint32 -> LevelRangeMax;
     int32  -> BountySetId;

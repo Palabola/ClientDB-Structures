@@ -4,8 +4,8 @@ type Campaign
     string -> Name;
     string -> Title;
     string -> Description;
-    int32  -> Id;
-    int32  -> UiTextureKitId;
-    int32  -> Unknown;
-    int32  -> Unknown2;
+    uint32 -> Id;
+    uint32 -> UiTextureKitId;
+    uint32 -> Unknown;
+    uint32 -> Unknown2;
 }

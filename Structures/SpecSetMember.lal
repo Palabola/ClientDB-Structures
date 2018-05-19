@@ -1,0 +1,6 @@
+// FileOptions: Index, None
+type SpecSetMember
+{
+    int32  -> SpecId;
+    Ref    -> Unknown;
+}

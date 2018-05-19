@@ -28,5 +28,5 @@ type CreatureModelData
     uint32 -> DeathThudCameraEffectId;
     uint32 -> SoundId;
     int32  -> SizeClass;
-    int32  -> CreatureGeosetDataId;
+    uint32 -> CreatureGeosetDataId;
 }

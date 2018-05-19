@@ -3,4 +3,5 @@ type MultiTransitionProperties
 {
     int32  -> TransitionType;
     uint32 -> DurationMS;
+    uint32 -> Unknown;
 }

@@ -5,6 +5,7 @@ type SkillLine
     string -> AlternateVerb;
     string -> Description;
     string -> HordeDisplayName;
+    string -> ExpansionDisplayName;
     int32  -> Id;
     uint16 -> Flags;
     uint8  -> CategoryId;

@@ -11,6 +11,7 @@ type DecalProperties
     float  -> Scale;
     float  -> FadeIn;
     float  -> FadeOut;
+    float  -> Unknown;
     uint8  -> Priority;
     uint8  -> BlendMode;
     int32  -> TopTextureBlendSetId;

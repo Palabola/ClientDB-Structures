@@ -1,0 +1,6 @@
+// FileOptions: Index, None
+type SpecializationSpellsDisplay
+{
+    uint16 -> Unknown;
+    int32  -> Unknown1, 6;
+}

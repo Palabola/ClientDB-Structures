@@ -6,7 +6,7 @@ type LightData
     int32  -> SkyTopColor;
     int32  -> SkyMiddleColor;
     int32  -> SkyBand1Color;
-    uint32  -> SkyBand2Color;
+    int32  -> SkyBand2Color;
     int32  -> SkySmogColor;
     int32  -> SkyFogColor;
     int32  -> SunColor;
@@ -18,7 +18,7 @@ type LightData
     int32  -> OceanFarColor;
     int32  -> RiverCloseColor;
     int32  -> RiverFarColor;
-    uint32  -> ShadowOpacity;
+    uint32 -> ShadowOpacity;
     float  -> FogEnd;
     float  -> FogScaler;
     float  -> FogDensity;
@@ -33,7 +33,9 @@ type LightData
     int32  -> EndFogColor;
     float  -> EndFogColorDistance;
     int32  -> SunFogColor;
+    float  -> Unknown;
     int32  -> FogHeightColor;
     uint16 -> LightParamId;
     uint16 -> Time;
 }
+

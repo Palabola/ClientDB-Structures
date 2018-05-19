@@ -3,7 +3,7 @@ type CreatureDisplayInfoTrn
 {
     int32  -> DstCreatureDisplayInfoId;
     float  -> MaxTime;
-    int32  -> DissolveEffectId;
+    uint32 -> DissolveEffectId;
     uint32 -> StartVisualKitId;
     int32  -> FinishVisualKitId;
     Ref    -> SrcCreatureDisplayInfoId;

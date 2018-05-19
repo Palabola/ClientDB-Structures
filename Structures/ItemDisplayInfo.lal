@@ -9,7 +9,7 @@ type ItemDisplayInfo
     int32  -> SheatheTransformMatrixId;
     int32  -> StateSpellVisualKitId;
     int32  -> SheathedSpellVisualKitId;
-    int32  -> UnsheathedSpellVisualKitId;
+    uint32 -> UnsheathedSpellVisualKitId;
     int32  -> Flags;
     int32  -> ModelResourcesId, 2;
     int32  -> ModelMaterialResourcesId, 2;

@@ -3,6 +3,7 @@ type PrestigeLevelInfo
 {
     string -> Name;
     int32  -> BadgeTextureFileDataId;
-    uint8  -> PrestigeLevel;
+    int32  -> Unknown;
     uint8  -> Flags;
+    int32  -> HonorLevel;
 }

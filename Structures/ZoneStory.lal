@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type ZoneStory
 {
-    int32  -> DisplayAchievementId;
-    int32  -> DisplayWorldMapAreaId;
     uint8  -> PlayerFactionGroupId;
+    uint32 -> DisplayAchievementId;
+    int32  -> DisplayWorldMapAreaId;
     Ref    -> PlayerWorldMapAreaId;
 }

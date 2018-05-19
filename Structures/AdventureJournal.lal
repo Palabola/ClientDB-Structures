@@ -7,7 +7,6 @@ type AdventureJournal
     string -> RewardDescription;
     string -> ContinueDescription;
     int32  -> TextureFileDataId;
-    int32  -> BonusPlayerConditionId, 2;
     int32  -> ItemId;
     uint16 -> LfgDungeonId;
     uint16 -> QuestId;
@@ -23,4 +22,5 @@ type AdventureJournal
     uint8  -> CurrencyQuantity;
     int32  -> PlayerConditionId;
     uint32 -> ItemQuantity;
+    int32  -> BonusPlayerConditionId, 2;
 }

@@ -7,7 +7,7 @@ type GarrSiteLevel
     uint16 -> UiTextureKitId;
     uint16 -> UpgradeCost;
     uint16 -> UpgradeGoldCost;
-    uint8  -> GarrSiteId;
     uint8  -> GarrLevel;
     uint8  -> MaxBuildingLevel;
+    uint32 -> GarrSiteId;
 }

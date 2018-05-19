@@ -1,0 +1,7 @@
+// FileOptions: None
+type CommunityIcon
+{
+    int32 -> Id;
+    int32 -> IconFileDataId;
+    int32 -> OrderIndex;
+}

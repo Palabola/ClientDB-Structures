@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ScenarioEventEntry
 {
-    int32  -> TriggerAsset;
     uint8  -> TriggerType;
+    uint32 -> TriggerAsset;
 }

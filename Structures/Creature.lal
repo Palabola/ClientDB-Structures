@@ -9,8 +9,8 @@ type Creature
     float  -> DisplayProbability, 4;
     int32  -> AlwaysItem, 3;
     int32  -> MountCreatureId;
+    uint16 -> CreatureFamily;
     uint8  -> Classification;
     uint8  -> CreatureType;
-    uint8  -> CreatureFamily;
     uint8  -> StartAnimState;
 }

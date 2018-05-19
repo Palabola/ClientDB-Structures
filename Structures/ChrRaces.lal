@@ -15,7 +15,6 @@ type ChrRaces
     float  -> MaleCustomizeOffset, 3;
     float  -> FemaleCustomizeOffset, 3;
     int32  -> LowResScreenFileDataId;
-    int32  -> StartingLevel;
     int32  -> UiDisplayOrder;
     int32  -> BaseRaceId;
     uint16 -> FactionId;
@@ -43,6 +42,7 @@ type ChrRaces
     uint32 -> HighResMaleDisplayId;
     int32  -> HighResFemaleDisplayId;
     int32  -> HeritageArmorAchievementId;
+    int32  -> StartingLevel;
     int32  -> FemaleSkeletonFileDataId;
     int32  -> MaleSkeletonFileDataId;
     int32  -> AlteredFormStartVisualKitId, 3;

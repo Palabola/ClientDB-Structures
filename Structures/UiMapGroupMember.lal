@@ -2,8 +2,8 @@
 type UiMapGroupMember
 {
     string -> Name;
+    uint8  -> RelativeHeightIndex;
     int32  -> UiMapGroupId;
     int32  -> UiMapId;
     int32  -> FloorIndex;
-    uint8  -> RelativeHeightIndex;
 }

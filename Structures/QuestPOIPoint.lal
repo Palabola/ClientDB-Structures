@@ -1,8 +1,8 @@
 // FileOptions: None
 type QuestPOIPoint
 {
-    int32  -> Id;
     uint16 -> X;
     uint16 -> Y;
+    int32  -> Id;
     Ref    -> QuestPoiBlobId;
 }

@@ -1,0 +1,12 @@
+// FileOptions: Index, None
+type PvpTier
+{
+    string -> Name;
+    int32  -> DescendTier;
+    int32  -> AscendTier;
+    int32  -> TierIconFileDataId;
+    uint16 -> DescendRating;
+    uint16 -> AscendRating;
+    uint8  -> Type;
+    uint8  -> TierEnumId;
+}

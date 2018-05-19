@@ -11,6 +11,7 @@ type AreaPOI
     uint16 -> ContinentId;
     uint16 -> AreaId;
     uint16 -> WorldStateId;
+    uint16 -> Unknown;
     uint8  -> Importance;
     uint8  -> Icon;
     int32  -> PortLocId;

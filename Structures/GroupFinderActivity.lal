@@ -11,8 +11,8 @@ type GroupFinderActivity
     uint8  -> GroupFinderActivityGrpId;
     uint8  -> MinLevel;
     uint8  -> MaxLevelSuggestion;
-    uint8  -> Flags;
     uint8  -> DifficultyId;
     uint8  -> MaxPlayers;
     uint8  -> DisplayType;
+    uint8  -> Flags;
 }
