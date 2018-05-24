@@ -2,7 +2,7 @@
 type AreaConditionalData
 {
     string -> Name;
-    int32  -> Unknown;
+    int32  -> PlayerConditionId;
     int32  -> Id;
     int32  -> Unknown2;
     Ref    -> AreaId;

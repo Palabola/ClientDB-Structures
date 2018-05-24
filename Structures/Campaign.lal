@@ -6,6 +6,6 @@ type Campaign
     string -> Description;
     uint32 -> Id;
     uint32 -> UiTextureKitId;
-    uint32 -> Unknown;
-    uint32 -> Unknown2;
+    uint32 -> QuestId;
+    uint32 -> PlayerConditionId;
 }
