@@ -1,6 +1,7 @@
-// FileOptions: Index, None
+// FileOptions: None
 type ContentTuning
 {
+    int32  -> Id;
     int32  -> MinLevel;
     int32  -> MaxLevel;
     int32  -> Flags;

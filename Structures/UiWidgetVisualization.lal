@@ -3,5 +3,6 @@ type UiWidgetVisualization
 {
     int32  -> TextureKit;
     int32  -> FrameTextureKit;
+    uint16 -> Unknown;
     uint8  -> VisType;
 }

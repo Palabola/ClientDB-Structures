@@ -6,6 +6,7 @@ type ScenarioStep
     uint16 -> ScenarioId;
     uint16 -> RewardQuestId;
     uint16 -> Supersedes;
+    uint16 -> Unknown;
     uint8  -> OrderIndex;
     uint8  -> Flags;
     uint32 -> Criteriatreeid;

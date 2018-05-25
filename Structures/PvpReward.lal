@@ -1,7 +1,0 @@
-// FileOptions: Index, None
-type PvpReward
-{
-    int32  -> HonorLevel;
-    int32  -> PrestigeLevel;
-    int32  -> RewardPackId;
-}

@@ -22,7 +22,8 @@ type ItemSparse
     int32  -> VendorStackCount;
     float  -> PriceVariance;
     float  -> PriceRandomValue;
-    uint32  -> Flags, 4;
+    uint32 -> Flags, 4;
+    int32  -> Unknown;
     uint16 -> ItemNameDescriptionId;
     uint16 -> RequiredTransmogHoliday;
     uint16 -> RequiredHoliday;

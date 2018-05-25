@@ -1,0 +1,8 @@
+// FileOptions: None
+type OccluderNode
+{
+    uint32 -> Id;
+    int32  -> Unknown1;
+    uint16 -> Unknown2;
+    uint16 -> Unknown3;
+}

@@ -8,7 +8,6 @@ type Creature
     int32  -> DisplayId, 4;
     float  -> DisplayProbability, 4;
     int32  -> AlwaysItem, 3;
-    int32  -> MountCreatureId;
     uint16 -> CreatureFamily;
     uint8  -> Classification;
     uint8  -> CreatureType;

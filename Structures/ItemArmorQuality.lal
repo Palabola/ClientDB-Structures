@@ -2,5 +2,4 @@
 type ItemArmorQuality
 {
     float  -> Qualitymod, 7;
-    uint16 -> ItemLevel;
 }
