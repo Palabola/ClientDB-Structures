@@ -20,7 +20,7 @@ type SpellEffect
     float  -> BonusCoefficientFromAP;
     float  -> PvpMultiplier;
     float  -> Coefficient;
-    float  -> Unknown;
+    float  -> Variance;
     float  -> ResourceCoefficient;
     float  -> GroupSizeBasePointsCoefficient;
     float  -> EffectBasePoints;
