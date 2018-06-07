@@ -1,9 +1,8 @@
-// FileOptions: None
+// FileOptions: Index, None
 type AreaFarClipOverride
 {
     int32  -> AreaId;
     float  -> MinFarClip;
     float  -> MinHorizonStart;
     int32  -> Flags;
-    int32  -> Id;
 }

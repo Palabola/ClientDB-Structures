@@ -19,7 +19,7 @@ type Lightning
     float  -> MaxEndTime;
     float  -> MinFadeTime;
     float  -> MaxFadeTime;
-    uint32  -> FlashColor;
+    uint32 -> FlashColor;
     int32  -> BoltColor;
     float  -> Brightness;
     float  -> MinCloudDepth;
@@ -31,6 +31,6 @@ type Lightning
     float  -> GroundBrightnessScalar;
     float  -> BoltBrightnessScalar;
     float  -> CloudBrightnessScalar;
-    int32  -> SoundKitId;
     float  -> SoundEmitterDistance;
+    int32  -> Unknown, 3;
 }

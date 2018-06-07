@@ -5,7 +5,7 @@ type Artifact
     uint32 -> Id;
     uint32 -> UiNameColor;
     uint32 -> UiBarOverlayColor;
-    int32  -> UiBarBackgroundColor;
+    uint32 -> UiBarBackgroundColor;
     uint16 -> UiTextureKitId;
     uint16 -> ChrSpecializationId;
     uint8  -> Flags;
