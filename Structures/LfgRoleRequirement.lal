@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type LFGRoleRequirement
 {
-    uint8  -> RoleType;
+    int8   -> RoleType;
     int32  -> PlayerConditionId;
     Ref    -> LfgDungeonsId;
 }

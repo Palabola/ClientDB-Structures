@@ -7,7 +7,7 @@ type WorldStateUI
     string -> DynamicTooltip;
     string -> ExtendedUI;
     int32  -> Id;
-    uint16 -> MapId;
+    int16  -> MapId;
     uint16 -> AreaId;
     uint16 -> StateVariable;
     uint8  -> Type;

@@ -10,5 +10,5 @@ type TransmogSet
     int32  -> ItemNameDescriptionId;
     uint16 -> ParentTransmogSetId;
     uint8  -> ExpansionId;
-    uint16 -> UiOrder;
+    int16  -> UiOrder;
 }

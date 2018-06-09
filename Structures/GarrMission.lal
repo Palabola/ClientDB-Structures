@@ -17,7 +17,7 @@ type GarrMission
     uint16 -> UiTextureKitId;
     int32  -> EnvGarrMechanicId;
     uint8  -> EnvGarrMechanicTypeId;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
     uint8  -> TargetLevel;
     uint16 -> TargetItemLevel;
     int32  -> MissionDuration;
@@ -28,6 +28,6 @@ type GarrMission
     int32  -> OvermaxRewardPackId;
     uint8  -> FollowerDeathChance;
     int32  -> AreaId;
-    int32  -> Flags;
+    uint32 -> Flags;
     Ref    -> GarrMissionSetId;
 }

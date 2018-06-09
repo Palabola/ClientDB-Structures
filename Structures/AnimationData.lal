@@ -3,6 +3,6 @@ type AnimationData
 {
     uint16 -> BehaviorId;
     uint8  -> BehaviorTier;
-    uint32 -> Fallback;
+    int32  -> Fallback;
     uint32 -> Flags, 2;
 }

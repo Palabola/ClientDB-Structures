@@ -9,7 +9,7 @@ type BattlePetSpecies
     int32  -> IconFileDataId;
     uint8  -> PetTypeEnum;
     uint16 -> Flags;
-    uint8  -> SourceTypeEnum;
+    int8   -> SourceTypeEnum;
     int32  -> CardUIModelSceneId;
     int32  -> LoadoutUIModelSceneId;
 }

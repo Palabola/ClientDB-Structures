@@ -2,7 +2,7 @@
 type GarrFollowerQuality
 {
     uint8  -> Quality;
-    int32  -> XpToNextQuality;
+    uint32 -> XpToNextQuality;
     uint8  -> GarrFollowerTypeId;
     uint8  -> AbilityCount;
     uint8  -> TraitCount;

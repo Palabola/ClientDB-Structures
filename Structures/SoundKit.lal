@@ -8,12 +8,12 @@ type SoundKit
     float  -> MinDistance;
     float  -> DistanceCutoff;
     uint8  -> EAXDef;
-    int32  -> SoundKitAdvancedId;
+    uint32 -> SoundKitAdvancedId;
     float  -> VolumeVariationPlus;
     float  -> VolumeVariationMinus;
     float  -> PitchVariationPlus;
     float  -> PitchVariationMinus;
-    uint8  -> DialogType;
+    int8   -> DialogType;
     float  -> PitchAdjust;
     uint16 -> BusOverwriteId;
     uint8  -> MaxInstances;

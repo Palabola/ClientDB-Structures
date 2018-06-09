@@ -19,7 +19,7 @@ type CreatureSoundData
     int32  -> SoundPetAttackId;
     int32  -> SoundPetOrderId;
     uint32 -> SoundPetDismissId;
-    int32  -> LoopSoundId;
+    uint32 -> LoopSoundId;
     int32  -> BirthSoundId;
     uint32 -> SpellCastDirectedSoundId;
     int32  -> SubmergeSoundId;
@@ -28,10 +28,10 @@ type CreatureSoundData
     int32  -> WindupCriticalSoundId;
     uint32 -> ChargeSoundId;
     int32  -> ChargeCriticalSoundId;
-    int32  -> BattleShoutSoundId;
+    uint32 -> BattleShoutSoundId;
     int32  -> BattleShoutCriticalSoundId;
     uint32 -> TauntSoundId;
-    int32  -> CreatureSoundDataIDPet;
+    uint32 -> CreatureSoundDataIDPet;
     uint32 -> NPCSoundId;
     float  -> FidgetDelaySecondsMin;
     float  -> FidgetDelaySecondsMax;

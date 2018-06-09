@@ -4,5 +4,5 @@ type ComponentModelFileData
     uint8  -> GenderIndex;
     uint8  -> ClassId;
     uint8  -> RaceId;
-    uint8  -> PositionIndex;
+    int8   -> PositionIndex;
 }

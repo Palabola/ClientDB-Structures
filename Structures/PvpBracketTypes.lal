@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type PVPBracketTypes
 {
-    uint8  -> BracketId;
+    int8   -> BracketId;
     int32  -> WeeklyQuestId, 4;
 }

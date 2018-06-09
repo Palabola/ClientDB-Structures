@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type BountySet
 {
-    int32  -> VisiblePlayerConditionId;
+    uint32 -> VisiblePlayerConditionId;
     uint16 -> LockedQuestId;
 }

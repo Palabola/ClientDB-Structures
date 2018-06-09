@@ -2,7 +2,7 @@
 type UiWidgetDataSource
 {
     uint16 -> SourceId;
-    uint8  -> SourceType;
+    int8   -> SourceType;
     uint16 -> ReqId;
     Ref    -> ParentWidgetId;
 }

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type SpellAuraVisXChrSpec
 {
-    uint16 -> ChrSpecializationId;
+    int16  -> ChrSpecializationId;
     Ref    -> SpellAuraVisibilityId;
 }

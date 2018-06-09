@@ -6,7 +6,7 @@ type LookAtController
     uint32 -> ReactionWarmUpTimeMSMax;
     uint16 -> ReactionEnableFOVDeg;
     float  -> ReactionGiveupDistance;
-    int32  -> ReactionGiveupFOVDeg;
+    uint32 -> ReactionGiveupFOVDeg;
     uint16 -> ReactionGiveupTimeMS;
     uint16 -> ReactionIgnoreTimeMinMS;
     uint16 -> ReactionIgnoreTimeMaxMS;

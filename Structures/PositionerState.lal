@@ -6,7 +6,7 @@ type PositionerState
     uint32 -> PosEntryId;
     uint32 -> RotEntryId;
     uint32 -> ScaleEntryId;
-    int32  -> Flags;
+    uint32 -> Flags;
     float  -> EndLife;
     uint8  -> EndLifePercent;
 }

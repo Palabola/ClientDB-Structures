@@ -7,7 +7,7 @@ type UiCamera
     float  -> Up, 3;
     uint8  -> UiCameraTypeId;
     int32  -> AnimId;
-    uint16 -> AnimFrame;
-    uint8  -> AnimVariation;
+    int16  -> AnimFrame;
+    int8   -> AnimVariation;
     uint8  -> Flags;
 }

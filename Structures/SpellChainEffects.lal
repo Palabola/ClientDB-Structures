@@ -4,9 +4,9 @@ type SpellChainEffects
     float  -> AvgSegLen;
     float  -> NoiseScale;
     float  -> TexCoordScale;
-    int32  -> SegDuration;
+    uint32 -> SegDuration;
     uint16 -> SegDelay;
-    int32  -> Flags;
+    uint32 -> Flags;
     uint16 -> JointCount;
     float  -> JointOffsetRadius;
     uint8  -> JointsPerMinorJoint;

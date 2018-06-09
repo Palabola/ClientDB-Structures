@@ -2,7 +2,7 @@
 type SpellProcsPerMinuteMod
 {
     uint8  -> Type;
-    uint16 -> Param;
+    int16  -> Param;
     float  -> Coeff;
     Ref    -> SpellProcsPerMinuteId;
 }

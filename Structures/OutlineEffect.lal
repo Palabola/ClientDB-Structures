@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type OutlineEffect
 {
-    int32  -> PassiveHighlightColorId;
+    uint32 -> PassiveHighlightColorId;
     uint32 -> HighlightColorId;
     int32  -> Priority;
     int32  -> Flags;

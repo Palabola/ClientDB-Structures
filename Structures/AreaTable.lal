@@ -5,7 +5,7 @@ type AreaTable
     string -> AreaName;
     uint16 -> ContinentId;
     uint16 -> ParentAreaId;
-    uint16 -> AreaBit;
+    int16  -> AreaBit;
     uint8  -> SoundProviderPref;
     uint8  -> SoundProviderPrefUnderwater;
     uint16 -> AmbienceId;
@@ -14,7 +14,7 @@ type AreaTable
     uint16 -> UwZoneMusic;
     uint8  -> ExplorationLevel;
     uint16 -> IntroSound;
-    int32  -> UwIntroSound;
+    uint32 -> UwIntroSound;
     uint8  -> FactionGroupMask;
     float  -> AmbientMultiplier;
     uint8  -> MountFlags;

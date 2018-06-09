@@ -3,6 +3,6 @@ type Movie
 {
     uint8  -> Volume;
     uint8  -> KeyId;
-    int32  -> AudioFileDataId;
-    int32  -> SubtitleFileDataId;
+    uint32 -> AudioFileDataId;
+    uint32 -> SubtitleFileDataId;
 }

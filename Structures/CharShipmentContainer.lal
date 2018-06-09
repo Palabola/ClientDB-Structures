@@ -11,10 +11,10 @@ type CharShipmentContainer
     uint16 -> MediumDisplayInfoId;
     uint16 -> LargeDisplayInfoId;
     uint16 -> WorkingDisplayInfoId;
-    int32  -> WorkingSpellVisualId;
+    uint32 -> WorkingSpellVisualId;
     uint32 -> CompleteSpellVisualId;
     uint8  -> MediumThreshold;
     uint8  -> LargeThreshold;
-    uint8  -> Faction;
+    int8   -> Faction;
     uint16 -> CrossFactionId;
 }

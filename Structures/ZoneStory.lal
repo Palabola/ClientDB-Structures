@@ -3,6 +3,6 @@ type ZoneStory
 {
     uint8  -> PlayerFactionGroupId;
     uint32 -> DisplayAchievementId;
-    int32  -> DisplayWorldMapAreaId;
+    uint32 -> DisplayWorldMapAreaId;
     Ref    -> PlayerWorldMapAreaId;
 }

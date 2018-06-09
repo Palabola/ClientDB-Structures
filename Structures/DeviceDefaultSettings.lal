@@ -3,5 +3,5 @@ type DeviceDefaultSettings
 {
     uint16 -> VendorId;
     uint16 -> DeviceId;
-    uint8  -> DefaultSetting;
+    int8   -> DefaultSetting;
 }

@@ -7,7 +7,7 @@ type AdventureJournal
     string -> RewardDescription;
     string -> ContinueDescription;
     uint8  -> Type;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
     uint8  -> Flags;
     uint8  -> ButtonActionType;
     int32  -> TextureFileDataId;
@@ -17,7 +17,7 @@ type AdventureJournal
     uint8  -> PriorityMin;
     uint8  -> PriorityMax;
     int32  -> ItemId;
-    int32  -> ItemQuantity;
+    uint32 -> ItemQuantity;
     uint16 -> CurrencyType;
     uint8  -> CurrencyQuantity;
     uint16 -> WorldMapAreaId;

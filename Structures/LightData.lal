@@ -32,10 +32,10 @@ type LightData
     int32  -> ColorGradingFileDataId;
     int32  -> HorizonAmbientColor;
     int32  -> GroundAmbientColor;
-    int32  -> EndFogColor;
+    uint32 -> EndFogColor;
     float  -> EndFogColorDistance;
     int32  -> SunFogColor;
     float  -> Unknown;
-    int32  -> FogHeightColor;
+    uint32 -> FogHeightColor;
 }
 

@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CharComponentTextureLayouts
 {
-    uint16 -> Width;
-    uint16 -> Height;
+    int16  -> Width;
+    int16  -> Height;
 }

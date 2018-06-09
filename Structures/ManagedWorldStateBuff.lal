@@ -3,6 +3,6 @@ type ManagedWorldStateBuff
 {
     int32  -> BuffSpellId;
     int32  -> PlayerConditionId;
-    int32  -> OccurrenceValue;
+    uint32 -> OccurrenceValue;
     Ref    -> ManagedWorldStateId;
 }

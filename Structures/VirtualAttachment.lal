@@ -2,5 +2,5 @@
 type VirtualAttachment
 {
     string -> Name;
-    uint16 -> PositionerId;
+    int16  -> PositionerId;
 }

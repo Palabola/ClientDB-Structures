@@ -2,7 +2,7 @@
 type ItemClass
 {
     string -> ClassName;
-    uint8  -> ClassId;
+    int8   -> ClassId;
     float  -> PriceModifier;
     uint8  -> Flags;
 }

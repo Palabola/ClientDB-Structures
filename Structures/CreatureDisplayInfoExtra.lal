@@ -5,7 +5,7 @@ type CreatureDisplayInfoExtra
     uint8  -> DisplaySexId;
     uint8  -> DisplayClassId;
     uint8  -> SkinId;
-    uint8  -> FaceId;
+    int8   -> FaceId;
     uint8  -> HairStyleId;
     uint8  -> HairColorId;
     uint8  -> FacialHairId;

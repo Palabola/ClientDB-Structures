@@ -3,7 +3,7 @@ type SpellXSpellVisual
 {
     int32  -> Id;
     uint8  -> DifficultyId;
-    int32  -> SpellVisualId;
+    uint32 -> SpellVisualId;
     float  -> Probability;
     uint8  -> Flags;
     uint8  -> Priority;

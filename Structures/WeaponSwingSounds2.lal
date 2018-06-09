@@ -3,5 +3,5 @@ type WeaponSwingSounds2
 {
     uint8  -> SwingType;
     uint8  -> Crit;
-    int32  -> SoundId;
+    uint32 -> SoundId;
 }

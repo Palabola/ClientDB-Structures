@@ -2,6 +2,6 @@
 type ItemLevelSelectorQuality
 {
     int32  -> QualityItemBonusListId;
-    uint8  -> Quality;
+    int8   -> Quality;
     Ref    -> ParentILSQualitySetId;
 }

@@ -3,9 +3,9 @@ type SkillLineAbility
 {
     uint64 -> RaceMask;
     int32  -> Id;
-    uint16 -> SkillLine;
+    int16  -> SkillLine;
     int32  -> Spell;
-    uint16 -> MinSkillLineRank;
+    int16  -> MinSkillLineRank;
     int32  -> ClassMask;
     int32  -> SupercedesSpell;
     uint8  -> AcquireMethod;

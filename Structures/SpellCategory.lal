@@ -4,7 +4,7 @@ type SpellCategory
     string -> Name;
     uint8  -> Flags;
     uint8  -> UsesPerWeek;
-    uint8  -> MaxCharges;
+    int8   -> MaxCharges;
     int32  -> ChargeRecoveryTime;
     int32  -> TypeMask;
 }

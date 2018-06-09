@@ -4,7 +4,7 @@ type Difficulty
     string -> Name;
     uint8  -> InstanceType;
     uint8  -> OrderIndex;
-    uint8  -> OldEnumValue;
+    int8   -> OldEnumValue;
     uint8  -> FallbackDifficultyId;
     uint8  -> MinPlayers;
     uint8  -> MaxPlayers;

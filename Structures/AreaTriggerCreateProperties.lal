@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type AreaTriggerCreateProperties
 {
-    uint8  -> ShapeType;
-    uint16 -> StartShapeId;
+    int8   -> ShapeType;
+    int16  -> StartShapeId;
 }

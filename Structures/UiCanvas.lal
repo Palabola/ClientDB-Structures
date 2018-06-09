@@ -2,6 +2,6 @@
 type UiCanvas
 {
     int32  -> Id;
-    uint16 -> Width;
-    uint16 -> Height;
+    int16  -> Width;
+    int16  -> Height;
 }

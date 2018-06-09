@@ -2,7 +2,7 @@
 type BattlePetDisplayOverride
 {
     uint32 -> BattlePetSpeciesId;
-    int32  -> PlayerConditionId;
-    int32  -> CreatureDisplayInfoId;
+    uint32 -> PlayerConditionId;
+    uint32 -> CreatureDisplayInfoId;
     uint8  -> PriorityCategory;
 }

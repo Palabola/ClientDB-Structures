@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type BonusRoll
 {
-    int32  -> CurrencyTypesId;
+    uint32 -> CurrencyTypesId;
     uint32 -> CurrencyCost;
     uint32 -> JournalEncounterId;
     uint32 -> JournalInstanceId;

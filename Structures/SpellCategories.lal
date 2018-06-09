@@ -6,7 +6,7 @@ type SpellCategories
     uint8  -> DefenseType;
     uint8  -> DispelType;
     uint8  -> Mechanic;
-    uint8  -> PreventionType;
+    int8   -> PreventionType;
     uint16 -> StartRecoveryCategory;
     uint16 -> ChargeCategory;
     Ref    -> SpellId;

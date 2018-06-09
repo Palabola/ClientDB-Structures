@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type UiModelScene
 {
-    uint8  -> UiSystemType;
+    int8   -> UiSystemType;
     uint8  -> Flags;
 }

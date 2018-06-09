@@ -3,7 +3,7 @@ type CreatureDisplayInfoCond
 {
     uint64 -> RaceMask;
     uint8  -> OrderIndex;
-    uint8  -> Gender;
+    int8   -> Gender;
     uint32 -> ClassMask;
     uint32 -> SkinColorMask;
     uint32 -> HairColorMask;

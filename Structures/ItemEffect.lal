@@ -2,7 +2,7 @@
 type ItemEffect
 {
     uint8  -> LegacySlotIndex;
-    uint8  -> TriggerType;
+    int8   -> TriggerType;
     uint16 -> Charges;
     uint32 -> CoolDownMSec;
     uint32 -> CategoryCoolDownMSec;

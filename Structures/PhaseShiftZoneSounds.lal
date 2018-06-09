@@ -6,8 +6,8 @@ type PhaseShiftZoneSounds
     uint16 -> PhaseId;
     uint16 -> PhaseGroupId;
     uint8  -> PhaseUseFlags;
-    int32  -> ZoneIntroMusicId;
-    int32  -> ZoneMusicId;
+    uint32 -> ZoneIntroMusicId;
+    uint32 -> ZoneMusicId;
     uint16 -> SoundAmbienceId;
     uint8  -> SoundProviderPreferencesId;
     uint32 -> UwZoneIntroMusicId;

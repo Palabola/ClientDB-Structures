@@ -2,7 +2,7 @@
 type ItemRangedDisplayInfo
 {
     uint32 -> CastSpellVisualId;
-    int32  -> AutoAttackSpellVisualId;
+    uint32 -> AutoAttackSpellVisualId;
     uint32 -> QuiverFileDataId;
     int32  -> MissileSpellVisualEffectNameId;
 }

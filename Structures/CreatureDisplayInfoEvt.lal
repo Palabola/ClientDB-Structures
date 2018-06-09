@@ -3,6 +3,6 @@ type CreatureDisplayInfoEvt
 {
     int32  -> Fourcc;
     int32  -> SpellVisualKitId;
-    uint8  -> Flags;
+    int8   -> Flags;
     Ref    -> CreatureDisplayInfoId;
 }

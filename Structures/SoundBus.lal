@@ -7,6 +7,6 @@ type SoundBus
     uint8  -> DefaultPriorityPenalty;
     float  -> DefaultVolume;
     uint8  -> DefaultPlaybackLimit;
-    uint8  -> BusEnumId;
+    int8   -> BusEnumId;
     Ref    -> Parent;
 }

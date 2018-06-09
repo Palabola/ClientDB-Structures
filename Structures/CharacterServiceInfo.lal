@@ -7,7 +7,7 @@ type CharacterServiceInfo
     int32  -> BoostType;
     int32  -> IconFileDataId;
     int32  -> Priority;
-    int32  -> Flags;
+    uint32 -> Flags;
     int32  -> ProfessionLevel;
     int32  -> BoostLevel;
     int32  -> Expansion;

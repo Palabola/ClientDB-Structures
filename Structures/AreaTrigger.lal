@@ -3,8 +3,8 @@ type AreaTrigger
 {
     float  -> Pos, 3;
     int32  -> Id;
-    uint16 -> ContinentId;
-    uint8  -> PhaseUseFlags;
+    int16  -> ContinentId;
+    int8   -> PhaseUseFlags;
     uint16 -> PhaseId;
     uint16 -> PhaseGroupId;
     float  -> Radius;
@@ -14,6 +14,6 @@ type AreaTrigger
     float  -> BoxYaw;
     uint8  -> ShapeType;
     uint16 -> ShapeId;
-    uint16 -> AreaTriggerActionSetId;
-    uint8  -> Flags;
+    int16  -> AreaTriggerActionSetId;
+    int8   -> Flags;
 }

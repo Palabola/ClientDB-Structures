@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ArtifactCategory
 {
-    uint16 -> XpMultCurrencyId;
-    uint16 -> XpMultCurveId;
+    int16  -> XpMultCurrencyId;
+    int16  -> XpMultCurveId;
 }

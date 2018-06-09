@@ -8,7 +8,7 @@ type ScreenEffect
     uint16 -> LightParamsId;
     uint16 -> LightParamsFadeIn;
     uint16 -> LightParamsFadeOut;
-    int32  -> SoundAmbienceId;
+    uint32 -> SoundAmbienceId;
     uint32 -> ZoneMusicId;
     uint16 -> TimeOfDayOverride;
     uint8  -> EffectMask;

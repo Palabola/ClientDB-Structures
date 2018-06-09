@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type SoundAmbienceFlavor
 {
-    int32  -> SoundEntriesIDDay;
+    uint32 -> SoundEntriesIDDay;
     uint32 -> SoundEntriesIDNight;
     Ref    -> SoundAmbienceId;
 }

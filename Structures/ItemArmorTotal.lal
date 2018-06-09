@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ItemArmorTotal
 {
-    uint16 -> ItemLevel;
+    int16  -> ItemLevel;
     float  -> Cloth;
     float  -> Leather;
     float  -> Mail;

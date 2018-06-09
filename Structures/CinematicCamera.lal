@@ -2,7 +2,7 @@
 type CinematicCamera
 {
     float  -> Origin, 3;
-    int32  -> SoundId;
+    uint32 -> SoundId;
     float  -> OriginFacing;
     uint32 -> FileDataId;
 }

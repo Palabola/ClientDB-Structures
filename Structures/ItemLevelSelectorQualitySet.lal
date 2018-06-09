@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ItemLevelSelectorQualitySet
 {
-    uint16 -> IlvlRare;
-    uint16 -> IlvlEpic;
+    int16  -> IlvlRare;
+    int16  -> IlvlEpic;
 }

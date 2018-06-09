@@ -2,7 +2,7 @@
 type QuestPOIBlob
 {
     int32  -> Id;
-    uint16 -> MapId;
+    int16  -> MapId;
     int32  -> UiMapId;
     uint8  -> NumPoints;
     uint32 -> QuestId;

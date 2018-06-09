@@ -4,7 +4,7 @@ type ManagedWorldState
     int32  -> Id;
     int32  -> CurrentStageWorldStateId;
     int32  -> ProgressWorldStateId;
-    int32  -> UpTimeSecs;
+    uint32 -> UpTimeSecs;
     int32  -> DownTimeSecs;
     int32  -> OccurrencesWorldStateId;
     int32  -> AccumulationStateTargetValue;

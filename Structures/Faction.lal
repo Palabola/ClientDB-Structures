@@ -5,7 +5,7 @@ type Faction
     string -> Name;
     string -> Description;
     int32  -> Id;
-    uint16 -> ReputationIndex;
+    int16  -> ReputationIndex;
     uint16 -> ParentFactionId;
     uint8  -> Expansion;
     uint8  -> FriendshipRepId;

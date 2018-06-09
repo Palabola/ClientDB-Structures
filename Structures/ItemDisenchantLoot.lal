@@ -6,6 +6,6 @@ type ItemDisenchantLoot
     uint16 -> MinLevel;
     uint16 -> MaxLevel;
     uint16 -> SkillRequired;
-    uint8  -> ExpansionId;
+    int8   -> ExpansionId;
     Ref    -> Class;
 }

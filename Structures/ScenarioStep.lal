@@ -4,12 +4,12 @@ type ScenarioStep
     string -> Description;
     string -> Title;
     uint16 -> ScenarioId;
-    int32  -> CriteriatreeId;
+    uint32 -> CriteriatreeId;
     uint16 -> RewardQuestId;
     int32  -> RelatedStep;
     uint16 -> Supersedes;
     uint8  -> OrderIndex;
     uint8  -> Flags;
-    int32  -> VisibilityPlayerConditionId;
+    uint32 -> VisibilityPlayerConditionId;
     uint16 -> Unknown;
 }

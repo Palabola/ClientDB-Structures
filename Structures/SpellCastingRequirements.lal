@@ -4,7 +4,7 @@ type SpellCastingRequirements
     int32  -> SpellId;
     uint8  -> FacingCasterFlags;
     uint16 -> MinFactionId;
-    uint8  -> MinReputation;
+    int8   -> MinReputation;
     uint16 -> RequiredAreasId;
     uint8  -> RequiredAuraVision;
     uint16 -> RequiresSpellFocus;

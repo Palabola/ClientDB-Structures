@@ -2,9 +2,9 @@
 type UnitBlood
 {
     uint32 -> PlayerCritBloodSpurtId;
-    int32  -> PlayerHitBloodSpurtId;
-    int32  -> DefaultBloodSpurtId;
-    int32  -> PlayerOmniCritBloodSpurtId;
+    uint32 -> PlayerHitBloodSpurtId;
+    uint32 -> DefaultBloodSpurtId;
+    uint32 -> PlayerOmniCritBloodSpurtId;
     uint32 -> PlayerOmniHitBloodSpurtId;
-    int32  -> DefaultOmniBloodSpurtId;
+    uint32 -> DefaultOmniBloodSpurtId;
 }

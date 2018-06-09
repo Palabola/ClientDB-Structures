@@ -2,11 +2,11 @@
 type PvpTier
 {
     string -> Name;
-    uint16 -> DescendRating;
-    uint16 -> AscendRating;
+    int16  -> DescendRating;
+    int16  -> AscendRating;
     int32  -> DescendTier;
     int32  -> AscendTier;
-    uint8  -> Type;
-    uint8  -> TierEnumId;
+    int8   -> Type;
+    int8   -> TierEnumId;
     int32  -> TierIconFileDataId;
 }

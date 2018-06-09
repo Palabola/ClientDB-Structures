@@ -2,14 +2,14 @@
 type SoundProviderPreferences
 {
     string -> Description;
-    uint8  -> EAXEnvironmentSelection;
+    int8   -> EAXEnvironmentSelection;
     float  -> EAXDecayTime;
     float  -> EAX2EnvironmentSize;
     float  -> EAX2EnvironmentDiffusion;
     uint16 -> EAX2Room;
     uint16 -> EAX2RoomHF;
     float  -> EAX2DecayHFRatio;
-    uint16 -> EAX2Reflections;
+    int16  -> EAX2Reflections;
     float  -> EAX2ReflectionsDelay;
     uint16 -> EAX2Reverb;
     float  -> EAX2ReverbDelay;

@@ -2,7 +2,7 @@
 type QuestPOIPoint
 {
     int32  -> Id;
-    uint16 -> X;
-    uint16 -> Y;
+    int16  -> X;
+    int16  -> Y;
     Ref    -> QuestPoiBlobId;
 }

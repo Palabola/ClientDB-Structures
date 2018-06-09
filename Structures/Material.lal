@@ -3,6 +3,6 @@ type Material
 {
     uint8  -> Flags;
     uint32 -> FoleySoundId;
-    int32  -> SheatheSoundId;
-    int32  -> UnsheatheSoundId;
+    uint32 -> SheatheSoundId;
+    uint32 -> UnsheatheSoundId;
 }

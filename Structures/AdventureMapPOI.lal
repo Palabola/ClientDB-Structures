@@ -4,7 +4,7 @@ type AdventureMapPOI
     string -> Title;
     string -> Description;
     float  -> WorldPosition, 2;
-    uint8  -> Type;
+    int8   -> Type;
     uint32 -> PlayerConditionId;
     int32  -> QuestId;
     uint32 -> LfgDungeonId;

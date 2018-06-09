@@ -5,7 +5,7 @@ type JournalEncounterCreature
     string -> Description;
     int32  -> Id;
     uint16 -> JournalEncounterId;
-    int32  -> CreatureDisplayInfoId;
+    uint32 -> CreatureDisplayInfoId;
     int32  -> FileDataId;
     uint8  -> OrderIndex;
     uint32 -> UiModelSceneId;

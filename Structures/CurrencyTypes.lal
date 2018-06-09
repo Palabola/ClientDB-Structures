@@ -5,10 +5,10 @@ type CurrencyTypes
     string -> Description;
     uint8  -> CategoryId;
     int32  -> InventoryIconFileId;
-    int32  -> SpellWeight;
+    uint32 -> SpellWeight;
     uint8  -> SpellCategory;
-    int32  -> MaxQty;
+    uint32 -> MaxQty;
     int32  -> MaxEarnablePerWeek;
-    int32  -> Flags;
-    uint8  -> Quality;
+    uint32 -> Flags;
+    int8   -> Quality;
 }

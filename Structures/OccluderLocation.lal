@@ -3,6 +3,6 @@ type OccluderLocation
 {
     float  -> Unknown0, 3;
     float  -> Unknown1, 3;
-    uint32 -> Id;
+    int32  -> Id;
     int32  -> Unknown2;
 }

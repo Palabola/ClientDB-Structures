@@ -21,7 +21,7 @@ type FullScreenEffect
     float  -> ColorAdditionOffsetY;
     float  -> ColorAdditionMultiplier;
     float  -> ColorAdditionPower;
-    uint32 -> Unknown;
+    int32  -> Unknown;
     float  -> BlurIntensity;
     float  -> BlurOffsetY;
     float  -> BlurMultiplier;

@@ -4,7 +4,7 @@ type GroupFinderActivity
     string -> FullName;
     string -> ShortName;
     uint8  -> GroupFinderCategoryId;
-    uint8  -> OrderIndex;
+    int8   -> OrderIndex;
     uint8  -> GroupFinderActivityGrpId;
     uint8  -> MinLevel;
     uint8  -> MaxLevelSuggestion;

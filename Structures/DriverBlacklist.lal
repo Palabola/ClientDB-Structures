@@ -4,7 +4,7 @@ type DriverBlacklist
     uint16 -> VendorId;
     uint8  -> DeviceId;
     int32  -> DriverVersionHi;
-    int32  -> DriverVersionLow;
+    uint32 -> DriverVersionLow;
     uint8  -> OsVersion;
     uint8  -> OsBits;
     uint8  -> Flags;

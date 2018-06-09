@@ -5,9 +5,9 @@ type CreatureFamily
     float  -> MinScale;
     uint8  -> MinScaleLevel;
     float  -> MaxScale;
-    uint8  -> MaxScaleLevel;
-    uint16 -> PetFoodMask;
-    uint8  -> PetTalentType;
+    int8   -> MaxScaleLevel;
+    int16  -> PetFoodMask;
+    int8   -> PetTalentType;
     int32  -> IconFileId;
     uint16 -> SkillLine, 2;
 }

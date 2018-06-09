@@ -4,6 +4,6 @@ type AreaPOIState
     string -> Description;
     uint8  -> WorldStateValue;
     uint8  -> IconEnumValue;
-    int32  -> UiTextureAtlasMemberId;
+    uint32 -> UiTextureAtlasMemberId;
     Ref    -> AreaPoiId;
 }

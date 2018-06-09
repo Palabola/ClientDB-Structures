@@ -3,6 +3,6 @@ type SpellEffectEmission
 {
     float  -> EmissionRate;
     float  -> ModelScale;
-    uint16 -> AreaModelId;
-    uint8  -> Flags;
+    int16  -> AreaModelId;
+    int8   -> Flags;
 }

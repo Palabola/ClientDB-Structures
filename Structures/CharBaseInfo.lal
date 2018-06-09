@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CharBaseInfo
 {
-    uint8  -> RaceId;
-    uint8  -> ClassId;
+    int8   -> RaceId;
+    int8   -> ClassId;
 }

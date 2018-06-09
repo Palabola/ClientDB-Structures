@@ -3,7 +3,7 @@ type AlliedRace
 {
     int32  -> Id;
     int32  -> RaceId;
-    int32  -> BannerColor;
+    uint32 -> BannerColor;
     int32  -> CrestTextureId;
     int32  -> ModelBackgroundTextureId;
     int32  -> MaleCreatureDisplayId;

@@ -4,12 +4,12 @@ type CameraMode
     float  -> PositionOffset, 3;
     float  -> TargetOffset, 3;
     uint8  -> Type;
-    uint32 -> Flags;
+    int32  -> Flags;
     float  -> PositionSmoothing;
     float  -> RotationSmoothing;
     float  -> FieldOfView;
-    uint8  -> LockedPositionOffsetBase;
-    uint8  -> LockedPositionOffsetDirection;
-    uint8  -> LockedTargetOffsetBase;
-    uint8  -> LockedTargetOffsetDirection;
+    int8   -> LockedPositionOffsetBase;
+    int8   -> LockedPositionOffsetDirection;
+    int8   -> LockedTargetOffsetBase;
+    int8   -> LockedTargetOffsetDirection;
 }

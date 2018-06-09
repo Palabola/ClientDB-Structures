@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CriteriaTreeXEffect
 {
-    uint16 -> WorldEffectId;
+    int16  -> WorldEffectId;
     Ref    -> CriteriaTreeId;
 }

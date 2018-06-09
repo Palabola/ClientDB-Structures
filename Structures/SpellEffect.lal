@@ -16,7 +16,7 @@ type SpellEffect
     float  -> EffectPointsPerResource;
     float  -> EffectPosFacing;
     float  -> EffectRealPointsPerLevel;
-    uint32 -> EffectTriggerSpell;
+    int32  -> EffectTriggerSpell;
     float  -> BonusCoefficientFromAP;
     float  -> PvpMultiplier;
     float  -> Coefficient;

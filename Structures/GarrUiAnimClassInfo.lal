@@ -4,7 +4,7 @@ type GarrUiAnimClassInfo
     uint8  -> GarrClassSpecId;
     uint8  -> MovementType;
     float  -> ImpactDelaySecs;
-    int32  -> CastKit;
-    int32  -> ImpactKit;
+    uint32 -> CastKit;
+    uint32 -> ImpactKit;
     int32  -> TargetImpactKit;
 }

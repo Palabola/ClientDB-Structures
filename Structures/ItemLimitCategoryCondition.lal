@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ItemLimitCategoryCondition
 {
-    uint8  -> AddQuantity;
+    int8   -> AddQuantity;
     uint32 -> PlayerConditionId;
     Ref    -> ParentItemLimitCategoryId;
 }

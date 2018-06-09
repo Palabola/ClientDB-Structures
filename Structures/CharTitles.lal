@@ -3,6 +3,6 @@ type CharTitles
 {
     string -> Name;
     string -> Name1;
-    uint16 -> MaskId;
-    uint8  -> Flags;
+    int16  -> MaskId;
+    int8   -> Flags;
 }

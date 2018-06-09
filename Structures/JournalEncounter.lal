@@ -5,10 +5,10 @@ type JournalEncounter
     string -> Description;
     float  -> Map, 2;
     uint16 -> JournalInstanceId;
-    int32  -> OrderIndex;
+    uint32 -> OrderIndex;
     uint16 -> FirstSectionId;
     uint16 -> UiMapId;
-    int32  -> MapDisplayConditionId;
+    uint32 -> MapDisplayConditionId;
     uint8  -> Flags;
     uint8  -> DifficultyMask;
 }

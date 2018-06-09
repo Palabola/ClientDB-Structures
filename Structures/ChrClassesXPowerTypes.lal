@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ChrClassesXPowerTypes
 {
-    uint8  -> PowerType;
+    int8   -> PowerType;
     Ref    -> ClassId;
 }

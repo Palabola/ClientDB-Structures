@@ -6,7 +6,7 @@ type UnitPowerBar
     string -> OutOfError;
     string -> ToolTip;
     uint32 -> MinPower;
-    int32  -> MaxPower;
+    uint32 -> MaxPower;
     uint16 -> StartPower;
     uint8  -> CenterPower;
     float  -> RegenerationPeace;

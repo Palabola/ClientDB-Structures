@@ -2,8 +2,8 @@
 type AnimKitBoneSet
 {
     string -> Name;
-    uint8  -> BoneDataId;
-    uint8  -> ParentAnimKitBoneSetId;
+    int8   -> BoneDataId;
+    int8   -> ParentAnimKitBoneSetId;
     uint8  -> ExtraBoneCount;
-    uint8  -> AltAnimKitBoneSetId;
+    int8   -> AltAnimKitBoneSetId;
 }

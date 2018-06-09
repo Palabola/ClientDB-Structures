@@ -2,7 +2,7 @@
 type FootstepTerrainLookup
 {
     uint16 -> CreatureFootstepId;
-    uint8  -> TerrainSoundId;
+    int8   -> TerrainSoundId;
     uint32 -> SoundId;
     uint32 -> SoundIDSplash;
 }

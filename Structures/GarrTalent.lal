@@ -5,8 +5,8 @@ type GarrTalent
     string -> Description;
     int32  -> Id;
     uint32 -> GarrTalentTreeId;
-    uint8  -> Tier;
-    uint8  -> UiOrder;
+    int8   -> Tier;
+    int8   -> UiOrder;
     int32  -> IconFileDataId;
     uint32 -> PlayerConditionId;
     int32  -> GarrAbilityId;

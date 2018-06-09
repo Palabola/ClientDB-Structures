@@ -3,7 +3,7 @@ type Criteria
 {
     uint16 -> Type;
     int32  -> Asset;
-    int32  -> ModifierTreeId;
+    uint32 -> ModifierTreeId;
     uint8  -> StartEvent;
     int32  -> StartAsset;
     uint16 -> StartTimer;

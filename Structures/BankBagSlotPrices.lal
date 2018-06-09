@@ -1,5 +1,5 @@
 // FileOptions: Index, None
 type BankBagSlotPrices
 {
-    int32  -> Cost;
+    uint32 -> Cost;
 }

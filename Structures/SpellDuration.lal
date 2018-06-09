@@ -2,6 +2,6 @@
 type SpellDuration
 {
     uint32 -> Duration;
-    uint32 -> DurationPerLevel;
+    int32  -> DurationPerLevel;
     uint32 -> MaxDuration;
 }

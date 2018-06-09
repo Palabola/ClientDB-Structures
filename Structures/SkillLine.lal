@@ -7,9 +7,9 @@ type SkillLine
     string -> HordeDisplayName;
     string -> ExpansionDisplayName;
     int32  -> Id;
-    uint8  -> CategoryId;
+    int8   -> CategoryId;
     int32  -> SpellIconFileId;
-    uint8  -> CanLink;
+    int8   -> CanLink;
     int32  -> ParentSkillLineId;
     int32  -> ParentTierIndex;
     uint16 -> Flags;

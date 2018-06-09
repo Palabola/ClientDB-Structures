@@ -3,5 +3,5 @@ type ChrClassVillain
 {
     string -> Name;
     uint8  -> ChrClassId;
-    uint8  -> Gender;
+    int8   -> Gender;
 }

@@ -5,7 +5,7 @@ type LiquidType
     string -> Texture, 6;
     uint16 -> Flags;
     uint8  -> SoundBank;
-    int32  -> SoundId;
+    uint32 -> SoundId;
     int32  -> SpellId;
     float  -> MaxDarkenDepth;
     float  -> FogDarkenIntensity;

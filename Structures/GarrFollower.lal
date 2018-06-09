@@ -17,8 +17,8 @@ type GarrFollower
     uint8  -> FollowerLevel;
     uint16 -> ItemLevelWeapon;
     uint16 -> ItemLevelArmor;
-    uint8  -> HordeSourceTypeEnum;
-    uint8  -> AllianceSourceTypeEnum;
+    int8   -> HordeSourceTypeEnum;
+    int8   -> AllianceSourceTypeEnum;
     int32  -> HordeIconFileDataId;
     int32  -> AllianceIconFileDataId;
     uint16 -> HordeGarrFollItemSetId;

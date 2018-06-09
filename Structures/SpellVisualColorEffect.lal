@@ -2,7 +2,7 @@
 type SpellVisualColorEffect
 {
     float  -> Duration;
-    uint32 -> Color;
+    int32  -> Color;
     uint8  -> Flags;
     uint8  -> Type;
     uint16 -> RedCurveId;

@@ -7,7 +7,7 @@ type SpellVisualMissile
     uint16 -> SpellVisualEffectNameId;
     int32  -> SoundEntriesId;
     uint8  -> Attachment;
-    uint8  -> DestinationAttachment;
+    int8   -> DestinationAttachment;
     uint16 -> CastPositionerId;
     uint16 -> ImpactPositionerId;
     uint32 -> FollowGroundHeight;
@@ -15,6 +15,6 @@ type SpellVisualMissile
     uint16 -> FollowGroundApproach;
     int32  -> Flags;
     uint16 -> SpellMissileMotionId;
-    int32  -> AnimKitId;
+    uint32 -> AnimKitId;
     Ref    -> SpellVisualMissileSetId;
 }

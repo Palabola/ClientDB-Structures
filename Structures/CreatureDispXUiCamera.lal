@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CreatureDispXUiCamera
 {
-    int32  -> CreatureDisplayInfoId;
+    uint32 -> CreatureDisplayInfoId;
     uint16 -> UiCameraId;
 }

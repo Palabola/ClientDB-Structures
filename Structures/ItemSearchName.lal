@@ -9,7 +9,7 @@ type ItemSearchName
     uint16 -> MinFactionId;
     uint8  -> MinReputation;
     int32  -> AllowableClass;
-    uint8  -> RequiredLevel;
+    int8   -> RequiredLevel;
     uint16 -> RequiredSkill;
     uint16 -> RequiredSkillRank;
     int32  -> RequiredAbility;

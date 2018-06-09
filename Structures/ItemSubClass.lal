@@ -3,12 +3,12 @@ type ItemSubClass
 {
     string -> DisplayName;
     string -> VerboseName;
-    uint8  -> ClassId;
-    uint8  -> SubClassId;
+    int8   -> ClassId;
+    int8   -> SubClassId;
     uint8  -> AuctionHouseSortOrder;
-    uint8  -> PrerequisiteProficiency;
+    int8   -> PrerequisiteProficiency;
     uint16 -> Flags;
-    uint8  -> DisplayFlags;
+    int8   -> DisplayFlags;
     uint8  -> WeaponSwingSize;
-    uint8  -> PostrequisiteProficiency;
+    int8   -> PostrequisiteProficiency;
 }

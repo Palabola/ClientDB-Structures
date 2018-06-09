@@ -14,7 +14,7 @@ type PlayerCondition
     uint16 -> MaxFactionId;
     uint8  -> MaxReputation;
     int32  -> ReputationLogic;
-    uint8  -> CurrentPvpFaction;
+    int8   -> CurrentPvpFaction;
     uint8  -> PvpMedal;
     int32  -> PrevQuestLogic;
     int32  -> CurrQuestLogic;

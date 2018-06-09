@@ -5,6 +5,6 @@ type ItemContextPickerEntry
     uint8  -> OrderIndex;
     int32  -> PVal;
     uint32 -> Flags;
-    int32  -> PlayerConditionId;
+    uint32 -> PlayerConditionId;
     Ref    -> ItemContextPickerId;
 }

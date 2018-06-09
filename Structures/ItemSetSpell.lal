@@ -2,7 +2,7 @@
 type ItemSetSpell
 {
     uint16 -> ChrSpecId;
-    int32  -> SpellId;
+    uint32 -> SpellId;
     uint8  -> Threshold;
     Ref    -> ItemSetId;
 }

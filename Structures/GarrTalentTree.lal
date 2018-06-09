@@ -3,7 +3,7 @@ type GarrTalentTree
 {
     int32  -> GarrTypeId;
     int32  -> ClassId;
-    uint8  -> MaxTiers;
-    uint8  -> UiOrder;
+    int8   -> MaxTiers;
+    int8   -> UiOrder;
     uint16 -> UiTextureKitId;
 }

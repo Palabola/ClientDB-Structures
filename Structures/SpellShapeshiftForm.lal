@@ -5,7 +5,7 @@ type SpellShapeshiftForm
     uint8  -> CreatureType;
     int32  -> Flags;
     int32  -> AttackIconFileId;
-    uint8  -> BonusActionBar;
+    int8   -> BonusActionBar;
     uint16 -> CombatRoundTime;
     float  -> DamageVariance;
     uint16 -> MountTypeId;

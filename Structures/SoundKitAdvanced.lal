@@ -2,7 +2,7 @@
 type SoundKitAdvanced
 {
     int32  -> Id;
-    int32  -> SoundKitId;
+    uint32 -> SoundKitId;
     float  -> InnerRadius2D;
     float  -> OuterRadius2D;
     int32  -> TimeA;

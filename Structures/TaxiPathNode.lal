@@ -6,7 +6,7 @@ type TaxiPathNode
     uint16 -> PathId;
     int32  -> NodeIndex;
     uint16 -> ContinentId;
-    int8   -> Flags;
+    uint8  -> Flags;
     int32  -> Delay;
     uint16 -> ArrivalEventId;
     uint16 -> DepartureEventId;

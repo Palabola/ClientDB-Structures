@@ -6,9 +6,9 @@ type CharHairGeosets
     uint8  -> VariationId;
     uint8  -> GeosetId;
     uint8  -> Showscalp;
-    uint8  -> VariationType;
+    int8   -> VariationType;
     uint8  -> GeosetType;
-    uint8  -> ColorIndex;
+    int8   -> ColorIndex;
     int32  -> CustomGeoFileDataId;
     int32  -> HdCustomGeoFileDataId;
 }

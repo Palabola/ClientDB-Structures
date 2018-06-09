@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type MovieVariation
 {
-    int32  -> FileDataId;
+    uint32 -> FileDataId;
     uint32 -> OverlayFileDataId;
     Ref    -> MovieId;
 }

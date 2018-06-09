@@ -2,7 +2,7 @@
 type Artifact
 {
     string -> Name;
-    uint32 -> Id;
+    int32  -> Id;
     uint16 -> UiTextureKitId;
     uint32 -> UiNameColor;
     uint32 -> UiBarOverlayColor;

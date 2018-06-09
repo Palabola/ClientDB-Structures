@@ -3,17 +3,17 @@ type CreatureModelData
 {
     float  -> GeoBox, 6;
     int32  -> Flags;
-    int32  -> FileDataId;
+    uint32 -> FileDataId;
     int32  -> BloodId;
-    int32  -> FootprintTextureId;
+    uint32 -> FootprintTextureId;
     float  -> FootprintTextureLength;
     float  -> FootprintTextureWidth;
     float  -> FootprintParticleScale;
     uint32 -> FoleyMaterialId;
     uint32 -> FootstepCameraEffectId;
     int32  -> DeathThudCameraEffectId;
-    int32  -> SoundId;
-    int32  -> SizeClass;
+    uint32 -> SoundId;
+    uint32 -> SizeClass;
     float  -> CollisionWidth;
     float  -> CollisionHeight;
     float  -> WorldEffectScale;

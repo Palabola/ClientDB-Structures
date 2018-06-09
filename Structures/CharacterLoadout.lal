@@ -3,5 +3,5 @@ type CharacterLoadout
 {
     uint64 -> RaceMask;
     uint8  -> ChrClassId;
-    uint8  -> Purpose;
+    int8   -> Purpose;
 }

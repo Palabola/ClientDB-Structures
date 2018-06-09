@@ -3,6 +3,6 @@ type SourceInfo
 {
     string -> SourceText;
     uint8  -> PvpFaction;
-    uint8  -> SourceTypeEnum;
+    int8   -> SourceTypeEnum;
     Ref    -> SpellId;
 }

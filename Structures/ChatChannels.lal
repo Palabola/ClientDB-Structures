@@ -4,5 +4,5 @@ type ChatChannels
     string -> Name;
     string -> Shortcut;
     int32  -> Flags;
-    uint8  -> FactionGroup;
+    int8   -> FactionGroup;
 }

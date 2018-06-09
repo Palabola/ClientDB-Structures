@@ -6,7 +6,7 @@ type Heirloom
     int32  -> ItemId;
     int32  -> LegacyUpgradedItemId;
     int32  -> StaticUpgradedItemId;
-    uint8  -> SourceTypeEnum;
+    int8   -> SourceTypeEnum;
     uint8  -> Flags;
     int32  -> LegacyItemId;
     int32  -> UpgradeItemId, 3;

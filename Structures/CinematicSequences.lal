@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CinematicSequences
 {
-    int32  -> SoundId;
+    uint32 -> SoundId;
     uint16 -> Camera, 8;
 }

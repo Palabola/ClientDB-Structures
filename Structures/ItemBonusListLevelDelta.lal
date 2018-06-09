@@ -2,5 +2,5 @@
 type ItemBonusListLevelDelta
 {
     int32  -> Id;
-    uint16 -> ItemLevelDelta;
+    int16  -> ItemLevelDelta;
 }

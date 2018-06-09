@@ -3,7 +3,7 @@ type Emotes
 {
     uint64 -> RaceMask;
     string -> EmoteSlashCommand;
-    uint32 -> AnimId;
+    int32  -> AnimId;
     int32  -> EmoteFlags;
     uint8  -> EmoteSpecProc;
     uint32 -> EmoteSpecProcParam;

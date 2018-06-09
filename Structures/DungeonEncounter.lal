@@ -3,10 +3,10 @@ type DungeonEncounter
 {
     string -> Name;
     int32  -> Id;
-    uint16 -> MapId;
-    uint8  -> DifficultyId;
+    int16  -> MapId;
+    int8   -> DifficultyId;
     int32  -> OrderIndex;
-    uint8  -> CreatureDisplayId;
+    int8   -> CreatureDisplayId;
     int32  -> Unknown6;
     uint8  -> Flags;
     int32  -> SpellIconFileId;

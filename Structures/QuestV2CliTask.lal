@@ -6,7 +6,7 @@ type QuestV2CliTask
     string -> BulletText;
     uint32 -> Id;
     uint16 -> UniqueBitFlag;
-    int32  -> ConditionId;
+    uint32 -> ConditionId;
     int32  -> FiltActiveQuest;
     uint16 -> FiltClasses;
     uint32 -> FiltCompletedQuestLogic;

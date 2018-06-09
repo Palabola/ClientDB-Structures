@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ParagonReputation
 {
+    uint32 -> FactionId;
     int32  -> LevelThreshold;
     int32  -> QuestId;
-    uint32 -> FactionId;
 }

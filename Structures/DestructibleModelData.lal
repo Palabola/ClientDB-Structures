@@ -4,11 +4,11 @@ type DestructibleModelData
     uint8  -> State0ImpactEffectDoodadSet;
     uint8  -> State0AmbientDoodadSet;
     uint16 -> State1Wmo;
-    uint8  -> State1DestructionDoodadSet;
+    int8   -> State1DestructionDoodadSet;
     uint8  -> State1ImpactEffectDoodadSet;
     uint8  -> State1AmbientDoodadSet;
     uint16 -> State2Wmo;
-    uint8  -> State2DestructionDoodadSet;
+    int8   -> State2DestructionDoodadSet;
     uint8  -> State2ImpactEffectDoodadSet;
     uint8  -> State2AmbientDoodadSet;
     uint16 -> State3Wmo;
@@ -19,7 +19,7 @@ type DestructibleModelData
     uint16 -> State0Wmo;
     uint8  -> HealEffect;
     uint16 -> HealEffectSpeed;
-    uint8  -> State0NameSet;
+    int8   -> State0NameSet;
     uint8  -> State1NameSet;
     uint8  -> State2NameSet;
     uint8  -> State3NameSet;
