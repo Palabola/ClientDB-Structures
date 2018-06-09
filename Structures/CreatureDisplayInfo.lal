@@ -3,7 +3,7 @@ type CreatureDisplayInfo
 {
     int32  -> Id;
     uint16 -> ModelId;
-    uint16 -> Unknown2;
+    uint16 -> SoundId;
     uint8  -> SizeClass;
     float  -> CreatureModelScale;
     uint8  -> CreatureModelAlpha;

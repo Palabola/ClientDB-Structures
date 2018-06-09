@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type SummonProperties
 {
-    uint32  -> Flags;
     int32  -> Control;
     int32  -> Faction;
     int32  -> Title;
     int32  -> Slot;
+    uint32 -> Flags;
 }

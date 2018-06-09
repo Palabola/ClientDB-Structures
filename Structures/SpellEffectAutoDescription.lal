@@ -3,11 +3,11 @@ type SpellEffectAutoDescription
 {
     string -> EffectDescription;
     string -> AuraDescription;
-    int32  -> EffectOrderIndex;
-    int32  -> AuraOrderIndex;
+    int32  -> SpellEffectType;
+    int32  -> AuraEffectType;
     uint8  -> PointsSign;
     uint8  -> TargetType;
     uint8  -> SchoolMask;
-    int32  -> SpellEffectType;
-    int32  -> AuraEffectType;
+    int32  -> EffectOrderIndex;
+    int32  -> AuraOrderIndex;
 }
