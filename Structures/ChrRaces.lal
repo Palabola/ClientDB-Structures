@@ -7,15 +7,24 @@ type ChrRaces
     string -> NameFemale;
     string -> NameLowercase;
     string -> NameFemaleLowercase;
+    int32  -> Id;
     int32  -> Flags;
     int32  -> MaleDisplayId;
     int32  -> FemaleDisplayId;
+    uint32 -> HighResMaleDisplayId;
+    int32  -> HighResFemaleDisplayId;
     int32  -> CreateScreenFileDataId;
     int32  -> SelectScreenFileDataId;
     float  -> MaleCustomizeOffset, 3;
     float  -> FemaleCustomizeOffset, 3;
     int32  -> LowResScreenFileDataId;
+    int32  -> AlteredFormStartVisualKitId, 3;
+    int32  -> AlteredFormFinishVisualKitId, 3;
+    int32  -> HeritageArmorAchievementId;
+    int32  -> StartingLevel;
     int32  -> UiDisplayOrder;
+    int32  -> FemaleSkeletonFileDataId;
+    int32  -> MaleSkeletonFileDataId;
     int32  -> BaseRaceId;
     uint16 -> FactionId;
     uint16 -> CinematicSequenceId;
@@ -38,13 +47,4 @@ type ChrRaces
     uint8  -> MaleTextureFallbackSex;
     uint8  -> FemaleTextureFallbackRaceId;
     uint8  -> FemaleTextureFallbackSex;
-    int32  -> Id;
-    uint32 -> HighResMaleDisplayId;
-    int32  -> HighResFemaleDisplayId;
-    int32  -> HeritageArmorAchievementId;
-    int32  -> StartingLevel;
-    int32  -> FemaleSkeletonFileDataId;
-    int32  -> MaleSkeletonFileDataId;
-    int32  -> AlteredFormStartVisualKitId, 3;
-    int32  -> AlteredFormFinishVisualKitId, 3;
 }

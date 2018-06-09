@@ -4,12 +4,12 @@ type Mount
     string -> Name;
     string -> SourceText;
     string -> Description;
-    int32  -> SourceSpellId;
-    float  -> MountFlyRideHeight;
+    int32  -> Id;
     uint16 -> MountTypeId;
     uint16 -> Flags;
     uint8  -> SourceTypeEnum;
-    int32  -> Id;
+    int32  -> SourceSpellId;
     int32  -> PlayerConditionId;
+    float  -> MountFlyRideHeight;
     int32  -> UiModelSceneId;
 }

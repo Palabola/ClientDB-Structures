@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type RelicSlotTierRequirement
 {
-    int32  -> PlayerConditionId;
     uint8  -> RelicIndex;
     uint8  -> RelicTier;
+    int32  -> PlayerConditionId;
 }

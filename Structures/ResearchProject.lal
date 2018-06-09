@@ -3,11 +3,11 @@ type ResearchProject
 {
     string -> Name;
     string -> Description;
+    int32  -> Id;
+    uint8  -> Rarity;
     int32  -> SpellId;
     uint16 -> ResearchBranchId;
-    uint8  -> Rarity;
     uint8  -> NumSockets;
-    int32  -> Id;
     int32  -> TextureFileId;
     uint32 -> RequiredWeight;
 }

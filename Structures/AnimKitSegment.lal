@@ -1,22 +1,22 @@
 // FileOptions: Index, None
 type AnimKitSegment
 {
+    uint16 -> ParentAnimKitId;
+    uint8  -> OrderIndex;
+    uint16 -> AnimId;
     int32  -> AnimStartTime;
+    uint16 -> AnimKitConfigId;
+    uint8  -> StartCondition;
+    uint8  -> StartConditionParam;
+    int32  -> StartConditionDelay;
+    uint8  -> EndCondition;
     int32  -> EndConditionParam;
     int32  -> EndConditionDelay;
     float  -> Speed;
-    uint32  -> OverrideConfigFlags;
-    uint16 -> ParentAnimKitId;
-    uint16 -> AnimId;
-    uint16 -> AnimKitConfigId;
     uint16 -> SegmentFlags;
+    uint8  -> ForcedVariation;
+    int32  -> OverrideConfigFlags;
+    uint8  -> LoopToSegmentIndex;
     uint16 -> BlendInTimeMs;
     uint16 -> BlendOutTimeMs;
-    uint8  -> OrderIndex;
-    uint8  -> StartCondition;
-    uint8  -> StartConditionParam;
-    uint8  -> EndCondition;
-    uint8  -> ForcedVariation;
-    uint8  -> LoopToSegmentIndex;
-    int32  -> StartConditionDelay;
 }

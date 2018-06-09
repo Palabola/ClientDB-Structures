@@ -4,6 +4,6 @@ type MapChallengeMode
     string -> Name;
     int32  -> Id;
     uint16 -> MapId;
-    uint16 -> CriteriaCount, 3;
     uint8  -> Flags;
+    uint16 -> CriteriaCount, 3;
 }

@@ -2,27 +2,27 @@
 type CreatureDisplayInfo
 {
     int32  -> Id;
-    float  -> CreatureModelScale;
     uint16 -> ModelId;
-    uint16 -> NPCSoundId;
+    uint16 -> Unknown2;
     uint8  -> SizeClass;
-    uint8  -> Flags;
-    uint8  -> Gender;
-    uint16 -> SoundId;
+    float  -> CreatureModelScale;
     uint8  -> CreatureModelAlpha;
     uint8  -> BloodId;
     int32  -> ExtendedDisplayInfoId;
+    uint16 -> NPCSoundId;
     uint16 -> ParticleColorId;
     int32  -> PortraitCreatureDisplayInfoId;
     int32  -> PortraitTextureFileDataId;
     uint16 -> ObjectEffectPackageId;
     uint16 -> AnimReplacementSetId;
+    uint8  -> Flags;
     int32  -> StateSpellVisualKitId;
     float  -> PlayerOverrideScale;
     float  -> PetInstanceScale;
     uint8  -> UnarmedWeaponType;
     int32  -> MountPoofSpellVisualKitId;
     int32  -> DissolveEffectId;
+    uint8  -> Gender;
     int32  -> DissolveOutEffectId;
     uint8  -> CreatureModelMinLod;
     int32  -> TextureVariationFileDataId, 3;

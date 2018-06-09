@@ -3,7 +3,7 @@ type GarrMechanicType
 {
     string -> Name;
     string -> Description;
+    int32  -> Id;
     int32  -> IconFileDataId;
     uint8  -> Category;
-    int32  -> Id;
 }

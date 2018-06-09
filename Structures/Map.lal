@@ -7,20 +7,20 @@ type Map
     string -> MapDescription1;
     string -> PvpShortDescription;
     string -> PvpLongDescription;
-    uint32  -> Flags, 2;
-    float  -> MinimapIconScale;
     float  -> Corpse, 2;
-    int32  -> ZmpFileDataId;
+    uint8  -> MapType;
+    uint8  -> InstanceType;
+    uint8  -> ExpansionId;
     uint16 -> AreaTableId;
     uint16 -> LoadingScreenId;
     uint16 -> TimeOfDayOverride;
     uint16 -> ParentMapId;
     uint16 -> CosmeticParentMapId;
-    uint16 -> CorpseMapId;
-    uint16 -> WindSettingsId;
-    uint8  -> MapType;
-    uint8  -> InstanceType;
-    uint8  -> ExpansionId;
     uint8  -> TimeOffset;
+    float  -> MinimapIconScale;
+    uint16 -> CorpseMapId;
     uint8  -> MaxPlayers;
+    uint16 -> WindSettingsId;
+    int32  -> ZmpFileDataId;
+    uint32  -> Flags, 2;
 }

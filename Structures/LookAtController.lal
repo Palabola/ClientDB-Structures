@@ -2,21 +2,21 @@
 type LookAtController
 {
     float  -> ReactionEnableDistance;
-    float  -> ReactionGiveupDistance;
-    float  -> TorsoSpeedFactor;
-    float  -> HeadSpeedFactor;
+    uint32 -> ReactionWarmUpTimeMSMin;
+    uint32 -> ReactionWarmUpTimeMSMax;
     uint16 -> ReactionEnableFOVDeg;
+    float  -> ReactionGiveupDistance;
+    int32  -> ReactionGiveupFOVDeg;
     uint16 -> ReactionGiveupTimeMS;
     uint16 -> ReactionIgnoreTimeMinMS;
     uint16 -> ReactionIgnoreTimeMaxMS;
     uint8  -> MaxTorsoYaw;
     uint8  -> MaxTorsoYawWhileMoving;
-    uint8  -> MaxHeadYaw;
-    uint8  -> MaxHeadPitch;
-    uint8  -> Flags;
-    uint32 -> ReactionWarmUpTimeMSMin;
-    uint32 -> ReactionWarmUpTimeMSMax;
-    int32  -> ReactionGiveupFOVDeg;
     uint32 -> MaxTorsoPitchUp;
     int32  -> MaxTorsoPitchDown;
+    uint8  -> MaxHeadYaw;
+    uint8  -> MaxHeadPitch;
+    float  -> TorsoSpeedFactor;
+    float  -> HeadSpeedFactor;
+    uint8  -> Flags;
 }

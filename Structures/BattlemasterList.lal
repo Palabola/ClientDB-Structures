@@ -5,10 +5,6 @@ type BattlemasterList
     string -> GameType;
     string -> ShortDescription;
     string -> LongDescription;
-    int32  -> IconFileDataId;
-    uint16 -> MapId, 16;
-    uint16 -> HolidayWorldState;
-    uint16 -> RequiredPlayerConditionId;
     uint8  -> InstanceType;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
@@ -17,5 +13,9 @@ type BattlemasterList
     uint8  -> MaxPlayers;
     uint8  -> GroupsAllowed;
     uint8  -> MaxGroupSize;
+    uint16 -> HolidayWorldState;
     uint8  -> Flags;
+    int32  -> IconFileDataId;
+    uint16 -> RequiredPlayerConditionId;
+    uint16 -> MapId, 16;
 }

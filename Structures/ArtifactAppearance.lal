@@ -2,18 +2,18 @@
 type ArtifactAppearance
 {
     string -> Name;
-    uint32  -> UiSwatchColor;
+    int32  -> Id;
+    uint16 -> ArtifactAppearanceSetId;
+    uint8  -> DisplayIndex;
+    int32  -> UnlockPlayerConditionId;
+    uint8  -> ItemAppearanceModifierId;
+    int32  -> UiSwatchColor;
     float  -> UiModelSaturation;
     float  -> UiModelOpacity;
-    int32  -> OverrideShapeshiftDisplayId;
-    uint16 -> ArtifactAppearanceSetId;
-    uint16 -> UiCameraId;
-    uint8  -> DisplayIndex;
-    uint8  -> ItemAppearanceModifierId;
     uint8  -> OverrideShapeshiftFormId;
-    uint8  -> Flags;
-    int32  -> Id;
-    uint32 -> UnlockPlayerConditionId;
+    int32  -> OverrideShapeshiftDisplayId;
     int32  -> UiItemAppearanceId;
     int32  -> UiAltItemAppearanceId;
+    uint8  -> Flags;
+    uint16 -> UiCameraId;
 }

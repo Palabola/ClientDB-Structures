@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type ItemAppearance
 {
+    uint8  -> DisplayType;
     int32  -> ItemDisplayInfoId;
     int32  -> DefaultIconFileDataId;
     int32  -> UiOrder;
-    uint8  -> DisplayType;
 }

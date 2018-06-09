@@ -1,6 +1,8 @@
 // FileOptions: Index, None
 type LightData
 {
+    uint16 -> LightParamId;
+    uint16 -> Time;
     int32  -> DirectColor;
     int32  -> AmbientColor;
     int32  -> SkyTopColor;
@@ -35,7 +37,5 @@ type LightData
     int32  -> SunFogColor;
     float  -> Unknown;
     int32  -> FogHeightColor;
-    uint16 -> LightParamId;
-    uint16 -> Time;
 }
 

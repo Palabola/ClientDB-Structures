@@ -2,7 +2,7 @@
 type PathNode
 {
     int32  -> Id;
-    int32  -> LocationId;
     uint16 -> PathId;
     uint16 -> Sequence;
+    int32  -> LocationId;
 }

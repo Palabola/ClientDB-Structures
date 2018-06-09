@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type GarrUiAnimClassInfo
 {
-    float  -> ImpactDelaySecs;
     uint8  -> GarrClassSpecId;
     uint8  -> MovementType;
+    float  -> ImpactDelaySecs;
     int32  -> CastKit;
     int32  -> ImpactKit;
     int32  -> TargetImpactKit;

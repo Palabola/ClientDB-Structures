@@ -2,7 +2,7 @@
 type ResearchSite
 {
     string -> Name;
-    int32  -> QuestPoiBlobId;
     uint16 -> MapId;
+    int32  -> QuestPoiBlobId;
     uint32 -> AreaPOIIconEnum;
 }

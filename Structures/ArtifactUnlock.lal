@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ArtifactUnlock
 {
-    uint16 -> ItemBonusListId;
-    uint8  -> PowerRank;
     int32  -> PowerId;
+    uint8  -> PowerRank;
+    uint16 -> ItemBonusListId;
     uint32 -> PlayerConditionId;
     Ref    -> ArtifactId;
 }

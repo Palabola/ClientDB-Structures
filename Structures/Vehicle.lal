@@ -1,7 +1,8 @@
 // FileOptions: Index, None
 type Vehicle
 {
-    uint32  -> Flags;
+    uint32 -> Flags;
+    uint8  -> FlagsB;
     float  -> TurnSpeed;
     float  -> PitchSpeed;
     float  -> PitchMin;
@@ -13,10 +14,9 @@ type Vehicle
     float  -> FacingLimitRight;
     float  -> FacingLimitLeft;
     float  -> CameraYawOffset;
+    uint8  -> UiLocomotionType;
+    uint16 -> VehicleUIIndicatorId;
+    int32  -> MissileTargetingId;
     uint16 -> SeatId, 8;
     uint16 -> PowerDisplayId, 3;
-    uint16 -> VehicleUIIndicatorId;
-    uint8  -> FlagsB;
-    uint8  -> UiLocomotionType;
-    int32  -> MissileTargetingId;
 }

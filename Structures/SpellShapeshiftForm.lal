@@ -2,13 +2,13 @@
 type SpellShapeshiftForm
 {
     string -> Name;
-    int32  -> Flags;
-    float  -> DamageVariance;
-    uint16 -> CombatRoundTime;
-    uint16 -> MountTypeId;
     uint8  -> CreatureType;
-    uint8  -> BonusActionBar;
+    int32  -> Flags;
     int32  -> AttackIconFileId;
+    uint8  -> BonusActionBar;
+    uint16 -> CombatRoundTime;
+    float  -> DamageVariance;
+    uint16 -> MountTypeId;
     int32  -> CreatureDisplayId, 4;
     int32  -> PresetSpellId, 8;
 }

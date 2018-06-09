@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type WindSettings
 {
-    float  -> BaseMag;
     float  -> BaseDir, 3;
+    float  -> VarianceDir, 3;
+    float  -> MaxStepDir, 3;
+    float  -> BaseMag;
     float  -> VarianceMagOver;
     float  -> VarianceMagUnder;
-    float  -> VarianceDir, 3;
     float  -> MaxStepMag;
-    float  -> MaxStepDir, 3;
     float  -> Frequency;
     float  -> Duration;
     uint8  -> Flags;

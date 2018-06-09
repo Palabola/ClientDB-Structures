@@ -1,7 +1,7 @@
 // FileOptions: None
 type ChrUpgradeBucket
 {
-    uint16 -> ChrSpecializationId;
     int32  -> Id;
+    uint16 -> ChrSpecializationId;
     Ref    -> ChrUpgradeTierId;
 }

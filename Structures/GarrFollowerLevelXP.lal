@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GarrFollowerLevelXP
 {
-    uint16 -> XpToNextLevel;
-    uint16 -> ShipmentXP;
     uint8  -> GarrFollowerTypeId;
     uint8  -> FollowerLevel;
+    uint16 -> XpToNextLevel;
+    uint16 -> ShipmentXP;
 }

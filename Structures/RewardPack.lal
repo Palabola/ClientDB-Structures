@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type RewardPack
 {
-    int32  -> Money;
-    float  -> ArtifactXPMultiplier;
-    uint8  -> ArtifactXPDifficulty;
-    uint8  -> ArtifactXPCategoryId;
     int32  -> CharTitleId;
+    int32  -> Money;
+    uint8  -> ArtifactXPDifficulty;
+    float  -> ArtifactXPMultiplier;
+    uint8  -> ArtifactXPCategoryId;
     uint32 -> TreasurePickerId;
 }

@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type CreatureImmunities
 {
-    int32  -> Mechanic, 2;
     uint8  -> School;
+    uint32 -> DispelType;
     uint8  -> MechanicsAllowed;
     uint8  -> EffectsAllowed;
     uint8  -> StatesAllowed;
     uint8  -> Flags;
-    uint32 -> DispelType;
+    int32  -> Mechanic, 2;
     int32  -> Effect, 9;
     int32  -> State, 16;
 }

@@ -1,15 +1,15 @@
 // FileOptions: Index, None
 type Criteria
 {
+    uint16 -> Type;
     int32  -> Asset;
     int32  -> ModifierTreeId;
-    int32  -> StartAsset;
-    uint32  -> FailAsset;
-    uint16 -> StartTimer;
-    uint16 -> EligibilityWorldStateId;
-    uint8  -> Type;
     uint8  -> StartEvent;
+    int32  -> StartAsset;
+    uint16 -> StartTimer;
     uint8  -> FailEvent;
+    int32  -> FailAsset;
     uint8  -> Flags;
+    uint16 -> EligibilityWorldStateId;
     uint8  -> EligibilityWorldStateValue;
 }

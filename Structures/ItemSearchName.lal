@@ -4,15 +4,15 @@ type ItemSearchName
     uint64 -> AllowableRace;
     string -> Display;
     int32  -> Id;
-    uint32  -> Flags, 3;
-    uint16 -> ItemLevel;
     uint8  -> OverallQualityId;
     uint8  -> ExpansionId;
-    uint8  -> RequiredLevel;
     uint16 -> MinFactionId;
     uint8  -> MinReputation;
     int32  -> AllowableClass;
+    uint8  -> RequiredLevel;
     uint16 -> RequiredSkill;
     uint16 -> RequiredSkillRank;
     int32  -> RequiredAbility;
+    uint16 -> ItemLevel;
+    uint32  -> Flags, 3;
 }

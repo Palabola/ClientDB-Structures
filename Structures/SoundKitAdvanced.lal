@@ -2,21 +2,15 @@
 type SoundKitAdvanced
 {
     int32  -> Id;
+    int32  -> SoundKitId;
     float  -> InnerRadius2D;
     float  -> OuterRadius2D;
-    float  -> DuckToSFX;
-    float  -> DuckToMusic;
-    float  -> InnerRadiusOfInfluence;
-    float  -> OuterRadiusOfInfluence;
-    int32  -> TimeToDuck;
-    int32  -> TimeToUnduck;
-    uint8  -> Usage;
-    uint32 -> SoundKitId;
     int32  -> TimeA;
     int32  -> TimeB;
     int32  -> TimeC;
     int32  -> TimeD;
     int32  -> RandomOffsetRange;
+    uint8  -> Usage;
     int32  -> TimeIntervalMin;
     int32  -> TimeIntervalMax;
     int32  -> DelayMin;
@@ -25,6 +19,12 @@ type SoundKitAdvanced
     float  -> DuckToAmbience;
     float  -> DuckToDialog;
     float  -> DuckToSuppressors;
+    float  -> DuckToSFX;
+    float  -> DuckToMusic;
+    float  -> InnerRadiusOfInfluence;
+    float  -> OuterRadiusOfInfluence;
+    int32  -> TimeToDuck;
+    int32  -> TimeToUnduck;
     float  -> InsideAngle;
     float  -> OutsideAngle;
     float  -> OutsideVolume;

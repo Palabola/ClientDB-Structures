@@ -3,10 +3,10 @@ type Exhaustion
 {
     string -> Name;
     string -> CombatLogText;
-    uint32  -> Xp;
+    int32  -> Id;
+    uint32 -> Xp;
     float  -> Factor;
     float  -> OutdoorHours;
     float  -> InnHours;
     float  -> Threshold;
-    int32  -> Id;
 }

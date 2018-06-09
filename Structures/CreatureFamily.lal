@@ -3,11 +3,11 @@ type CreatureFamily
 {
     string -> Name;
     float  -> MinScale;
+    uint8  -> MinScaleLevel;
     float  -> MaxScale;
+    uint8  -> MaxScaleLevel;
+    uint16 -> PetFoodMask;
+    uint8  -> PetTalentType;
     int32  -> IconFileId;
     uint16 -> SkillLine, 2;
-    uint16 -> PetFoodMask;
-    uint8  -> MinScaleLevel;
-    uint8  -> MaxScaleLevel;
-    uint8  -> PetTalentType;
 }

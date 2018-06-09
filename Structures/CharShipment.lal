@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type CharShipment
 {
+    uint16 -> ContainerId;
     int32  -> DummyItemId;
     int32  -> TreasureId;
     int32  -> SpellId;
     int32  -> OnCompleteSpellId;
     int32  -> Duration;
-    uint16 -> ContainerId;
-    uint16 -> GarrFollowerId;
     uint8  -> MaxShipments;
+    uint16 -> GarrFollowerId;
     uint8  -> Flags;
 }

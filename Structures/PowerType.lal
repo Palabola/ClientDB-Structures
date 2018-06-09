@@ -3,14 +3,14 @@ type PowerType
 {
     string -> NameGlobalStringTag;
     string -> CostGlobalStringTag;
-    float  -> RegenPeace;
-    float  -> RegenCombat;
-    uint16 -> MaxBasePower;
-    uint16 -> RegenInterruptTimeMS;
-    uint16 -> Flags;
     uint8  -> PowerTypeEnum;
     uint8  -> MinPower;
+    uint16 -> MaxBasePower;
     uint8  -> CenterPower;
     uint8  -> DefaultPower;
     uint8  -> DisplayModifier;
+    uint16 -> RegenInterruptTimeMS;
+    float  -> RegenPeace;
+    float  -> RegenCombat;
+    uint16 -> Flags;
 }

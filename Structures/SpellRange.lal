@@ -3,7 +3,7 @@ type SpellRange
 {
     string -> DisplayName;
     string -> DisplayNameShort;
+    uint8  -> Flags;
     float  -> RangeMin, 2;
     float  -> RangeMax, 2;
-    uint8  -> Flags;
 }

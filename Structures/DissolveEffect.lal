@@ -7,12 +7,12 @@ type DissolveEffect
     float  -> FadeInTime;
     float  -> FadeOutTime;
     float  -> Duration;
-    float  -> Scale;
-    float  -> FresnelIntensity;
     uint8  -> AttachId;
     uint8  -> ProjectionType;
     int32  -> TextureBlendSetId;
+    float  -> Scale;
     int32  -> Flags;
     int32  -> CurveId;
     uint32 -> Priority;
+    float  -> FresnelIntensity;
 }

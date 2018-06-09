@@ -8,9 +8,9 @@ type MissileTargeting
     float  -> ArcSpeed;
     float  -> ArcRepeat;
     float  -> ArcWidth;
-    float  -> ImpactRadius, 2;
     float  -> ImpactTexRadius;
     int32  -> ArcTextureFileId;
     int32  -> ImpactTextureFileId;
+    float  -> ImpactRadius, 2;
     int32  -> ImpactModelFileId, 2;
 }

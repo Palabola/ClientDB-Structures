@@ -4,13 +4,13 @@ type GameObjects
     string -> Name;
     float  -> Pos, 3;
     float  -> Rot, 4;
-    float  -> Scale;
-    uint32  -> PropValue, 8;
+    int32  -> Id;
     uint16 -> OwnerId;
     uint16 -> DisplayId;
-    uint16 -> PhaseId;
-    uint16 -> PhaseGroupId;
+    float  -> Scale;
     uint8  -> TypeId;
     uint8  -> PhaseUseFlags;
-    int32  -> Id;
+    uint16 -> PhaseId;
+    uint16 -> PhaseGroupId;
+    uint32 -> PropValue, 8;
 }

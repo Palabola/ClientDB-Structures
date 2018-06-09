@@ -2,13 +2,13 @@
 type Heirloom
 {
     string -> SourceText;
+    int32  -> Id;
     int32  -> ItemId;
     int32  -> LegacyUpgradedItemId;
     int32  -> StaticUpgradedItemId;
-    int32  -> UpgradeItemId, 3;
-    int32  -> LegacyItemId;
-    uint16 -> UpgradeItemBonusListId, 3;
     uint8  -> SourceTypeEnum;
     uint8  -> Flags;
-    int32  -> Id;
+    int32  -> LegacyItemId;
+    int32  -> UpgradeItemId, 3;
+    uint16 -> UpgradeItemBonusListId, 3;
 }

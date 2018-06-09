@@ -2,10 +2,10 @@
 type SoundEnvelope
 {
     int32  -> SoundKitId;
+    uint8  -> EnvelopeType;
+    uint32 -> Flags;
     int32  -> CurveId;
     uint16 -> DecayIndex;
     uint16 -> SustainIndex;
     uint16 -> ReleaseIndex;
-    uint8  -> EnvelopeType;
-    uint32 -> Flags;
 }

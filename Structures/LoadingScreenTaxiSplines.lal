@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type LoadingScreenTaxiSplines
 {
+    uint16 -> PathId;
+    uint8  -> LegIndex;
+    uint16 -> LoadingScreenId;
     float  -> LocX, 10;
     float  -> LocY, 10;
-    uint16 -> PathId;
-    uint16 -> LoadingScreenId;
-    uint8  -> LegIndex;
 }

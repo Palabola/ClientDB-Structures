@@ -3,25 +3,25 @@ type AreaTable
 {
     string -> ZoneName;
     string -> AreaName;
-    uint32  -> Flags, 2;
-    float  -> AmbientMultiplier;
     uint16 -> ContinentId;
     uint16 -> ParentAreaId;
     uint16 -> AreaBit;
+    uint8  -> SoundProviderPref;
+    uint8  -> SoundProviderPrefUnderwater;
     uint16 -> AmbienceId;
     uint16 -> UwAmbience;
     uint16 -> ZoneMusic;
     uint16 -> UwZoneMusic;
-    uint16 -> IntroSound;
-    uint16 -> LiquidTypeId, 4;
-    uint16 -> PvpCombatWorldStateId;
-    uint8  -> SoundProviderPref;
-    uint8  -> SoundProviderPrefUnderwater;
     uint8  -> ExplorationLevel;
+    uint16 -> IntroSound;
+    int32  -> UwIntroSound;
     uint8  -> FactionGroupMask;
+    float  -> AmbientMultiplier;
     uint8  -> MountFlags;
+    uint16 -> PvpCombatWorldStateId;
     uint8  -> WildBattlePetLevelMin;
     uint8  -> WildBattlePetLevelMax;
     uint8  -> WindSettingsId;
-    uint32 -> UwIntroSound;
+    int32  -> Flags, 2;
+    uint16 -> LiquidTypeId, 4;
 }

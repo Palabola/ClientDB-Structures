@@ -1,7 +1,6 @@
 // FileOptions: Index, None
 type CharHairGeosets
 {
-    int32  -> HdCustomGeoFileDataId;
     uint8  -> RaceId;
     uint8  -> SexId;
     uint8  -> VariationId;
@@ -11,4 +10,5 @@ type CharHairGeosets
     uint8  -> GeosetType;
     uint8  -> ColorIndex;
     int32  -> CustomGeoFileDataId;
+    int32  -> HdCustomGeoFileDataId;
 }

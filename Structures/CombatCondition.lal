@@ -4,12 +4,12 @@ type CombatCondition
     uint16 -> WorldStateExpressionId;
     uint16 -> SelfConditionId;
     uint16 -> TargetConditionId;
+    uint8  -> FriendConditionLogic;
+    uint8  -> EnemyConditionLogic;
     uint16 -> FriendConditionId, 2;
-    uint16 -> EnemyConditionId, 2;
     uint8  -> FriendConditionOp, 2;
     uint8  -> FriendConditionCount, 2;
-    uint8  -> FriendConditionLogic;
+    uint16 -> EnemyConditionId, 2;
     uint8  -> EnemyConditionOp, 2;
     uint8  -> EnemyConditionCount, 2;
-    uint8  -> EnemyConditionLogic;
 }

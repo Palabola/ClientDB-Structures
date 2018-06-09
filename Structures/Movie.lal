@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type Movie
 {
-    int32  -> AudioFileDataId;
-    int32  -> SubtitleFileDataId;
     uint8  -> Volume;
     uint8  -> KeyId;
+    int32  -> AudioFileDataId;
+    int32  -> SubtitleFileDataId;
 }

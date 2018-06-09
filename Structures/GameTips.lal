@@ -2,7 +2,7 @@
 type GameTips
 {
     string -> Text;
+    uint8  -> SortIndex;
     uint16 -> MinLevel;
     uint16 -> MaxLevel;
-    uint8  -> SortIndex;
 }

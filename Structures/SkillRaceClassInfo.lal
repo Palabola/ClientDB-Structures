@@ -3,9 +3,9 @@ type SkillRaceClassInfo
 {
     uint64 -> RaceMask;
     uint16 -> SkillId;
+    int32  -> ClassMask;
     uint16 -> Flags;
-    uint16 -> SkillTierId;
     uint8  -> Availability;
     uint8  -> MinLevel;
-    int32  -> ClassMask;
+    uint16 -> SkillTierId;
 }

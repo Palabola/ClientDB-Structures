@@ -2,10 +2,10 @@
 type ModifierTree
 {
     int32  -> Parent;
-    uint32  -> Asset;
-    int32  -> SecondaryAsset;
     uint8  -> Operator;
     uint8  -> Amount;
     uint8  -> Type;
+    uint32 -> Asset;
+    int32  -> SecondaryAsset;
     uint8  -> TertiaryAsset;
 }

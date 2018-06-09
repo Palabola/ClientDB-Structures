@@ -2,8 +2,8 @@
 type Scenario
 {
     string -> Name;
-    int32  -> Unknown;
     uint16 -> AreaTableId;
     uint8  -> Type;
     uint8  -> Flags;
+    int32  -> Unknown;
 }

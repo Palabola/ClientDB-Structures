@@ -2,6 +2,6 @@
 type SpellKeyboundOverride
 {
     string -> Function;
-    int32  -> Data;
     uint8  -> Type;
+    int32  -> Data;
 }

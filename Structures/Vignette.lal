@@ -2,10 +2,12 @@
 type Vignette
 {
     string -> Name;
+    int32  -> PlayerConditionId;
+    int32  -> Unknown;
+    int32  -> QuestFeedbackEffectId;
+    int32  -> Flags;
     float  -> MaxHeight;
     float  -> MinHeight;
-    uint32 -> PlayerConditionId;
-    int32  -> VisibleTrackingQuestId;
-    int32  -> QuestFeedbackEffectId;
-    uint32 -> Flags;
+    uint8  -> Unknown2;
+    int32  -> Unknown3;
 }

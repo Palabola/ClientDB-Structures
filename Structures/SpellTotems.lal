@@ -2,6 +2,6 @@
 type SpellTotems
 {
     int32  -> SpellId;
-    int32  -> Totem, 2;
     uint16 -> RequiredTotemCategoryId, 2;
+    int32  -> Totem, 2;
 }

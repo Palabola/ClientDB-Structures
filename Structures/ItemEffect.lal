@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type ItemEffect
 {
-    uint32  -> CoolDownMSec;
-    uint32  -> CategoryCoolDownMSec;
-    int32  -> SpellId;
-    uint16 -> Charges;
-    uint16 -> SpellCategoryId;
-    uint16 -> ChrSpecializationId;
     uint8  -> LegacySlotIndex;
     uint8  -> TriggerType;
+    uint16 -> Charges;
+    uint32 -> CoolDownMSec;
+    uint32 -> CategoryCoolDownMSec;
+    uint16 -> SpellCategoryId;
+    int32  -> SpellId;
+    uint16 -> ChrSpecializationId;
     Ref    -> ParentItemId;
 }

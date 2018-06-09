@@ -2,18 +2,18 @@
 type SoundKit
 {
     int32  -> Id;
+    uint8  -> SoundType;
     float  -> VolumeFloat;
+    uint16 -> Flags;
     float  -> MinDistance;
     float  -> DistanceCutoff;
-    uint16 -> Flags;
-    uint8  -> SoundType;
-    uint8  -> DialogType;
     uint8  -> EAXDef;
-    uint32 -> SoundKitAdvancedId;
+    int32  -> SoundKitAdvancedId;
     float  -> VolumeVariationPlus;
     float  -> VolumeVariationMinus;
     float  -> PitchVariationPlus;
     float  -> PitchVariationMinus;
+    uint8  -> DialogType;
     float  -> PitchAdjust;
     uint16 -> BusOverwriteId;
     uint8  -> MaxInstances;

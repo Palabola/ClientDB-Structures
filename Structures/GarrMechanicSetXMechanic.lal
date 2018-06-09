@@ -1,7 +1,7 @@
 // FileOptions: None
 type GarrMechanicSetXMechanic
 {
-    uint8  -> GarrMechanicId;
     int32  -> Id;
+    uint8  -> GarrMechanicId;
     Ref    -> GarrMechanicSetId;
 }

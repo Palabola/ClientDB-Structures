@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type Bounty
 {
-    int32  -> IconFileDataId;
     uint16 -> QuestId;
     uint16 -> FactionId;
+    int32  -> IconFileDataId;
     uint32 -> TurninPlayerConditionId;
     Ref    -> BountySetId;
 }

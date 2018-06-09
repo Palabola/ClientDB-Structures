@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type HelmetAnimScaling
 {
-    float  -> Amount;
     int32  -> RaceId;
+    float  -> Amount;
     Ref    -> HelmetGeosetVisDataId;
 }

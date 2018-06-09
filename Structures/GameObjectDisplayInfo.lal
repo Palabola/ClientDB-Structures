@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type GameObjectDisplayInfo
 {
+    float  -> GeoBox, 6;
     int32  -> FileDataId;
+    uint16 -> ObjectEffectPackageId;
     float  -> OverrideLootEffectScale;
     float  -> OverrideNameScale;
-    float  -> GeoBox, 6;
-    uint16 -> ObjectEffectPackageId;
 }

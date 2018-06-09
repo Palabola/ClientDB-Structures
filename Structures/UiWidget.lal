@@ -2,9 +2,9 @@
 type UiWidget
 {
     string -> WidgetTag;
+    uint16 -> ParentSetId;
     int32  -> VisId;
+    int32  -> MapId;
     int32  -> PlayerConditionId;
     int32  -> OrderIndex;
-    uint16 -> ParentSetId;
-    int32  -> MapId;
 }

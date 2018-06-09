@@ -3,23 +3,23 @@ type LiquidType
 {
     string -> Name;
     string -> Texture, 6;
+    uint16 -> Flags;
+    uint8  -> SoundBank;
+    int32  -> SoundId;
     int32  -> SpellId;
     float  -> MaxDarkenDepth;
     float  -> FogDarkenIntensity;
     float  -> AmbDarkenIntensity;
     float  -> DirDarkenIntensity;
+    uint16 -> LightId;
     float  -> ParticleScale;
-    int32  -> MinimapStaticCol;
+    uint8  -> ParticleMovement;
+    uint8  -> ParticleTexSlots;
+    uint8  -> MaterialId;
+    uint32 -> MinimapStaticCol;
+    uint8  -> FrameCountTexture, 6;
     int32  -> Color, 2;
     float  -> Float, 18;
     int32  -> Int, 4;
     float  -> Coefficient, 4;
-    uint16 -> Flags;
-    uint16 -> LightId;
-    uint8  -> SoundBank;
-    uint8  -> ParticleMovement;
-    uint8  -> ParticleTexSlots;
-    uint8  -> MaterialId;
-    uint8  -> FrameCountTexture, 6;
-    int32  -> SoundId;
 }

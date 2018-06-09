@@ -4,13 +4,13 @@ type SoundEmitters
     string -> Name;
     float  -> Position, 3;
     float  -> Direction, 3;
-    uint16 -> WorldStateExpressionId;
-    uint16 -> PhaseId;
-    uint8  -> EmitterType;
-    uint8  -> PhaseUseFlags;
-    uint8  -> Flags;
     int32  -> Id;
     int32  -> SoundEntriesId;
+    uint16 -> WorldStateExpressionId;
+    uint8  -> EmitterType;
+    uint16 -> PhaseId;
     int32  -> PhaseGroupId;
+    uint8  -> PhaseUseFlags;
+    uint8  -> Flags;
     Ref    -> MapId;
 }

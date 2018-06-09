@@ -4,11 +4,11 @@ type AdventureMapPOI
     string -> Title;
     string -> Description;
     float  -> WorldPosition, 2;
-    int32  -> RewardItemId;
     uint8  -> Type;
     uint32 -> PlayerConditionId;
     int32  -> QuestId;
     uint32 -> LfgDungeonId;
+    int32  -> RewardItemId;
     uint32 -> UiTextureAtlasMemberId;
     uint32 -> UiTextureKitId;
     int32  -> MapId;

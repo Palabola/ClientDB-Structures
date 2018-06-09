@@ -1,12 +1,23 @@
 // FileOptions: Index, None
 type CreatureModelData
 {
+    float  -> GeoBox, 6;
+    int32  -> Flags;
+    int32  -> FileDataId;
+    int32  -> BloodId;
+    int32  -> FootprintTextureId;
     float  -> FootprintTextureLength;
     float  -> FootprintTextureWidth;
     float  -> FootprintParticleScale;
+    uint32 -> FoleyMaterialId;
+    uint32 -> FootstepCameraEffectId;
+    int32  -> DeathThudCameraEffectId;
+    int32  -> SoundId;
+    int32  -> SizeClass;
     float  -> CollisionWidth;
     float  -> CollisionHeight;
     float  -> WorldEffectScale;
+    int32  -> CreatureGeosetDataId;
     float  -> HoverHeight;
     float  -> AttachedEffectScale;
     float  -> ModelScale;
@@ -18,15 +29,4 @@ type CreatureModelData
     float  -> OverrideNameScale;
     float  -> OverrideSelectionRadius;
     float  -> TamedPetBaseScale;
-    float  -> GeoBox, 6;
-    int32  -> Flags;
-    uint32 -> FileDataId;
-    int32  -> BloodId;
-    uint32 -> FootprintTextureId;
-    uint32 -> FoleyMaterialId;
-    uint32 -> FootstepCameraEffectId;
-    uint32 -> DeathThudCameraEffectId;
-    uint32 -> SoundId;
-    int32  -> SizeClass;
-    uint32 -> CreatureGeosetDataId;
 }

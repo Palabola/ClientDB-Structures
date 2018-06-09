@@ -1,16 +1,16 @@
 // FileOptions: None
 type GarrAbilityEffect
 {
-    float  -> CombatWeightBase;
-    float  -> CombatWeightMax;
-    float  -> ActionValueFlat;
-    int32  -> ActionRecordId;
+    int32  -> Id;
     uint16 -> GarrAbilityId;
     uint8  -> AbilityAction;
     uint8  -> AbilityTargetType;
     uint8  -> GarrMechanicTypeId;
+    float  -> CombatWeightBase;
+    float  -> CombatWeightMax;
+    float  -> ActionValueFlat;
     uint8  -> ActionRace;
     uint8  -> ActionHours;
+    int32  -> ActionRecordId;
     uint8  -> Flags;
-    int32  -> Id;
 }

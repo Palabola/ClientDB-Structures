@@ -3,18 +3,18 @@ type UiModelSceneCamera
 {
     string -> ScriptTag;
     float  -> Target, 3;
+    float  -> ZoomedTargetOffset, 3;
+    int32  -> Id;
+    uint8  -> Flags;
+    uint8  -> CameraType;
     float  -> Yaw;
     float  -> Pitch;
     float  -> Roll;
-    float  -> ZoomedTargetOffset, 3;
     float  -> ZoomedYawOffset;
     float  -> ZoomedPitchOffset;
     float  -> ZoomedRollOffset;
     float  -> ZoomDistance;
     float  -> MinZoomDistance;
     float  -> MaxZoomDistance;
-    uint8  -> Flags;
-    uint8  -> CameraType;
-    int32  -> Id;
     Ref    -> UiModelSceneId;
 }

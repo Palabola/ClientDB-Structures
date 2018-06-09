@@ -3,12 +3,12 @@ type CurrencyTypes
 {
     string -> Name;
     string -> Description;
+    uint8  -> CategoryId;
+    int32  -> InventoryIconFileId;
+    int32  -> SpellWeight;
+    uint8  -> SpellCategory;
     int32  -> MaxQty;
     int32  -> MaxEarnablePerWeek;
     int32  -> Flags;
-    uint8  -> CategoryId;
-    uint8  -> SpellCategory;
     uint8  -> Quality;
-    int32  -> InventoryIconFileId;
-    int32  -> SpellWeight;
 }

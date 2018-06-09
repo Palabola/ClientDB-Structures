@@ -3,10 +3,10 @@ type GarrAbility
 {
     string -> Name;
     string -> Description;
+    int32  -> Id;
+    uint8  -> GarrAbilityCategoryId;
+    uint8  -> GarrFollowerTypeId;
     int32  -> IconFileDataId;
     uint16 -> FactionChangeGarrAbilityId;
     uint16 -> Flags;
-    uint8  -> GarrAbilityCategoryId;
-    uint8  -> GarrFollowerTypeId;
-    int32  -> Id;
 }

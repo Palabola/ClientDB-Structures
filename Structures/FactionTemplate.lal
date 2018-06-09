@@ -3,9 +3,9 @@ type FactionTemplate
 {
     uint16 -> Faction;
     uint16 -> Flags;
-    uint16 -> Enemies, 4;
-    uint16 -> Friend, 4;
     uint8  -> FactionGroup;
     uint8  -> FriendGroup;
     uint8  -> EnemyGroup;
+    uint16 -> Enemies, 4;
+    uint16 -> Friend, 4;
 }

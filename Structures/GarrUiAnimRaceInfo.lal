@@ -1,6 +1,7 @@
 // FileOptions: Index, None
 type GarrUiAnimRaceInfo
 {
+    uint8  -> GarrFollRaceId;
     float  -> MaleScale;
     float  -> MaleHeight;
     float  -> FemaleScale;
@@ -13,5 +14,4 @@ type GarrUiAnimRaceInfo
     float  -> MaleFollowerPageHeight;
     float  -> FemaleFollowerPageScale;
     float  -> FemaleFollowerPageHeight;
-    uint8  -> GarrFollRaceId;
 }

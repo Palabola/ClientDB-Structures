@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type Cfg_Configs
 {
-    float  -> MaxDamageReductionPctPhysical;
-    uint16 -> PlayerAttackSpeedBase;
     uint8  -> PlayerKillingAllowed;
     uint8  -> Roleplaying;
+    uint16 -> PlayerAttackSpeedBase;
+    float  -> MaxDamageReductionPctPhysical;
 }

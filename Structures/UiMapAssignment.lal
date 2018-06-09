@@ -1,14 +1,14 @@
 // FileOptions: None
 type UiMapAssignment
 {
-    int32  -> Id;
     float  -> UiMin, 2;
     float  -> UiMax, 2;
+    float  -> Region, 6;
+    int32  -> Id;
+    int32  -> UiMapId;
+    int32  -> OrderIndex;
     int32  -> MapId;
     int32  -> AreaId;
     int32  -> WmoDoodadPlacementId;
     int32  -> WmoGroupId;
-    float  -> Region, 6;
-    int32  -> UiMapId;
-    int32  -> OrderIndex;
 }

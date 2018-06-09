@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type CloakDampening
 {
+    float  -> TabardAngle;
+    float  -> TabardDampening;
+    float  -> ExpectedWeaponSize;
     float  -> Angle, 5;
     float  -> Dampening, 5;
     float  -> TailAngle, 2;
     float  -> TailDampening, 2;
-    float  -> TabardAngle;
-    float  -> TabardDampening;
-    float  -> ExpectedWeaponSize;
 }

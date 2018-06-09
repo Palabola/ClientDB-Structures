@@ -3,13 +3,13 @@ type BattlePetSpecies
 {
     string -> Description;
     string -> SourceText;
+    int32  -> Id;
     int32  -> CreatureId;
     int32  -> SummonSpellId;
     int32  -> IconFileDataId;
-    uint16 -> Flags;
     uint8  -> PetTypeEnum;
+    uint16 -> Flags;
     uint8  -> SourceTypeEnum;
-    int32  -> Id;
     int32  -> CardUIModelSceneId;
     int32  -> LoadoutUIModelSceneId;
 }

@@ -3,11 +3,11 @@ type Emotes
 {
     uint64 -> RaceMask;
     string -> EmoteSlashCommand;
+    uint32 -> AnimId;
     int32  -> EmoteFlags;
-    int32  -> SpellVisualKitId;
-    uint16 -> AnimId;
     uint8  -> EmoteSpecProc;
     uint32 -> EmoteSpecProcParam;
     uint32 -> EventSoundId;
+    int32  -> SpellVisualKitId;
     int32  -> ClassMask;
 }

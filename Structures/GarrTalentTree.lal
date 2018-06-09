@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type GarrTalentTree
 {
-    uint16 -> UiTextureKitId;
-    uint8  -> MaxTiers;
-    uint8  -> UiOrder;
     int32  -> GarrTypeId;
     int32  -> ClassId;
+    uint8  -> MaxTiers;
+    uint8  -> UiOrder;
+    uint16 -> UiTextureKitId;
 }

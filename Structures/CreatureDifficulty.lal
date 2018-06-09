@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type CreatureDifficulty
 {
-    uint32  -> Flags, 7;
-    uint16 -> FactionId;
     uint8  -> ExpansionId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
+    uint16 -> FactionId;
     int32  -> ContentTuningId;
+    uint32  -> Flags, 7;
     Ref    -> CreatureId;
 }

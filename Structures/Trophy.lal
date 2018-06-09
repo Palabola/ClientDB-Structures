@@ -2,7 +2,7 @@
 type Trophy
 {
     string -> Name;
-    uint16 -> GameObjectDisplayInfoId;
     uint8  -> TrophyTypeId;
+    uint16 -> GameObjectDisplayInfoId;
     int32  -> PlayerConditionId;
 }

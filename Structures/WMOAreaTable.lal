@@ -2,18 +2,18 @@
 type WMOAreaTable
 {
     string -> AreaName;
-    uint32  -> WmoGroupId;
+    int32  -> Id;
     uint16 -> WmoId;
+    uint8  -> NameSetId;
+    int32  -> WmoGroupId;
+    uint8  -> SoundProviderPref;
+    uint8  -> SoundProviderPrefUnderwater;
     uint16 -> AmbienceId;
     uint16 -> UwAmbience;
     uint16 -> ZoneMusic;
+    int32  -> UwZoneMusic;
     uint16 -> IntroSound;
     uint16 -> UwIntroSound;
     uint16 -> AreaTableId;
-    uint8  -> NameSetId;
-    uint8  -> SoundProviderPref;
-    uint8  -> SoundProviderPrefUnderwater;
     uint8  -> Flags;
-    int32  -> Id;
-    uint32 -> UwZoneMusic;
 }

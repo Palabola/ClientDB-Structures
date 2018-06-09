@@ -2,10 +2,10 @@
 type MarketingPromotionsXLocale
 {
     string -> AcceptURL;
+    uint8  -> PromotionId;
+    uint8  -> LocaleId;
     int32  -> AdTexture;
     int32  -> LogoTexture;
     int32  -> AcceptButtonTexture;
     int32  -> DeclineButtonTexture;
-    uint8  -> PromotionId;
-    uint8  -> LocaleId;
 }

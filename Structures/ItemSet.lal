@@ -2,8 +2,8 @@
 type ItemSet
 {
     string -> Name;
-    int32  -> ItemId, 17;
-    uint16 -> RequiredSkillRank;
     uint32 -> SetFlags;
     uint32 -> RequiredSkill;
+    uint16 -> RequiredSkillRank;
+    int32  -> ItemId, 17;
 }

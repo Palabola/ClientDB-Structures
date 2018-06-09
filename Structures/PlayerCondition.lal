@@ -4,11 +4,10 @@ type PlayerCondition
     uint64 -> RaceMask;
     string -> FailureDescription;
     int32  -> Id;
-    uint8  -> Flags;
     uint16 -> MinLevel;
     uint16 -> MaxLevel;
     int32  -> ClassMask;
-    uint32 -> SkillLogic;
+    int32  -> SkillLogic;
     uint8  -> LanguageId;
     uint8  -> MinLanguage;
     int32  -> MaxLanguage;
@@ -45,6 +44,7 @@ type PlayerCondition
     uint8  -> PhaseUseFlags;
     uint16 -> PhaseId;
     int32  -> PhaseGroupId;
+    uint8  -> Flags;
     uint8  -> ChrSpecializationIndex;
     uint8  -> ChrSpecializationRole;
     int32  -> ModifierTreeId;

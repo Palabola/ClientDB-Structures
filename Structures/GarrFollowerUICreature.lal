@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type GarrFollowerUICreature
 {
-    int32  -> CreatureId;
-    float  -> Scale;
     uint8  -> OrderIndex;
     uint8  -> FactionIndex;
+    int32  -> CreatureId;
+    float  -> Scale;
     uint8  -> Flags;
     Ref    -> GarrFollowerId;
 }

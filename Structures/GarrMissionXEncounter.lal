@@ -1,9 +1,9 @@
 // FileOptions: None
 type GarrMissionXEncounter
 {
-    uint8  -> OrderIndex;
     int32  -> Id;
     uint32 -> GarrEncounterId;
     uint32 -> GarrEncounterSetId;
+    uint8  -> OrderIndex;
     Ref    -> GarrMissionId;
 }

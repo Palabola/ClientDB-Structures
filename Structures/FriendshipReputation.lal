@@ -2,7 +2,7 @@
 type FriendshipReputation
 {
     string -> Description;
+    uint32 -> Id;
     int32  -> TextureFileId;
     uint16 -> FactionId;
-    uint32 -> Id;
 }

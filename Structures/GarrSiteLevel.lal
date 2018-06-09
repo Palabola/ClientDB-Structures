@@ -2,12 +2,12 @@
 type GarrSiteLevel
 {
     float  -> TownHallUiPos, 2;
+    uint32 -> GarrSiteId;
+    uint8  -> GarrLevel;
     uint16 -> MapId;
     uint16 -> UpgradeMovieId;
     uint16 -> UiTextureKitId;
+    uint8  -> MaxBuildingLevel;
     uint16 -> UpgradeCost;
     uint16 -> UpgradeGoldCost;
-    uint8  -> GarrLevel;
-    uint8  -> MaxBuildingLevel;
-    uint32 -> GarrSiteId;
 }

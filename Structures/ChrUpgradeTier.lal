@@ -2,7 +2,7 @@
 type ChrUpgradeTier
 {
     string -> DisplayName;
+    int32  -> Id;
     uint8  -> OrderIndex;
     uint8  -> NumTalents;
-    int32  -> Id;
 }

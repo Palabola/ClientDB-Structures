@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type CommentatorTrackedCooldown
 {
+    int32  -> SpellId;
     uint8  -> Priority;
     uint8  -> Flags;
-    int32  -> SpellId;
     Ref    -> ChrSpecId;
 }

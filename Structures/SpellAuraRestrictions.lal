@@ -1,14 +1,14 @@
 // FileOptions: Index, None
 type SpellAuraRestrictions
 {
-    int32  -> CasterAuraSpell;
-    int32  -> TargetAuraSpell;
-    int32  -> ExcludeCasterAuraSpell;
-    int32  -> ExcludeTargetAuraSpell;
     uint8  -> DifficultyId;
     uint8  -> CasterAuraState;
     uint8  -> TargetAuraState;
     uint8  -> ExcludeCasterAuraState;
     uint8  -> ExcludeTargetAuraState;
+    int32  -> CasterAuraSpell;
+    int32  -> TargetAuraSpell;
+    int32  -> ExcludeCasterAuraSpell;
+    int32  -> ExcludeTargetAuraSpell;
     Ref    -> SpellId;
 }

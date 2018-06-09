@@ -2,6 +2,6 @@
 type PaperDollItemFrame
 {
     string -> ItemButtonName;
-    uint8  -> SlotNumber;
     int32  -> SlotIconFileId;
+    uint8  -> SlotNumber;
 }

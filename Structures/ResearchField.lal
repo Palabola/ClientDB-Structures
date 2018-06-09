@@ -2,6 +2,6 @@
 type ResearchField
 {
     string -> Name;
-    uint8  -> Slot;
     int32  -> Id;
+    uint8  -> Slot;
 }

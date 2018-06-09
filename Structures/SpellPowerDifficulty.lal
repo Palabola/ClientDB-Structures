@@ -1,7 +1,7 @@
 // FileOptions: None
 type SpellPowerDifficulty
 {
+    int32  -> Id;
     uint8  -> DifficultyId;
     uint8  -> OrderIndex;
-    int32  -> Id;
 }

@@ -2,11 +2,11 @@
 type TaxiPathNode
 {
     float  -> Loc, 3;
-    uint16 -> PathId;
-    uint16 -> ContinentId;
-    int32  -> NodeIndex;
     int32  -> Id;
-    uint8  -> Flags;
+    uint16 -> PathId;
+    int32  -> NodeIndex;
+    uint16 -> ContinentId;
+    int8   -> Flags;
     int32  -> Delay;
     uint16 -> ArrivalEventId;
     uint16 -> DepartureEventId;

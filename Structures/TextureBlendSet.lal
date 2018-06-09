@@ -2,13 +2,13 @@
 type TextureBlendSet
 {
     int32  -> TextureFileDataId, 3;
+    uint8  -> SwizzleRed;
+    uint8  -> SwizzleGreen;
+    uint8  -> SwizzleBlue;
+    uint8  -> SwizzleAlpha;
     float  -> TextureScrollRateU, 3;
     float  -> TextureScrollRateV, 3;
     float  -> TextureScaleU, 3;
     float  -> TextureScaleV, 3;
     float  -> ModX, 4;
-    uint8  -> SwizzleRed;
-    uint8  -> SwizzleGreen;
-    uint8  -> SwizzleBlue;
-    uint8  -> SwizzleAlpha;
 }

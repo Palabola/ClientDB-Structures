@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type ItemSetSpell
 {
-    int32  -> SpellId;
     uint16 -> ChrSpecId;
+    int32  -> SpellId;
     uint8  -> Threshold;
     Ref    -> ItemSetId;
 }

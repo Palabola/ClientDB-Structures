@@ -2,10 +2,10 @@
 type CriteriaTree
 {
     string -> Description;
-    int32  -> Amount;
-    uint16 -> Flags;
-    uint8  -> Operator;
     uint32 -> Parent;
+    int32  -> Amount;
+    uint8  -> Operator;
     uint32 -> CriteriaId;
     int32  -> OrderIndex;
+    uint16 -> Flags;
 }

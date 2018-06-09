@@ -1,9 +1,9 @@
 // FileOptions: None
 type UiMapLink
 {
-    int32  -> Id;
     float  -> UiMin, 2;
     float  -> UiMax, 2;
+    int32  -> Id;
     int32  -> ParentUiMapId;
     int32  -> OrderIndex;
     int32  -> ChildUiMapId;

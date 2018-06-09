@@ -2,7 +2,7 @@
 type LightSkybox
 {
     string -> Name;
+    uint8  -> Flags;
     int32  -> SkyboxFileDataId;
     int32  -> CelestialSkyboxFileDataId;
-    uint8  -> Flags;
 }

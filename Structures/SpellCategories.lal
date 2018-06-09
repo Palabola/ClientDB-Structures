@@ -1,13 +1,13 @@
 // FileOptions: Index, None
 type SpellCategories
 {
-    uint16 -> Category;
-    uint16 -> StartRecoveryCategory;
-    uint16 -> ChargeCategory;
     uint8  -> DifficultyId;
+    uint16 -> Category;
     uint8  -> DefenseType;
     uint8  -> DispelType;
     uint8  -> Mechanic;
     uint8  -> PreventionType;
+    uint16 -> StartRecoveryCategory;
+    uint16 -> ChargeCategory;
     Ref    -> SpellId;
 }

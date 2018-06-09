@@ -3,18 +3,18 @@ type CharShipmentContainer
 {
     string -> Description;
     string -> PendingText;
-    int32  -> WorkingSpellVisualId;
     uint16 -> UiTextureKitId;
+    uint8  -> GarrTypeId;
+    uint8  -> GarrBuildingType;
+    uint8  -> BaseCapacity;
     uint16 -> SmallDisplayInfoId;
     uint16 -> MediumDisplayInfoId;
     uint16 -> LargeDisplayInfoId;
     uint16 -> WorkingDisplayInfoId;
-    uint16 -> CrossFactionId;
-    uint8  -> GarrTypeId;
-    uint8  -> GarrBuildingType;
-    uint8  -> BaseCapacity;
+    int32  -> WorkingSpellVisualId;
+    uint32 -> CompleteSpellVisualId;
     uint8  -> MediumThreshold;
     uint8  -> LargeThreshold;
     uint8  -> Faction;
-    uint32 -> CompleteSpellVisualId;
+    uint16 -> CrossFactionId;
 }

@@ -5,7 +5,7 @@ type BattlePetVisual
     int32  -> SpellVisualId;
     uint16 -> CastMilliSeconds;
     uint16 -> ImpactMilliSeconds;
-    uint16 -> SceneScriptPackageId;
     uint8  -> RangeTypeEnum;
     uint8  -> Flags;
+    uint16 -> SceneScriptPackageId;
 }

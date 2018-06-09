@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type AnimKitConfigBoneSet
 {
-    uint16 -> AnimKitPriorityId;
     uint8  -> AnimKitBoneSetId;
+    uint16 -> AnimKitPriorityId;
     Ref    -> ParentAnimKitConfigId;
 }

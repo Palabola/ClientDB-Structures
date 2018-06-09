@@ -2,7 +2,7 @@
 type OccluderNode
 {
     uint32 -> Id;
-    int32  -> Unknown1;
+    uint16 -> Unknown1;
     uint16 -> Unknown2;
-    uint16 -> Unknown3;
+    int32  -> Unknown3;
 }

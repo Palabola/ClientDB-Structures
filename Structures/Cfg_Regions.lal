@@ -2,8 +2,8 @@
 type Cfg_Regions
 {
     string -> Tag;
-    int32  -> Raidorigin;
-    int32  -> ChallengeOrigin;
     uint16 -> RegionId;
+    int32  -> Raidorigin;
     uint8  -> RegionGroupMask;
+    int32  -> ChallengeOrigin;
 }

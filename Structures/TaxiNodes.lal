@@ -2,16 +2,16 @@
 type TaxiNodes
 {
     string -> Name;
-    int32  -> Id;
     float  -> Pos, 3;
-    int32  -> MountCreatureId, 2;
     float  -> MapOffset, 2;
-    float  -> Facing;
     float  -> FlightMapOffset, 2;
+    int32  -> Id;
     uint16 -> ContinentId;
     uint16 -> ConditionId;
     uint16 -> CharacterBitNumber;
     uint8  -> Flags;
     int32  -> UiTextureKitId;
+    float  -> Facing;
     int32  -> SpecialIconConditionId;
+    int32  -> MountCreatureId, 2;
 }

@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GarrFollowerXAbility
 {
-    uint16 -> GarrAbilityId;
     uint8  -> OrderIndex;
     uint8  -> FactionIndex;
+    uint16 -> GarrAbilityId;
     Ref    -> GarrFollowerId;
 }

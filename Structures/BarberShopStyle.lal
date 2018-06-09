@@ -3,10 +3,10 @@ type BarberShopStyle
 {
     string -> DisplayName;
     string -> Description;
-    float  -> CostModifier;
+    int32  -> Id;
     uint8  -> Type;
+    float  -> CostModifier;
     uint8  -> Race;
     uint8  -> Sex;
     uint8  -> Data;
-    int32  -> Id;
 }

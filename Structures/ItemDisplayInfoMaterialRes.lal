@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ItemDisplayInfoMaterialRes
 {
-    int32  -> MaterialResourcesId;
     uint8  -> ComponentSection;
+    int32  -> MaterialResourcesId;
     Ref    -> ItemDisplayInfoId;
 }

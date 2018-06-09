@@ -1,6 +1,7 @@
 // FileOptions: None
 type ManagedWorldState
 {
+    int32  -> Id;
     int32  -> CurrentStageWorldStateId;
     int32  -> ProgressWorldStateId;
     int32  -> UpTimeSecs;
@@ -10,5 +11,4 @@ type ManagedWorldState
     int32  -> DepletionStateTargetValue;
     int32  -> AccumulationAmountPerMinute;
     int32  -> DepletionAmountPerMinute;
-    int32  -> Id;
 }

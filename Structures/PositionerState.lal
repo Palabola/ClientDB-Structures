@@ -1,12 +1,12 @@
 // FileOptions: Index, None
 type PositionerState
 {
-    float  -> EndLife;
-    uint8  -> EndLifePercent;
     uint32 -> NextStateId;
     uint32 -> TransformMatrixId;
     uint32 -> PosEntryId;
     uint32 -> RotEntryId;
     uint32 -> ScaleEntryId;
     int32  -> Flags;
+    float  -> EndLife;
+    uint8  -> EndLifePercent;
 }

@@ -2,7 +2,7 @@
 type Achievement_Category
 {
     string -> Name;
+    int32  -> Id;
     uint16 -> Parent;
     uint8  -> UiOrder;
-    int32  -> Id;
 }

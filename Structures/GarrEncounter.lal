@@ -2,10 +2,10 @@
 type GarrEncounter
 {
     string -> Name;
+    int32  -> Id;
     int32  -> CreatureId;
     int32  -> PortraitFileDataId;
+    uint32 -> UiTextureKitId;
     float  -> UiAnimScale;
     float  -> UiAnimHeight;
-    int32  -> Id;
-    uint32 -> UiTextureKitId;
 }

@@ -4,14 +4,14 @@ type ChrSpecialization
     string -> Name;
     string -> FemaleName;
     string -> Description;
-    int32  -> MasterySpellId, 2;
+    int32  -> Id;
     uint8  -> ClassId;
     uint8  -> OrderIndex;
     uint8  -> PetTalentType;
     uint8  -> Role;
-    uint8  -> PrimaryStatPriority;
-    int32  -> Id;
     uint32 -> Flags;
     int32  -> SpellIconFileId;
+    uint8  -> PrimaryStatPriority;
     int32  -> AnimReplacements;
+    int32  -> MasterySpellId, 2;
 }

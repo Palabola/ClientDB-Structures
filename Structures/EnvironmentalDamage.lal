@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type EnvironmentalDamage
 {
-    uint16 -> VisualKitId;
     uint8  -> EnumId;
+    uint16 -> VisualKitId;
 }

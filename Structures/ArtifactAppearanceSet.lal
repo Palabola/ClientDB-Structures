@@ -3,11 +3,11 @@ type ArtifactAppearanceSet
 {
     string -> Name;
     string -> Description;
+    int32  -> Id;
+    int8   -> DisplayIndex;
     uint16 -> UiCameraId;
     uint16 -> AltHandUICameraId;
-    uint8  -> DisplayIndex;
-    uint8  -> ForgeAttachmentOverride;
-    uint8  -> Flags;
-    uint32 -> Id;
+    int8   -> ForgeAttachmentOverride;
+    int8   -> Flags;
     Ref    -> ArtifactId;
 }

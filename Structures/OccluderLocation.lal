@@ -1,8 +1,8 @@
 // FileOptions: None
 type OccluderLocation
 {
+    float  -> Unknown0, 3;
+    float  -> Unknown1, 3;
     uint32 -> Id;
-    int32  -> Unknown1;
-    float  -> Unknown4, 3;
-    float  -> Unknown5, 3;
+    int32  -> Unknown2;
 }

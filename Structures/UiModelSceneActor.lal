@@ -3,12 +3,12 @@ type UiModelSceneActor
 {
     string -> ScriptTag;
     float  -> Position, 3;
+    int32  -> Id;
+    uint8  -> Flags;
+    int32  -> UiModelSceneActorDisplayId;
     float  -> OrientationYaw;
     float  -> OrientationPitch;
     float  -> OrientationRoll;
     float  -> NormalizedScale;
-    uint8  -> Flags;
-    int32  -> Id;
-    int32  -> UiModelSceneActorDisplayId;
     Ref    -> UiModelSceneId;
 }

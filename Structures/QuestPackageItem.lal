@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type QuestPackageItem
 {
-    int32  -> ItemId;
     uint16 -> PackageId;
-    uint8  -> DisplayType;
+    int32  -> ItemId;
     uint32 -> ItemQuantity;
+    uint8  -> DisplayType;
 }

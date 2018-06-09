@@ -5,16 +5,16 @@ type UnitPowerBar
     string -> Cost;
     string -> OutOfError;
     string -> ToolTip;
-    float  -> RegenerationPeace;
-    float  -> RegenerationCombat;
-    int32  -> FileDataId, 6;
-    uint32  -> Color, 6;
-    float  -> StartInset;
-    float  -> EndInset;
-    uint16 -> StartPower;
-    uint16 -> Flags;
-    uint8  -> CenterPower;
-    uint8  -> BarType;
     uint32 -> MinPower;
     int32  -> MaxPower;
+    uint16 -> StartPower;
+    uint8  -> CenterPower;
+    float  -> RegenerationPeace;
+    float  -> RegenerationCombat;
+    uint8  -> BarType;
+    uint16 -> Flags;
+    float  -> StartInset;
+    float  -> EndInset;
+    int32  -> FileDataId, 6;
+    uint32  -> Color, 6;
 }

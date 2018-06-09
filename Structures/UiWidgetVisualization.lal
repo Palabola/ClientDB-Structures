@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type UiWidgetVisualization
 {
+    uint8  -> VisType;
     int32  -> TextureKit;
     int32  -> FrameTextureKit;
     uint16 -> Unknown;
-    uint8  -> VisType;
 }

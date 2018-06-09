@@ -5,11 +5,11 @@ type Creature
     string -> NameAlt;
     string -> Title;
     string -> TitleAlt;
+    uint8  -> Classification;
+    uint8  -> CreatureType;
+    uint16 -> CreatureFamily;
+    uint8  -> StartAnimState;
     int32  -> DisplayId, 4;
     float  -> DisplayProbability, 4;
     int32  -> AlwaysItem, 3;
-    uint16 -> CreatureFamily;
-    uint8  -> Classification;
-    uint8  -> CreatureType;
-    uint8  -> StartAnimState;
 }

@@ -1,8 +1,8 @@
 // FileOptions: None
 type ModelFileData
 {
+    int32  -> Id;
     uint8  -> Flags;
     uint8  -> LodCount;
-    int32  -> Id;
     uint32 -> ModelResourcesId;
 }

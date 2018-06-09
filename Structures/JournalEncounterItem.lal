@@ -1,10 +1,10 @@
 // FileOptions: None
 type JournalEncounterItem
 {
-    int32  -> ItemId;
+    uint32 -> Id;
     uint16 -> JournalEncounterId;
+    int32  -> ItemId;
     uint8  -> FactionMask;
     uint8  -> Flags;
     uint8  -> DifficultyMask;
-    uint32 -> Id;
 }

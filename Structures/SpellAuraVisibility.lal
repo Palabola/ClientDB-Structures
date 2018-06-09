@@ -1,8 +1,8 @@
 // FileOptions: None
 type SpellAuraVisibility
 {
+    int32  -> Id;
     uint8  -> Type;
     uint8  -> Flags;
-    int32  -> Id;
     Ref    -> SpellId;
 }

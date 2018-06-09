@@ -2,9 +2,9 @@
 type SpellCategory
 {
     string -> Name;
-    int32  -> ChargeRecoveryTime;
     uint8  -> Flags;
     uint8  -> UsesPerWeek;
     uint8  -> MaxCharges;
+    int32  -> ChargeRecoveryTime;
     int32  -> TypeMask;
 }

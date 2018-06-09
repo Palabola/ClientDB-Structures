@@ -2,6 +2,6 @@
 type TotemCategory
 {
     string -> Name;
-    uint32  -> TotemCategoryMask;
     uint8  -> TotemCategoryType;
+    uint32 -> TotemCategoryMask;
 }

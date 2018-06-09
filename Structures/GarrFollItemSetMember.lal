@@ -2,7 +2,7 @@
 type GarrFollItemSetMember
 {
     int32  -> ItemId;
-    uint16 -> MinItemLevel;
     uint8  -> ItemSlot;
+    uint16 -> MinItemLevel;
     Ref    -> GarrFollItemSetId;
 }

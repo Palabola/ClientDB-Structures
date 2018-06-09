@@ -4,8 +4,8 @@ type BattlePetAbility
     string -> Name;
     string -> Description;
     int32  -> IconFileDataId;
-    uint16 -> BattlePetVisualId;
     uint8  -> PetTypeEnum;
-    uint8  -> Flags;
     int32  -> Cooldown;
+    uint16 -> BattlePetVisualId;
+    uint8  -> Flags;
 }

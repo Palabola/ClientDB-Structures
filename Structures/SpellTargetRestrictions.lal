@@ -1,12 +1,12 @@
 // FileOptions: Index, None
 type SpellTargetRestrictions
 {
-    float  -> ConeDegrees;
-    int32  -> Targets;
-    float  -> Width;
-    uint16 -> TargetCreatureType;
     uint8  -> DifficultyId;
+    float  -> ConeDegrees;
     uint8  -> MaxTargets;
     int32  -> MaxTargetLevel;
+    uint16 -> TargetCreatureType;
+    int32  -> Targets;
+    float  -> Width;
     Ref    -> SpellId;
 }

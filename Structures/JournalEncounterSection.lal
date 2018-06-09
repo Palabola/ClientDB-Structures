@@ -3,17 +3,17 @@ type JournalEncounterSection
 {
     string -> Title;
     string -> BodyText;
-    int32  -> IconCreatureDisplayInfoId;
-    int32  -> SpellId;
-    int32  -> IconFileDataId;
     uint16 -> JournalEncounterId;
+    uint8  -> OrderIndex;
     uint16 -> ParentSectionId;
     uint16 -> FirstChildSectionId;
     uint16 -> NextSiblingSectionId;
+    uint8  -> Type;
+    int32  -> IconCreatureDisplayInfoId;
+    int32  -> UiModelSceneId;
+    int32  -> SpellId;
+    int32  -> IconFileDataId;
     uint16 -> Flags;
     uint16 -> IconFlags;
-    uint8  -> OrderIndex;
-    uint8  -> Type;
     uint8  -> DifficultyMask;
-    int32  -> UiModelSceneId;
 }

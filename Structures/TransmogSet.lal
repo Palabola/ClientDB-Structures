@@ -2,13 +2,13 @@
 type TransmogSet
 {
     string -> Name;
-    uint16 -> ParentTransmogSetId;
-    uint16 -> UiOrder;
-    uint8  -> ExpansionId;
     uint32 -> Id;
     int32  -> ClassMask;
     int32  -> TrackingQuestId;
     int32  -> Flags;
     int32  -> TransmogSetGroupId;
     int32  -> ItemNameDescriptionId;
+    uint16 -> ParentTransmogSetId;
+    uint8  -> ExpansionId;
+    uint16 -> UiOrder;
 }

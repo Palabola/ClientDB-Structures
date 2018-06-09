@@ -2,9 +2,9 @@
 type GarrPlot
 {
     string -> Name;
+    uint8  -> PlotType;
     int32  -> HordeConstructObjId;
     int32  -> AllianceConstructObjId;
-    uint8  -> PlotType;
     uint8  -> Flags;
     uint8  -> UiCategoryId;
     int32  -> UpgradeRequirement, 2;

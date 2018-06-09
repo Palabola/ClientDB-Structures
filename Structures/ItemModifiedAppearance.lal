@@ -1,8 +1,8 @@
 // FileOptions: None
 type ItemModifiedAppearance
 {
-    int32  -> ItemId;
     int32  -> Id;
+    int32  -> ItemId;
     uint8  -> ItemAppearanceModifierId;
     uint16 -> ItemAppearanceId;
     uint8  -> OrderIndex;

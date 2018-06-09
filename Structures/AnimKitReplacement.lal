@@ -1,9 +1,9 @@
 // FileOptions: None
 type AnimKitReplacement
 {
+    int32  -> Id;
     uint16 -> SrcAnimKitId;
     uint16 -> DstAnimKitId;
     uint16 -> Flags;
-    int32  -> Id;
     Ref    -> ParentAnimReplacementSetId;
 }

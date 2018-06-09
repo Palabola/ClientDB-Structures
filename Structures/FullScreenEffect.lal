@@ -1,6 +1,7 @@
-// FileOptions: Index, None
+// FileOptions: None
 type FullScreenEffect
 {
+    uint32 -> Flags;
     float  -> Saturation;
     float  -> GammaRed;
     float  -> GammaGreen;
@@ -20,12 +21,11 @@ type FullScreenEffect
     float  -> ColorAdditionOffsetY;
     float  -> ColorAdditionMultiplier;
     float  -> ColorAdditionPower;
-    int32  -> Unknown;
+    uint32 -> Unknown;
     float  -> BlurIntensity;
     float  -> BlurOffsetY;
     float  -> BlurMultiplier;
     float  -> BlurPower;
-    uint32 -> Flags;
     uint32 -> EffectFadeInMs;
     uint32 -> EffectFadeOutMs;
     uint32 -> TextureBlendSetId;

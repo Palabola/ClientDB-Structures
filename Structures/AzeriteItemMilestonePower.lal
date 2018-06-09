@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type AzeriteItemMilestonePower
 {
-    uint16 -> AzeritePowerId;
     uint8  -> RequiredLevel;
+    uint16 -> AzeritePowerId;
 }

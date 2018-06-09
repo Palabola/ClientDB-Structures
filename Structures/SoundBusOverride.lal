@@ -2,10 +2,10 @@
 type SoundBusOverride
 {
     int32  -> Id;
-    float  -> Volume;
-    uint8  -> PlaybackLimit;
-    uint8  -> Priority;
-    uint8  -> PriorityPenalty;
     int32  -> SoundBusId;
     uint32 -> PlayerConditionId;
+    uint8  -> PlaybackLimit;
+    float  -> Volume;
+    uint8  -> Priority;
+    uint8  -> PriorityPenalty;
 }

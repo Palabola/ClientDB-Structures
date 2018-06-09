@@ -2,7 +2,7 @@
 type SpellClassOptions
 {
     int32  -> SpellId;
-    uint32  -> SpellClassMask, 4;
-    uint8  -> SpellClassSet;
     uint32 -> ModalNextSpell;
+    uint8  -> SpellClassSet;
+    uint32 -> SpellClassMask, 4;
 }

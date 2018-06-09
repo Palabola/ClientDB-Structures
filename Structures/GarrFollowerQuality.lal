@@ -1,11 +1,11 @@
 // FileOptions: Index, None
 type GarrFollowerQuality
 {
-    int32  -> XpToNextQuality;
-    uint16 -> ShipmentXP;
     uint8  -> Quality;
+    int32  -> XpToNextQuality;
     uint8  -> GarrFollowerTypeId;
     uint8  -> AbilityCount;
     uint8  -> TraitCount;
-    uint32 -> ClassSpecId;
+    uint16 -> ShipmentXP;
+    int32  -> ClassSpecId;
 }

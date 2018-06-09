@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type RibbonQuality
 {
+    uint8  -> NumStrips;
     float  -> MaxSampleTimeDelta;
     float  -> AngleThreshold;
     float  -> MinDistancePerSlice;
-    uint8  -> NumStrips;
     uint32 -> Flags;
 }

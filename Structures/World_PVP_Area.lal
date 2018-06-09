@@ -5,7 +5,7 @@ type World_PVP_Area
     uint16 -> NextTimeWorldstate;
     uint16 -> GameTimeWorldstate;
     uint16 -> BattlePopulateTime;
-    uint16 -> MapId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
+    uint16 -> MapId;
 }

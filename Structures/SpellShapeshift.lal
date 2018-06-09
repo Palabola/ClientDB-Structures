@@ -2,7 +2,7 @@
 type SpellShapeshift
 {
     int32  -> SpellId;
+    uint8  -> StanceBarOrder;
     uint32  -> ShapeshiftExclude, 2;
     uint32  -> ShapeshiftMask, 2;
-    uint8  -> StanceBarOrder;
 }

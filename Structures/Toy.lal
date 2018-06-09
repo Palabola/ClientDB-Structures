@@ -2,8 +2,8 @@
 type Toy
 {
     string -> SourceText;
+    int32  -> Id;
     int32  -> ItemId;
     uint8  -> Flags;
     uint8  -> SourceTypeEnum;
-    int32  -> Id;
 }

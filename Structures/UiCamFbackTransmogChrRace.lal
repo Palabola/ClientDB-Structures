@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type UiCamFbackTransmogChrRace
 {
-    uint16 -> UiCameraId;
     uint8  -> ChrRaceId;
     uint8  -> Gender;
     uint8  -> InventoryType;
     uint8  -> Variation;
+    uint16 -> UiCameraId;
 }

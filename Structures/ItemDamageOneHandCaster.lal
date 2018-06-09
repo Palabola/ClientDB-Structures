@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type ItemDamageOneHandCaster
 {
-    float  -> Quality, 7;
     uint16 -> ItemLevel;
+    float  -> Quality, 7;
 }

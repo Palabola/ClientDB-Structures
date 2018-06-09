@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type TransportRotation
 {
-    int32  -> TimeIndex;
-    float  -> Rot, 4;
-    Ref    -> GameObjectsId;
+    float -> Rot, 4;
+    int32 -> TimeIndex;
+    Ref   -> GameObjectsId;
 }

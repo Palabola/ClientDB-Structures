@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type SpellLevels
 {
+    uint8  -> DifficultyId;
     uint16 -> BaseLevel;
     uint16 -> MaxLevel;
     uint16 -> SpellLevel;
-    uint8  -> DifficultyId;
     uint8  -> MaxPassiveAuraLevel;
     Ref    -> SpellId;
 }

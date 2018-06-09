@@ -2,14 +2,20 @@
 type SoundProviderPreferences
 {
     string -> Description;
+    uint8  -> EAXEnvironmentSelection;
     float  -> EAXDecayTime;
     float  -> EAX2EnvironmentSize;
     float  -> EAX2EnvironmentDiffusion;
+    uint16 -> EAX2Room;
+    uint16 -> EAX2RoomHF;
     float  -> EAX2DecayHFRatio;
+    uint16 -> EAX2Reflections;
     float  -> EAX2ReflectionsDelay;
+    uint16 -> EAX2Reverb;
     float  -> EAX2ReverbDelay;
     float  -> EAX2RoomRolloff;
     float  -> EAX2AirAbsorption;
+    uint8  -> EAX3RoomLF;
     float  -> EAX3DecayLFRatio;
     float  -> EAX3EchoTime;
     float  -> EAX3EchoDepth;
@@ -17,11 +23,5 @@ type SoundProviderPreferences
     float  -> EAX3ModulationDepth;
     float  -> EAX3HFReference;
     float  -> EAX3LFReference;
-    uint16 -> EAX2Room;
-    uint16 -> EAX2RoomHF;
-    uint16 -> EAX2Reflections;
-    uint16 -> EAX2Reverb;
     uint16 -> Flags;
-    uint8  -> EAXEnvironmentSelection;
-    uint8  -> EAX3RoomLF;
 }

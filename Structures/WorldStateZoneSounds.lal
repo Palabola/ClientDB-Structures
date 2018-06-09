@@ -1,10 +1,10 @@
 // FileOptions: Index, None
 type WorldStateZoneSounds
 {
-    int32  -> WmoAreaId;
     uint16 -> WorldStateId;
     uint16 -> WorldStateValue;
     uint16 -> AreaId;
+    int32  -> WmoAreaId;
     uint16 -> ZoneIntroMusicId;
     uint16 -> ZoneMusicId;
     uint16 -> SoundAmbienceId;

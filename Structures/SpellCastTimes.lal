@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type SpellCastTimes
 {
-    uint32  -> Base;
-    uint32  -> Minimum;
+    uint32 -> Base;
     uint16 -> PerLevel;
+    uint32 -> Minimum;
 }

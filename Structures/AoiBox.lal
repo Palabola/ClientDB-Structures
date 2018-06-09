@@ -1,0 +1,9 @@
+// FileOptions: Index, None
+type AoiBox
+{
+    float  -> Unknown5, 6;
+    int32  -> Unknown1;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
+    Ref    -> Unknown4;
+}

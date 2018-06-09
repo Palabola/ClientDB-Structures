@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type LFGDungeonExpansion
 {
-    uint16 -> RandomId;
     uint8  -> ExpansionLevel;
+    uint16 -> RandomId;
     uint8  -> HardLevelMin;
     uint8  -> HardLevelMax;
     int32  -> TargetLevelMin;

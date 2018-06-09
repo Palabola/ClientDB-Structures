@@ -3,16 +3,16 @@ type GroupFinderActivity
 {
     string -> FullName;
     string -> ShortName;
-    uint16 -> MinGearLevelSuggestion;
-    uint16 -> MapId;
-    uint16 -> AreaId;
     uint8  -> GroupFinderCategoryId;
     uint8  -> OrderIndex;
     uint8  -> GroupFinderActivityGrpId;
     uint8  -> MinLevel;
     uint8  -> MaxLevelSuggestion;
+    int32  -> Flags;
+    uint16 -> MinGearLevelSuggestion;
+    uint16 -> MapId;
     uint8  -> DifficultyId;
+    uint16 -> AreaId;
     uint8  -> MaxPlayers;
     uint8  -> DisplayType;
-    uint8  -> Flags;
 }

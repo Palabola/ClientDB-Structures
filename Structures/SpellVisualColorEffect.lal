@@ -2,14 +2,14 @@
 type SpellVisualColorEffect
 {
     float  -> Duration;
-    uint32  -> Color;
-    float  -> ColorMultiplier;
+    uint32 -> Color;
+    uint8  -> Flags;
+    uint8  -> Type;
     uint16 -> RedCurveId;
     uint16 -> GreenCurveId;
     uint16 -> BlueCurveId;
     uint16 -> AlphaCurveId;
     uint16 -> OpacityCurveId;
-    uint8  -> Flags;
-    uint8  -> Type;
+    float  -> ColorMultiplier;
     uint32 -> PositionerId;
 }

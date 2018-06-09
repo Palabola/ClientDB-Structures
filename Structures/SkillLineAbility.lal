@@ -3,17 +3,17 @@ type SkillLineAbility
 {
     uint64 -> RaceMask;
     int32  -> Id;
-    int32  -> Spell;
-    int32  -> SupercedesSpell;
     uint16 -> SkillLine;
-    uint16 -> TrivialSkillLineRankHigh;
-    uint16 -> TrivialSkillLineRankLow;
-    uint16 -> UniqueBit;
-    uint16 -> TradeSkillCategoryId;
-    uint8  -> NumSkillUps;
+    int32  -> Spell;
     uint16 -> MinSkillLineRank;
     int32  -> ClassMask;
+    int32  -> SupercedesSpell;
     uint8  -> AcquireMethod;
+    uint16 -> TrivialSkillLineRankHigh;
+    uint16 -> TrivialSkillLineRankLow;
     uint8  -> Flags;
+    uint8  -> NumSkillUps;
+    uint16 -> UniqueBit;
+    uint16 -> TradeSkillCategoryId;
     uint16 -> SkillupSkillLineId;
 }

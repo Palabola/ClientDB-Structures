@@ -3,13 +3,13 @@ type JournalInstance
 {
     string -> Name;
     string -> Description;
+    int32  -> Id;
+    uint16 -> MapId;
     int32  -> BackgroundFileDataId;
     int32  -> ButtonFileDataId;
     int32  -> ButtonSmallFileDataId;
     int32  -> LoreFileDataId;
-    uint16 -> MapId;
-    uint16 -> AreaId;
     uint8  -> OrderIndex;
     uint8  -> Flags;
-    int32  -> Id;
+    uint16 -> AreaId;
 }

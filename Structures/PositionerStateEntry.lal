@@ -3,6 +3,7 @@ type PositionerStateEntry
 {
     float  -> ParamA;
     float  -> ParamB;
+    uint32 -> CurveId;
     uint16 -> SrcValType;
     uint16 -> SrcVal;
     uint16 -> DstValType;
@@ -11,5 +12,4 @@ type PositionerStateEntry
     uint8  -> Style;
     uint8  -> SrcType;
     uint8  -> DstType;
-    uint32 -> CurveId;
 }

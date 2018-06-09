@@ -1,6 +1,6 @@
 // FileOptions: Index, None
 type CharacterLoadoutItem
 {
-    int32  -> ItemId;
     uint16 -> CharacterLoadoutId;
+    int32  -> ItemId;
 }

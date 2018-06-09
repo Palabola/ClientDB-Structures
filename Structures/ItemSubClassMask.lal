@@ -2,6 +2,6 @@
 type ItemSubClassMask
 {
     string -> Name;
-    int32  -> Mask;
     uint8  -> ClassId;
+    int32  -> Mask;
 }

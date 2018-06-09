@@ -1,16 +1,16 @@
 // FileOptions: None
 type LightParams
 {
+    float  -> OverrideCelestialSphere, 3;
+    int32  -> Id;
+    uint8  -> HighlightSky;
+    uint16 -> LightSkyboxId;
+    uint8  -> CloudTypeId;
     float  -> Glow;
     float  -> WaterShallowAlpha;
     float  -> WaterDeepAlpha;
     float  -> OceanShallowAlpha;
     float  -> OceanDeepAlpha;
-    float  -> OverrideCelestialSphere, 3;
-    uint32 -> Unknown;
-    uint16 -> LightSkyboxId;
-    uint8  -> HighlightSky;
-    uint8  -> CloudTypeId;
     uint8  -> Flags;
-    int32  -> Id;
+    uint32 -> Unknown;
 }

@@ -7,11 +7,11 @@ type ShadowyEffect
     float  -> Value;
     float  -> FadeInTime;
     float  -> FadeOutTime;
+    uint8  -> AttachPos;
+    uint8  -> Flags;
     float  -> InnerStrength;
     float  -> OuterStrength;
     float  -> InitialDelay;
-    uint8  -> AttachPos;
-    uint8  -> Flags;
     int32  -> CurveId;
     uint32 -> Priority;
 }

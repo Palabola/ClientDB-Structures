@@ -4,16 +4,16 @@ type Achievement
     string -> Description;
     string -> Title;
     string -> Reward;
-    int32  -> Flags;
+    uint32 -> Id;
     uint16 -> InstanceId;
+    uint8  -> Faction;
     uint16 -> Supercedes;
     uint16 -> Category;
-    uint16 -> UiOrder;
-    uint16 -> SharesCriteria;
-    uint8  -> Faction;
     uint8  -> MinimumCriteria;
     uint8  -> Points;
-    int32  -> Id;
+    int32  -> Flags;
+    uint16 -> UiOrder;
     int32  -> IconFileId;
-    uint32 -> CriteriaTree;
+    int32  -> CriteriaTree;
+    uint16 -> SharesCriteria;
 }

@@ -1,8 +1,8 @@
 // FileOptions: None
 type TaxiPath
 {
+    int32  -> Id;
     uint16 -> FromTaxiNode;
     uint16 -> ToTaxiNode;
-    int32  -> Id;
     int32  -> Cost;
 }

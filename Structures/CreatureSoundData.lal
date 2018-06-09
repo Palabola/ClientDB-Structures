@@ -1,9 +1,6 @@
 // FileOptions: Index, None
 type CreatureSoundData
 {
-    float  -> FidgetDelaySecondsMin;
-    float  -> FidgetDelaySecondsMax;
-    uint8  -> CreatureImpactType;
     uint32 -> SoundExertionId;
     uint32 -> SoundExertionCriticalId;
     uint32 -> SoundInjuryId;
@@ -36,6 +33,9 @@ type CreatureSoundData
     uint32 -> TauntSoundId;
     int32  -> CreatureSoundDataIDPet;
     uint32 -> NPCSoundId;
+    float  -> FidgetDelaySecondsMin;
+    float  -> FidgetDelaySecondsMax;
+    uint8  -> CreatureImpactType;
     int32  -> SoundFidget, 5;
     int32  -> CustomAttack, 4;
 }

@@ -1,13 +1,13 @@
-// FileOptions: Index, None
+// FileOptions: None
 type CameraMode
 {
     float  -> PositionOffset, 3;
     float  -> TargetOffset, 3;
+    uint8  -> Type;
+    uint32 -> Flags;
     float  -> PositionSmoothing;
     float  -> RotationSmoothing;
     float  -> FieldOfView;
-    uint16 -> Flags;
-    uint8  -> Type;
     uint8  -> LockedPositionOffsetBase;
     uint8  -> LockedPositionOffsetDirection;
     uint8  -> LockedTargetOffsetBase;

@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type GameObjectDiffAnimMap
 {
-    uint16 -> AttachmentDisplayId;
     uint8  -> DifficultyId;
     uint8  -> Animation;
+    uint16 -> AttachmentDisplayId;
     Ref    -> GameObjectDiffAnimId;
 }

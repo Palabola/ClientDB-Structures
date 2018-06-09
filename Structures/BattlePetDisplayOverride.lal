@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type BattlePetDisplayOverride
 {
-    uint8  -> PriorityCategory;
     uint32 -> BattlePetSpeciesId;
     int32  -> PlayerConditionId;
     int32  -> CreatureDisplayInfoId;
+    uint8  -> PriorityCategory;
 }

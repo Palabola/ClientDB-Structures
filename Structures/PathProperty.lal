@@ -1,8 +1,8 @@
 // FileOptions: None
 type PathProperty
 {
-    int32  -> Value;
+    int32  -> Id;
     uint16 -> PathId;
     uint8  -> PropertyIndex;
-    int32  -> Id;
+    int32  -> Value;
 }

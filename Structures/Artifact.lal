@@ -3,10 +3,10 @@ type Artifact
 {
     string -> Name;
     uint32 -> Id;
+    uint16 -> UiTextureKitId;
     uint32 -> UiNameColor;
     uint32 -> UiBarOverlayColor;
     uint32 -> UiBarBackgroundColor;
-    uint16 -> UiTextureKitId;
     uint16 -> ChrSpecializationId;
     uint8  -> Flags;
     uint8  -> ArtifactCategoryId;

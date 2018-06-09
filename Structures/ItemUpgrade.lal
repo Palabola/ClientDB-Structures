@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ItemUpgrade
 {
-    int32  -> CurrencyAmount;
-    uint16 -> PrerequisiteId;
-    uint16 -> CurrencyType;
     uint8  -> ItemUpgradePathId;
     uint8  -> ItemLevelIncrement;
+    uint16 -> PrerequisiteId;
+    uint16 -> CurrencyType;
+    int32  -> CurrencyAmount;
 }

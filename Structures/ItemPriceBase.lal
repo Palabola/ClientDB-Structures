@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type ItemPriceBase
 {
+    uint16 -> ItemLevel;
     float  -> Armor;
     float  -> Weapon;
-    uint16 -> ItemLevel;
 }

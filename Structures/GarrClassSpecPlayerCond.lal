@@ -2,9 +2,9 @@
 type GarrClassSpecPlayerCond
 {
     string -> Name;
-    int32  -> IconFileDataId;
-    uint8  -> OrderIndex;
     uint32 -> GarrClassSpecId;
     int32  -> PlayerConditionId;
+    int32  -> IconFileDataId;
     int32  -> FlavorGarrStringId;
+    uint8  -> OrderIndex;
 }

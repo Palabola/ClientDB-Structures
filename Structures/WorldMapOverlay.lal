@@ -2,9 +2,9 @@
 type WorldMapOverlay
 {
     int32  -> Id;
+    uint32 -> UiMapArtId;
     uint16 -> TextureWidth;
     uint16 -> TextureHeight;
-    uint32 -> UiMapArtId;
     int32  -> OffsetX;
     int32  -> OffsetY;
     int32  -> HitRectTop;

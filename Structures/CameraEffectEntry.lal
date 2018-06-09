@@ -1,6 +1,8 @@
 // FileOptions: Index, None
 type CameraEffectEntry
 {
+    uint8  -> OrderIndex;
+    uint16 -> AmplitudeCurveId;
     float  -> Duration;
     float  -> Delay;
     float  -> Phase;
@@ -9,8 +11,6 @@ type CameraEffectEntry
     float  -> Frequency;
     float  -> RadiusMin;
     float  -> RadiusMax;
-    uint16 -> AmplitudeCurveId;
-    uint8  -> OrderIndex;
     uint8  -> Flags;
     uint8  -> EffectType;
     uint8  -> DirectionType;

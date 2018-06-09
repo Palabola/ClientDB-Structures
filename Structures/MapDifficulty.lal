@@ -2,13 +2,13 @@
 type MapDifficulty
 {
     string -> Message;
+    int32  -> ItemContextPickerId;
+    int32  -> Unknown;
     uint8  -> DifficultyId;
     uint8  -> LockId;
     uint8  -> ResetInterval;
     uint8  -> MaxPlayers;
     uint8  -> ItemContext;
     uint8  -> Flags;
-    int32  -> ItemContextPickerId;
-    int32  -> Unknown;
     Ref    -> MapId;
 }

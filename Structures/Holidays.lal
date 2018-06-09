@@ -2,15 +2,15 @@
 type Holidays
 {
     int32  -> Id;
-    int32  -> Date, 16;
-    uint16 -> Duration, 10;
     uint16 -> Region;
     uint8  -> Looping;
-    uint8  -> CalendarFlags, 10;
+    uint32 -> HolidayNameId;
+    uint32 -> HolidayDescriptionId;
     uint8  -> Priority;
     uint8  -> CalendarFilterType;
     uint8  -> Flags;
-    uint32 -> HolidayNameId;
-    uint32 -> HolidayDescriptionId;
+    uint16 -> Duration, 10;
+    int32  -> Date, 16;
+    uint8  -> CalendarFlags, 10;
     int32  -> TextureFileDataId, 3;
 }

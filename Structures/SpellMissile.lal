@@ -2,6 +2,7 @@
 type SpellMissile
 {
     int32  -> SpellId;
+    uint8  -> Flags;
     float  -> DefaultPitchMin;
     float  -> DefaultPitchMax;
     float  -> DefaultSpeedMin;
@@ -15,5 +16,4 @@ type SpellMissile
     float  -> Gravity;
     float  -> MaxDuration;
     float  -> CollisionRadius;
-    uint8  -> Flags;
 }

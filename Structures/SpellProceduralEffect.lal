@@ -1,7 +1,7 @@
 // FileOptions: None
 type SpellProceduralEffect
 {
-    float  -> Value, 4;
-    uint8  -> Type;
     int32  -> Id;
+    uint8  -> Type;
+    float  -> Value, 4;
 }

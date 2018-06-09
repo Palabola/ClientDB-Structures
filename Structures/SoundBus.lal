@@ -1,12 +1,12 @@
 // FileOptions: None
 type SoundBus
 {
-    float  -> DefaultVolume;
+    int32  -> Id;
     uint8  -> Flags;
     uint8  -> DefaultPriority;
     uint8  -> DefaultPriorityPenalty;
+    float  -> DefaultVolume;
     uint8  -> DefaultPlaybackLimit;
     uint8  -> BusEnumId;
-    int32  -> Id;
     Ref    -> Parent;
 }

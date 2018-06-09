@@ -4,12 +4,11 @@ type QuestV2CliTask
     uint64 -> FiltRaces;
     string -> QuestTitle;
     string -> BulletText;
-    int32  -> ConditionId;
-    uint16 -> UniqueBitFlag;
-    uint16 -> FiltClasses;
-    uint16 -> WorldStateExpressionId;
     uint32 -> Id;
+    uint16 -> UniqueBitFlag;
+    int32  -> ConditionId;
     int32  -> FiltActiveQuest;
+    uint16 -> FiltClasses;
     uint32 -> FiltCompletedQuestLogic;
     int32  -> FiltMaxFactionId;
     int32  -> FiltMaxFactionValue;
@@ -22,6 +21,7 @@ type QuestV2CliTask
     int32  -> FiltNonActiveQuest;
     int32  -> BreadCrumbId;
     int32  -> StartItem;
+    uint16 -> WorldStateExpressionId;
     int32  -> QuestInfoId;
     int32  -> ContentTuningId;
     int32  -> FiltCompletedQuest, 3;

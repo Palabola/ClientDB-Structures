@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ArtifactPowerRank
 {
-    int32  -> SpellId;
-    float  -> AuraPointsOverride;
-    uint16 -> ItemBonusListId;
     uint8  -> RankIndex;
+    int32  -> SpellId;
+    uint16 -> ItemBonusListId;
+    float  -> AuraPointsOverride;
     Ref    -> ArtifactPowerId;
 }

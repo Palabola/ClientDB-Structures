@@ -6,10 +6,12 @@ type ChrClasses
     string -> NameMale;
     string -> NameFemale;
     string -> PetNameToken;
+    int32  -> Id;
     int32  -> CreateScreenFileDataId;
     int32  -> SelectScreenFileDataId;
     int32  -> IconFileDataId;
     int32  -> LowResScreenFileDataId;
+    int32  -> StartingLevel;
     uint16 -> Flags;
     uint16 -> CinematicSequenceId;
     uint16 -> DefaultSpec;
@@ -19,6 +21,4 @@ type ChrClasses
     uint8  -> AttackPowerPerAgility;
     uint8  -> AttackPowerPerStrength;
     uint8  -> SpellClassSet;
-    int32  -> Id;
-    int32  -> StartingLevel;
 }

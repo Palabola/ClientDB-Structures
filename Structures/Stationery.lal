@@ -1,7 +1,7 @@
 // FileOptions: Index, None
 type Stationery
 {
-    uint8  -> Flags;
     uint32 -> ItemId;
+    uint8  -> Flags;
     int32  -> TextureFileDataId, 2;
 }

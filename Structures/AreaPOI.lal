@@ -5,7 +5,11 @@ type AreaPOI
     string -> Description;
     int32  -> Id;
     float  -> Pos, 3;
+    int32  -> PortLocId;
+    uint32 -> PlayerConditionId;
+    uint32 -> UiTextureAtlasMemberId;
     int32  -> Flags;
+    int32  -> WmoGroupId;
     int32  -> PoiDataType;
     int32  -> PoiData;
     uint16 -> ContinentId;
@@ -14,8 +18,4 @@ type AreaPOI
     uint16 -> WidgetSetId;
     uint8  -> Importance;
     uint8  -> Icon;
-    int32  -> PortLocId;
-    uint32 -> PlayerConditionId;
-    uint32 -> UiTextureAtlasMemberId;
-    int32  -> WmoGroupId;
 }

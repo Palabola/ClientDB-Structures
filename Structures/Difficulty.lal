@@ -2,9 +2,6 @@
 type Difficulty
 {
     string -> Name;
-    uint16 -> GroupSizeHealthCurveId;
-    uint16 -> GroupSizeDmgCurveId;
-    uint16 -> GroupSizeSpellPointsCurveId;
     uint8  -> InstanceType;
     uint8  -> OrderIndex;
     uint8  -> OldEnumValue;
@@ -14,4 +11,7 @@ type Difficulty
     uint8  -> Flags;
     uint8  -> ItemContext;
     uint8  -> ToggleDifficultyId;
+    uint16 -> GroupSizeHealthCurveId;
+    uint16 -> GroupSizeDmgCurveId;
+    uint16 -> GroupSizeSpellPointsCurveId;
 }

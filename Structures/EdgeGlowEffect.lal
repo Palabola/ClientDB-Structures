@@ -10,8 +10,8 @@ type EdgeGlowEffect
     float  -> GlowBlue;
     float  -> GlowAlpha;
     float  -> GlowMultiplier;
-    float  -> InitialDelay;
     uint8  -> Flags;
+    float  -> InitialDelay;
     int32  -> CurveId;
     int32  -> Priority;
 }

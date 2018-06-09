@@ -5,7 +5,7 @@ type Contribution
     string -> Name;
     int32  -> Id;
     int32  -> ManagedWorldStateInputId;
-    int32  -> UiTextureAtlasMemberId, 4;
     int32  -> OrderIndex;
     int32  -> Unknown;
+    int32  -> UiTextureAtlasMemberId, 4;
 }

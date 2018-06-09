@@ -7,6 +7,7 @@ type SpellItemEnchantment
     float  -> EffectScalingPoints, 3;
     int32  -> TransmogCost;
     int32  -> IconFileDataId;
+    uint32 -> TransmogPlayerConditionId;
     uint16 -> EffectPointsMin, 3;
     uint16 -> ItemVisual;
     uint16 -> Flags;
@@ -20,5 +21,4 @@ type SpellItemEnchantment
     uint8  -> ConditionId;
     uint8  -> MinLevel;
     uint8  -> MaxLevel;
-    uint32 -> TransmogPlayerConditionId;
 }

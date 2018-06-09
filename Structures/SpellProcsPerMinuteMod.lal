@@ -1,8 +1,8 @@
 // FileOptions: Index, None
 type SpellProcsPerMinuteMod
 {
-    float  -> Coeff;
-    uint16 -> Param;
     uint8  -> Type;
+    uint16 -> Param;
+    float  -> Coeff;
     Ref    -> SpellProcsPerMinuteId;
 }

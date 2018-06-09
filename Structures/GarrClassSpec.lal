@@ -4,9 +4,9 @@ type GarrClassSpec
     string -> ClassSpec;
     string -> ClassSpecMale;
     string -> ClassSpecFemale;
+    uint32 -> Id;
     uint16 -> UiTextureAtlasMemberId;
     uint16 -> GarrFollItemSetId;
     uint8  -> FollowerClassLimit;
     uint8  -> Flags;
-    uint32 -> Id;
 }

@@ -2,15 +2,15 @@
 type ScreenEffect
 {
     string -> Name;
-    uint32  -> Param, 4;
+    uint32 -> Param, 4;
+    uint8  -> Effect;
+    uint32 -> FullScreenEffectId;
     uint16 -> LightParamsId;
     uint16 -> LightParamsFadeIn;
     uint16 -> LightParamsFadeOut;
-    uint16 -> TimeOfDayOverride;
-    uint8  -> Effect;
-    uint8  -> EffectMask;
-    uint8  -> LightFlags;
-    uint32 -> FullScreenEffectId;
     int32  -> SoundAmbienceId;
     uint32 -> ZoneMusicId;
+    uint16 -> TimeOfDayOverride;
+    uint8  -> EffectMask;
+    uint8  -> LightFlags;
 }

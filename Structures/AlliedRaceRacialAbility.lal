@@ -3,7 +3,7 @@ type AlliedRaceRacialAbility
 {
     string -> Name;
     string -> Description;
-    uint8  -> OrderIndex;
     int32  -> IconFileDataId;
+    uint8  -> OrderIndex;
     Ref    -> AlliedRaceId;
 }

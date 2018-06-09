@@ -2,16 +2,16 @@
 type PhaseShiftZoneSounds
 {
     uint16 -> AreaId;
+    uint8  -> WmoAreaId;
     uint16 -> PhaseId;
     uint16 -> PhaseGroupId;
-    uint16 -> SoundAmbienceId;
-    uint16 -> UwSoundAmbienceId;
-    uint8  -> WmoAreaId;
     uint8  -> PhaseUseFlags;
+    int32  -> ZoneIntroMusicId;
+    int32  -> ZoneMusicId;
+    uint16 -> SoundAmbienceId;
     uint8  -> SoundProviderPreferencesId;
-    uint8  -> UwSoundProviderPreferencesId;
-    uint32 -> ZoneIntroMusicId;
-    uint32 -> ZoneMusicId;
     uint32 -> UwZoneIntroMusicId;
     uint32 -> UwZoneMusicId;
+    uint16 -> UwSoundAmbienceId;
+    uint8  -> UwSoundProviderPreferencesId;
 }

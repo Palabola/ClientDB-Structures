@@ -1,12 +1,12 @@
 // FileOptions: None
 type MountCapability
 {
-    int32  -> ReqSpellKnownId;
-    int32  -> ModSpellAuraId;
+    int32  -> Id;
+    uint8  -> Flags;
     uint16 -> ReqRidingSkill;
     uint16 -> ReqAreaId;
-    uint16 -> ReqMapId;
-    uint8  -> Flags;
-    int32  -> Id;
     int32  -> ReqSpellAuraId;
+    int32  -> ReqSpellKnownId;
+    int32  -> ModSpellAuraId;
+    uint16 -> ReqMapId;
 }

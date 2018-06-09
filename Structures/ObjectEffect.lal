@@ -6,7 +6,7 @@ type ObjectEffect
     uint8  -> TriggerType;
     uint8  -> EventType;
     uint8  -> EffectRecType;
-    uint8  -> Attachment;
     int32  -> EffectRecId;
+    uint8  -> Attachment;
     int32  -> ObjectEffectModifierId;
 }

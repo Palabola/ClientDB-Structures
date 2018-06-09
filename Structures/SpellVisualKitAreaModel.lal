@@ -2,9 +2,9 @@
 type SpellVisualKitAreaModel
 {
     int32  -> ModelFileDataId;
+    uint8  -> Flags;
+    uint16 -> LifeTime;
     float  -> EmissionRate;
     float  -> Spacing;
     float  -> ModelScale;
-    uint16 -> LifeTime;
-    uint8  -> Flags;
 }

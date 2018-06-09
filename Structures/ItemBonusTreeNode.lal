@@ -1,9 +1,9 @@
 // FileOptions: Index, None
 type ItemBonusTreeNode
 {
+    uint8  -> ItemContext;
     uint16 -> ChildItemBonusTreeId;
     uint16 -> ChildItemBonusListId;
     uint16 -> ChildItemLevelSelectorId;
-    uint8  -> ItemContext;
     Ref    -> ParentItemBonusTreeId;
 }

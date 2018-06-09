@@ -2,9 +2,9 @@
 type ResearchBranch
 {
     string -> Name;
-    int32  -> ItemId;
-    uint16 -> CurrencyId;
     uint8  -> ResearchFieldId;
+    uint16 -> CurrencyId;
     int32  -> TextureFileId;
     int32  -> BigTextureFileId;
+    int32  -> ItemId;
 }

@@ -2,8 +2,8 @@
 type MultiStateProperties
 {
     float  -> Offset, 3;
-    uint8  -> StateIndex;
     int32  -> GameObjectId;
+    uint8  -> StateIndex;
     int32  -> GameEventId;
     float  -> Facing;
     int32  -> TransitionInId;
