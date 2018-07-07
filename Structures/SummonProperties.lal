@@ -5,6 +5,5 @@ type SummonProperties
     int32  -> Faction;
     int32  -> Title;
     int32  -> Slot;
-
     uint32 -> Flags;
 }

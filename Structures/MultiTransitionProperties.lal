@@ -5,5 +5,5 @@ type MultiTransitionProperties
     uint32 -> DurationMS;
     uint32 -> Unknown;
     uint32 -> Unknown2;
-    uint32 -> Unknown3;
+    int32  -> Unknown3;
 }

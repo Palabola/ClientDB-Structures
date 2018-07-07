@@ -11,5 +11,5 @@ type CharacterServiceInfo
     int32  -> ProfessionLevel;
     int32  -> BoostLevel;
     int32  -> Expansion;
-    uint32 -> PopupUITextureKitId;
+    int32  -> PopupUITextureKitId;
 }

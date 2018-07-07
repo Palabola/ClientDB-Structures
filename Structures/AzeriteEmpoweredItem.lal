@@ -2,6 +2,6 @@
 type AzeriteEmpoweredItem
 {
     int32  -> ItemId;
-    int32  -> AzeriteTierUnlockSetId;
+    uint32 -> AzeriteTierUnlockSetId;
     uint32 -> AzeritePowerSetId;
 }

@@ -23,7 +23,7 @@ type Lightning
     float  -> MaxFadeTime;
     float  -> Unknown2;
     float  -> Unknown3;
-    uint32 -> FlashColor;
+    int32  -> FlashColor;
     int32  -> BoltColor;
     float  -> Brightness;
     float  -> MinCloudDepth;

@@ -1,8 +1,6 @@
 // FileOptions: None
-
 type ItemBonusListLevelDelta
 {
-
     int16  -> ItemLevelDelta;
     int32  -> Id;
 }
