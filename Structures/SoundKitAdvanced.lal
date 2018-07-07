@@ -21,6 +21,8 @@ type SoundKitAdvanced
     float  -> DuckToSuppressors;
     float  -> DuckToSFX;
     float  -> DuckToMusic;
+    float  -> Unknown;
+    float  -> Unknown2;
     float  -> InnerRadiusOfInfluence;
     float  -> OuterRadiusOfInfluence;
     int32  -> TimeToDuck;

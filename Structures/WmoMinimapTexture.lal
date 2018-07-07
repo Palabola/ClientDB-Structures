@@ -1,9 +1,9 @@
 // FileOptions: DataOffset, Unknown, Index, None
 type WMOMinimapTexture
 {
-    int32  -> FileDataId;
     uint16 -> GroupNum;
     uint8  -> BlockX;
     uint8  -> BlockY;
+    int32  -> FileDataId;
     Ref    -> WMOId;
 }

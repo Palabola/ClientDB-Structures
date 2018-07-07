@@ -6,9 +6,9 @@ type ManagedWorldState
     int32  -> ProgressWorldStateId;
     uint32 -> UpTimeSecs;
     int32  -> DownTimeSecs;
-    int32  -> OccurrencesWorldStateId;
     int32  -> AccumulationStateTargetValue;
     int32  -> DepletionStateTargetValue;
     int32  -> AccumulationAmountPerMinute;
     int32  -> DepletionAmountPerMinute;
+    int32  -> OccurrencesWorldStateId, 4;
 }

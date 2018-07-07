@@ -11,4 +11,5 @@ type CurrencyTypes
     int32  -> MaxEarnablePerWeek;
     uint32 -> Flags;
     int8   -> Quality;
+    int32  -> Unknown10;
 }

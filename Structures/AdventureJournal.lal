@@ -20,7 +20,7 @@ type AdventureJournal
     uint32 -> ItemQuantity;
     uint16 -> CurrencyType;
     uint8  -> CurrencyQuantity;
-    uint16 -> WorldMapAreaId;
+    uint16 -> UiMapId;
     int32  -> BonusPlayerConditionId, 2;
     uint8  -> BonusValue, 2;
 }

@@ -2,7 +2,8 @@
 type Lightning
 {
     float  -> BoltDirection, 2;
-    int32  -> Unknown, 3;
+
+    int32  -> Unknown_, 3;
     float  -> BoltDirectionVariance;
     float  -> MinDivergence;
     float  -> MaxDivergence;
@@ -20,7 +21,9 @@ type Lightning
     float  -> MaxEndTime;
     float  -> MinFadeTime;
     float  -> MaxFadeTime;
-    uint32  -> FlashColor;
+    float  -> Unknown2;
+    float  -> Unknown3;
+    uint32 -> FlashColor;
     int32  -> BoltColor;
     float  -> Brightness;
     float  -> MinCloudDepth;

@@ -13,5 +13,7 @@ type TaxiNodes
     int32  -> UiTextureKitId;
     float  -> Facing;
     int32  -> SpecialIconConditionId;
+
+    int32  -> Unknown;
     int32  -> MountCreatureId, 2;
 }

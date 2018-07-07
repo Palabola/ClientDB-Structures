@@ -1,0 +1,8 @@
+// FileOptions: DataOffset, None
+
+type UnitTestSparse
+{
+    int32 -> Unknown;
+    int32 -> Unknown2;
+    int32 -> Id;
+}

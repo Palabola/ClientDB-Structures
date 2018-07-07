@@ -2,5 +2,6 @@
 type UiMapArt
 {
     int32  -> HighlightFileDataId;
+    int32  -> Unknown;
     int32  -> UiMapArtStyleId;
 }

@@ -5,4 +5,5 @@ type SoundOverride
     uint16 -> ZoneMusicId;
     uint16 -> SoundAmbienceId;
     uint8  -> SoundProviderPreferencesId;
+    uint8  -> Unknown;
 }

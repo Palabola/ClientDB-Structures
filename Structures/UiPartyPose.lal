@@ -3,5 +3,8 @@ type UiPartyPose
 {
     int32  -> UiWidgetSetId;
     int32  -> UiModelSceneId;
+    int32  -> Unknown;
+    int32  -> Unknown2;
+    int32  -> Unknown3;
     Ref    -> MapId;
 }

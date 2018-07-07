@@ -13,4 +13,5 @@ type SkillLine
     int32  -> ParentSkillLineId;
     int32  -> ParentTierIndex;
     uint16 -> Flags;
-}
+
+    int32  -> SpellId;}

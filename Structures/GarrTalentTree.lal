@@ -1,9 +1,11 @@
 // FileOptions: Index, None
 type GarrTalentTree
 {
+    string -> Name;
     int32  -> GarrTypeId;
     int32  -> ClassId;
     int8   -> MaxTiers;
     int8   -> UiOrder;
+    int8   -> Unknown;
     uint16 -> UiTextureKitId;
 }

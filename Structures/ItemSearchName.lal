@@ -14,5 +14,5 @@ type ItemSearchName
     uint16 -> RequiredSkillRank;
     int32  -> RequiredAbility;
     uint16 -> ItemLevel;
-    uint32  -> Flags, 3;
+    uint32  -> Flags, 4;
 }
